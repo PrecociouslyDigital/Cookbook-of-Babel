@@ -3,7 +3,7 @@ package cookbookofbabel.minecraft.clock;
 import cookbookofbabel.minecraft.dataset.Sensitivity;
 
 /**
- * How many times faster than at its reference conditions a transition runs, babel's {@code Spoilage.timeAt} turned
+ * How many times faster than at its reference conditions a transition runs, babel's {@code Rate.timeAt} turned
  * into a rate: zero outside the sensitivity's bounds, which are inclusive.
  */
 public final class Rate {

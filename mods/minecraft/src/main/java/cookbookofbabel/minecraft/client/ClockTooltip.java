@@ -3,7 +3,6 @@ package cookbookofbabel.minecraft.client;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.clock.Food;
 import cookbookofbabel.minecraft.clock.ItemClocks;
-import cookbookofbabel.minecraft.clock.Transition;
 import cookbookofbabel.minecraft.clock.Transitions;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
@@ -14,7 +13,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 /**
- * How fresh food is and what it becomes next, read from its clock tag alone: the tag holds the conditions it was last
+ * What a kept food becomes next, read from its clock tag alone: the tag holds the conditions it was last
  * seen in, so the client needs nothing of rooms or climate.
  */
 @Mod.EventBusSubscriber(modid = CookbookOfBabel.ID, value = Dist.CLIENT)
@@ -41,13 +40,6 @@ public final class ClockTooltip {
         var transitions = Transitions.from(food.get().id(), registries);
         long now = level.getGameTime();
         var lines = event.getToolTip();
-        transitions.entrySet().stream()
-                .filter(t -> t.getValue().kind() == Transition.Kind.SPOIL)
-                .mapToDouble(t -> clock.get().progress(t.getKey(), t.getValue(), now))
-                .max()
-                .ifPresent(spoilt -> lines.add(Component.translatable(
-                                KEY + "freshness", Math.round(100 * Math.max(0, 1 - spoilt)))
-                        .withStyle(ChatFormatting.GRAY)));
         clock.get().next(transitions, now).ifPresent(next -> {
             var output = transitions.get(next.transition()).output();
             var name = Food.name(output, registries).orElseGet(() -> Component.literal(output.toString()));

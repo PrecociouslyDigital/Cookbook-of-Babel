@@ -21,7 +21,7 @@ import net.minecraft.world.item.ItemStack;
 public record Food(ResourceLocation id, double waterActivity) {
     /**
      * For food the dataset gives no water activity: fresh food's typical 0.95–0.99, from the moist end, so food of
-     * unknown moisture spoils as fresh food would rather than keeping forever.
+     * unknown moisture behaves as fresh food would rather than keeping forever.
      */
     public static final double UNKNOWN_WATER_ACTIVITY = 0.97;
 

@@ -10,8 +10,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.StringRepresentable;
 
 /**
- * A one-in, one-out step that happens to food while it is kept, not in a machine: spoilage, or a held step such as
- * chilling. A datapack registry at {@code data/<namespace>/cookbook_of_babel/transition/<id>.json}, written by datagen.
+ * A one-in, one-out step that happens to food while it is kept, not in a machine: a held step such as chilling,
+ * cooling or staling. A datapack registry at {@code data/<namespace>/cookbook_of_babel/transition/<id>.json}, written
+ * by datagen.
  *
  * @param input the dataset ingredient it acts on, by the ID of its substance or named dish
  * @param output the dataset ingredient it becomes
@@ -33,9 +34,7 @@ public record Transition(
 
     public enum Kind implements StringRepresentable {
         /** A recipe step that only needs time in the right conditions. */
-        HELD("held"),
-        /** Food going off. */
-        SPOIL("spoil");
+        HELD("held");
 
         static final Codec<Kind> CODEC = StringRepresentable.fromEnum(Kind::values);
 

@@ -24,21 +24,21 @@ import net.jqwik.api.constraints.DoubleRange;
 import net.jqwik.api.constraints.LongRange;
 
 /**
- * Properties of the steps that happen to food while it is kept: held steps and spoilage. That what datagen writes
- * decodes and round-trips is a game test, since initialising {@link Transition} needs the game's registries.
+ * Properties of the steps that happen to food while it is kept: held steps. That what datagen writes decodes and
+ * round-trips is a game test, since initialising {@link Transition} needs the game's registries.
  */
 class TransitionProperties {
     private static final Dataset DATASET = new Dataset(Worlds.export(
             List.of(),
             List.of(Worlds.technique("cool"), Worlds.technique("chill"), Worlds.technique("dry"), Worlds.technique("freeze", "chill"),
-                    Worlds.technique("spoil"), Worlds.technique("mold", "spoil"), Worlds.technique("mix")),
+                    Worlds.technique("stale"), Worlds.technique("mix")),
             List.of()));
     private static final Techniques TECHNIQUES = new Techniques(DATASET);
     private static final Amounts AMOUNTS = new Amounts(DATASET);
 
     @Provide
     Arbitrary<Recipe> steps() {
-        var technique = Arbitraries.of("cool", "chill", "dry", "freeze", "spoil", "mold", "mix");
+        var technique = Arbitraries.of("cool", "chill", "dry", "freeze", "stale", "mix");
         var inputs = Arbitraries.integers().between(0, 3).map(Worlds::ingredient).set().ofMinSize(1).ofMaxSize(3);
         var outputs = Arbitraries.integers().between(4, 6).map(Worlds::ingredient).set().ofMinSize(1).ofMaxSize(2);
         var chance = Arbitraries.of(0.5).optional(0.2);
@@ -66,8 +66,8 @@ class TransitionProperties {
     }
 
     /**
-     * A held or spoilage step is exactly one transition from its input to its output when it takes one ingredient to
-     * one other after a set time, and none otherwise; no other step is one.
+     * A held step is exactly one transition from its input to its output when it takes one ingredient to one other
+     * after a set time, and none otherwise; no other step is one.
      */
     @Property
     void heldStepsOfOneIngredientByTimeAreTransitions(@ForAll("steps") Recipe step) {
@@ -85,9 +85,7 @@ class TransitionProperties {
             var end = (End.ByTime) step.end();
             assertThat(t.input()).isEqualTo(inputs.get(0).ingredient());
             assertThat(t.output()).isEqualTo(outputs.get(0).ingredient());
-            assertThat(t.kind()).isEqualTo(DATASET.lineage(step.technique()).contains(new TechniqueId("spoil"))
-                    ? Transition.Kind.SPOIL
-                    : Transition.Kind.HELD);
+            assertThat(t.kind()).isEqualTo(Transition.Kind.HELD);
             assertThat(t.sensitivity()).isEqualTo(end.sensitivity().orElse(PlannedTransition.UNSTATED));
             assertThat(t.ticks()).isEqualTo(PlannedTransition.ticks(AMOUNTS.seconds(end.duration())));
         });
@@ -98,6 +96,16 @@ class TransitionProperties {
             @ForAll @DoubleRange(min = 0, max = 1e9) double a, @ForAll @DoubleRange(min = 0, max = 1e9) double b) {
         assertThat(PlannedTransition.ticks(a)).isPositive();
         assertThat(PlannedTransition.ticks(Math.min(a, b))).isLessThanOrEqualTo(PlannedTransition.ticks(Math.max(a, b)));
+    }
+
+    /** A step into spoiled food is going off, not cooking: held or not, it makes no transition. */
+    @Property
+    void decayMakesNoTransition(@ForAll("steps") Recipe step) {
+        var decayed = new Recipe(
+                step.id(), step.source(), step.technique(), step.inputs(),
+                new Outcome.Outputs(List.of(new Outcome.Output(new IngredientId("spoiled_food"), new Amount(100, "g"), Outcome.Role.MAIN, Optional.empty()))),
+                step.temperatureC(), step.end(), step.issues());
+        assertThat(PlannedTransition.of(decayed, TECHNIQUES.bindingFor(decayed.technique()), AMOUNTS)).isEmpty();
     }
 
     @Property

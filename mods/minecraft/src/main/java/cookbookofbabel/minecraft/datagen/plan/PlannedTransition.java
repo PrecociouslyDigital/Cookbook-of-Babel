@@ -25,6 +25,9 @@ public record PlannedTransition(
      */
     static final Sensitivity UNSTATED = new Sensitivity(20, 1, Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty());
 
+    /** Decay by any name: a step into this is going off, not cooking, and makes no transition. */
+    private static final IngredientId DECAY = new IngredientId("spoiled_food");
+
     public PlannedTransition {
         if (ticks <= 0) {
             throw new IllegalArgumentException("a transition takes some time, not " + ticks + " ticks");
@@ -43,10 +46,14 @@ public record PlannedTransition(
                 || !(recipe.end() instanceof End.ByTime end)) {
             return Optional.empty();
         }
+        var output = outputs.outputs().get(0).ingredient();
+        if (output.equals(DECAY)) {
+            return Optional.empty();
+        }
         return Optional.of(new PlannedTransition(
                 recipe.id(),
                 inputs.get(0).ingredient(),
-                outputs.outputs().get(0).ingredient(),
+                output,
                 end.duration(),
                 ticks(amounts.seconds(end.duration())),
                 end.sensitivity().orElse(UNSTATED),

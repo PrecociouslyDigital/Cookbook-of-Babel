@@ -25,19 +25,6 @@ public sealed interface Binding {
         }
     }
 
-    /** Food going off, which no machine is for. */
-    record Spoils() implements Binding {
-        @Override
-        public List<RouteKind> routes() {
-            return List.of();
-        }
-
-        @Override
-        public Optional<Transition.Kind> transition() {
-            return Optional.of(Transition.Kind.SPOIL);
-        }
-    }
-
     /** Neither the technique nor any ancestor is in the table. */
     record Unbound() implements Binding {
         @Override

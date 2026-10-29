@@ -34,7 +34,7 @@ Steps of each technique: all of them, those with a recipe in at least one machin
 | ferment | 229 | 184 | 142 |
 | fold | 100 | 91 | 0 |
 | freeze | 34 | 24 | 25 |
-| freezer_burn | 402 | 0 | 401 |
+| freezer_burn | 402 | 0 | 0 |
 | fry | 545 | 464 | 0 |
 | grill | 244 | 148 | 0 |
 | grind | 316 | 242 | 0 |
@@ -42,10 +42,10 @@ Steps of each technique: all of them, those with a recipe in at least one machin
 | julienne | 18 | 13 | 0 |
 | knead | 101 | 89 | 0 |
 | mix | 3382 | 2886 | 0 |
-| mold | 205 | 0 | 205 |
+| mold | 205 | 0 | 0 |
 | pan_fry | 1117 | 962 | 0 |
 | press | 110 | 93 | 0 |
-| rancid | 43 | 0 | 42 |
+| rancid | 43 | 0 | 0 |
 | rinse | 339 | 322 | 0 |
 | roast | 182 | 122 | 0 |
 | season | 1072 | 818 | 0 |
@@ -54,10 +54,10 @@ Steps of each technique: all of them, those with a recipe in at least one machin
 | simmer | 1328 | 1039 | 0 |
 | smoke | 31 | 28 | 0 |
 | soak | 421 | 389 | 0 |
-| sour | 38 | 0 | 38 |
-| spoil | 251 | 0 | 251 |
+| sour | 38 | 0 | 0 |
+| spoil | 251 | 0 | 0 |
 | sprout | 6 | 6 | 5 |
-| stale | 319 | 0 | 317 |
+| stale | 319 | 0 | 1 |
 | steam | 195 | 142 | 0 |
 | steep | 105 | 87 | 0 |
 | stir_fry | 327 | 260 | 0 |
@@ -11547,24 +11547,10 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `abuk_abuk_sweet_steamed_sago_dumplings.step_9`: held, `abuk_abuk_sweet_steamed_sago_dumplings_step_8` → `abuk_abuk_sweet_steamed_sago_dumplings`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `abuk_abuk_sweet_steamed_sago_dumplings_step_8`
 - `accra_cassava_cameroonian_cassava_fritters.step_1.prep_1`: held, `cassava` → `cassava_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `acid_drops.step_6`: held, `acid_drops_step_5` → `acid_drops`, 1 min (20 ticks) at 20 °C, ambient
-- `acorn_squash.freezer_burn`: spoil, `acorn_squash` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `acorn_squash.spoil`: spoil, `acorn_squash` → `spoiled_food`, 24.2 d (696960 ticks) at 20 °C, ambient, q10 1.62, only from 0 °C to any
-- `adobo_chicken_philippine.mold`: spoil, `adobo_chicken_philippine` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `adobo_seasoning.stale`: spoil, `adobo_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `african_eggplants.freezer_burn`: spoil, `african_eggplants` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `african_eggplants.spoil`: spoil, `african_eggplants` → `spoiled_food`, 1 d (28800 ticks) at 20 °C, ambient, q10 2.83, only from 0 °C to any
 - `agar.dry`: held, `strained_agar_broth` → `agar`, 24 h (28800 ticks) at 20 °C, ambient
 - `agar_jelly.step_5`: held, `agar_jelly_step_4` → `agar_jelly_step_5`, 15 min (300 ticks) at 4 °C, chilled, only from any to 8 °C
-- `agave_syrup.stale`: spoil, `agave_syrup` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `agedashi_tofu.step_7`: held, `agedashi_tofu_step_6` → `agedashi_tofu_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `agidi_nigerian_cornstarch_swallow.step_5`: held, `agidi_nigerian_cornstarch_swallow_step_4` → `agidi_nigerian_cornstarch_swallow`, 1 min (20 ticks) at 20 °C, ambient
-- `aji_amarillo.freezer_burn`: spoil, `aji_amarillo` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `aji_amarillo.spoil`: spoil, `aji_amarillo` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `aji_dulce.freezer_burn`: spoil, `aji_dulce` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `aji_dulce.spoil`: spoil, `aji_dulce` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `aji_limo.freezer_burn`: spoil, `aji_limo` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `aji_limo.spoil`: spoil, `aji_limo` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `ajwain.stale`: spoil, `ajwain` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `akabenz_rwandan_fried_chicken.step_6`: held, `akabenz_rwandan_fried_chicken_step_5` → `akabenz_rwandan_fried_chicken`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `akabenz_rwandan_fried_chicken_step_5`
 - `akarange_rwandan_tomato_sauce.step_8`: held, `akarange_rwandan_tomato_sauce_step_7` → `akarange_rwandan_tomato_sauce`, 1 min (20 ticks) at 20 °C, ambient
 - `akpu.step_3`: held, `akpu_step_2` → `akpu_step_3`, 3.5 d (100800 ticks) at 20 °C, ambient
@@ -11575,107 +11561,54 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `algerian_lemonade.step_7`: held, `algerian_lemonade_step_6` → `algerian_lemonade`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `algerian_lemonade_step_6`
 - `alkubus_nigerian_steamed_bread.step_3`: held, `alkubus_nigerian_steamed_bread_step_2` → `alkubus_nigerian_steamed_bread_step_4`, 1 h (1200 ticks) at 20 °C, ambient
 - `alkubus_nigerian_steamed_bread.step_7`: held, `alkubus_nigerian_steamed_bread_step_6` → `alkubus_nigerian_steamed_bread_step_7`, 1 min (20 ticks) at 20 °C, ambient
-- `all_purpose_seasoning.stale`: spoil, `all_purpose_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `allspice.stale`: spoil, `allspice` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `almond_cake.step_8`: held, `almond_cake_step_7` → `almond_cake_step_8`, 1 min (20 ticks) at 20 °C, ambient
-- `almond_extract.stale`: spoil, `almond_extract` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `almond_fudge_brownies.step_9`: held, `almond_fudge_brownies_step_8` → `almond_fudge_brownies`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `almond_fudge_brownies_step_8`
 - `almond_milk_i.step_4`: held, `almond_milk_i_step_3` → `almond_milk_i`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `almond_milk_ii.step_5`: held, `almond_milk_ii_step_4` → `almond_milk_ii`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `almond_oil.rancid`: spoil, `almond_oil` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 1.54, only from 0 °C to any
 - `alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne.step_4`: held, `alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne_step_3` → `alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne_step_5`, 1 h (1200 ticks) at 20 °C, ambient
 - `alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne.step_6`: held, `alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne_step_5` → `alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne_step_6`, 30 min (600 ticks) at 20 °C, ambient
-- `amaranth.freezer_burn`: spoil, `amaranth` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `amaranth.stale`: spoil, `amaranth` → `spoiled_food`, 122 d (3513600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `amba_sauce.mold`: spoil, `amba_sauce` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `ambrosia_fruit_salad.step_3`: held, `ambrosia_fruit_salad_step_2` → `ambrosia_fruit_salad`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `amchoor.dry`: held, `mango` → `dried_green_mango`, 3 d (86400 ticks) at 22 °C, ambient, q10 2
-- `amchoor.stale`: spoil, `amchoor` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `american_potato_salad_i.step_11`: held, `american_potato_salad_i_step_10` → `american_potato_salad_i`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `american_potato_salad_i_step_10`
 - `american_potato_salad_i.step_7`: held, `american_potato_salad_i_step_6` → `american_potato_salad_i_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `american_potato_salad_i_step_6`
 - `americanized_eggplant_parmesan.step_22`: held, `americanized_eggplant_parmesan_step_21` → `americanized_eggplant_parmesan`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `americanized_eggplant_parmesan_step_21`
-- `anchovy.freezer_burn`: spoil, `anchovy` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `anchovy.mold`: spoil, `anchovy` → `spoiled_food`, 1830 d (52704000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `anchovy_paste.freezer_burn`: spoil, `anchovy_paste` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `anchovy_paste.mold`: spoil, `anchovy_paste` → `spoiled_food`, 1830 d (52704000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `anise.stale`: spoil, `anise` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `annatto.stale`: spoil, `annatto` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `anzac_biscuits_ii.step_7`: held, `anzac_biscuits_ii_step_6` → `anzac_biscuits_ii`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `anzac_biscuits_ii_step_6`
 - `appam_fermented_rice_pancake.step_5`: held, `appam_fermented_rice_pancake_step_4` → `appam_fermented_rice_pancake_step_5`, 8 h (9600 ticks) at 20 °C, ambient
-- `apple.freezer_burn`: spoil, `apple` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `apple.mold`: spoil, `apple` → `spoiled_food`, 21 d (604800 ticks) at 20 °C, ambient, q10 1.36, only from 0 °C to any
 - `apple_and_almond_cake.step_7`: held, `apple_and_almond_cake_step_6` → `apple_and_almond_cake_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `apple_bars.step_12`: held, `apple_bars_step_11` → `apple_bars`, 1 min (20 ticks) at 20 °C, ambient
-- `apple_cider.sour`: spoil, `apple_cider` → `spoiled_food`, 2.45 d (70560 ticks) at 20 °C, ambient, q10 3.37, only from 0 °C to any
 - `apple_cider_syrup.step_8`: held, `apple_cider_syrup_step_7` → `apple_cider_syrup`, 1 min (20 ticks) at 20 °C, ambient
 - `apple_crusted_ham.step_5`: held, `apple_crusted_ham_step_4` → `apple_crusted_ham`, 10 min (200 ticks) at 20 °C, ambient
 - `apple_glazed_pork_chops.step_4`: held, `apple_glazed_pork_chops_step_3` → `apple_glazed_pork_chops`, 7 min (140 ticks) at 20 °C, ambient
-- `apple_juice.freezer_burn`: spoil, `apple_juice` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `apple_juice.sour`: spoil, `apple_juice` → `spoiled_food`, 6 d (172800 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `apple_pie_i.step_17`: held, `apple_pie_i_step_16` → `apple_pie_i`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `apple_pie_i_step_16`
 - `apple_pie_ii.step_15`: held, `apple_pie_ii_step_14` → `apple_pie_ii`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `apple_pie_ii_step_14`
-- `applesauce.stale`: spoil, `applesauce` → `spoiled_food`, 447 d (12873600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `applesauce_cake.step_7`: held, `applesauce_cake_step_6` → `applesauce_cake`, 1 min (20 ticks) at 20 °C, ambient
 - `applewood_bacon.step_4`: held, `applewood_bacon_step_3` → `applewood_bacon_step_4`, 3 d (86400 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `applewood_bacon_step_3`
 - `applewood_bacon.step_5`: held, `applewood_bacon_step_4` → `applewood_bacon_step_5`, 30 min (600 ticks) at 20 °C, ambient, not written: the game can't make `applewood_bacon_step_4`
 - `applewood_bacon.step_8`: held, `applewood_bacon_step_7` → `applewood_bacon_step_8`, 2 h (2400 ticks) at -18 °C, frozen, only from any to 0 °C, not written: the game can't make `applewood_bacon_step_7`
-- `apricot.mold`: spoil, `apricot` → `spoiled_food`, 3.16 d (91008 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `apricot_wine.step_5`: held, `apricot_wine_step_4` → `apricot_wine_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `arancini_italian_fried_rice_balls.step_10`: held, `arancini_italian_fried_rice_balls_step_9` → `arancini_italian_fried_rice_balls_step_10`, 1 min (20 ticks) at 20 °C, ambient
-- `arbol_chiles.stale`: spoil, `arbol_chiles` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `arborio_rice.stale`: spoil, `arborio_rice` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `arroz_con_maiz_rice_with_corn.step_3.prep_11`: held, `puerto_rican_sofrito` → `puerto_rican_sofrito_freeze`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `puerto_rican_sofrito`
-- `artichoke.spoil`: spoil, `artichoke` → `spoiled_food`, 1.41 d (40608 ticks) at 20 °C, ambient, q10 3.37, only from 0 °C to any
-- `arugula.spoil`: spoil, `arugula` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `asafoetida.stale`: spoil, `asafoetida` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `ashoka_halwa_mung_bean_pudding.step_8`: held, `ashoka_halwa_mung_bean_pudding_step_7` → `ashoka_halwa_mung_bean_pudding`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `ashoka_halwa_mung_bean_pudding_step_7`
 - `asian_grilled_salmon.step_5`: held, `asian_grilled_salmon_step_4` → `asian_grilled_salmon_step_5`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `asian_grilled_salmon_step_4`
-- `asian_pear.freezer_burn`: spoil, `asian_pear` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `asian_pear.mold`: spoil, `asian_pear` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `asida_bil_zibda_libyan_semolina_pudding.step_6`: held, `asida_bil_zibda_libyan_semolina_pudding_step_5` → `asida_bil_zibda_libyan_semolina_pudding_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `asondo_nigerian_dried_sweet_potatoes.step_3`: held, `asondo_nigerian_dried_sweet_potatoes_step_2` → `asondo_nigerian_dried_sweet_potatoes`, 2.5 d (72000 ticks) at 20 °C, ambient
-- `asparagus.freezer_burn`: spoil, `asparagus` → `spoiled_food`, 152 d (4377600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `asparagus.spoil`: spoil, `asparagus` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `asparagus_soup.step_7`: held, `asparagus_soup_step_6` → `asparagus_soup`, 2 d (57600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `assorted_salad_greens.spoil`: spoil, `assorted_salad_greens` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `atomic_fudge_cake.step_11`: held, `atomic_fudge_cake_step_10` → `atomic_fudge_cake_step_11`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `atomic_fudge_cake.step_5`: held, `atomic_fudge_cake_step_4` → `atomic_fudge_cake_step_5`, 1 min (20 ticks) at 20 °C, ambient
-- `avocado.mold`: spoil, `avocado` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `avocado_relish.step_3`: held, `avocado_relish_step_2` → `avocado_relish`, 7.5 min (150 ticks) at 20 °C, ambient
-- `awaze_sauce.mold`: spoil, `awaze_sauce` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `awug.step_7`: held, `awug_step_6` → `awug`, 1 min (20 ticks) at 20 °C, ambient
 - `ayib_ethiopian_fresh_cheese.step_10`: held, `ayib_ethiopian_fresh_cheese_step_9` → `ayib_ethiopian_fresh_cheese`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
-- `azuki_bean.stale`: spoil, `azuki_bean` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `backyard_barbecue_ribs.step_6`: held, `backyard_barbecue_ribs_step_5` → `backyard_barbecue_ribs`, 10 min (200 ticks) at 20 °C, ambient
 - `backyard_bbq_chicken.step_2`: held, `backyard_bbq_chicken_step_1` → `backyard_bbq_chicken_step_2`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `backyard_bbq_chicken.step_5`: held, `backyard_bbq_chicken_step_4` → `backyard_bbq_chicken`, 10 min (200 ticks) at 20 °C, ambient
 - `bacon.cure`: held, `pork` → `cured_pork_belly`, 7 d (201600 ticks) at 10 °C, ambient, q10 2
-- `bacon.freezer_burn`: spoil, `bacon` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bacon.spoil`: spoil, `bacon` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `bacon_drippings.freezer_burn`: spoil, `bacon_drippings` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bacon_drippings.rancid`: spoil, `bacon_drippings` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
-- `bacon_fat.freezer_burn`: spoil, `bacon_fat` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bacon_fat.rancid`: spoil, `bacon_fat` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
-- `bacon_grease.freezer_burn`: spoil, `bacon_grease` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bacon_grease.rancid`: spoil, `bacon_grease` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
-- `bagel.freezer_burn`: spoil, `bagel` → `spoiled_food`, 91.3 d (2629440 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bagel.mold`: spoil, `bagel` → `spoiled_food`, 1.41 d (40608 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `baguette.freezer_burn`: spoil, `baguette` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `baguette.mold`: spoil, `baguette` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `baguettes.freezer_burn`: spoil, `baguettes` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `baguettes.mold`: spoil, `baguettes` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `baingan_bartha_south_indian_eggplant_with_coconut_and_chili_i.step_2`: held, `eggplant_roast_roast` → `eggplant_roast_roast_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `baked_brie_in_puff_pastry.step_4`: held, `baked_brie_in_puff_pastry_step_3` → `baked_brie_in_puff_pastry`, 10 min (200 ticks) at 20 °C, ambient
 - `baked_chicken_breasts.step_3`: held, `baked_chicken_breasts_step_2` → `baked_chicken_breasts`, 5 min (100 ticks) at 20 °C, ambient
 - `baked_eggplant.step_7`: held, `baked_eggplant_step_6` → `baked_eggplant_step_7`, 1 min (20 ticks) at 20 °C, ambient
-- `baking_mix.stale`: spoil, `baking_mix` → `spoiled_food`, 274 d (7891200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `baklava_ii.step_13`: held, `baklava_ii_step_12` → `baklava_ii`, 1 min (20 ticks) at 20 °C, ambient
 - `baklava_with_pistachio_nuts.step_9`: held, `baklava_with_pistachio_nuts_step_8` → `baklava_with_pistachio_nuts`, 10 min (200 ticks) at 20 °C, ambient
 - `balsamic_glaze.step_8`: held, `balsamic_glaze_step_7` → `balsamic_glaze`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `balsamic_glaze_step_7`
-- `bambara_bean.stale`: spoil, `bambara_bean` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `bamboo_shoot.spoil`: spoil, `bamboo_shoot` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `banana.freezer_burn`: spoil, `banana` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `banana.mold`: spoil, `banana` → `spoiled_food`, 3 d (86400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `banana_and_pear_cake_vegan.step_12`: held, `banana_and_pear_cake_vegan_step_11` → `banana_and_pear_cake_vegan_step_12`, 15 min (300 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `banana_and_pear_cake_vegan_step_11`
 - `banana_bread_with_walnuts.step_8`: held, `banana_bread_with_walnuts_step_7` → `banana_bread_with_walnuts`, 1 min (20 ticks) at 20 °C, ambient
 - `banana_cake.step_9`: held, `banana_cake_step_8` → `banana_cake`, 10 min (200 ticks) at 20 °C, ambient
@@ -11683,15 +11616,9 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `banana_cream_ii.step_5`: held, `banana_cream_ii_step_4` → `banana_cream_ii`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `banana_cream_pie_i.step_13`: held, `banana_cream_pie_i_step_12` → `banana_cream_pie_i_step_13`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `banana_cream_pie_i_step_12`
 - `banana_cream_pie_ii.step_11`: held, `banana_cream_pie_ii_step_10` → `banana_cream_pie_ii`, 1 min (20 ticks) at 20 °C, ambient
-- `banana_ketchup.mold`: spoil, `banana_ketchup` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `banana_nut_muffins.step_6`: held, `banana_nut_muffins_step_5` → `banana_nut_muffins`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `banana_nut_muffins_step_5`
-- `banana_pepper.freezer_burn`: spoil, `banana_pepper` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `banana_pepper.spoil`: spoil, `banana_pepper` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `banana_peppers.freezer_burn`: spoil, `banana_peppers` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `banana_peppers.spoil`: spoil, `banana_peppers` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `banana_pudding.step_12`: held, `banana_pudding_step_11` → `banana_pudding`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `banana_pudding_step_11`
 - `banana_pudding.step_5`: held, `banana_pudding_step_4` → `banana_pudding_step_5`, 1 min (20 ticks) at 20 °C, ambient
-- `banga_spice.stale`: spoil, `banga_spice` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `banoffee_pie.step_7`: held, `banoffee_pie_step_6` → `banoffee_pie_step_7`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `barbecue_chicken.step_6`: held, `barbecue_chicken_step_5` → `barbecue_chicken`, 7 min (140 ticks) at 20 °C, ambient
 - `barbecue_meatloaf.step_10`: held, `barbecue_meatloaf_step_9` → `barbecue_meatloaf`, 9 min (180 ticks) at 20 °C, ambient, not written: the game can't make `barbecue_meatloaf_step_9`
@@ -11699,8 +11626,6 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `barbecue_prime_rib.step_6`: held, `barbecue_prime_rib_step_5` → `barbecue_prime_rib`, 10 min (200 ticks) at 20 °C, ambient
 - `barbecue_ribs.step_6`: held, `barbecue_ribs_step_5` → `barbecue_ribs`, 10 min (200 ticks) at 20 °C, ambient
 - `barbecue_wings.step_4`: held, `barbecue_wings_step_3` → `barbecue_wings`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `barbecue_wings_step_3`
-- `barley.freezer_burn`: spoil, `barley` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `barley.stale`: spoil, `barley` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `basbousa_egyptian_semolina_cake.step_10`: held, `basbousa_egyptian_semolina_cake_step_9` → `basbousa_egyptian_semolina_cake`, 1 min (20 ticks) at 20 °C, ambient
 - `basbousa_egyptian_semolina_cake.step_7`: held, `basbousa_egyptian_semolina_cake_step_6` → `basbousa_egyptian_semolina_cake_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `basic_flapjacks.step_6`: held, `basic_flapjacks_step_5` → `basic_flapjacks_step_6`, 12.5 min (250 ticks) at 20 °C, ambient
@@ -11710,45 +11635,23 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `basic_scones.step_6`: held, `basic_scones_step_5` → `basic_scones`, 1 min (20 ticks) at 20 °C, ambient
 - `basic_whipped_cream.step_2.prep_1`: held, `cream` → `cream_chill`, 1 min (20 ticks) at 20 °C, ambient
 - `basic_whipped_cream.step_5`: held, `cream_chill_whisk_whisk_whisk` → `cream_chill_whisk_whisk_whisk_chill`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `basil.spoil`: spoil, `basil` → `spoiled_food`, 5 d (144000 ticks) at 20 °C, ambient, q10 1.54, only from 0 °C to any
-- `basmati.stale`: spoil, `basmati` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `bay_leaf.stale`: spoil, `bay_leaf` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `bean_and_bacon_bake.step_8`: held, `bean_and_bacon_bake_step_7` → `bean_and_bacon_bake_step_8`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `bean_and_bacon_bake_step_7`
-- `bean_sprout.spoil`: spoil, `bean_sprout` → `spoiled_food`, 7.07 d (203616 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `beef_bouillon_cubes.freezer_burn`: spoil, `beef_bouillon_cubes` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `beef_bouillon_cubes.mold`: spoil, `beef_bouillon_cubes` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `beef_carpaccio_i.step_4`: held, `beef_carpaccio_i_step_3` → `beef_carpaccio_i_step_4`, 30 min (600 ticks) at 20 °C, ambient, not written: the game can't make `beef_carpaccio_i_step_3`
 - `beef_carpaccio_ii.step_1`: held, `beef_freeze` → `beef_freeze_freeze`, 1 min (20 ticks) at -18 °C, frozen, only from any to 0 °C
 - `beef_carpaccio_ii.step_1.prep_1`: held, `beef` → `beef_freeze`, 1 min (20 ticks) at 20 °C, ambient
-- `beef_consomme.freezer_burn`: spoil, `beef_consomme` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `beef_consomme.mold`: spoil, `beef_consomme` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `beef_curry.step_10`: held, `beef_curry_step_9` → `beef_curry_step_10`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `beef_curry_step_9`
 - `beef_fajitas.step_4`: held, `beef_fajitas_step_3` → `beef_fajitas_step_4`, 3 min (60 ticks) at 20 °C, ambient
 - `beef_jerky.step_3`: held, `beef_jerky_step_2` → `beef_jerky_step_3`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `beef_jerky_step_2`
 - `beef_jerky.step_4`: held, `beef_jerky_step_3` → `beef_jerky`, 7 h (8400 ticks) at 20 °C, ambient, not written: the game can't make `beef_jerky_step_3`
-- `beef_steaks.freezer_burn`: spoil, `beef_steaks` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `beef_steaks.spoil`: spoil, `beef_steaks` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `beef_stock.freezer_burn`: spoil, `beef_stock` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `beef_stock.mold`: spoil, `beef_stock` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `beef_stock_cubes.freezer_burn`: spoil, `beef_stock_cubes` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `beef_stock_cubes.mold`: spoil, `beef_stock_cubes` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `beef_yakiniku_pizza.step_2`: held, `beef_yakiniku_pizza_step_1` → `beef_yakiniku_pizza_step_2`, 10 min (200 ticks) at 20 °C, ambient
 - `beer_can_chicken.step_11`: held, `beer_can_chicken_step_10` → `beer_can_chicken_step_11`, 1 min (20 ticks) at 20 °C, ambient
 - `beer_can_chicken.step_12`: held, `beer_can_chicken_step_11` → `beer_can_chicken`, 15 min (300 ticks) at 20 °C, ambient
-- `beet.freezer_burn`: spoil, `beet` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `beet.spoil`: spoil, `beet` → `spoiled_food`, 1 d (28800 ticks) at 20 °C, ambient, q10 4.19, only from 0 °C to any
 - `beet_and_cabbage_stew.step_1`: held, `beet_boil` → `beet_boil_cool`, 1.75 h (2100 ticks) at 20 °C, ambient
 - `beet_pickled_eggs.step_4`: held, `beet_pickled_eggs_step_3` → `beet_pickled_eggs_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `beet_pickled_eggs.step_9`: held, `beet_pickled_eggs_step_8` → `beet_pickled_eggs`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `bell_pepper.freezer_burn`: spoil, `bell_pepper` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bell_pepper.spoil`: spoil, `bell_pepper` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `bell_peppers.freezer_burn`: spoil, `bell_peppers` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bell_peppers.spoil`: spoil, `bell_peppers` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `berbere_spice.stale`: spoil, `berbere_spice` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any, not written: the game can't make `berbere_spice`
 - `betty_s_salad.step_3`: held, `betty_s_salad_step_2` → `betty_s_salad`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `betty_s_salad_step_2`
 - `beurre_manie.step_3`: held, `beurre_manie_step_2` → `beurre_manie`, 1 min (20 ticks) at 20 °C, ambient
 - `bhuna_khichuri_bengali_rice_and_lentils.step_2`: held, `bhuna_khichuri_bengali_rice_and_lentils_step_1` → `bhuna_khichuri_bengali_rice_and_lentils_step_2`, 1 min (20 ticks) at 20 °C, ambient
-- `biltong.spoil`: spoil, `biltong` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `biltong_zambian_dried_and_salted_meat.step_4`: held, `biltong_zambian_dried_and_salted_meat_step_3` → `biltong_zambian_dried_and_salted_meat_step_4`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `biltong_zambian_dried_and_salted_meat_step_3`
 - `biltong_zambian_dried_and_salted_meat.step_5`: held, `biltong_zambian_dried_and_salted_meat_step_4` → `biltong_zambian_dried_and_salted_meat_step_5`, 4 d (115200 ticks) at 20 °C, ambient, not written: the game can't make `biltong_zambian_dried_and_salted_meat_step_4`
 - `biltong_zambian_dried_and_salted_meat.step_6`: held, `biltong_zambian_dried_and_salted_meat_step_5` → `biltong_zambian_dried_and_salted_meat`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `biltong_zambian_dried_and_salted_meat_step_5`
@@ -11756,11 +11659,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `bint_as_sa_n_yemenite_layered_pastry.step_7`: held, `bint_as_sa_n_yemenite_layered_pastry_step_5` → `bint_as_sa_n_yemenite_layered_pastry_step_7`, 12.5 min (250 ticks) at 20 °C, ambient
 - `biscuits_and_gravy.step_12`: held, `biscuits_and_gravy_step_11` → `biscuits_and_gravy`, 1 min (20 ticks) at 20 °C, ambient
 - `biscuits_iii.step_7`: held, `biscuits_iii_step_6` → `biscuits_iii`, 1 min (20 ticks) at 20 °C, ambient
-- `bitter_bean.stale`: spoil, `bitter_bean` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `bizcochito_cinnamon_anise_cookies_i.step_8`: held, `bizcochito_cinnamon_anise_cookies_i_step_7` → `bizcochito_cinnamon_anise_cookies_i`, 1 min (20 ticks) at 20 °C, ambient
-- `black_bean_sauce.mold`: spoil, `black_bean_sauce` → `spoiled_food`, 633 d (18230400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `black_cardamom.stale`: spoil, `black_cardamom` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `black_eyed_peas.stale`: spoil, `black_eyed_peas` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `black_forest_cake.step_13.prep_17`: held, `cherry` → `cherry_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `black_forest_cake.step_6`: held, `black_forest_cake_step_5` → `black_forest_cake_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `black_forest_torte.step_14`: held, `black_forest_torte_step_13` → `black_forest_torte_step_14`, 1 min (20 ticks) at 20 °C, ambient
@@ -11769,19 +11668,11 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `black_forest_torte.step_6`: held, `black_forest_torte_step_5` → `black_forest_torte_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `black_forest_torte.step_8`: held, `black_forest_torte_step_7` → `black_forest_torte_step_8`, 10 min (200 ticks) at 20 °C, ambient
 - `black_pepper_syrup.step_2`: held, `black_pepper_syrup_step_1` → `black_pepper_syrup`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `black_pepper_syrup_step_1`
-- `black_vinegar.mold`: spoil, `black_vinegar` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `blackberry.freezer_burn`: spoil, `blackberry` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `blackberry.mold`: spoil, `blackberry` → `spoiled_food`, 4.24 d (122112 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `blackberry_mush.step_4`: held, `blackberry_mush_step_3` → `blackberry_mush`, 1 min (20 ticks) at 20 °C, ambient
 - `blackened_sirloin.step_5`: held, `blackened_sirloin_step_4` → `blackened_sirloin_step_5`, 10 min (200 ticks) at 20 °C, ambient
-- `blackstrap_molasses.stale`: spoil, `blackstrap_molasses` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `bliny.step_3`: held, `bliny_step_2` → `bliny_step_3`, 1.75 h (2100 ticks) at 20 °C, ambient
 - `bliny.step_5`: held, `bliny_step_4` → `bliny_step_5`, 1 min (20 ticks) at 20 °C, ambient
-- `blood_orange.mold`: spoil, `blood_orange` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `blotkake_norwegian_berries_and_cream_cake.step_3`: held, `blotkake_norwegian_berries_and_cream_cake_step_2` → `blotkake_norwegian_berries_and_cream_cake_step_3`, 1 min (20 ticks) at 20 °C, ambient
-- `blue_cheese_dressing.mold`: spoil, `blue_cheese_dressing` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `blueberry.freezer_burn`: spoil, `blueberry` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `blueberry.mold`: spoil, `blueberry` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `blueberry_cream_pie.step_10`: held, `blueberry_cream_pie_step_9` → `blueberry_cream_pie`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `blueberry_cream_pie.step_9`: held, `blueberry_cream_pie_step_8` → `blueberry_cream_pie_step_9`, 1 min (20 ticks) at 20 °C, ambient
 - `blueberry_muffin.step_7`: held, `blueberry_muffin_step_6` → `blueberry_muffin`, 5 min (100 ticks) at 20 °C, ambient
@@ -11789,101 +11680,46 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `boerewors_south_african_sausage.step_7`: held, `boerewors_south_african_sausage_step_6` → `boerewors_south_african_sausage_step_7`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `boerewors_south_african_sausage_step_6`
 - `boiled_custard.step_7`: held, `boiled_custard_step_6` → `boiled_custard_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `boiled_lobster.step_4`: held, `lobster_cut_cut_boil` → `lobster_cut_cut_boil_cool`, 1 min (20 ticks) at 20 °C, ambient
-- `bok_choy.freezer_burn`: spoil, `bok_choy` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bok_choy.spoil`: spoil, `bok_choy` → `spoiled_food`, 2.45 d (70560 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `bolognese_sauce.step_9`: held, `bolognese_sauce_step_8` → `bolognese_sauce`, 30 min (600 ticks) at 20 °C, ambient
 - `bonga_fish_domoda_gambian_fish_in_peanut_sauce.step_9`: held, `bonga_fish_domoda_gambian_fish_in_peanut_sauce_step_8` → `bonga_fish_domoda_gambian_fish_in_peanut_sauce_step_9`, 1 min (20 ticks) at 20 °C, ambient
-- `bonga_fish_fillets.freezer_burn`: spoil, `bonga_fish_fillets` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bonga_fish_fillets.spoil`: spoil, `bonga_fish_fillets` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `bonito_flakes.ferment`: held, `smoked_bonito` → `katsuobushi`, 14 d (403200 ticks) at 25 °C, ambient, q10 2
-- `boom_blackcurrant_beverage.sour`: spoil, `boom_blackcurrant_beverage` → `spoiled_food`, 21 d (604800 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
-- `boursin_brand_cheese.freezer_burn`: spoil, `boursin_brand_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `boursin_brand_cheese.mold`: spoil, `boursin_brand_cheese` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `braai_zambian_barbecue.step_7`: held, `braai_zambian_barbecue_step_6` → `braai_zambian_barbecue`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `braai_zambian_barbecue_step_6`
 - `brandy.age_spirit`: held, `brandy_spirit` → `brandy`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2
 - `brandy_butter.step_3`: held, `brandy_butter_step_2` → `brandy_butter`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `bread.freezer_burn`: spoil, `bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bread.mold`: spoil, `bread` → `spoiled_food`, 4 d (115200 ticks) at 20 °C, ambient, q10 2.5
-- `bread.stale`: spoil, `bread` → `stale_bread`, 7 d (201600 ticks) at 20 °C, ambient, q10 0.5
-- `bread_crumbs.stale`: spoil, `bread_crumbs` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `bread_flour.stale`: spoil, `bread_flour` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
+- `bread.stale`: held, `bread` → `stale_bread`, 7 d (201600 ticks) at 20 °C, ambient, q10 0.5
 - `bread_pudding.step_7`: held, `bread_pudding_step_6` → `bread_pudding_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `bread_pudding.step_8`: held, `bread_pudding_step_7` → `bread_pudding`, 1 min (20 ticks) at 20 °C, ambient
-- `bread_rolls.freezer_burn`: spoil, `bread_rolls` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bread_rolls.mold`: spoil, `bread_rolls` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `breaded_fried_oysters.step_1`: held, `oyster_dry` → `oyster_dry_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `breaded_fried_oysters.step_1.prep_1`: held, `oyster` → `oyster_dry`, 1 min (20 ticks) at 20 °C, ambient
-- `breading.stale`: spoil, `breading` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `breakfast_cereal.stale`: spoil, `breakfast_cereal` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `brewer_s_yeast.freezer_burn`: spoil, `brewer_s_yeast` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `brewer_s_yeast.stale`: spoil, `brewer_s_yeast` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `brie_cheese.freezer_burn`: spoil, `brie_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `brie_cheese.mold`: spoil, `brie_cheese` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `brigadeiro_brazilian_chocolate_fudge.step_4`: held, `brigadeiro_brazilian_chocolate_fudge_step_3` → `brigadeiro_brazilian_chocolate_fudge_step_4`, 1 min (20 ticks) at 20 °C, ambient
-- `broccoli.freezer_burn`: spoil, `broccoli` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `broccoli.spoil`: spoil, `broccoli` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `broccoli_rabe.freezer_burn`: spoil, `broccoli_rabe` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `broccoli_rabe.spoil`: spoil, `broccoli_rabe` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `broccoli_salad.step_4`: held, `broccoli_salad_step_2` → `broccoli_salad`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `broiled_sirloin_steak.step_4`: held, `broiled_sirloin_steak_step_3` → `broiled_sirloin_steak`, 7 min (140 ticks) at 20 °C, ambient
-- `brown_beans.stale`: spoil, `brown_beans` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `brown_butter_biscuits.step_11`: held, `brown_butter_biscuits_step_10` → `brown_butter_biscuits`, 1 min (20 ticks) at 20 °C, ambient
 - `brown_butter_biscuits.step_3`: held, `butter_heat_heat` → `butter_heat_heat_cool`, 5 min (100 ticks) at 20 °C, ambient
 - `brown_butter_biscuits.step_5`: held, `brown_butter_biscuits_step_4` → `brown_butter_biscuits_step_5`, 12.5 min (250 ticks) at 20 °C, ambient
 - `brown_butter_toffee_chocolate_chip_cookies.step_13`: held, `brown_butter_toffee_chocolate_chip_cookies_step_12` → `brown_butter_toffee_chocolate_chip_cookies_step_15`, 48 h (57600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `brown_butter_toffee_chocolate_chip_cookies_step_12`
 - `brown_butter_toffee_chocolate_chip_cookies.step_3`: held, `brown_butter_toffee_chocolate_chip_cookies_step_2` → `brown_butter_toffee_chocolate_chip_cookies_step_3`, 30 min (600 ticks) at -18 °C, frozen, only from any to 0 °C
-- `brown_stock.freezer_burn`: spoil, `brown_stock` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `brown_stock.mold`: spoil, `brown_stock` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `brown_sugar_icing.step_2`: held, `brown_sugar_icing_step_1` → `brown_sugar_icing_step_2`, 1 min (20 ticks) at 20 °C, ambient
 - `brown_sugar_mulling_spice_mix.step_3`: held, `brown_sugar_mulling_spice_mix_step_2` → `brown_sugar_mulling_spice_mix`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `brown_sugar_mulling_spice_mix_step_2`
 - `brown_sugar_nutmeg_cookies.step_3`: held, `brown_sugar_nutmeg_cookies_step_2` → `brown_sugar_nutmeg_cookies_step_3`, 4 h (4800 ticks) at 4 °C, chilled, only from any to 8 °C
-- `brussels_sprout.freezer_burn`: spoil, `brussels_sprout` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `brussels_sprout.spoil`: spoil, `brussels_sprout` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `bubble_tea.step_2.prep_3`: held, `tea` → `tea_chill`, 1 min (20 ticks) at 20 °C, ambient
 - `buckeyes.step_4`: held, `buckeyes_step_2` → `buckeyes_step_4`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `buckeyes.step_7`: held, `buckeyes_step_6` → `buckeyes_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `buckeyes.step_8`: held, `buckeyes_step_7` → `buckeyes`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `buckwheat.freezer_burn`: spoil, `buckwheat` → `spoiled_food`, 122 d (3513600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `buckwheat.stale`: spoil, `buckwheat` → `spoiled_food`, 60.9 d (1753920 ticks) at 20 °C, ambient, only from 0 °C to any
 - `buckwheat_crepes.step_3`: held, `buckwheat_crepes_step_2` → `buckwheat_crepes_step_4`, 1 h (1200 ticks) at 20 °C, ambient
-- `buckwheat_flour.freezer_burn`: spoil, `buckwheat_flour` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `buckwheat_flour.stale`: spoil, `buckwheat_flour` → `spoiled_food`, 30.4 d (875520 ticks) at 20 °C, ambient, only from 0 °C to any
 - `bulgarian_fresh_sausage_kebapcheta.step_2`: held, `bulgarian_fresh_sausage_kebapcheta_step_1` → `bulgarian_fresh_sausage_kebapcheta_step_3`, 1.5 d (43200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `bulgur.dry`: held, `parboiled_wheat` → `dried_parboiled_wheat`, 720 min (14400 ticks) at 20 °C, ambient
-- `bulgur.stale`: spoil, `bulgur` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `bun.freezer_burn`: spoil, `bun` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bun.mold`: spoil, `bun` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `buns.freezer_burn`: spoil, `buns` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `buns.mold`: spoil, `buns` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `butter.freezer_burn`: spoil, `butter` → `spoiled_food`, 224 d (6451200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `butter.rancid`: spoil, `butter` → `spoiled_food`, 43 d (1238400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
 - `butter_tart.step_12`: held, `butter_tart_step_11` → `butter_tart`, 1 min (20 ticks) at 20 °C, ambient
 - `butter_tart.step_3`: held, `butter_tart_step_2` → `butter_tart_step_4`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `buttercream.stale`: spoil, `buttercream` → `spoiled_food`, 333 d (9590400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `buttermilk.freezer_burn`: spoil, `buttermilk` → `spoiled_food`, 91.3 d (2629440 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `buttermilk.sour`: spoil, `buttermilk` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `buttermilk_fried_chicken_with_pan_gravy.step_6`: held, `buttermilk_fried_chicken_with_pan_gravy_step_5` → `buttermilk_fried_chicken_with_pan_gravy_step_6`, 1 min (20 ticks) at 20 °C, ambient
-- `butternut_squash.freezer_burn`: spoil, `butternut_squash` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `butternut_squash.spoil`: spoil, `butternut_squash` → `spoiled_food`, 24.2 d (696960 ticks) at 20 °C, ambient, q10 1.62, only from 0 °C to any
 - `buuz_mongolian_meat_dumplings.step_7`: held, `buuz_mongolian_meat_dumplings_step_6` → `buuz_mongolian_meat_dumplings`, 30 s (10 ticks) at 20 °C, ambient
-- `cabbage.freezer_burn`: spoil, `cabbage` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cabbage.spoil`: spoil, `cabbage` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `cabbage_kimchi.step_10`: held, `cabbage_kimchi_step_8` → `cabbage_kimchi_step_10`, 8 h (9600 ticks) at 20 °C, ambient
 - `cabbage_kimchi.step_11`: held, `cabbage_kimchi_step_10` → `cabbage_kimchi`, 2.5 d (72000 ticks) at 4 °C, chilled, only from any to 8 °C
 - `cabbage_rolls_in_yogurt_sauce_sarmi.step_4`: held, `cabbage_rolls_in_yogurt_sauce_sarmi_step_3` → `cabbage_rolls_in_yogurt_sauce_sarmi_step_5`, 10 min (200 ticks) at 20 °C, ambient
 - `cabbage_salad.step_3`: held, `cabbage_salad_step_2` → `cabbage_salad`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `cabbie_claw_scottish_whitefish_with_egg_and_potato.step_2`: held, `cabbie_claw_scottish_whitefish_with_egg_and_potato_step_1` → `cabbie_claw_scottish_whitefish_with_egg_and_potato_step_2`, 24 h (28800 ticks) at 20 °C, ambient, not written: the game can't make `cabbie_claw_scottish_whitefish_with_egg_and_potato_step_1`
 - `cachupa_cape_verdean_corn_stew.step_12`: held, `cachupa_cape_verdean_corn_stew_step_11` → `cachupa_cape_verdean_corn_stew`, 20 min (400 ticks) at 20 °C, ambient
-- `cajun_seasoning.stale`: spoil, `cajun_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `cake.freezer_burn`: spoil, `cake` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cake.mold`: spoil, `cake` → `spoiled_food`, 4.58 d (131904 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `cake_brownies.step_6`: held, `cake_brownies_step_5` → `cake_brownies`, 1 min (20 ticks) at 20 °C, ambient
-- `cake_mix.stale`: spoil, `cake_mix` → `spoiled_food`, 447 d (12873600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `calabash_nutmeg.stale`: spoil, `calabash_nutmeg` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `calamansi.mold`: spoil, `calamansi` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
-- `calasparra_rice.stale`: spoil, `calasparra_rice` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `calf_s_foot.freezer_burn`: spoil, `calf_s_foot` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `calf_s_foot.spoil`: spoil, `calf_s_foot` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `california_fusion_peach_salsa.step_3`: held, `california_fusion_peach_salsa_step_2` → `california_fusion_peach_salsa`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `california_fusion_peach_salsa_step_2`
 - `cameroon_koki_corn.step_8`: held, `cameroon_koki_corn_step_7` → `cameroon_koki_corn`, 10 min (200 ticks) at 20 °C, ambient
 - `campfire_barbecue_chicken_wings.step_5`: held, `campfire_barbecue_chicken_wings_step_4` → `campfire_barbecue_chicken_wings`, 5 min (100 ticks) at 20 °C, ambient
@@ -11899,47 +11735,17 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `cao_l_u_vietnamese_pork_noodles_with_greens.step_4`: held, `cao_l_u_vietnamese_pork_noodles_with_greens_step_3` → `cao_l_u_vietnamese_pork_noodles_with_greens_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `cappucino_mousse.step_1.prep_1`: held, `coffee` → `coffee_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `cappucino_mousse.step_3`: held, `cappucino_mousse_step_2` → `cappucino_mousse`, 20 min (400 ticks) at 4 °C, chilled, only from any to 8 °C
-- `cara_cara_orange.mold`: spoil, `cara_cara_orange` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `caramel_coffee_cake.step_5`: held, `caramel_coffee_cake_step_4` → `caramel_coffee_cake_step_5`, 10 min (200 ticks) at 20 °C, ambient
 - `caramel_sauce_ii.step_6`: held, `caramel_sauce_ii_step_5` → `caramel_sauce_ii`, 20 s (7 ticks) at 20 °C, ambient
 - `caramel_squares.step_4`: held, `caramel_squares_step_3` → `caramel_squares_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `caramel_squares.step_9`: held, `caramel_squares_step_8` → `caramel_squares`, 1 min (20 ticks) at 20 °C, ambient
 - `caramelized_pineapple.step_3`: held, `caramelized_pineapple_step_2` → `caramelized_pineapple_step_3`, 30 min (600 ticks) at 20 °C, ambient
 - `caramelized_raspberry_sauce.step_2`: held, `caramelized_raspberry_sauce_step_1` → `caramelized_raspberry_sauce_step_2`, 1 min (20 ticks) at 20 °C, ambient
-- `caraway.stale`: spoil, `caraway` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `caraway_seed.stale`: spoil, `caraway_seed` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `cardamom.stale`: spoil, `cardamom` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `carquinyoli_catalan_almond_cookies.step_9`: held, `carquinyoli_catalan_almond_cookies_step_8` → `carquinyoli_catalan_almond_cookies`, 1 min (20 ticks) at 20 °C, ambient
-- `carrot.freezer_burn`: spoil, `carrot` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `carrot.spoil`: spoil, `carrot` → `spoiled_food`, 17.1 d (492480 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `carrot_and_raisin_salad.step_4`: held, `carrot_and_raisin_salad_step_3` → `carrot_and_raisin_salad`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `carrot_cake_ii.step_4`: held, `carrot_cake_ii_step_3` → `carrot_cake_ii_step_4`, 10 min (200 ticks) at 20 °C, ambient
 - `carrot_cake_ii.step_5`: held, `carrot_cake_ii_step_4` → `carrot_cake_ii_step_5`, 1 min (20 ticks) at 20 °C, ambient
-- `carrots.freezer_burn`: spoil, `carrots` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `carrots.spoil`: spoil, `carrots` → `spoiled_food`, 17.1 d (492480 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `cashew.freezer_burn`: spoil, `cashew` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cashew.rancid`: spoil, `cashew` → `spoiled_food`, 19.8 d (570240 ticks) at 20 °C, ambient, q10 4.01, only from 0 °C to any
-- `cashew_butter.rancid`: spoil, `cashew_butter` → `spoiled_food`, 91.3 d (2629440 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
-- `cassava.freezer_burn`: spoil, `cassava` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cassava.spoil`: spoil, `cassava` → `spoiled_food`, 7 d (201600 ticks) at 20 °C, ambient, q10 0.589, only from 0 °C to any
-- `cassava_tubers.freezer_burn`: spoil, `cassava_tubers` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cassava_tubers.spoil`: spoil, `cassava_tubers` → `spoiled_food`, 7 d (201600 ticks) at 20 °C, ambient, q10 0.589, only from 0 °C to any
 - `cassoulet.step_8`: held, `cassoulet_step_7` → `cassoulet`, 1 h (1200 ticks) at 20 °C, ambient
-- `catfish.freezer_burn`: spoil, `catfish` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `catfish.spoil`: spoil, `catfish` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `cauliflower.freezer_burn`: spoil, `cauliflower` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cauliflower.spoil`: spoil, `cauliflower` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `caviar.spoil`: spoil, `caviar` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `cayenne.stale`: spoil, `cayenne` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `cayenne_pepper.stale`: spoil, `cayenne_pepper` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `celery.freezer_burn`: spoil, `celery` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `celery.spoil`: spoil, `celery` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `celery_root.spoil`: spoil, `celery_root` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `celery_seed.stale`: spoil, `celery_seed` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `celery_stalk.freezer_burn`: spoil, `celery_stalk` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `celery_stalk.spoil`: spoil, `celery_stalk` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `cereal.stale`: spoil, `cereal` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `chaat_masala.stale`: spoil, `chaat_masala` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `chadian_gilled_fish.step_3.prep_9`: held, `fish` → `fish_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `chadian_gilled_fish.step_4`: held, `chadian_gilled_fish_step_3` → `chadian_gilled_fish_step_4`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `chadian_salad.step_4`: held, `chadian_salad_step_3` → `chadian_salad_step_4`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -11950,14 +11756,8 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `char_siu_chinese_bbq_pork.step_10`: held, `char_siu_chinese_bbq_pork_step_9` → `char_siu_chinese_bbq_pork`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `char_siu_chinese_bbq_pork_step_9`
 - `char_siu_chinese_bbq_pork.step_5`: held, `char_siu_chinese_bbq_pork_step_4` → `char_siu_chinese_bbq_pork_step_7`, 16 h (19200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `char_siu_chinese_bbq_pork_step_4`
 - `char_siu_chinese_bbq_pork.step_9`: held, `char_siu_chinese_bbq_pork_step_8` → `char_siu_chinese_bbq_pork_step_9`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `char_siu_chinese_bbq_pork_step_8`
-- `chard.spoil`: spoil, `chard` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `chargrilled_asparagus_salad.step_7.prep_10`: held, `spinach` → `spinach_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `cheddar_cheese.age`: held, `cheddar_cheese_green` → `cheddar_cheese`, 60 d (1728000 ticks) at 12 °C, ambient, q10 2
-- `cheddar_cheese.freezer_burn`: spoil, `cheddar_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cheddar_cheese.mold`: spoil, `cheddar_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `cheerios.stale`: spoil, `cheerios` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `cheese.freezer_burn`: spoil, `cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cheese.mold`: spoil, `cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `cheese_dumplings.step_7`: held, `cheese_dumplings_step_6` → `cheese_dumplings`, 1 min (20 ticks) at 20 °C, ambient
 - `cheese_filling_for_peynirli_borek.step_3`: held, `cheese_filling_for_peynirli_borek_step_2` → `cheese_filling_for_peynirli_borek`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `cheese_puffs_pao_de_queijo.step_3`: held, `cheese_puffs_pao_de_queijo_step_2` → `cheese_puffs_pao_de_queijo_step_3`, 15 min (300 ticks) at 20 °C, ambient
@@ -11968,38 +11768,17 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `cheese_stuffed_tomatoes.step_4`: held, `cheese_stuffed_tomatoes_step_3` → `cheese_stuffed_tomatoes`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `cheese_stuffed_tomatoes_step_3`
 - `cheese_tart.step_4`: held, `cheese_tart_step_3` → `cheese_tart`, 10 min (200 ticks) at 20 °C, ambient
 - `cheesecake_cups.step_8`: held, `cheesecake_cups_step_7` → `cheesecake_cups`, 20 min (400 ticks) at 20 °C, ambient
-- `cheeselets.freezer_burn`: spoil, `cheeselets` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cheeselets.mold`: spoil, `cheeselets` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `cheesy_mascarpone_cornbread_stuffing.step_5`: held, `cheesy_mascarpone_cornbread_stuffing_step_4` → `cheesy_mascarpone_cornbread_stuffing`, 10 min (200 ticks) at 20 °C, ambient
 - `cherbet_mazhar_algerian_flower_water_drink.step_3`: held, `cherbet_mazhar_algerian_flower_water_drink_step_2` → `cherbet_mazhar_algerian_flower_water_drink`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `chereh_tamba_gambian_groundnut_stew.step_3`: held, `groundnut_roast_roast` → `groundnut_roast_roast_cool`, 1 min (20 ticks) at 20 °C, ambient
-- `cherry.freezer_burn`: spoil, `cherry` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cherry.mold`: spoil, `cherry` → `spoiled_food`, 2.45 d (70560 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `cherry_jam.mold`: spoil, `cherry_jam` → `spoiled_food`, 316 d (9100800 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `cherry_pie_filling.mold`: spoil, `cherry_pie_filling` → `spoiled_food`, 316 d (9100800 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `chervil.freezer_burn`: spoil, `chervil` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chervil.spoil`: spoil, `chervil` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `chess_pie.step_7`: held, `chess_pie_step_6` → `chess_pie`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `chess_pie_step_6`
 - `chewy_ginger_cookies.step_9`: held, `chewy_ginger_cookies_step_8` → `chewy_ginger_cookies`, 1 min (20 ticks) at 20 °C, ambient
 - `chibwabwa_zambian_pumpkin_leaves_with_groundnut_sauce.step_10`: held, `chibwabwa_zambian_pumpkin_leaves_with_groundnut_sauce_step_9` → `chibwabwa_zambian_pumpkin_leaves_with_groundnut_sauce`, 1 min (20 ticks) at 20 °C, ambient
 - `chicago_sirloin_with_cabernet_balsamic_reduction.step_9`: held, `chicago_sirloin_with_cabernet_balsamic_reduction_step_8` → `chicago_sirloin_with_cabernet_balsamic_reduction`, 1 min (20 ticks) at 20 °C, ambient
-- `chicken.freezer_burn`: spoil, `chicken` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chicken.spoil`: spoil, `chicken` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `chicken_and_corn_empanadas.step_17`: held, `chicken_and_corn_empanadas_step_14` → `chicken_and_corn_empanadas_step_17`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `chicken_and_corn_empanadas_step_14`
 - `chicken_and_corn_empanadas.step_9`: held, `chicken_and_corn_empanadas_step_8` → `chicken_and_corn_empanadas_step_10`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `chicken_and_corn_empanadas_step_8`
-- `chicken_and_herb_seasoning.stale`: spoil, `chicken_and_herb_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `chicken_bog_i.step_3`: held, `chicken_bog_i_step_2` → `chicken_bog_i_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `chicken_bog_ii.step_2`: held, `chicken_bog_ii_step_1` → `chicken_bog_ii_step_2`, 1 min (20 ticks) at 20 °C, ambient
-- `chicken_breast.freezer_burn`: spoil, `chicken_breast` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chicken_breast.spoil`: spoil, `chicken_breast` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `chicken_breast_halves.freezer_burn`: spoil, `chicken_breast_halves` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chicken_breast_halves.spoil`: spoil, `chicken_breast_halves` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `chicken_broth.freezer_burn`: spoil, `chicken_broth` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chicken_broth.mold`: spoil, `chicken_broth` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `chicken_flavour_bouillon_cube.freezer_burn`: spoil, `chicken_flavour_bouillon_cube` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chicken_flavour_bouillon_cube.mold`: spoil, `chicken_flavour_bouillon_cube` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `chicken_hot_dogs.freezer_burn`: spoil, `chicken_hot_dogs` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chicken_hot_dogs.spoil`: spoil, `chicken_hot_dogs` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `chicken_jerky.age`: held, `chicken` → `salted_chicken_strips`, 24 h (28800 ticks) at 20 °C, ambient, q10 2
 - `chicken_jerky.dry`: held, `salted_chicken_strips` → `chicken_jerky`, 8 h (9600 ticks) at 20 °C, ambient
 - `chicken_marinade.step_2`: held, `chicken_marinade_step_1` → `chicken_marinade_step_2`, 14 d (403200 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12008,31 +11787,17 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `chicken_pot_pie_ii.step_11`: held, `chicken_pot_pie_ii_step_10` → `chicken_pot_pie_ii`, 5 min (100 ticks) at 20 °C, ambient
 - `chicken_rice_salad.step_2.prep_11`: held, `rice` → `rice_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `chicken_rice_salad.step_3`: held, `chicken_rice_salad_step_2` → `chicken_rice_salad`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `chicken_seasoning.stale`: spoil, `chicken_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `chicken_tagine_with_lemon_and_olives.step_2`: held, `chicken_tagine_with_lemon_and_olives_step_1` → `chicken_tagine_with_lemon_and_olives_step_2`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `chicken_tikka.step_3`: held, `chicken_tikka_step_2` → `chicken_tikka_step_3`, 24 h (28800 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `chicken_tikka_step_2`
 - `chicken_with_orange_spinach_and_cherry_tomatoes.step_14`: held, `chicken_with_orange_spinach_and_cherry_tomatoes_step_13` → `chicken_with_orange_spinach_and_cherry_tomatoes`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `chicken_with_orange_spinach_and_cherry_tomatoes_step_13`
 - `chickpea_flour_dessert_mysore_pak.step_6`: held, `chickpea_flour_dessert_mysore_pak_step_5` → `chickpea_flour_dessert_mysore_pak_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `chikwanda_zambian_sweet_potato_stew.step_10`: held, `chikwanda_zambian_sweet_potato_stew_step_9` → `chikwanda_zambian_sweet_potato_stew`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `chikwanda_zambian_sweet_potato_stew_step_9`
-- `chile.freezer_burn`: spoil, `chile` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chile.spoil`: spoil, `chile` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `chile_powder.stale`: spoil, `chile_powder` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `chiles.dry_hot`: held, `hot_chiles` → `dried_chiles`, 48 h (57600 ticks) at 20 °C, ambient
-- `chiles.freezer_burn`: spoil, `chiles` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chiles.spoil`: spoil, `chiles` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `chiles_de_arbol.stale`: spoil, `chiles_de_arbol` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `chili_oil.step_4`: held, `chili_oil_step_3` → `chili_oil_step_4`, 1 min (20 ticks) at 20 °C, ambient
-- `chili_powder.stale`: spoil, `chili_powder` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `chilies.freezer_burn`: spoil, `chilies` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chilies.spoil`: spoil, `chilies` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `chilli_crab.step_1`: held, `crab_freeze` → `crab_freeze_freeze`, 20 min (400 ticks) at -18 °C, frozen, only from any to 0 °C
 - `chilli_crab.step_1.prep_1`: held, `crab` → `crab_freeze`, 1 min (20 ticks) at 20 °C, ambient
-- `chilli_ginger_paste.mold`: spoil, `chilli_ginger_paste` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `chilli_oil.step_5`: held, `chilli_oil_step_4` → `chilli_oil`, 1 min (20 ticks) at 20 °C, ambient
-- `chillies.freezer_burn`: spoil, `chillies` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chillies.spoil`: spoil, `chillies` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `chimichurri.step_6`: held, `chimichurri_step_5` → `chimichurri`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `chip.stale`: spoil, `chip` → `spoiled_food`, 60.9 d (1753920 ticks) at 20 °C, ambient, only from 0 °C to any
 - `chip_butty.step_1.prep_1`: held, `french_fries` → `french_fries_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `chipotle_bbq_ribs.step_6`: held, `chipotle_bbq_ribs_step_5` → `chipotle_bbq_ribs`, 15 min (300 ticks) at 20 °C, ambient
 - `chipotle_bbq_sauce.step_4`: held, `chipotle_bbq_sauce_step_3` → `chipotle_bbq_sauce`, 7 d (201600 ticks) at 20 °C, ambient
@@ -12043,11 +11808,9 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `chipsi_mayai.step_4`: held, `potato_cut_cut_fry` → `potato_cut_cut_fry_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `chishimba_zambian_cassava_cake.step_7`: held, `chishimba_zambian_cassava_cake_step_6` → `chishimba_zambian_cassava_cake_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `chishimba_zambian_cassava_cake_step_6`
 - `chishimba_zambian_cassava_cake.step_8`: held, `chishimba_zambian_cassava_cake_step_7` → `chishimba_zambian_cassava_cake`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `chishimba_zambian_cassava_cake_step_7`
-- `chive.spoil`: spoil, `chive` → `spoiled_food`, 9.9 d (285120 ticks) at 20 °C, ambient, q10 1.41, only from 0 °C to any
 - `choco_crunch_bites.step_4`: held, `choco_crunch_bites_step_3` → `choco_crunch_bites`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `choco_nutty_pie.step_1.prep_1`: held, `butter` → `butter_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `choco_nutty_pie.step_4`: held, `choco_nutty_pie_step_3` → `choco_nutty_pie`, 1 min (20 ticks) at 20 °C, ambient
-- `chocolate.stale`: spoil, `chocolate` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `chocolate_and_banana_bread.step_9`: held, `chocolate_and_banana_bread_step_7` → `chocolate_and_banana_bread_step_9`, 30 min (600 ticks) at 20 °C, ambient
 - `chocolate_and_nut_covered_strawberries.step_4`: held, `chocolate_and_nut_covered_strawberries_step_3` → `chocolate_and_nut_covered_strawberries`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `chocolate_and_nut_covered_strawberries_step_3`
 - `chocolate_balls.step_4`: held, `chocolate_balls_step_3` → `chocolate_balls_step_5`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12055,8 +11818,6 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `chocolate_bourbon_pecan_pie.step_10`: held, `chocolate_bourbon_pecan_pie_step_9` → `chocolate_bourbon_pecan_pie`, 1 h (1200 ticks) at 20 °C, ambient
 - `chocolate_cheesecake.step_10`: held, `chocolate_cheesecake_step_9` → `chocolate_cheesecake_step_10`, 1 min (20 ticks) at 20 °C, ambient
 - `chocolate_cheesecake.step_11`: held, `chocolate_cheesecake_step_10` → `chocolate_cheesecake_step_11`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
-- `chocolate_chip_cookies.freezer_burn`: spoil, `chocolate_chip_cookies` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chocolate_chip_cookies.stale`: spoil, `chocolate_chip_cookies` → `spoiled_food`, 149 d (4291200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `chocolate_chip_cookies_gluten_free.step_7`: held, `chocolate_chip_cookies_gluten_free_step_6` → `chocolate_chip_cookies_gluten_free_step_7`, 35 min (700 ticks) at 4 °C, chilled, only from any to 8 °C
 - `chocolate_chip_cookies_ii.step_9`: held, `chocolate_chip_cookies_ii_step_8` → `chocolate_chip_cookies_ii`, 1 min (20 ticks) at 20 °C, ambient
 - `chocolate_chip_cookies_iii.step_6`: held, `chocolate_chip_cookies_iii_step_5` → `chocolate_chip_cookies_iii`, 1 min (20 ticks) at 20 °C, ambient
@@ -12064,7 +11825,6 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `chocolate_chip_cookies_iv.step_9`: held, `chocolate_chip_cookies_iv_step_8` → `chocolate_chip_cookies_iv`, 1 min (20 ticks) at 20 °C, ambient
 - `chocolate_crinkles.step_4`: held, `chocolate_crinkles_step_3` → `chocolate_crinkles_step_4`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `chocolate_fudge.step_6`: held, `chocolate_fudge_step_5` → `chocolate_fudge_step_6`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `chocolate_glaze.stale`: spoil, `chocolate_glaze` → `spoiled_food`, 333 d (9590400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `chocolate_jalapeno_truffles.step_10`: held, `chocolate_jalapeno_truffles_step_9` → `chocolate_jalapeno_truffles`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `chocolate_jalapeno_truffles.step_6`: held, `chocolate_jalapeno_truffles_step_5` → `chocolate_jalapeno_truffles_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `chocolate_jalapeno_truffles.step_8`: held, `chocolate_jalapeno_truffles_step_7` → `chocolate_jalapeno_truffles_step_8`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12079,7 +11839,6 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `chocolate_sauce.step_2`: held, `chocolate_sauce_step_1` → `chocolate_sauce`, 1 min (20 ticks) at 20 °C, ambient
 - `chocolate_spread.step_6`: held, `chocolate_spread_step_5` → `chocolate_spread`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `chocolate_squares.step_11`: held, `chocolate_squares_step_10` → `chocolate_squares`, 1 min (20 ticks) at 20 °C, ambient
-- `chocolate_syrup.stale`: spoil, `chocolate_syrup` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `chocolate_truffles.step_10`: held, `chocolate_truffles_step_9` → `chocolate_truffles`, 15 min (300 ticks) at 4 °C, chilled, only from any to 8 °C
 - `chocolate_truffles.step_3`: held, `chocolate_truffles_step_2` → `chocolate_truffles_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `chocolate_truffles.step_5`: held, `chocolate_truffles_step_4` → `chocolate_truffles_step_5`, 35 min (700 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12091,62 +11850,25 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `christmas_ham.step_7`: held, `ham_chill_heat_rinse_roast_roast_roast` → `ham_chill_heat_rinse_roast_roast_roast_cool`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `ham_chill_heat_rinse_roast_roast_roast`
 - `christmas_ham.step_9`: held, `christmas_ham_step_8` → `christmas_ham`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `christmas_ham_step_8`
 - `christmas_pudding_i.step_7`: held, `christmas_pudding_i_step_6` → `christmas_pudding_i_step_7`, 1.5 h (1800 ticks) at 20 °C, ambient, not written: the game can't make `christmas_pudding_i_step_6`
-- `chuck_roast.freezer_burn`: spoil, `chuck_roast` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `chuck_roast.spoil`: spoil, `chuck_roast` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `churros_i.step_3`: held, `churros_i_step_2` → `churros_i_step_3`, 1 h (1200 ticks) at 20 °C, ambient
 - `churros_i.step_7`: held, `churros_i_step_6` → `churros_i`, 1 min (20 ticks) at 20 °C, ambient
-- `chutney.mold`: spoil, `chutney` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `ciabatta.step_3`: held, `ciabatta_step_2` → `ciabatta_step_6`, 45 min (900 ticks) at 20 °C, ambient
-- `ciabatta_roll.freezer_burn`: spoil, `ciabatta_roll` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `ciabatta_roll.mold`: spoil, `ciabatta_roll` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `ciabatta_rolls.freezer_burn`: spoil, `ciabatta_rolls` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `ciabatta_rolls.mold`: spoil, `ciabatta_rolls` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `cilantro.spoil`: spoil, `cilantro` → `spoiled_food`, 9.9 d (285120 ticks) at 20 °C, ambient, q10 1.41, only from 0 °C to any
-- `cinnamon.stale`: spoil, `cinnamon` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `cinnamon_bread.freezer_burn`: spoil, `cinnamon_bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cinnamon_bread.mold`: spoil, `cinnamon_bread` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `cinnamon_croutons.step_5`: held, `cinnamon_croutons_step_4` → `cinnamon_croutons`, 1 min (20 ticks) at 20 °C, ambient
 - `cinnamon_rolls.step_11`: held, `cinnamon_rolls_step_10` → `cinnamon_rolls`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `cinnamon_rolls_step_10`
 - `cinnamon_rolls.step_5`: held, `cinnamon_rolls_step_4` → `cinnamon_rolls_step_6`, 5 min (100 ticks) at 20 °C, ambient
-- `citron.mold`: spoil, `citron` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
-- `citrus.mold`: spoil, `citrus` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
-- `clam.spoil`: spoil, `clam` → `spoiled_food`, 7.07 d (203616 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `clams.spoil`: spoil, `clams` → `spoiled_food`, 7.07 d (203616 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `clarified_butter.rancid`: spoil, `clarified_butter` → `spoiled_food`, 211 d (6076800 ticks) at 20 °C, ambient, q10 1.75, only from 0 °C to any
 - `classic_american_apple_pie.step_9`: held, `classic_american_apple_pie_step_8` → `classic_american_apple_pie`, 4 h (4800 ticks) at 20 °C, ambient
 - `classic_puff_pastry.step_4`: held, `classic_puff_pastry_step_3` → `classic_puff_pastry_step_4`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `classic_puff_pastry.step_9`: held, `classic_puff_pastry_step_8` → `classic_puff_pastry`, 25 min (500 ticks) at 4 °C, chilled, only from any to 8 °C
-- `cleaned_leek_green.freezer_burn`: spoil, `cleaned_leek_green` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cleaned_leek_green.spoil`: spoil, `cleaned_leek_green` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `clementine.mold`: spoil, `clementine` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
-- `clove.stale`: spoil, `clove` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `coarse_bulgur.stale`: spoil, `coarse_bulgur` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `coarsely_chopped_leeks.freezer_burn`: spoil, `coarsely_chopped_leeks` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `coarsely_chopped_leeks.spoil`: spoil, `coarsely_chopped_leeks` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `coarsely_chopped_onion.freezer_burn`: spoil, `coarsely_chopped_onion` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `coarsely_chopped_onion.spoil`: spoil, `coarsely_chopped_onion` → `spoiled_food`, 30.4 d (875520 ticks) at 20 °C, ambient, q10 1.54, only from 0 °C to any
-- `coco_pops_cereal.stale`: spoil, `coco_pops_cereal` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `coconut.mold`: spoil, `coconut` → `spoiled_food`, 7 d (201600 ticks) at 20 °C, ambient, q10 1.75, only from 0 °C to any
 - `coconut_biscuits.step_7`: held, `coconut_biscuits_step_6` → `coconut_biscuits`, 1 min (20 ticks) at 20 °C, ambient
 - `coconut_cream_and_pound_cake_with_moscatel_bienmesabe.step_5`: held, `coconut_cream_and_pound_cake_with_moscatel_bienmesabe_step_4` → `coconut_cream_and_pound_cake_with_moscatel_bienmesabe_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `coconut_cream_filled_cake_with_meringue_bienmesabe.step_10`: held, `coconut_cream_filled_cake_with_meringue_bienmesabe_step_9` → `coconut_cream_filled_cake_with_meringue_bienmesabe_step_10`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `coconut_cream_filled_cake_with_meringue_bienmesabe.step_5`: held, `coconut_cream_filled_cake_with_meringue_bienmesabe_step_4` → `coconut_cream_filled_cake_with_meringue_bienmesabe_step_5`, 1 min (20 ticks) at 20 °C, ambient
-- `coconut_oil.rancid`: spoil, `coconut_oil` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
 - `coconut_pudding_i.step_5`: held, `coconut_pudding_i_step_4` → `coconut_pudding_i_step_6`, 5 min (100 ticks) at 20 °C, ambient
 - `coconut_pudding_i.step_8`: held, `coconut_pudding_i_step_6` → `coconut_pudding_i_step_8`, 15 min (300 ticks) at -18 °C, frozen, only from any to 0 °C
 - `coconut_pudding_i.step_9`: held, `coconut_pudding_i_step_8` → `coconut_pudding_i_step_9`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `coconut_pudding_ii.step_5`: held, `coconut_pudding_ii_step_4` → `coconut_pudding_ii`, 1 min (20 ticks) at 20 °C, ambient
 - `coconut_rice_indonesian.step_6`: held, `coconut_rice_indonesian_step_5` → `coconut_rice_indonesian`, 15 min (300 ticks) at 20 °C, ambient, not written: the game can't make `coconut_rice_indonesian_step_5`
 - `coconut_rum_battered_shrimp.step_4`: held, `coconut_rum_battered_shrimp_step_3` → `coconut_rum_battered_shrimp_step_4`, 1 min (20 ticks) at 20 °C, ambient
-- `coconut_water.sour`: spoil, `coconut_water` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
-- `coconut_yogurt.freezer_burn`: spoil, `coconut_yogurt` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `coconut_yogurt.sour`: spoil, `coconut_yogurt` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `cocoyam_leaves.freezer_burn`: spoil, `cocoyam_leaves` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cocoyam_leaves.spoil`: spoil, `cocoyam_leaves` → `spoiled_food`, 2 d (57600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `cocoyams.spoil`: spoil, `cocoyams` → `spoiled_food`, 7 d (201600 ticks) at 20 °C, ambient, q10 0.519, only from 0 °C to any
-- `cod.freezer_burn`: spoil, `cod` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cod.spoil`: spoil, `cod` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `coffee_beans.stale`: spoil, `coffee_beans` → `spoiled_food`, 118 d (3398400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `coffee_cake.step_6`: held, `coffee_cake_step_5` → `coffee_cake_step_6`, 15 min (300 ticks) at 20 °C, ambient, not written: the game can't make `coffee_cake_step_5`
 - `coffee_cake.step_7`: held, `coffee_cake_step_6` → `coffee_cake`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `coffee_cake_step_6`
 - `coffee_mousse.step_5`: held, `coffee_mousse_step_4` → `coffee_mousse_step_5`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12156,77 +11878,30 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `cola_bbq_sauce.step_3`: held, `cola_bbq_sauce_step_2` → `cola_bbq_sauce`, 7 d (201600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `coleslaw_i.step_4`: held, `coleslaw_i_step_3` → `coleslaw_i`, 20 min (400 ticks) at 20 °C, ambient, not written: the game can't make `coleslaw_i_step_3`
 - `coleslaw_ii.step_2`: held, `coleslaw_ii_step_1` → `coleslaw_ii_step_2`, 1 min (20 ticks) at 20 °C, ambient
-- `collard_greens.freezer_burn`: spoil, `collard_greens` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `collard_greens.spoil`: spoil, `collard_greens` → `spoiled_food`, 2 d (57600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `common_bean.stale`: spoil, `common_bean` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `common_mushroom.freezer_burn`: spoil, `common_mushroom` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `common_mushroom.spoil`: spoil, `common_mushroom` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `communion_wafers.step_10`: held, `communion_wafers_step_9` → `communion_wafers`, 1 min (20 ticks) at 20 °C, ambient
-- `comte.freezer_burn`: spoil, `comte` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `comte.mold`: spoil, `comte` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `comte_cheese.freezer_burn`: spoil, `comte_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `comte_cheese.mold`: spoil, `comte_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `confederate_cush.step_4`: held, `confederate_cush_step_3` → `confederate_cush`, 1 min (20 ticks) at 20 °C, ambient
-- `cookie.freezer_burn`: spoil, `cookie` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cookie.stale`: spoil, `cookie` → `spoiled_food`, 149 d (4291200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `cookies_with_pineapple_jam_filling_nastar.step_4`: held, `cookies_with_pineapple_jam_filling_nastar_step_3` → `cookies_with_pineapple_jam_filling_nastar_step_4`, 1 min (20 ticks) at 20 °C, ambient
-- `cooking_bananas.freezer_burn`: spoil, `cooking_bananas` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cooking_bananas.mold`: spoil, `cooking_bananas` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `cooking_spray.rancid`: spoil, `cooking_spray` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
 - `coq_au_vin_iii.step_6`: held, `coq_au_vin_iii_step_5` → `coq_au_vin_iii_step_6`, 30 min (600 ticks) at -18 °C, frozen, only from any to 0 °C
-- `cored_and_sliced_apples.freezer_burn`: spoil, `cored_and_sliced_apples` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cored_and_sliced_apples.mold`: spoil, `cored_and_sliced_apples` → `spoiled_food`, 21 d (604800 ticks) at 20 °C, ambient, q10 1.36, only from 0 °C to any
-- `coriander.stale`: spoil, `coriander` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `coriander_leaves.spoil`: spoil, `coriander_leaves` → `spoiled_food`, 9.9 d (285120 ticks) at 20 °C, ambient, q10 1.41, only from 0 °C to any
-- `corn.freezer_burn`: spoil, `corn` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `corn.spoil`: spoil, `corn` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `corn_bread_lombardy.step_5`: held, `corn_bread_lombardy_step_4` → `corn_bread_lombardy`, 1 min (20 ticks) at 20 °C, ambient
 - `corn_chowder_ii.step_6`: held, `corn_chowder_ii_step_5` → `corn_chowder_ii_step_7`, 3 d (86400 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `corn_chowder_ii_step_5`
-- `corn_flakes.stale`: spoil, `corn_flakes` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `corn_flour.stale`: spoil, `corn_flour` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `corn_pone.step_4`: held, `corn_pone_step_3` → `corn_pone_step_5`, 8 h (9600 ticks) at 20 °C, ambient
-- `corn_syrup.stale`: spoil, `corn_syrup` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `corned_beef.freezer_burn`: spoil, `corned_beef` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `corned_beef.spoil`: spoil, `corned_beef` → `spoiled_food`, 5.92 d (170496 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `cornish_fairing.step_7`: held, `cornish_fairing_step_6` → `cornish_fairing`, 1 min (20 ticks) at 20 °C, ambient
 - `cornmeal.dry_corn`: held, `corn` → `dried_corn`, 720 min (14400 ticks) at 20 °C, ambient
-- `cornmeal.stale`: spoil, `cornmeal` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `cornmeal_fried_morels.step_11`: held, `cornmeal_fried_morels_step_10` → `cornmeal_fried_morels`, 1 min (20 ticks) at 20 °C, ambient
 - `cornmeal_pancakes_arepa.step_2`: held, `cornmeal_pancakes_arepa_step_1` → `cornmeal_pancakes_arepa_step_3`, 5 min (100 ticks) at 20 °C, ambient
 - `corom_chatni_mango_chutney_with_hot_chillies.step_7`: held, `corom_chatni_mango_chutney_with_hot_chillies_step_6` → `corom_chatni_mango_chutney_with_hot_chillies`, 1.5 h (1800 ticks) at 4 °C, chilled, only from any to 8 °C
 - `coronet_cupcakes.step_7`: held, `coronet_cupcakes_step_6` → `coronet_cupcakes_step_7`, 1 min (20 ticks) at 20 °C, ambient
-- `cottage_cheese.sour`: spoil, `cottage_cheese` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `country_bread.freezer_burn`: spoil, `country_bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `country_bread.mold`: spoil, `country_bread` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `country_fried_chicken.step_4`: held, `country_fried_chicken_step_3` → `country_fried_chicken_step_4`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `country_fried_chicken_step_3`
-- `country_onion_spice.stale`: spoil, `country_onion_spice` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `country_roast_chicken.step_7`: held, `country_roast_chicken_step_6` → `country_roast_chicken`, 10 min (200 ticks) at 20 °C, ambient
 - `couscous.dry`: held, `couscous_pellets` → `couscous`, 600 min (12000 ticks) at 20 °C, ambient
-- `cow_feet.freezer_burn`: spoil, `cow_feet` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cow_feet.spoil`: spoil, `cow_feet` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `cowpea.stale`: spoil, `cowpea` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `crab_cakes.step_6`: held, `crab_cakes_step_5` → `crab_cakes`, 1 min (20 ticks) at 20 °C, ambient
 - `crab_dip.step_3`: held, `crab_dip_step_2` → `crab_dip`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `crab_meat_canape.step_4`: held, `crab_meat_canape_step_3` → `crab_meat_canape_step_4`, 10 min (200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `crab_meat_ravioli_filling.step_4`: held, `crab_meat_ravioli_filling_step_3` → `crab_meat_ravioli_filling`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `crab_meat_seasoning.stale`: spoil, `crab_meat_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `crab_quesadillas_with_mango_salsa.step_2`: held, `crab_quesadillas_with_mango_salsa_step_1` → `crab_quesadillas_with_mango_salsa_step_2`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
-- `cracked_black_peppercorns.stale`: spoil, `cracked_black_peppercorns` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `cracker.freezer_burn`: spoil, `cracker` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cracker.stale`: spoil, `cracker` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `cranberry.freezer_burn`: spoil, `cranberry` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cranberry.mold`: spoil, `cranberry` → `spoiled_food`, 60.9 d (1753920 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `cranberry_sauce.mold`: spoil, `cranberry_sauce` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `cranberry_walnut_fudge.step_6`: held, `cranberry_walnut_fudge_step_5` → `cranberry_walnut_fudge_step_6`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `crawfish.freezer_burn`: spoil, `crawfish` → `spoiled_food`, 316 d (9100800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `crawfish.spoil`: spoil, `crawfish` → `spoiled_food`, 1.73 d (49824 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `cream.freezer_burn`: spoil, `cream` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cream.sour`: spoil, `cream` → `spoiled_food`, 10 d (288000 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `cream_cheese.sour`: spoil, `cream_cheese` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `cream_cheese_mints.step_5`: held, `cream_cheese_mints_step_4` → `cream_cheese_mints`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `cream_of_wheat.stale`: spoil, `cream_of_wheat` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `creamy_cornstarch_scrambled_eggs.step_6`: held, `creamy_cornstarch_scrambled_eggs_step_5` → `creamy_cornstarch_scrambled_eggs`, 1 min (20 ticks) at 20 °C, ambient
-- `creamy_russian_dressing.mold`: spoil, `creamy_russian_dressing` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `creme_anglaise.step_7`: held, `creme_anglaise_step_6` → `creme_anglaise`, 1 min (20 ticks) at -18 °C, frozen, only from any to 0 °C
 - `creme_brulee_cheesecake.step_11`: held, `creme_brulee_cheesecake_step_10` → `creme_brulee_cheesecake_step_11`, 30 min (600 ticks) at 20 °C, ambient
 - `creme_brulee_cheesecake.step_12`: held, `creme_brulee_cheesecake_step_11` → `creme_brulee_cheesecake_step_12`, 3 h (3600 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12237,60 +11912,22 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `crispy_gingerbread_cookies.step_5`: held, `crispy_gingerbread_cookies_step_4` → `crispy_gingerbread_cookies_step_7`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `crispy_sweet_potato_fries.step_2`: held, `sweet_potato_julienne_boil` → `sweet_potato_julienne_boil_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `croissant.step_10`: held, `croissant_step_8` → `croissant_step_10`, 1.5 h (1800 ticks) at 20 °C, ambient, not written: the game can't make `croissant_step_8`
-- `crouton.freezer_burn`: spoil, `crouton` → `spoiled_food`, 350 d (10080000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `crouton.stale`: spoil, `crouton` → `spoiled_food`, 167 d (4809600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `crown_roast_of_lamb.step_4`: held, `crown_roast_of_lamb_step_3` → `crown_roast_of_lamb`, 10 min (200 ticks) at 20 °C, ambient
 - `crullers_round.step_7`: held, `crullers_round_step_6` → `crullers_round_step_7`, 1 min (20 ticks) at 20 °C, ambient
-- `crumbled_bread.stale`: spoil, `crumbled_bread` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `crustless_bread.freezer_burn`: spoil, `crustless_bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `crustless_bread.mold`: spoil, `crustless_bread` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `crusty_bread.freezer_burn`: spoil, `crusty_bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `crusty_bread.mold`: spoil, `crusty_bread` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `crystallised_orange_peel.step_3`: held, `crystallised_orange_peel_step_2` → `crystallised_orange_peel_step_3`, 4 h (4800 ticks) at 20 °C, ambient
 - `crystallised_orange_peel.step_4`: held, `crystallised_orange_peel_step_3` → `crystallised_orange_peel_step_4`, 48 h (57600 ticks) at 20 °C, ambient
-- `cubanelle_pepper.freezer_burn`: spoil, `cubanelle_pepper` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cubanelle_pepper.spoil`: spoil, `cubanelle_pepper` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `cubanelle_peppers.freezer_burn`: spoil, `cubanelle_peppers` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cubanelle_peppers.spoil`: spoil, `cubanelle_peppers` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `cucumber.spoil`: spoil, `cucumber` → `spoiled_food`, 4.9 d (141120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `cucumber_tomato_and_onion_salad.step_4`: held, `cucumber_tomato_and_onion_salad_step_3` → `cucumber_tomato_and_onion_salad`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `cumin.stale`: spoil, `cumin` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `cupcakes_plain.step_6`: held, `cupcakes_plain_step_5` → `cupcakes_plain_step_6`, 1 min (20 ticks) at 20 °C, ambient
-- `curd.freezer_burn`: spoil, `curd` → `spoiled_food`, 122 d (3513600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `curd.sour`: spoil, `curd` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `cured_anchovies.freezer_burn`: spoil, `cured_anchovies` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cured_anchovies.mold`: spoil, `cured_anchovies` → `spoiled_food`, 1830 d (52704000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `currant.freezer_burn`: spoil, `currant` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `currant.mold`: spoil, `currant` → `spoiled_food`, 4.24 d (122112 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `currants.stale`: spoil, `currants` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `curry_chicken_i.step_9`: held, `curry_chicken_i_step_8` → `curry_chicken_i`, 1 min (20 ticks) at 20 °C, ambient
-- `curry_leaf.freezer_burn`: spoil, `curry_leaf` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `curry_leaf.spoil`: spoil, `curry_leaf` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `curry_paste.mold`: spoil, `curry_paste` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `curry_powder.stale`: spoil, `curry_powder` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `curtido_spicy_cabbage_slaw.step_3`: held, `curtido_spicy_cabbage_slaw_step_2` → `curtido_spicy_cabbage_slaw`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `custard.stale`: spoil, `custard` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `custard_creams.step_13`: held, `custard_creams_step_12` → `custard_creams_step_13`, 1 min (20 ticks) at 20 °C, ambient
 - `custard_creams.step_6`: held, `custard_creams_step_4` → `custard_creams_step_9`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `cut_green_italian_beans.freezer_burn`: spoil, `cut_green_italian_beans` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `cut_green_italian_beans.spoil`: spoil, `cut_green_italian_beans` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `dabeli_masala.stale`: spoil, `dabeli_masala` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `dabo_kolo_ethiopian_spiced_bread_snacks.step_9`: held, `dabo_kolo_ethiopian_spiced_bread_snacks_step_8` → `dabo_kolo_ethiopian_spiced_bread_snacks`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `dabo_kolo_ethiopian_spiced_bread_snacks_step_8`
 - `dahi_baingana_fried_eggplant_in_yogurt.step_6`: held, `dahi_baingana_fried_eggplant_in_yogurt_step_5` → `dahi_baingana_fried_eggplant_in_yogurt`, 2.5 min (50 ticks) at 20 °C, ambient
 - `daifuku_sweet_filled_mochi.step_8`: held, `daifuku_sweet_filled_mochi_step_7` → `daifuku_sweet_filled_mochi`, 1 min (20 ticks) at 20 °C, ambient
 - `dajaj_mashwi_libyan_grilled_chicken.step_6`: held, `dajaj_mashwi_libyan_grilled_chicken_step_5` → `dajaj_mashwi_libyan_grilled_chicken_step_6`, 1 min (20 ticks) at 20 °C, ambient
-- `dalda.rancid`: spoil, `dalda` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
-- `dark_chocolate_chunks.stale`: spoil, `dark_chocolate_chunks` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `dark_soy_sauce.mold`: spoil, `dark_soy_sauce` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `date.freezer_burn`: spoil, `date` → `spoiled_food`, 517 d (14889600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `date.mold`: spoil, `date` → `spoiled_food`, 60.9 d (1753920 ticks) at 20 °C, ambient, q10 3.06, only from 0 °C to any
 - `date_syrup.step_5`: held, `date_syrup_step_4` → `date_syrup_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `date_syrup.step_8`: held, `date_syrup_step_7` → `date_syrup`, 1 min (20 ticks) at 20 °C, ambient
-- `day_old_corn_tortillas.mold`: spoil, `day_old_corn_tortillas` → `spoiled_food`, 33.5 d (964800 ticks) at 20 °C, ambient, q10 1.63, only from 0 °C to any
-- `day_old_french_bread.freezer_burn`: spoil, `day_old_french_bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `day_old_french_bread.mold`: spoil, `day_old_french_bread` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `day_old_white_bread.freezer_burn`: spoil, `day_old_white_bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `day_old_white_bread.mold`: spoil, `day_old_white_bread` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `deep_dish_pizza.step_3`: held, `deep_dish_pizza_step_2` → `deep_dish_pizza_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `deep_fried_chickpea_dough_with_lemon_panissa.step_4`: held, `deep_fried_chickpea_dough_with_lemon_panissa_step_3` → `deep_fried_chickpea_dough_with_lemon_panissa_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `deep_fried_chiles_filled_with_chickpea_flour_mirchi_bhajji.step_6`: held, `deep_fried_chiles_filled_with_chickpea_flour_mirchi_bhajji_step_5` → `deep_fried_chiles_filled_with_chickpea_flour_mirchi_bhajji`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `deep_fried_chiles_filled_with_chickpea_flour_mirchi_bhajji_step_5`
@@ -12302,30 +11939,16 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `deep_fried_wheat_and_chickpea_flour_dough_balls_muthiya.step_5`: held, `deep_fried_wheat_and_chickpea_flour_dough_balls_muthiya_step_4` → `deep_fried_wheat_and_chickpea_flour_dough_balls_muthiya`, 1 min (20 ticks) at 20 °C, ambient
 - `dehydrated_broth.dry`: held, `bouillon_paste` → `dehydrated_broth`, 1 d (28800 ticks) at 30 °C, warm, q10 2
 - `dehydrated_garlic.dry_slices`: held, `garlic_chop` → `dehydrated_garlic`, 2 d (57600 ticks) at 22 °C, ambient, q10 2
-- `dehydrated_garlic.stale`: spoil, `dehydrated_garlic` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `deli_meat.freezer_burn`: spoil, `deli_meat` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `deli_meat.spoil`: spoil, `deli_meat` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `delicious_apple.freezer_burn`: spoil, `delicious_apple` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `delicious_apple.mold`: spoil, `delicious_apple` → `spoiled_food`, 21 d (604800 ticks) at 20 °C, ambient, q10 1.36, only from 0 °C to any
 - `dereniowka_polish_dogwood_liqueur.step_3`: held, `dereniowka_polish_dogwood_liqueur_step_2` → `dereniowka_polish_dogwood_liqueur`, 1 min (20 ticks) at 20 °C, ambient
 - `desert_rubbed_strip_steaks.step_4`: held, `desert_rubbed_strip_steaks_step_3` → `desert_rubbed_strip_steaks`, 5 min (100 ticks) at 20 °C, ambient
-- `digestive_biscuit.freezer_burn`: spoil, `digestive_biscuit` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `digestive_biscuit.stale`: spoil, `digestive_biscuit` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `dill.freezer_burn`: spoil, `dill` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `dill.spoil`: spoil, `dill` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `dill_cucumber_salad.step_3`: held, `dill_cucumber_salad_step_2` → `dill_cucumber_salad`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `dill_cucumber_salad_step_2`
 - `dirt_pudding.step_5`: held, `dirt_pudding_step_4` → `dirt_pudding`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `distilled_white_vinegar.mold`: spoil, `distilled_white_vinegar` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `dog_biscuits.step_7`: held, `dog_biscuits_step_6` → `dog_biscuits`, 8 h (9600 ticks) at 20 °C, ambient
-- `dog_buns.freezer_burn`: spoil, `dog_buns` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `dog_buns.mold`: spoil, `dog_buns` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `dokunu_fermented_corn_dumplings.step_2`: held, `dokunu_fermented_corn_dumplings_step_1` → `dokunu_fermented_corn_dumplings_step_2`, 2 d (57600 ticks) at 20 °C, ambient
 - `dolma_stuffed_grape_leaves.step_15`: held, `dolma_stuffed_grape_leaves_step_14` → `dolma_stuffed_grape_leaves`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `dolma_stuffed_grape_leaves_step_14`
 - `dominican_flan.step_11`: held, `dominican_flan_step_10` → `dominican_flan_step_12`, 1 min (20 ticks) at 20 °C, ambient
 - `dominican_flan.step_13`: held, `dominican_flan_step_12` → `dominican_flan_step_13`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `dominican_flan.step_4`: held, `dominican_flan_step_3` → `dominican_flan_step_4`, 1 min (20 ticks) at 20 °C, ambient
-- `dongu_mushrooms.freezer_burn`: spoil, `dongu_mushrooms` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `dongu_mushrooms.spoil`: spoil, `dongu_mushrooms` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `doro_dabo_ethiopian_chicken_with_spiced_bread.step_11`: held, `doro_dabo_ethiopian_chicken_with_spiced_bread_step_10` → `doro_dabo_ethiopian_chicken_with_spiced_bread_step_11`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_10`
 - `doro_dabo_ethiopian_chicken_with_spiced_bread.step_13`: held, `doro_dabo_ethiopian_chicken_with_spiced_bread_step_12` → `doro_dabo_ethiopian_chicken_with_spiced_bread_step_13`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_12`
 - `doro_dabo_ethiopian_chicken_with_spiced_bread.step_4`: held, `doro_dabo_ethiopian_chicken_with_spiced_bread_step_3` → `doro_dabo_ethiopian_chicken_with_spiced_bread_step_8`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_3`
@@ -12336,33 +11959,17 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `double_chocolate_cheesecake.step_8`: held, `double_chocolate_cheesecake_step_7` → `double_chocolate_cheesecake_step_8`, 7.5 min (150 ticks) at 20 °C, ambient
 - `double_chocolate_cheesecake.step_9`: held, `double_chocolate_cheesecake_step_8` → `double_chocolate_cheesecake_step_9`, 30 min (600 ticks) at 20 °C, ambient
 - `double_hamburgers.step_4`: held, `double_hamburgers_step_3` → `double_hamburgers_step_4`, 1 min (20 ticks) at 20 °C, ambient
-- `douchi.mold`: spoil, `douchi` → `spoiled_food`, 633 d (18230400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `dressing.mold`: spoil, `dressing` → `spoiled_food`, 333 d (9590400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `dried_chili.dry`: held, `chile` → `dried_chili`, 5 d (144000 ticks) at 20 °C, ambient, q10 2
-- `dried_chili.stale`: spoil, `dried_chili` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `dried_fruit.dry`: held, `fruit` → `dried_fruit`, 8 h (9600 ticks) at 20 °C, ambient, q10 2
-- `dried_fruit.stale`: spoil, `dried_fruit` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `dripping.freezer_burn`: spoil, `dripping` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `dripping.rancid`: spoil, `dripping` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
-- `drizzle_of_olive.rancid`: spoil, `drizzle_of_olive` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
-- `drumstick.freezer_burn`: spoil, `drumstick` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `drumstick.spoil`: spoil, `drumstick` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `dry_aged_prime_rib.step_1`: held, `beef_age` → `beef_age_age`, 3 d (86400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `dry_aged_prime_rib.step_1.prep_1`: held, `beef` → `beef_age`, 1 min (20 ticks) at 20 °C, ambient
 - `dry_aged_prime_rib.step_5`: held, `dry_aged_prime_rib_step_4` → `dry_aged_prime_rib`, 10 min (200 ticks) at 20 °C, ambient
-- `dry_beans.stale`: spoil, `dry_beans` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `dry_red.sour`: spoil, `dry_red` → `spoiled_food`, 1410 d (40608000 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `dry_rub.step_2`: held, `dry_rub_step_1` → `dry_rub`, 1 min (20 ticks) at 20 °C, ambient
 - `dry_rub_barbecue_ribs.step_6`: held, `dry_rub_barbecue_ribs_step_5` → `dry_rub_barbecue_ribs`, 5 min (100 ticks) at 20 °C, ambient
 - `dry_rub_grilled_ribeye.step_4`: held, `dry_rub_grilled_ribeye_step_3` → `dry_rub_grilled_ribeye`, 10 min (200 ticks) at 20 °C, ambient
-- `dry_toast.freezer_burn`: spoil, `dry_toast` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `dry_toast.mold`: spoil, `dry_toast` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `duck.freezer_burn`: spoil, `duck` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `duck.spoil`: spoil, `duck` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `duck_a_l_orange.step_4`: held, `duck_a_l_orange_step_3` → `duck_a_l_orange`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `duck_a_l_orange_step_3`
 - `duck_confit.step_13`: held, `duck_confit_step_12` → `duck_confit`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `duck_confit_step_12`
 - `duck_confit.step_4`: held, `duck_confit_step_3` → `duck_confit_step_4`, 12 h (14400 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `duck_confit_step_3`
-- `dulce_de_leche.mold`: spoil, `dulce_de_leche` → `spoiled_food`, 316 d (9100800 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `duonos_gira_lithuanian_rye_drink.step_4`: held, `duonos_gira_lithuanian_rye_drink_step_3` → `duonos_gira_lithuanian_rye_drink`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `duonos_gira_lithuanian_rye_drink_step_3`
 - `durian_pancake.step_4`: held, `durian_pancake_step_3` → `durian_pancake_step_4`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `dutch_apple_fritters_oliebollen.step_4`: held, `dutch_apple_fritters_oliebollen_step_3` → `dutch_apple_fritters_oliebollen_step_4`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `dutch_apple_fritters_oliebollen_step_3`
@@ -12375,23 +11982,15 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `eclairs.step_19`: held, `eclairs_step_17` → `eclairs`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `eclairs_step_17`
 - `eclairs.step_8`: held, `eclairs_step_7` → `eclairs_step_8`, 1 min (20 ticks) at 20 °C, ambient
 - `eclairs.step_9`: held, `eclairs_step_8` → `eclairs_step_9`, 1 min (20 ticks) at 20 °C, ambient
-- `eel.freezer_burn`: spoil, `eel` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `eel.spoil`: spoil, `eel` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `egg.spoil`: spoil, `egg` → `spoiled_food`, 27.1 d (780480 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `egg_casserole.step_5`: held, `egg_casserole_step_4` → `egg_casserole_step_5`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `egg_casserole_step_4`
-- `egg_noodles.stale`: spoil, `egg_noodles` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `egg_noodles_i.step_8`: held, `egg_noodles_i_step_7` → `egg_noodles_i_step_9`, 30 min (600 ticks) at 20 °C, ambient
 - `egg_roll.step_28`: held, `egg_roll_step_27` → `egg_roll`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `egg_roll_step_27`
 - `egg_soda.step_4`: held, `egg_soda_step_3` → `egg_soda`, 1 min (20 ticks) at 20 °C, ambient
 - `egg_white_carrot_brownies.step_3.prep_4`: held, `chocolate` → `chocolate_cool`, 1 min (20 ticks) at 20 °C, ambient
-- `egg_whites.freezer_burn`: spoil, `egg_whites` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `egg_whites.spoil`: spoil, `egg_whites` → `spoiled_food`, 2.83 d (81504 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `eggnog.step_3.prep_5`: held, `brandy` → `brandy_chill`, 1 min (20 ticks) at 20 °C, ambient
 - `eggnog.step_3.prep_6`: held, `rum` → `rum_chill`, 1 min (20 ticks) at 20 °C, ambient
 - `eggnog.step_3.prep_8`: held, `milk` → `milk_chill`, 1 min (20 ticks) at 20 °C, ambient
 - `eggnog.step_4`: held, `eggnog_step_3` → `eggnog`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `eggplant.freezer_burn`: spoil, `eggplant` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `eggplant.spoil`: spoil, `eggplant` → `spoiled_food`, 1 d (28800 ticks) at 20 °C, ambient, q10 2.83, only from 0 °C to any
 - `eggplant_parmesan_melanzane_alla_parmigiana_ii.step_1`: held, `eggplant_chop` → `eggplant_cut_cure`, 1 h (1200 ticks) at 20 °C, ambient
 - `eggs_connaught.step_2`: held, `eggs_connaught_step_1` → `eggs_connaught_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `egyptian_grilled_pigeon_fattah_meshaltet.step_7`: held, `egyptian_grilled_pigeon_fattah_meshaltet_step_6` → `egyptian_grilled_pigeon_fattah_meshaltet`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `egyptian_grilled_pigeon_fattah_meshaltet_step_6`
@@ -12405,89 +12004,51 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `eierpunsch_german_egg_punch.step_2.prep_7`: held, `tea` → `tea_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `ekuru_white_bean_pudding.step_7`: held, `ekuru_white_bean_pudding_step_6` → `ekuru_white_bean_pudding`, 1 min (20 ticks) at 20 °C, ambient
 - `emmental_cheese.age`: held, `emmental_cheese_green` → `emmental_cheese`, 90 d (2592000 ticks) at 12 °C, ambient, q10 2
-- `emmental_cheese.freezer_burn`: spoil, `emmental_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `emmental_cheese.mold`: spoil, `emmental_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `english_field_bean_pate.step_5`: held, `english_field_bean_pate_step_4` → `english_field_bean_pate`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `english_muffins.freezer_burn`: spoil, `english_muffins` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `english_muffins.mold`: spoil, `english_muffins` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `english_style_aged_cheese.step_12`: held, `english_style_aged_cheese_step_11` → `english_style_aged_cheese`, 60 d (1728000 ticks) at 20 °C, ambient
-- `enoki_mushroom.freezer_burn`: spoil, `enoki_mushroom` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `enoki_mushroom.spoil`: spoil, `enoki_mushroom` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `enoki_mushrooms.freezer_burn`: spoil, `enoki_mushrooms` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `enoki_mushrooms.spoil`: spoil, `enoki_mushrooms` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `ensalada_rusa_uruguayan_potato_salad.step_2`: held, `ensalada_rusa_uruguayan_potato_salad_step_1` → `ensalada_rusa_uruguayan_potato_salad_step_2`, 1 min (20 ticks) at 20 °C, ambient
-- `envelope_vegetable_soup_mix.stale`: spoil, `envelope_vegetable_soup_mix` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `epazote.freezer_burn`: spoil, `epazote` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `epazote.spoil`: spoil, `epazote` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `eshabwe_ugandan_milk_cream.step_6`: held, `eshabwe_ugandan_milk_cream_step_5` → `eshabwe_ugandan_milk_cream`, 1 min (20 ticks) at 20 °C, ambient
 - `espagnole_sauce_escoffier.step_9`: held, `espagnole_sauce_escoffier_step_8` → `espagnole_sauce_escoffier`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `espagnole_sauce_mrs_w_g_waters.step_5`: held, `espagnole_sauce_mrs_w_g_waters_step_4` → `espagnole_sauce_mrs_w_g_waters_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `espresso_brownies.step_7`: held, `espresso_brownies_step_6` → `espresso_brownies_step_7`, 1 min (20 ticks) at 20 °C, ambient
-- `eulachon.freezer_burn`: spoil, `eulachon` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `eulachon.spoil`: spoil, `eulachon` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `fancy_crepes.step_10`: held, `fancy_crepes_step_8` → `fancy_crepes`, 1 min (20 ticks) at 20 °C, ambient
 - `fancy_crepes.step_4`: held, `fancy_crepes_step_3` → `fancy_crepes_step_4`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `fankasau_hausa_wheat_puff_puff.step_2`: held, `fankasau_hausa_wheat_puff_puff_step_1` → `fankasau_hausa_wheat_puff_puff_step_2`, 1 h (1200 ticks) at 20 °C, ambient
 - `fanke_hausa_puff_puff.step_3`: held, `fanke_hausa_puff_puff_step_2` → `fanke_hausa_puff_puff_step_3`, 1 h (1200 ticks) at 20 °C, ambient
 - `fanke_hausa_puff_puff.step_6`: held, `fanke_hausa_puff_puff_step_5` → `fanke_hausa_puff_puff`, 1 min (20 ticks) at 20 °C, ambient
 - `fasolia_ethiopian_green_bean_stew.step_8`: held, `fasolia_ethiopian_green_bean_stew_step_7` → `fasolia_ethiopian_green_bean_stew_step_8`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `fasolia_ethiopian_green_bean_stew_step_7`
-- `fat_free_italian_salad_dressing.mold`: spoil, `fat_free_italian_salad_dressing` → `spoiled_food`, 333 d (9590400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `fattah_egyptian_layered_bread_dish.step_8`: held, `fattah_egyptian_layered_bread_dish_step_7` → `fattah_egyptian_layered_bread_dish_step_8`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `fattah_egyptian_layered_bread_dish_step_7`
 - `fattoush.step_3`: held, `fattoush_step_2` → `fattoush_step_3`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `feijao_tropeiro_brazilian_beans_and_sausage.step_1`: held, `pulses_boil` → `pulses_boil_cool`, 1 min (20 ticks) at 20 °C, ambient
-- `fenugreek.stale`: spoil, `fenugreek` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `fermentation_starter.freezer_burn`: spoil, `fermentation_starter` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `fermentation_starter.stale`: spoil, `fermentation_starter` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `fermented_soda.step_3`: held, `fermented_soda_step_2` → `fermented_soda_step_3`, 3 d (86400 ticks) at 20 °C, ambient
 - `feta_cheese.age`: held, `cheese_curd` → `feta_cheese`, 5 d (144000 ticks) at 20 °C, ambient, q10 2
 - `filfel_chuma_libyan_spicy_tomato_sauce.step_6`: held, `filfel_chuma_libyan_spicy_tomato_sauce_step_5` → `filfel_chuma_libyan_spicy_tomato_sauce_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `filo_puff_pastry.step_10`: held, `filo_puff_pastry_step_9` → `filo_puff_pastry`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `filo_puff_pastry.step_2.prep_4`: held, `water` → `water_chill`, 1 min (20 ticks) at 20 °C, ambient
-- `finely_chopped_celery_leaves.freezer_burn`: spoil, `finely_chopped_celery_leaves` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `finely_chopped_celery_leaves.spoil`: spoil, `finely_chopped_celery_leaves` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `finely_diced_rocoto_peppers.freezer_burn`: spoil, `finely_diced_rocoto_peppers` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `finely_diced_rocoto_peppers.spoil`: spoil, `finely_diced_rocoto_peppers` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `firecracker_marinade.step_2`: held, `firecracker_marinade_step_1` → `firecracker_marinade`, 10.5 d (302400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `firecracker_ribs.step_8`: held, `firecracker_ribs_step_7` → `firecracker_ribs`, 15 min (300 ticks) at 20 °C, ambient
 - `fireweed_vinegar.step_4`: held, `fireweed_vinegar_step_3` → `fireweed_vinegar`, 5 min (100 ticks) at 20 °C, ambient
-- `firm_sourdough.freezer_burn`: spoil, `firm_sourdough` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `firm_sourdough.mold`: spoil, `firm_sourdough` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `fish_jerky.age`: held, `fish` → `salted_fish_strips`, 24 h (28800 ticks) at 20 °C, ambient, q10 2
 - `fish_jerky.dry`: held, `salted_fish_strips` → `fish_jerky`, 8 h (9600 ticks) at 20 °C, ambient
 - `fish_stock_fumet_de_poisson.step_8`: held, `fish_stock_fumet_de_poisson_step_7` → `fish_stock_fumet_de_poisson`, 2.5 d (72000 ticks) at 4 °C, chilled, only from any to 8 °C
-- `five_spice_powder.stale`: spoil, `five_spice_powder` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `flaky_pie_crust.step_6`: held, `flaky_pie_crust_step_5` → `flaky_pie_crust_step_6`, 15 min (300 ticks) at 4 °C, chilled, only from any to 8 °C
 - `flammekueche_bacon_and_onion_flatbread.step_5`: held, `flammekueche_bacon_and_onion_flatbread_step_4` → `flammekueche_bacon_and_onion_flatbread_step_5`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `flammekueche_bacon_and_onion_flatbread_step_4`
 - `flan_de_queso_cream_cheese_flan.step_7`: held, `flan_de_queso_cream_cheese_flan_step_6` → `flan_de_queso_cream_cheese_flan`, 5 h (6000 ticks) at 4 °C, chilled, only from any to 8 °C
 - `flapjacks.step_7`: held, `flapjacks_step_6` → `flapjacks`, 1 min (20 ticks) at 20 °C, ambient
 - `flapjacks_traditional_scottish_recipe.step_6`: held, `flapjacks_traditional_scottish_recipe_step_5` → `flapjacks_traditional_scottish_recipe`, 1 min (20 ticks) at 20 °C, ambient
-- `flavoring.stale`: spoil, `flavoring` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `flavorings_extracts.stale`: spoil, `flavorings_extracts` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `florida_bay_seasoning.stale`: spoil, `florida_bay_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `florida_style_crab_cakes.step_4`: held, `florida_style_crab_cakes_step_3` → `florida_style_crab_cakes_step_5`, 1.25 h (1500 ticks) at 4 °C, chilled, only from any to 8 °C
-- `flounder.freezer_burn`: spoil, `flounder` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `flounder.spoil`: spoil, `flounder` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `flourless_chocolate_cake.step_10`: held, `flourless_chocolate_cake_step_9` → `flourless_chocolate_cake`, 10 h (12000 ticks) at 4 °C, chilled, only from any to 8 °C
 - `flourless_chocolate_cake.step_2`: held, `flourless_chocolate_cake_step_1` → `flourless_chocolate_cake_step_2`, 1 min (20 ticks) at 20 °C, ambient
 - `flourless_chocolate_cake.step_9`: held, `flourless_chocolate_cake_step_8` → `flourless_chocolate_cake_step_9`, 1 min (20 ticks) at 20 °C, ambient
-- `fluted_pumpkin.spoil`: spoil, `fluted_pumpkin` → `spoiled_food`, 74.6 d (2148480 ticks) at 20 °C, ambient, q10 1.33, only from 0 °C to any
 - `focaccia_with_onion_marmalade_blue_cheese_and_walnuts.step_2.prep_1`: held, `focaccia_genovese` → `focaccia_genovese_ferment`, 1 min (20 ticks) at 20 °C, ambient
 - `focaccia_with_onion_marmalade_blue_cheese_and_walnuts.step_4`: held, `focaccia_with_onion_marmalade_blue_cheese_and_walnuts_step_3` → `focaccia_with_onion_marmalade_blue_cheese_and_walnuts`, 20 min (400 ticks) at 20 °C, ambient, not written: the game can't make `focaccia_with_onion_marmalade_blue_cheese_and_walnuts_step_3`
-- `fontina.freezer_burn`: spoil, `fontina` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `fontina.mold`: spoil, `fontina` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `food_coloring_from_cabbage.step_9`: held, `food_coloring_from_cabbage_step_8` → `food_coloring_from_cabbage`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `food_coloring_from_cabbage_step_8`
-- `french_bread.freezer_burn`: spoil, `french_bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `french_bread.mold`: spoil, `french_bread` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `french_dressing.step_2`: held, `french_dressing_step_1` → `french_dressing`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `french_fries.step_4`: held, `potato_cut_julienne_rinse_simmer` → `potato_cut_julienne_rinse_simmer_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `french_fries.step_6`: held, `french_fries_step_5` → `french_fries_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `french_fries_belgian.step_2`: held, `french_fries_belgian_step_1` → `french_fries_belgian_step_2`, 30 min (600 ticks) at 20 °C, ambient
 - `french_fries_belgian.step_4`: held, `french_fries_belgian_step_3` → `french_fries_belgian_step_4`, 25 min (500 ticks) at 20 °C, ambient
 - `french_fries_belgian.step_5`: held, `french_fries_belgian_step_4` → `french_fries_belgian`, 1 min (20 ticks) at 20 °C, ambient
-- `french_roll.freezer_burn`: spoil, `french_roll` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `french_roll.mold`: spoil, `french_roll` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `french_sandwich_hoagie_rolls.freezer_burn`: spoil, `french_sandwich_hoagie_rolls` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `french_sandwich_hoagie_rolls.mold`: spoil, `french_sandwich_hoagie_rolls` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `fresh_cheese.age`: held, `curds` → `aged_cheese`, 60 d (1728000 ticks) at 12 °C, ambient, q10 2
 - `fresh_egg_pasta_pasta_fresca_all_uovo.step_12`: held, `fresh_egg_pasta_pasta_fresca_all_uovo_step_10` → `fresh_egg_pasta_pasta_fresca_all_uovo_step_12`, 10 min (200 ticks) at 20 °C, ambient
 - `fresh_egg_pasta_pasta_fresca_all_uovo.step_21`: held, `fresh_egg_pasta_pasta_fresca_all_uovo_step_20` → `fresh_egg_pasta_pasta_fresca_all_uovo_step_21`, 1 min (20 ticks) at 20 °C, ambient
@@ -12495,14 +12056,8 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `fresh_egg_pasta_pasta_fresca_all_uovo.step_5`: held, `fresh_egg_pasta_pasta_fresca_all_uovo_step_4` → `fresh_egg_pasta_pasta_fresca_all_uovo_step_6`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `fresh_herb_and_cheese_ravioli_filling.step_4`: held, `fresh_herb_and_cheese_ravioli_filling_step_3` → `fresh_herb_and_cheese_ravioli_filling`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `fresh_tomato_galette.step_10`: held, `fresh_tomato_galette_step_9` → `fresh_tomato_galette`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `fresh_tomato_galette_step_9`
-- `freshly_grated_nutmeg.stale`: spoil, `freshly_grated_nutmeg` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `freshly_ground_black_pepper.stale`: spoil, `freshly_ground_black_pepper` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `fried_apple_pies.step_3`: held, `fried_apple_pies_step_2` → `fried_apple_pies_step_3`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_3`: held, `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_2` → `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_3`, 1 min (20 ticks) at 20 °C, ambient
-- `fried_chicken.freezer_burn`: spoil, `fried_chicken` → `spoiled_food`, 122 d (3513600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `fried_chicken.spoil`: spoil, `fried_chicken` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `fried_egg.freezer_burn`: spoil, `fried_egg` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `fried_egg.spoil`: spoil, `fried_egg` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `fried_green_tomatoes_with_tomato_and_cheese.step_7.prep_12`: held, `tomatoes` → `tomatoes_chill`, 1 min (20 ticks) at 20 °C, ambient
 - `fried_onion_blooms.step_13`: held, `fried_onion_blooms_step_12` → `fried_onion_blooms`, 1 min (20 ticks) at 20 °C, ambient
 - `fried_pasta.step_7`: held, `fried_pasta_step_6` → `fried_pasta`, 1 min (20 ticks) at 20 °C, ambient
@@ -12514,114 +12069,61 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `frog_s_eye_salad.step_4`: held, `frog_s_eye_salad_step_3` → `frog_s_eye_salad_step_4`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `frog_s_legs_a_la_parisienne.step_6`: held, `frog_s_legs_a_la_parisienne_step_5` → `frog_s_legs_a_la_parisienne_step_6`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `frog_s_legs_a_la_parisienne_step_5`
 - `frog_s_legs_a_la_parisienne.step_8`: held, `frog_s_legs_a_la_parisienne_step_7` → `frog_s_legs_a_la_parisienne_step_8`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `frog_s_legs_a_la_parisienne_step_7`
-- `fromage_frais.sour`: spoil, `fromage_frais` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `frosting_and_icing.stale`: spoil, `frosting_and_icing` → `spoiled_food`, 333 d (9590400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `fruit_cake.step_5`: held, `fruit_cake_step_4` → `fruit_cake_step_5`, 1 min (20 ticks) at 20 °C, ambient
-- `fruit_cocktail.stale`: spoil, `fruit_cocktail` → `spoiled_food`, 548 d (15782400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `fruit_filling.mold`: spoil, `fruit_filling` → `spoiled_food`, 316 d (9100800 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `fruit_for_the_day_smoothie.step_1.prep_3`: held, `strawberry` → `strawberry_freeze`, 1 min (20 ticks) at 20 °C, ambient
 - `fruit_ice_pops.step_3`: held, `fruit_ice_pops_step_2` → `fruit_ice_pops_step_3`, 1 min (20 ticks) at -18 °C, frozen, only from any to 0 °C
-- `fruit_nectar.sour`: spoil, `fruit_nectar` → `spoiled_food`, 447 d (12873600 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
-- `fruit_preserves.mold`: spoil, `fruit_preserves` → `spoiled_food`, 316 d (9100800 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `fruit_salad_with_orange_juice.step_5`: held, `fruit_salad_with_orange_juice_step_4` → `fruit_salad_with_orange_juice`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `fruit_salad_with_orange_juice_step_4`
 - `fruit_salad_with_orange_soda_ensalada_de_fruta.step_5.prep_12`: held, `soda_pop` → `soda_pop_chill`, 1 min (20 ticks) at 20 °C, ambient
-- `fruit_salt.stale`: spoil, `fruit_salt` → `spoiled_food`, 316 d (9100800 ticks) at 20 °C, ambient, only from 0 °C to any
 - `fruit_whip.step_4`: held, `fruit_whip_step_3` → `fruit_whip_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `fruit_whip.step_7`: held, `fruit_whip_step_6` → `fruit_whip`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `fry_bread_i.step_5`: held, `fry_bread_i_step_4` → `fry_bread_i_step_6`, 30 min (600 ticks) at 20 °C, ambient
 - `fudge_frosting.step_4`: held, `fudge_frosting_step_3` → `fudge_frosting`, 1 min (20 ticks) at 20 °C, ambient
-- `full_fat_milk.freezer_burn`: spoil, `full_fat_milk` → `spoiled_food`, 91.3 d (2629440 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `funkaso_hausa_fritters.step_3`: held, `funkaso_hausa_fritters_step_2` → `funkaso_hausa_fritters_step_4`, 2 h (2400 ticks) at 20 °C, ambient
 - `funkaso_hausa_fritters.step_8`: held, `funkaso_hausa_fritters_step_7` → `funkaso_hausa_fritters`, 1 min (20 ticks) at 20 °C, ambient
 - `galaktoboureko_greek_semolina_custard_pastry.step_9`: held, `galaktoboureko_greek_semolina_custard_pastry_step_8` → `galaktoboureko_greek_semolina_custard_pastry_step_9`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `galaktoboureko_greek_semolina_custard_pastry_step_8`
 - `gambian_baobab_juice_bouye.step_4`: held, `gambian_baobab_juice_bouye_step_3` → `gambian_baobab_juice_bouye_step_5`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `garam_masala.stale`: spoil, `garam_masala` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `garam_masala_powder.stale`: spoil, `garam_masala_powder` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `garden_egg.freezer_burn`: spoil, `garden_egg` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `garden_egg.spoil`: spoil, `garden_egg` → `spoiled_food`, 1 d (28800 ticks) at 20 °C, ambient, q10 2.83, only from 0 °C to any
-- `garlic.freezer_burn`: spoil, `garlic` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `garlic.spoil`: spoil, `garlic` → `spoiled_food`, 30.4 d (875520 ticks) at 20 °C, ambient, q10 0.38, only from 0 °C to any
-- `garlic_and_herb_salt.stale`: spoil, `garlic_and_herb_salt` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `garlic_cloves.freezer_burn`: spoil, `garlic_cloves` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `garlic_cloves.spoil`: spoil, `garlic_cloves` → `spoiled_food`, 30.4 d (875520 ticks) at 20 °C, ambient, q10 0.38, only from 0 °C to any
 - `garlic_croutons_iii.step_1`: held, `bread_bake` → `bread_bake_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `garlic_lemon_dressing.step_4`: held, `garlic_lemon_dressing_step_3` → `garlic_lemon_dressing`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `garlic_lemon_marinade.step_2`: held, `garlic_lemon_marinade_step_1` → `garlic_lemon_marinade`, 10.5 d (302400 ticks) at 4 °C, chilled, only from any to 8 °C
-- `garlic_powder.stale`: spoil, `garlic_powder` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `garum_fermented.step_2`: held, `garum_fermented_step_1` → `garum_fermented_step_2`, 48 h (57600 ticks) at 20 °C, ambient
 - `gazpacho.step_7`: held, `gazpacho_step_5` → `gazpacho`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `gazpacho_step_5`
 - `gelatin.dry`: held, `concentrated_collagen_broth` → `gelatin`, 2 d (57600 ticks) at 20 °C, ambient
-- `gelatin.stale`: spoil, `gelatin` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `gelato.freezer_burn`: spoil, `gelato` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `german_puff_pastry.step_4`: held, `german_puff_pastry_step_2` → `german_puff_pastry`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `germknodel_plum_and_poppy_seed_dumpling.step_4`: held, `germknodel_plum_and_poppy_seed_dumpling_step_3` → `germknodel_plum_and_poppy_seed_dumpling_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `germknodel_plum_and_poppy_seed_dumpling.step_7`: held, `germknodel_plum_and_poppy_seed_dumpling_step_6` → `germknodel_plum_and_poppy_seed_dumpling_step_7`, 10 min (200 ticks) at 20 °C, ambient
-- `gherkins.mold`: spoil, `gherkins` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `ghevar_rajasthani_honeycomb_fritter.step_3.prep_5`: held, `clarified_butter` → `clarified_butter_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `ghormeh_sabzi_iranian_herb_stew.step_11`: held, `ghormeh_sabzi_iranian_herb_stew_step_10` → `ghormeh_sabzi_iranian_herb_stew_step_11`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `ghraiba_bil_loz_libyan_almond_ghraiba.step_7`: held, `ghraiba_bil_loz_libyan_almond_ghraiba_step_6` → `ghraiba_bil_loz_libyan_almond_ghraiba`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `ghraiba_bil_loz_libyan_almond_ghraiba_step_6`
-- `giblets.freezer_burn`: spoil, `giblets` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `giblets.spoil`: spoil, `giblets` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `ginger.freezer_burn`: spoil, `ginger` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `ginger.spoil`: spoil, `ginger` → `spoiled_food`, 3.16 d (91008 ticks) at 20 °C, ambient, q10 2.88, only from 0 °C to any
 - `ginger_beer.step_4`: held, `ginger_beer_step_3` → `ginger_beer_step_5`, 10 h (12000 ticks) at 20 °C, ambient
 - `ginger_beer.step_6`: held, `ginger_beer_step_5` → `ginger_beer`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `ginger_biscuits.step_6`: held, `ginger_biscuits_step_5` → `ginger_biscuits`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `ginger_biscuits_step_5`
-- `ginger_green_chilli_paste.mold`: spoil, `ginger_green_chilli_paste` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `ginger_snaps.step_3`: held, `ginger_snaps_step_2` → `ginger_snaps_step_5`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `gingerbread.step_8`: held, `gingerbread_step_7` → `gingerbread_step_8`, 15 min (300 ticks) at 20 °C, ambient
 - `gingerbread.step_9`: held, `gingerbread_step_8` → `gingerbread`, 1 d (28800 ticks) at 20 °C, ambient
 - `gingerbread_cookies_frosted_with_royal_icing.step_14`: held, `gingerbread_cookies_frosted_with_royal_icing_step_13` → `gingerbread_cookies_frosted_with_royal_icing_step_14`, 1 min (20 ticks) at 20 °C, ambient
 - `gingerbread_cookies_frosted_with_royal_icing.step_9`: held, `gingerbread_cookies_frosted_with_royal_icing_step_8` → `gingerbread_cookies_frosted_with_royal_icing_step_10`, 25 min (500 ticks) at 4 °C, chilled, only from any to 8 °C
-- `gingersnap_cookies.freezer_burn`: spoil, `gingersnap_cookies` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `gingersnap_cookies.stale`: spoil, `gingersnap_cookies` → `spoiled_food`, 149 d (4291200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `glass_of_red_wine.sour`: spoil, `glass_of_red_wine` → `spoiled_food`, 1410 d (40608000 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `goat_cheese_cakes.step_12`: held, `goat_cheese_cakes_step_11` → `goat_cheese_cakes`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `goat_cheese_cakes_step_11`
 - `goat_cheese_cakes.step_6`: held, `goat_cheese_cakes_step_5` → `goat_cheese_cakes_step_7`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `goat_cheese_cakes_step_5`
 - `goat_milk_caramel_sauce.step_7`: held, `goat_milk_caramel_sauce_step_6` → `goat_milk_caramel_sauce_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `gochujang_imitation.step_2`: held, `gochujang_imitation_step_1` → `gochujang_imitation`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `golden_raisins.stale`: spoil, `golden_raisins` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `golden_syrup.stale`: spoil, `golden_syrup` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `gomen_ethiopian_collard_greens.step_8`: held, `gomen_ethiopian_collard_greens_step_7` → `gomen_ethiopian_collard_greens`, 1 min (20 ticks) at 20 °C, ambient
 - `gonja_ugandan_fried_plantains.step_4`: held, `gonja_ugandan_fried_plantains_step_3` → `gonja_ugandan_fried_plantains_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `goong_ten_raw_shrimp_salad.step_2`: held, `shrimp_rinse_rinse` → `shrimp_rinse_rinse_chill`, 5 min (100 ticks) at 4 °C, chilled, only from any to 8 °C
-- `goose.freezer_burn`: spoil, `goose` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `goose.spoil`: spoil, `goose` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `gorgonzola_stuffed_chateaubriand.step_12`: held, `gorgonzola_stuffed_chateaubriand_step_11` → `gorgonzola_stuffed_chateaubriand`, 15 min (300 ticks) at 20 °C, ambient, not written: the game can't make `gorgonzola_stuffed_chateaubriand_step_11`
-- `goya_adobo_seasoning.stale`: spoil, `goya_adobo_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `goya_sazon_con_azafran.stale`: spoil, `goya_sazon_con_azafran` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `gozleme_turkish_flatbread.step_5`: held, `gozleme_turkish_flatbread_step_4` → `gozleme_turkish_flatbread_step_6`, 10 min (200 ticks) at 20 °C, ambient
 - `gozleme_turkish_flatbread.step_7`: held, `gozleme_turkish_flatbread_step_6` → `gozleme_turkish_flatbread_step_7`, 1 h (1200 ticks) at 20 °C, ambient
-- `graham_cracker.stale`: spoil, `graham_cracker` → `spoiled_food`, 224 d (6451200 ticks) at 20 °C, ambient, only from 0 °C to any, not written: the game can't make `graham_cracker`
-- `grain_rice.stale`: spoil, `grain_rice` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `grains_of_paradise.stale`: spoil, `grains_of_paradise` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `grandma_s_pie_crust.step_4`: held, `grandma_s_pie_crust_step_3` → `grandma_s_pie_crust_step_5`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `grandma_s_pie_crust_step_3`
 - `grandma_s_pie_crust.step_8`: held, `grandma_s_pie_crust_step_7` → `grandma_s_pie_crust`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `grandma_s_pie_crust_step_7`
 - `grandmother_grout_s_cake.step_6`: held, `grandmother_grout_s_cake_step_5` → `grandmother_grout_s_cake_step_6`, 1 min (20 ticks) at 20 °C, ambient
-- `granola_bar.stale`: spoil, `granola_bar` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `granulated_garlic.stale`: spoil, `granulated_garlic` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `grape.freezer_burn`: spoil, `grape` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `grape.mold`: spoil, `grape` → `spoiled_food`, 1 d (28800 ticks) at 20 °C, ambient, q10 3.37, only from 0 °C to any
-- `grapefruit.mold`: spoil, `grapefruit` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `gravlax.step_1`: held, `salmon_chop` → `salmon_cut_freeze`, 4 d (115200 ticks) at -18 °C, frozen, only from any to 0 °C
 - `gravlax.step_2`: held, `salmon_cut_freeze` → `salmon_cut_freeze_chill`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `gravlax.step_5`: held, `gravlax_step_4` → `gravlax_step_5`, 4 d (115200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `gravlax.step_6`: held, `gravlax_step_5` → `gravlax_step_6`, 4 d (115200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `gravy.mold`: spoil, `gravy` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 0.0202, only from 0 °C to any
 - `gravy_cakes_hartshorne.step_7`: held, `gravy_cakes_hartshorne_step_6` → `gravy_cakes_hartshorne`, 1 min (20 ticks) at 20 °C, ambient
-- `gravy_granules.mold`: spoil, `gravy_granules` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 0.0202, only from 0 °C to any
-- `gravy_powder.mold`: spoil, `gravy_powder` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 0.0202, only from 0 °C to any
-- `gravy_spices.mold`: spoil, `gravy_spices` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 0.0202, only from 0 °C to any
 - `greek_style_grilled_chicken.step_5`: held, `greek_style_grilled_chicken_step_4` → `greek_style_grilled_chicken`, 10 min (200 ticks) at 20 °C, ambient
-- `green_bean.freezer_burn`: spoil, `green_bean` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `green_bean.spoil`: spoil, `green_bean` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `green_eggs_and_ham.step_3`: held, `green_eggs_and_ham_step_2` → `green_eggs_and_ham_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `green_mango_and_cumin_drink_aam_panna.step_3`: held, `mango_cut_cut_steam` → `mango_cut_cut_steam_cool`, 6 min (120 ticks) at 20 °C, ambient
 - `green_mango_and_cumin_drink_aam_panna.step_9`: held, `green_mango_and_cumin_drink_aam_panna_step_8` → `green_mango_and_cumin_drink_aam_panna`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `green_mango_and_cumin_drink_aam_panna_step_8`
-- `green_onion.freezer_burn`: spoil, `green_onion` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `green_onion.spoil`: spoil, `green_onion` → `spoiled_food`, 30.4 d (875520 ticks) at 20 °C, ambient, q10 0.399, only from 0 °C to any
-- `green_pepper.freezer_burn`: spoil, `green_pepper` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `green_pepper.spoil`: spoil, `green_pepper` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `green_spinach_food_coloring.step_9`: held, `green_spinach_food_coloring_step_8` → `green_spinach_food_coloring`, 1 min (20 ticks) at 20 °C, ambient
 - `green_tea_and_berry_pavlovas.step_10`: held, `green_tea_and_berry_pavlovas_step_9` → `green_tea_and_berry_pavlovas_step_10`, 1 min (20 ticks) at 20 °C, ambient
 - `green_tea_and_berry_pavlovas.step_15`: held, `green_tea_and_berry_pavlovas_step_14` → `green_tea_and_berry_pavlovas_step_15`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12635,92 +12137,31 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `grilled_pork_loin.step_4`: held, `grilled_pork_loin_step_3` → `grilled_pork_loin`, 10 min (200 ticks) at 20 °C, ambient
 - `grilled_prime_rib.step_3`: held, `grilled_prime_rib_step_2` → `grilled_prime_rib`, 10 min (200 ticks) at 20 °C, ambient
 - `grilled_ribeye_steak.step_3`: held, `grilled_ribeye_steak_step_2` → `grilled_ribeye_steak_step_3`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `grilled_ribeye_steak_step_2`
-- `grits.stale`: spoil, `grits` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_and_fried_beans.stale`: spoil, `ground_and_fried_beans` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_black_pepper.stale`: spoil, `ground_black_pepper` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_cameroon_pepper.stale`: spoil, `ground_cameroon_pepper` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_cardamom.stale`: spoil, `ground_cardamom` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_cinnamon.stale`: spoil, `ground_cinnamon` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_coriander.stale`: spoil, `ground_coriander` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `ground_crayfish.dry`: held, `shrimp` → `dried_crayfish`, 2 d (57600 ticks) at 22 °C, ambient, q10 2
-- `ground_cumin.stale`: spoil, `ground_cumin` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_dried_pepper.stale`: spoil, `ground_dried_pepper` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_fresh_pepper.stale`: spoil, `ground_fresh_pepper` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `ground_ginger.dry`: held, `ginger` → `dried_ginger`, 3 d (86400 ticks) at 22 °C, ambient, q10 2
-- `ground_ginger.stale`: spoil, `ground_ginger` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_gingerbread_spices.stale`: spoil, `ground_gingerbread_spices` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_mahaleb_cherry.stale`: spoil, `ground_mahaleb_cherry` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_meat.freezer_burn`: spoil, `ground_meat` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `ground_meat.spoil`: spoil, `ground_meat` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `ground_nutmeg.stale`: spoil, `ground_nutmeg` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_pepper.stale`: spoil, `ground_pepper` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_red_pepper.stale`: spoil, `ground_red_pepper` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `ground_sesame_seeds.rancid`: spoil, `ground_sesame_seeds` → `spoiled_food`, 1830 d (52704000 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
 - `ground_tofu.step_2.prep_6`: held, `tofu` → `tofu_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `ground_tofu.step_5`: held, `ground_tofu_step_4` → `ground_tofu_step_5`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `ground_tofu_step_4`
 - `ground_tofu.step_6`: held, `ground_tofu_step_5` → `ground_tofu`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `ground_tofu_step_5`
 - `gruyere_cheese.age`: held, `gruyere_cheese_green` → `gruyere_cheese`, 150 d (4320000 ticks) at 12 °C, ambient, q10 2
-- `gruyere_cheese.freezer_burn`: spoil, `gruyere_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `gruyere_cheese.mold`: spoil, `gruyere_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `guacamole_chile_free.step_4`: held, `guacamole_chile_free_step_3` → `guacamole_chile_free`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `guanciale.freezer_burn`: spoil, `guanciale` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `guanciale.spoil`: spoil, `guanciale` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `gurasa_hausa_flatbread_with_vegetables.step_3`: held, `gurasa_hausa_flatbread_with_vegetables_step_2` → `gurasa_hausa_flatbread_with_vegetables_step_3`, 1 h (1200 ticks) at 20 °C, ambient
 - `gurudi_nigerian_coconut_biscuit.step_5`: held, `gurudi_nigerian_coconut_biscuit_step_4` → `gurudi_nigerian_coconut_biscuit`, 1 min (20 ticks) at 20 °C, ambient
-- `gyro_spice.stale`: spoil, `gyro_spice` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `habanero.freezer_burn`: spoil, `habanero` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `habanero.spoil`: spoil, `habanero` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `habanero_chile.freezer_burn`: spoil, `habanero_chile` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `habanero_chile.spoil`: spoil, `habanero_chile` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `habanero_pepper.freezer_burn`: spoil, `habanero_pepper` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `habanero_pepper.spoil`: spoil, `habanero_pepper` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `habet_hlawa_algerian_anise_beverage.step_6`: held, `habet_hlawa_algerian_anise_beverage_step_5` → `habet_hlawa_algerian_anise_beverage`, 1 min (20 ticks) at 20 °C, ambient
 - `habichuela_con_dulce_dominican_sweet_beans.step_6`: held, `habichuela_con_dulce_dominican_sweet_beans_step_5` → `habichuela_con_dulce_dominican_sweet_beans_step_6`, 1 min (20 ticks) at 20 °C, ambient
-- `haddock.freezer_burn`: spoil, `haddock` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `haddock.spoil`: spoil, `haddock` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `hake.freezer_burn`: spoil, `hake` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `hake.spoil`: spoil, `hake` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `halibut.freezer_burn`: spoil, `halibut` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `halibut.spoil`: spoil, `halibut` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `hallaca_venezuelan_stuffed_corn_dough.step_35`: held, `hallaca_venezuelan_stuffed_corn_dough_step_34` → `hallaca_venezuelan_stuffed_corn_dough_step_35`, 10 h (12000 ticks) at 20 °C, ambient, not written: the game can't make `hallaca_venezuelan_stuffed_corn_dough_step_34`
 - `ham_sauce_historic.step_2.prep_4`: held, `basil` → `basil_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `hamburger.step_4`: held, `hamburger_step_3` → `hamburger_step_4`, 1 min (20 ticks) at 20 °C, ambient
-- `hamburger_bun.freezer_burn`: spoil, `hamburger_bun` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `hamburger_bun.mold`: spoil, `hamburger_bun` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `hamburger_meat.freezer_burn`: spoil, `hamburger_meat` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `hamburger_meat.spoil`: spoil, `hamburger_meat` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `hamli_ethiopian_spinach_stew.step_6`: held, `hamli_ethiopian_spinach_stew_step_5` → `hamli_ethiopian_spinach_stew_step_6`, 1 min (20 ticks) at 20 °C, ambient
-- `handful_fresh_parsley.freezer_burn`: spoil, `handful_fresh_parsley` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `handful_fresh_parsley.spoil`: spoil, `handful_fresh_parsley` → `spoiled_food`, 2.45 d (70560 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `handfuls_of_pretzels.stale`: spoil, `handfuls_of_pretzels` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `hanjin_ligidi_nigerian_lollipops.step_9`: held, `hanjin_ligidi_nigerian_lollipops_step_8` → `hanjin_ligidi_nigerian_lollipops`, 1 min (20 ticks) at 20 °C, ambient
-- `hard_boiling_potatoes.freezer_burn`: spoil, `hard_boiling_potatoes` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `hard_boiling_potatoes.spoil`: spoil, `hard_boiling_potatoes` → `spoiled_food`, 43 d (1238400 ticks) at 20 °C, ambient, q10 0.399, only from 0 °C to any
-- `hard_cheese.freezer_burn`: spoil, `hard_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `hard_cheese.mold`: spoil, `hard_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `hard_cider.ferment`: held, `apple_juice` → `hard_cider`, 14 d (403200 ticks) at 20 °C, ambient, q10 2
-- `hard_cider.sour`: spoil, `hard_cider` → `spoiled_food`, 2.45 d (70560 ticks) at 20 °C, ambient, q10 3.37, only from 0 °C to any
-- `hard_cooked_eggs.spoil`: spoil, `hard_cooked_eggs` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `hare.freezer_burn`: spoil, `hare` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `hare.spoil`: spoil, `hare` → `spoiled_food`, 2 d (57600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `haricot_beans.stale`: spoil, `haricot_beans` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `haupia_hawaiian_coconut_pudding.step_4`: held, `haupia_hawaiian_coconut_pudding_step_3` → `haupia_hawaiian_coconut_pudding_step_4`, 1 h (1200 ticks) at 20 °C, ambient
 - `hawawshi_egyptian_meat_pies.step_11`: held, `hawawshi_egyptian_meat_pies_step_10` → `hawawshi_egyptian_meat_pies`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `hawawshi_egyptian_meat_pies_step_10`
 - `hawthorn_tea.step_3`: held, `hawthorn_tea_step_2` → `hawthorn_tea`, 1 min (20 ticks) at 20 °C, ambient
-- `hawthorn_tea_bag.stale`: spoil, `hawthorn_tea_bag` → `spoiled_food`, 775 d (22320000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `hazelnut.freezer_burn`: spoil, `hazelnut` → `spoiled_food`, 258 d (7430400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `hazelnut.rancid`: spoil, `hazelnut` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
 - `hazelnut_and_black_raspberry_panna_cotta.step_2`: held, `hazelnut_and_black_raspberry_panna_cotta_step_1` → `hazelnut_and_black_raspberry_panna_cotta`, 6 h (7200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `hazelnut_torte.step_6`: held, `hazelnut_torte_step_5` → `hazelnut_torte_step_6`, 1 min (20 ticks) at 20 °C, ambient
-- `hazelnuts.freezer_burn`: spoil, `hazelnuts` → `spoiled_food`, 258 d (7430400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `hazelnuts.rancid`: spoil, `hazelnuts` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
-- `heavy_whipping_cream.freezer_burn`: spoil, `heavy_whipping_cream` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `heavy_whipping_cream.sour`: spoil, `heavy_whipping_cream` → `spoiled_food`, 10 d (288000 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `heinz_burger_sauce.step_2`: held, `heinz_burger_sauce_step_1` → `heinz_burger_sauce`, 30 min (600 ticks) at 20 °C, ambient
-- `heinz_sweet_relish.mold`: spoil, `heinz_sweet_relish` → `spoiled_food`, 913 d (26294400 ticks) at 20 °C, ambient, q10 0.471, only from 0 °C to any
 - `herb_bubble_bread.step_7`: held, `herb_bubble_bread_step_5` → `herb_bubble_bread_step_7`, 30 min (600 ticks) at 20 °C, ambient, not written: the game can't make `herb_bubble_bread_step_5`
 - `herb_grilled_strip_steaks.step_7`: held, `herb_grilled_strip_steaks_step_6` → `herb_grilled_strip_steaks_step_7`, 7 min (140 ticks) at 20 °C, ambient
-- `herb_seasoning.stale`: spoil, `herb_seasoning` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `hermits.step_6`: held, `hermits_step_5` → `hermits_step_6`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `hermits_step_5`
 - `herrencreme_german_custard_dessert.step_2`: held, `herrencreme_german_custard_dessert_step_1` → `herrencreme_german_custard_dessert_step_2`, 1 min (20 ticks) at 20 °C, ambient
 - `herrencreme_german_custard_dessert.step_5`: held, `herrencreme_german_custard_dessert_step_4` → `herrencreme_german_custard_dessert`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12729,17 +12170,10 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `hickory_bbq_pork_loin.step_2`: held, `hickory_bbq_pork_loin_step_1` → `hickory_bbq_pork_loin_step_2`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `hickory_bbq_pork_loin.step_5`: held, `hickory_bbq_pork_loin_step_4` → `hickory_bbq_pork_loin`, 5 min (100 ticks) at 20 °C, ambient
 - `hickory_bbq_rub.step_2`: held, `hickory_bbq_rub_step_1` → `hickory_bbq_rub`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `hickory_bbq_rub_step_1`
-- `hickory_smoke_flavored_albacore_tuna.stale`: spoil, `hickory_smoke_flavored_albacore_tuna` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `hickory_smoked_pork_chops.step_3`: held, `hickory_smoked_pork_chops_step_2` → `hickory_smoked_pork_chops_step_3`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `hickory_smoked_pork_chops.step_8`: held, `hickory_smoked_pork_chops_step_7` → `hickory_smoked_pork_chops`, 5 min (100 ticks) at 20 °C, ambient
-- `hilsa_fish.freezer_burn`: spoil, `hilsa_fish` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `hilsa_fish.spoil`: spoil, `hilsa_fish` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `hoagie_rolls.freezer_burn`: spoil, `hoagie_rolls` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `hoagie_rolls.mold`: spoil, `hoagie_rolls` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `hoisin_sauce.mold`: spoil, `hoisin_sauce` → `spoiled_food`, 633 d (18230400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `holiday_pork_loin.step_6`: held, `holiday_pork_loin_step_5` → `holiday_pork_loin`, 10 min (200 ticks) at 20 °C, ambient
 - `homemade_aquafaba.step_4`: held, `chickpea_mix_boil_simmer` → `chickpea_mix_boil_simmer_cool`, 1 min (20 ticks) at 20 °C, ambient
-- `homemade_biscuit_mix.stale`: spoil, `homemade_biscuit_mix` → `spoiled_food`, 274 d (7891200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `homemade_cider_vinegar.step_3`: held, `homemade_cider_vinegar_step_2` → `homemade_cider_vinegar_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `homemade_cider_vinegar.step_4`: held, `homemade_cider_vinegar_step_3` → `homemade_cider_vinegar_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `homemade_cider_vinegar.step_6`: held, `homemade_cider_vinegar_step_5` → `homemade_cider_vinegar_step_6`, 1 min (20 ticks) at 20 °C, ambient
@@ -12761,22 +12195,16 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `homemade_tempeh.step_5`: held, `homemade_tempeh_step_4` → `homemade_tempeh_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `homemade_tempeh.step_9`: held, `homemade_tempeh_step_8` → `homemade_tempeh_step_9`, 1 min (20 ticks) at 20 °C, ambient
 - `homemade_yellow_cake_mix.step_9`: held, `homemade_yellow_cake_mix_step_8` → `homemade_yellow_cake_mix`, 1 min (20 ticks) at 20 °C, ambient
-- `honey.mold`: spoil, `honey` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `honey_bbq_hot_wings.step_6`: held, `honey_bbq_hot_wings_step_5` → `honey_bbq_hot_wings`, 5 min (100 ticks) at 20 °C, ambient
 - `honey_bourbon_marinade.step_2`: held, `honey_bourbon_marinade_step_1` → `honey_bourbon_marinade`, 14 d (403200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `honey_taffy.step_4`: held, `honey_taffy_step_3` → `honey_taffy_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `hongshao_rou_red_braised_pork_belly.step_7`: held, `hongshao_rou_red_braised_pork_belly_step_6` → `hongshao_rou_red_braised_pork_belly`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `horchata.step_10`: held, `horchata_step_9` → `horchata`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `horchata_step_9`
-- `horseradish.mold`: spoil, `horseradish` → `spoiled_food`, 365 d (10512000 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `hot_cross_bun.step_3`: held, `hot_cross_bun_step_2` → `hot_cross_bun_step_3`, 12.5 min (250 ticks) at 20 °C, ambient
 - `hot_cross_bun.step_6`: held, `hot_cross_bun_step_5` → `hot_cross_bun_step_7`, 1 h (1200 ticks) at 20 °C, ambient
-- `hot_dog.freezer_burn`: spoil, `hot_dog` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `hot_dog.spoil`: spoil, `hot_dog` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `hot_milk_cake.step_10`: held, `hot_milk_cake_step_9` → `hot_milk_cake`, 10 min (200 ticks) at 20 °C, ambient
 - `hot_peach_drink.step_3`: held, `hot_peach_drink_step_2` → `hot_peach_drink_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `hot_pepper_sauce.step_4`: held, `hot_pepper_sauce_step_3` → `hot_pepper_sauce`, 1 min (20 ticks) at 20 °C, ambient
-- `hot_sauce.mold`: spoil, `hot_sauce` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `hummus.spoil`: spoil, `hummus` → `spoiled_food`, 91.3 d (2629440 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `hummus_i.step_7`: held, `hummus_i_step_6` → `hummus_i_step_7`, 10 min (200 ticks) at 20 °C, ambient
 - `hummus_iii.step_4`: held, `hummus_iii_step_3` → `hummus_iii_step_4`, 30 min (600 ticks) at 20 °C, ambient
 - `hummus_with_sprouted_chickpea.step_1`: held, `chickpea_soak` → `chickpea_soak_sprout`, 18 h (21600 ticks) at 20 °C, ambient
@@ -12790,36 +12218,21 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `ibiwungu_rwandan_banana_beer.step_3`: held, `ibiwungu_rwandan_banana_beer_step_2` → `ibiwungu_rwandan_banana_beer_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `ibiwungu_rwandan_banana_beer.step_8`: held, `ibiwungu_rwandan_banana_beer_step_7` → `ibiwungu_rwandan_banana_beer_step_8`, 1 min (20 ticks) at 20 °C, ambient
 - `ibiwungu_rwandan_banana_beer.step_9`: held, `ibiwungu_rwandan_banana_beer_step_8` → `ibiwungu_rwandan_banana_beer_step_10`, 2.5 d (72000 ticks) at 20 °C, ambient
-- `ice_cream.freezer_burn`: spoil, `ice_cream` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `ice_cream_sandwich.step_13`: held, `ice_cream_sandwich_step_12` → `ice_cream_sandwich_step_13`, 1 min (20 ticks) at 20 °C, ambient
 - `ice_cream_sandwich.step_7`: held, `ice_cream_sandwich_step_6` → `ice_cream_sandwich_step_10`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `ice_cream_topping.stale`: spoil, `ice_cream_topping` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `idli_steamed_rice_and_black_gram_bread.step_8`: held, `idli_steamed_rice_and_black_gram_bread_step_7` → `idli_steamed_rice_and_black_gram_bread_step_10`, 8 h (9600 ticks) at 20 °C, ambient, not written: the game can't make `idli_steamed_rice_and_black_gram_bread_step_7`
 - `ifisashi_zambian_peanut_and_spinach_stew.step_10`: held, `ifisashi_zambian_peanut_and_spinach_stew_step_9` → `ifisashi_zambian_peanut_and_spinach_stew`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `ifisashi_zambian_peanut_and_spinach_stew_step_9`
 - `ifumbe_rwandan_cassava_fritters.step_6`: held, `ifumbe_rwandan_cassava_fritters_step_5` → `ifumbe_rwandan_cassava_fritters`, 1 min (20 ticks) at 20 °C, ambient
 - `ikijumba_rwandan_sweet_potato_stew.step_9`: held, `ikijumba_rwandan_sweet_potato_stew_step_8` → `ikijumba_rwandan_sweet_potato_stew_step_9`, 1 min (20 ticks) at 20 °C, ambient
 - `imitation_caramel_sauce_vegan.step_6`: held, `imitation_caramel_sauce_vegan_step_5` → `imitation_caramel_sauce_vegan`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `imitation_crab.freezer_burn`: spoil, `imitation_crab` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `imitation_whipped_cream.freezer_burn`: spoil, `imitation_whipped_cream` → `spoiled_food`, 426 d (12268800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `imitation_whipped_cream.sour`: spoil, `imitation_whipped_cream` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `inarizushi_stuffed_sushi.step_10`: held, `inarizushi_stuffed_sushi_step_9` → `inarizushi_stuffed_sushi_step_10`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `inch_ginger_root.freezer_burn`: spoil, `inch_ginger_root` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `inch_ginger_root.spoil`: spoil, `inch_ginger_root` → `spoiled_food`, 3.16 d (91008 ticks) at 20 °C, ambient, q10 2.88, only from 0 °C to any
-- `inch_piece_fresh_ginger.freezer_burn`: spoil, `inch_piece_fresh_ginger` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `inch_piece_fresh_ginger.spoil`: spoil, `inch_piece_fresh_ginger` → `spoiled_food`, 3.16 d (91008 ticks) at 20 °C, ambient, q10 2.88, only from 0 °C to any
 - `indian_baked_yoghurt_with_saffron_and_cardamom.step_5`: held, `indian_baked_yoghurt_with_saffron_and_cardamom_step_4` → `indian_baked_yoghurt_with_saffron_and_cardamom`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `indian_baked_yoghurt_with_saffron_and_cardamom_step_4`
 - `indian_curry_marinade.step_2`: held, `indian_curry_marinade_step_1` → `indian_curry_marinade`, 10.5 d (302400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `indian_hard_tack_baati.step_4`: held, `indian_hard_tack_baati_step_3` → `indian_hard_tack_baati_step_5`, 5 min (100 ticks) at 20 °C, ambient
-- `indian_walnuts.freezer_burn`: spoil, `indian_walnuts` → `spoiled_food`, 730 d (21024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `indian_walnuts.rancid`: spoil, `indian_walnuts` → `spoiled_food`, 19.8 d (570240 ticks) at 20 °C, ambient, q10 5.65, only from 0 °C to any
 - `indulgent_chocolate_torte.step_19`: held, `indulgent_chocolate_torte_step_17` → `indulgent_chocolate_torte_step_19`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `indulgent_chocolate_torte_step_17`
 - `injera_ethiopian_teff_flatbread.step_2`: held, `injera_ethiopian_teff_flatbread_step_1` → `injera_ethiopian_teff_flatbread_step_2`, 8 h (9600 ticks) at 20 °C, ambient
 - `instant_mashed_potato_flakes.dry`: held, `mashed_potatoes` → `instant_mashed_potato_flakes`, 600 min (12000 ticks) at 20 °C, ambient
-- `instant_mashed_potato_flakes.stale`: spoil, `instant_mashed_potato_flakes` → `spoiled_food`, 373 d (10742400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `instant_pot_beans.step_4`: held, `instant_pot_beans_step_3` → `instant_pot_beans_step_4`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `instant_pot_beans_step_3`
-- `instant_vanilla_pudding_mix.stale`: spoil, `instant_vanilla_pudding_mix` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `instant_yeast.freezer_burn`: spoil, `instant_yeast` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `instant_yeast.stale`: spoil, `instant_yeast` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `inyama_y_isugi_rwandan_grilled_pork.step_6`: held, `inyama_y_isugi_rwandan_grilled_pork_step_5` → `inyama_y_isugi_rwandan_grilled_pork_step_6`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `inyama_y_isugi_rwandan_grilled_pork_step_5`
 - `irish_fruit_cake.step_8`: held, `irish_fruit_cake_step_7` → `irish_fruit_cake_step_8`, 1 min (20 ticks) at 20 °C, ambient
 - `irish_fruit_cake.step_9`: held, `irish_fruit_cake_step_8` → `irish_fruit_cake`, 1 min (20 ticks) at 20 °C, ambient
@@ -12828,74 +12241,41 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `iru.ferment`: held, `boiled_soybeans` → `iru`, 3 d (86400 ticks) at 35 °C, warm, q10 2.5
 - `island_salsa_salad.step_3`: held, `island_salsa_salad_step_2` → `island_salsa_salad`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `island_salsa_salad_step_2`
 - `isombe_rwandan_cassava_leaves_with_eggplant.step_9`: held, `isombe_rwandan_cassava_leaves_with_eggplant_step_7` → `isombe_rwandan_cassava_leaves_with_eggplant`, 1 min (20 ticks) at 20 °C, ambient
-- `italian_dressing.mold`: spoil, `italian_dressing` → `spoiled_food`, 333 d (9590400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `italian_dressing_ii.step_4`: held, `italian_dressing_ii_step_3` → `italian_dressing_ii`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `italian_frying_peppers.freezer_burn`: spoil, `italian_frying_peppers` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `italian_frying_peppers.spoil`: spoil, `italian_frying_peppers` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `italian_herb_blend.stale`: spoil, `italian_herb_blend` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `italian_marinated_chicken.step_3`: held, `italian_marinated_chicken_step_2` → `italian_marinated_chicken_step_3`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `italian_marinated_chicken_step_2`
 - `italian_rice_pudding.step_7`: held, `italian_rice_pudding_step_6` → `italian_rice_pudding_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `italian_rice_pudding_step_6`
 - `jahnun_yemenite_layered_pastry.step_4`: held, `jahnun_yemenite_layered_pastry_step_3` → `jahnun_yemenite_layered_pastry_step_5`, 1.5 h (1800 ticks) at 20 °C, ambient
-- `jalapeno.freezer_burn`: spoil, `jalapeno` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `jalapeno.spoil`: spoil, `jalapeno` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `jalapeno_pepper.freezer_burn`: spoil, `jalapeno_pepper` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `jalapeno_pepper.spoil`: spoil, `jalapeno_pepper` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `jalebi_fritters_in_syrup.step_2`: held, `jalebi_fritters_in_syrup_step_1` → `jalebi_fritters_in_syrup_step_2`, 8 h (9600 ticks) at 20 °C, ambient
 - `jam_recipe.step_6`: held, `jam_recipe_step_5` → `jam_recipe`, 1 min (20 ticks) at 20 °C, ambient
 - `jamaican_banana_fritters.step_5`: held, `jamaican_banana_fritters_step_4` → `jamaican_banana_fritters`, 1 min (20 ticks) at 20 °C, ambient
 - `jamaican_jerk_spice_i.step_2`: held, `jamaican_jerk_spice_i_step_1` → `jamaican_jerk_spice_i`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `jamaican_jerk_spice_i_step_1`
 - `jamaican_jerk_spice_ii.step_2`: held, `jamaican_jerk_spice_ii_step_1` → `jamaican_jerk_spice_ii`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `jamaican_jerk_spice_ii_step_1`
-- `jamaican_pickapeppa_sauce.mold`: spoil, `jamaican_pickapeppa_sauce` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `jamaican_sorrel_soda.step_4`: held, `jamaican_sorrel_soda_step_3` → `jamaican_sorrel_soda_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `japanese_pickled_plums_umeboshi.step_10`: held, `japanese_pickled_plums_umeboshi_step_9` → `japanese_pickled_plums_umeboshi_step_10`, 24.5 d (705600 ticks) at 20 °C, ambient
 - `japanese_pickled_plums_umeboshi.step_11`: held, `japanese_pickled_plums_umeboshi_step_10` → `japanese_pickled_plums_umeboshi_step_11`, 1 min (20 ticks) at 20 °C, ambient
 - `japanese_pickled_plums_umeboshi.step_8`: held, `japanese_pickled_plums_umeboshi_step_7` → `japanese_pickled_plums_umeboshi_step_8`, 1 min (20 ticks) at 20 °C, ambient
 - `japanese_pickled_plums_umeboshi.step_9`: held, `japanese_pickled_plums_umeboshi_step_8` → `japanese_pickled_plums_umeboshi_step_9`, 3 d (86400 ticks) at 20 °C, ambient
-- `japanese_plum.freezer_burn`: spoil, `japanese_plum` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `japanese_plum.mold`: spoil, `japanese_plum` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `jello.chill`: held, `jello_base` → `jello`, 4 h (4800 ticks) at 20 °C, ambient
-- `jello.stale`: spoil, `jello` → `spoiled_food`, 333 d (9590400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `jerk_seasoning.stale`: spoil, `jerk_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `jerked_beef.spoil`: spoil, `jerked_beef` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `jhilinga_nepalese_rice_fritters.step_4`: held, `jhilinga_nepalese_rice_fritters_step_3` → `jhilinga_nepalese_rice_fritters_step_4`, 1 min (20 ticks) at 20 °C, ambient
-- `jicama.spoil`: spoil, `jicama` → `spoiled_food`, 122 d (3513600 ticks) at 20 °C, ambient, q10 0.294, only from 0 °C to any
 - `jigarthanda_milk.step_14`: held, `jigarthanda_milk_step_13` → `jigarthanda_milk_step_14`, 4.5 h (5400 ticks) at -18 °C, frozen, only from any to 0 °C, not written: the game can't make `jigarthanda_milk_step_13`
 - `jigarthanda_milk.step_16`: held, `jigarthanda_milk_step_15` → `jigarthanda_milk_step_16`, 5.5 h (6600 ticks) at -18 °C, frozen, only from any to 0 °C, not written: the game can't make `jigarthanda_milk_step_15`
 - `jigarthanda_milk.step_2`: held, `jigarthanda_milk_step_1` → `jigarthanda_milk_step_2`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `jigarthanda_milk.step_21`: held, `jigarthanda_milk_step_20` → `jigarthanda_milk`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `jigarthanda_milk_step_20`
 - `jigarthanda_milk.step_7`: held, `jigarthanda_milk_step_6` → `jigarthanda_milk_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `jigarthanda_milk_step_6`
-- `john_dory.freezer_burn`: spoil, `john_dory` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `john_dory.spoil`: spoil, `john_dory` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `juice_from_medium_lemons.freezer_burn`: spoil, `juice_from_medium_lemons` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `juice_from_medium_lemons.sour`: spoil, `juice_from_medium_lemons` → `spoiled_food`, 6 d (172800 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `juice_from_same_lemons.freezer_burn`: spoil, `juice_from_same_lemons` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `juice_from_same_lemons.sour`: spoil, `juice_from_same_lemons` → `spoiled_food`, 6 d (172800 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `juice_of_fresh_lemons.freezer_burn`: spoil, `juice_of_fresh_lemons` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `juice_of_fresh_lemons.sour`: spoil, `juice_of_fresh_lemons` → `spoiled_food`, 6 d (172800 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `juice_of_lemon.sour`: spoil, `juice_of_lemon` → `spoiled_food`, 447 d (12873600 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
-- `juice_of_lime.sour`: spoil, `juice_of_lime` → `spoiled_food`, 447 d (12873600 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
-- `juniper_berry.stale`: spoil, `juniper_berry` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `ka_ak_savory_ring_shaped_biscuit.step_4`: held, `ka_ak_savory_ring_shaped_biscuit_step_3` → `ka_ak_savory_ring_shaped_biscuit_step_7`, 30 min (600 ticks) at 20 °C, ambient
 - `kachumbari.step_2`: held, `kachumbari_step_1` → `kachumbari`, 7.5 min (150 ticks) at 20 °C, ambient
-- `kaffir_lime.mold`: spoil, `kaffir_lime` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `kaju_barfi_indian_cashew_milk_confection.step_5`: held, `kaju_barfi_indian_cashew_milk_confection_step_4` → `kaju_barfi_indian_cashew_milk_confection_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `kala_liberian_fritters.step_3`: held, `kala_liberian_fritters_step_2` → `kala_liberian_fritters_step_3`, 2 h (2400 ticks) at 20 °C, ambient
 - `kala_liberian_fritters.step_6`: held, `kala_liberian_fritters_step_5` → `kala_liberian_fritters`, 1 min (20 ticks) at 20 °C, ambient
-- `kale.freezer_burn`: spoil, `kale` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `kale.spoil`: spoil, `kale` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `kansas_city_barbecue_sauce.step_3`: held, `kansas_city_barbecue_sauce_step_2` → `kansas_city_barbecue_sauce`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `kansas_city_barbecue_sauce_step_2`
 - `karelian_pasties_karjalanpiirakat.step_14`: held, `karelian_pasties_karjalanpiirakat_step_13` → `karelian_pasties_karjalanpiirakat_step_14`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `karelian_pasties_karjalanpiirakat_step_13`
 - `karkanji_chadian_spiced_hibiscus_drink.step_8`: held, `karkanji_chadian_spiced_hibiscus_drink_step_7` → `karkanji_chadian_spiced_hibiscus_drink`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `kashkaval.freezer_burn`: spoil, `kashkaval` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `kashkaval.mold`: spoil, `kashkaval` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `kedjenou_chicken_chicken_and_vegetable_stew.step_2`: held, `chicken_dry` → `chicken_dry_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `kedjenou_chicken_chicken_and_vegetable_stew.step_2.prep_1`: held, `chicken` → `chicken_dry`, 1 min (20 ticks) at 20 °C, ambient
-- `kefir.sour`: spoil, `kefir` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `kek_batik_malaysian_tiffin.step_6`: held, `kek_batik_malaysian_tiffin_step_4` → `kek_batik_malaysian_tiffin`, 1 min (20 ticks) at 20 °C, ambient
 - `kendal_mint_cake.step_5`: held, `kendal_mint_cake_step_4` → `kendal_mint_cake_step_5`, 30 min (600 ticks) at 20 °C, ambient
 - `kendal_mint_cake.step_7`: held, `kendal_mint_cake_step_6` → `kendal_mint_cake_step_7`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `kesra_algerian_semolina_flatbread.step_4`: held, `kesra_algerian_semolina_flatbread_step_3` → `kesra_algerian_semolina_flatbread_step_4`, 30 min (600 ticks) at 20 °C, ambient
-- `ketchup.mold`: spoil, `ketchup` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `khachapuri_georgian_cheese_bread.step_4`: held, `khachapuri_georgian_cheese_bread_step_3` → `khachapuri_georgian_cheese_bread_step_4`, 30 min (600 ticks) at 20 °C, ambient
 - `khaman_dhokla_steamed_gram_bread.step_6`: held, `khaman_dhokla_steamed_gram_bread_step_5` → `khaman_dhokla_steamed_gram_bread_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `khanom_mo_keang_thai_custard.step_5`: held, `khanom_mo_keang_thai_custard_step_4` → `khanom_mo_keang_thai_custard_step_5`, 5 min (100 ticks) at 20 °C, ambient
@@ -12907,28 +12287,19 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `khubz_muluwah_yemenite_layered_flatbread.step_12`: held, `khubz_muluwah_yemenite_layered_flatbread_step_10` → `khubz_muluwah_yemenite_layered_flatbread_step_12`, 15 min (300 ticks) at 20 °C, ambient
 - `khubz_muluwah_yemenite_layered_flatbread.step_3`: held, `khubz_muluwah_yemenite_layered_flatbread_step_2` → `khubz_muluwah_yemenite_layered_flatbread_step_6`, 45 min (900 ticks) at 20 °C, ambient
 - `kibbeh.step_3`: held, `kibbeh_step_2` → `kibbeh_step_3`, 1 min (20 ticks) at 20 °C, ambient
-- `kidney.freezer_burn`: spoil, `kidney` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `kidney.spoil`: spoil, `kidney` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `kids_vegetable_puree.step_5`: held, `kids_vegetable_puree_step_4` → `kids_vegetable_puree_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `kik_alicha_yellow_split_pea_stew.step_6`: held, `kik_alicha_yellow_split_pea_stew_step_5` → `kik_alicha_yellow_split_pea_stew_step_6`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `kik_alicha_yellow_split_pea_stew_step_5`
 - `kilishi_nigerian_beef_jerky.step_5`: held, `kilishi_nigerian_beef_jerky_step_4` → `kilishi_nigerian_beef_jerky_step_5`, 12.5 min (250 ticks) at 20 °C, ambient
 - `kilishi_nigerian_beef_jerky.step_6`: held, `kilishi_nigerian_beef_jerky_step_5` → `kilishi_nigerian_beef_jerky`, 1 min (20 ticks) at 20 °C, ambient
-- `kimchi.spoil`: spoil, `kimchi` → `spoiled_food`, 258 d (7430400 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `kipspek_bacon_wrapped_chicken.step_6`: held, `kipspek_bacon_wrapped_chicken_step_5` → `kipspek_bacon_wrapped_chicken_step_6`, 30 min (600 ticks) at 20 °C, ambient
-- `kismis.stale`: spoil, `kismis` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `kitfo_ethiopian_minced_raw_meat.step_7`: held, `kitfo_ethiopian_minced_raw_meat_step_6` → `kitfo_ethiopian_minced_raw_meat_step_8`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `kitfo_ethiopian_minced_raw_meat_step_6`
 - `kiwi_sorbet.freeze`: held, `kiwi_sorbet_base` → `kiwi_sorbet`, 6 h (7200 ticks) at -18 °C, frozen, q10 2
-- `kiwifruit.mold`: spoil, `kiwifruit` → `spoiled_food`, 4.24 d (122112 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `knob_of_butter.freezer_burn`: spoil, `knob_of_butter` → `spoiled_food`, 224 d (6451200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `knob_of_butter.rancid`: spoil, `knob_of_butter` → `spoiled_food`, 43 d (1238400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
 - `koeksisters_fried_braided_pastry_in_syrup.step_12`: held, `koeksisters_fried_braided_pastry_in_syrup_step_11` → `koeksisters_fried_braided_pastry_in_syrup_step_12`, 1 min (20 ticks) at 20 °C, ambient
 - `koeksisters_fried_braided_pastry_in_syrup.step_13`: held, `koeksisters_fried_braided_pastry_in_syrup_step_12` → `koeksisters_fried_braided_pastry_in_syrup`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `koeksisters_fried_braided_pastry_in_syrup.step_3`: held, `koeksisters_fried_braided_pastry_in_syrup_step_2` → `koeksisters_fried_braided_pastry_in_syrup_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `koeksisters_fried_braided_pastry_in_syrup.step_4`: held, `koeksisters_fried_braided_pastry_in_syrup_step_3` → `koeksisters_fried_braided_pastry_in_syrup_step_4`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `koeksisters_fried_braided_pastry_in_syrup.step_8`: held, `koeksisters_fried_braided_pastry_in_syrup_step_7` → `koeksisters_fried_braided_pastry_in_syrup_step_9`, 15 min (300 ticks) at 20 °C, ambient
 - `koesisters_with_coconut.step_3`: held, `koesisters_with_coconut_step_2` → `koesisters_with_coconut_step_4`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `koesisters_with_coconut_step_2`
-- `kohlrabi.freezer_burn`: spoil, `kohlrabi` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `kohlrabi.spoil`: spoil, `kohlrabi` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `kokoro_nigerian_cornmeal_snacks.step_3`: held, `kokoro_nigerian_cornmeal_snacks_step_2` → `kokoro_nigerian_cornmeal_snacks_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `kondowole_malawian_toasted_sesame_seeds.step_3`: held, `sesame_seed_toast_toast_toast` → `sesame_seed_toast_toast_toast_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `kondowole_malawian_toasted_sesame_seeds.step_7`: held, `kondowole_malawian_toasted_sesame_seeds_step_6` → `kondowole_malawian_toasted_sesame_seeds`, 1 min (20 ticks) at 20 °C, ambient
@@ -12943,15 +12314,11 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `kunafa_bil_ashta_egyptian_clotted_cream_pastry.step_11`: held, `kunafa_bil_ashta_egyptian_clotted_cream_pastry_step_10` → `kunafa_bil_ashta_egyptian_clotted_cream_pastry`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `kunafa_bil_ashta_egyptian_clotted_cream_pastry_step_10`
 - `kunun_aduwa_nigerian_tiger_nut_milk.step_4`: held, `kunun_aduwa_nigerian_tiger_nut_milk_step_3` → `kunun_aduwa_nigerian_tiger_nut_milk`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `la_boule_steamed_millet_bread.step_9`: held, `la_boule_steamed_millet_bread_step_8` → `la_boule_steamed_millet_bread`, 1 min (20 ticks) at 20 °C, ambient
-- `ladi_pav.freezer_burn`: spoil, `ladi_pav` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `ladi_pav.mold`: spoil, `ladi_pav` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `lady_arundel_s_manchet.step_6`: held, `lady_arundel_s_manchet_step_4` → `lady_arundel_s_manchet_step_6`, 30 min (600 ticks) at 20 °C, ambient
 - `lady_finger_cookies_savoiardi.step_8`: held, `lady_finger_cookies_savoiardi_step_7` → `lady_finger_cookies_savoiardi`, 1 min (20 ticks) at 20 °C, ambient
 - `lahoh_spongy_flatbread_i.step_6`: held, `lahoh_spongy_flatbread_i_step_5` → `lahoh_spongy_flatbread_i_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `lahoh_spongy_flatbread_ii.step_3`: held, `lahoh_spongy_flatbread_ii_step_2` → `lahoh_spongy_flatbread_ii_step_3`, 1 h (1200 ticks) at 20 °C, ambient
 - `lahoh_spongy_flatbread_ii.step_6`: held, `lahoh_spongy_flatbread_ii_step_5` → `lahoh_spongy_flatbread_ii`, 1 min (20 ticks) at 20 °C, ambient
-- `lamb_and_mutton.freezer_burn`: spoil, `lamb_and_mutton` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `lamb_and_mutton.spoil`: spoil, `lamb_and_mutton` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `lamb_kofta.step_6`: held, `lamb_kofta_step_5` → `lamb_kofta`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `lamb_kofta_step_5`
 - `lamington.step_5`: held, `lamington_step_4` → `lamington`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `lamington_step_4`
 - `lancashire_parkin.step_9`: held, `lancashire_parkin_step_8` → `lancashire_parkin_step_9`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `lancashire_parkin_step_8`
@@ -12959,36 +12326,25 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `langar_dal.step_9`: held, `langar_dal_step_8` → `langar_dal`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `langar_dal_step_8`
 - `lasagne_with_red_and_white_sauce.step_14`: held, `lasagne_with_red_and_white_sauce_step_13` → `lasagne_with_red_and_white_sauce_step_16`, 1 min (20 ticks) at 20 °C, ambient
 - `latte_di_suocera_lemon_cream_liqueur.step_5`: held, `latte_di_suocera_lemon_cream_liqueur_step_4` → `latte_di_suocera_lemon_cream_liqueur`, 1 min (20 ticks) at 20 °C, ambient
-- `lavender.stale`: spoil, `lavender` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `leben_middle_eastern_sour_milk.step_2`: held, `milk_boil_boil` → `milk_boil_boil_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `leben_middle_eastern_sour_milk.step_5`: held, `leben_middle_eastern_sour_milk_step_4` → `leben_middle_eastern_sour_milk_step_6`, 8 h (9600 ticks) at 20 °C, ambient
 - `leben_middle_eastern_sour_milk.step_7`: held, `leben_middle_eastern_sour_milk_step_6` → `leben_middle_eastern_sour_milk`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `leek.freezer_burn`: spoil, `leek` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `leek.spoil`: spoil, `leek` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `leek_parsley_and_cheddar_mash.step_4`: held, `leek_parsley_and_cheddar_mash_step_3` → `leek_parsley_and_cheddar_mash_step_4`, 5 min (100 ticks) at 20 °C, ambient
-- `leek_stem.freezer_burn`: spoil, `leek_stem` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `leek_stem.spoil`: spoil, `leek_stem` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `lefse_norwegian_potato_flatbread.step_2`: held, `lefse_norwegian_potato_flatbread_step_1` → `lefse_norwegian_potato_flatbread_step_2`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `leftover_cooked_rice.freezer_burn`: spoil, `leftover_cooked_rice` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `leftover_cooked_rice.spoil`: spoil, `leftover_cooked_rice` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `lekhchef_algerian_raisin_drink.step_4`: held, `lekhchef_algerian_raisin_drink_step_3` → `lekhchef_algerian_raisin_drink_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `lekhchef_algerian_raisin_drink.step_6`: held, `lekhchef_algerian_raisin_drink_step_5` → `lekhchef_algerian_raisin_drink`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `lemon.mold`: spoil, `lemon` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `lemon_cake_with_lemon_glaze.step_10`: held, `lemon_cake_with_lemon_glaze_step_9` → `lemon_cake_with_lemon_glaze_step_10`, 10 min (200 ticks) at 20 °C, ambient
 - `lemon_cake_with_lemon_glaze.step_13`: held, `lemon_cake_with_lemon_glaze_step_12` → `lemon_cake_with_lemon_glaze`, 1 min (20 ticks) at 20 °C, ambient
 - `lemon_curd.step_10`: held, `lemon_curd_step_9` → `lemon_curd`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `lemon_curd_step_9`
 - `lemon_custard_pastry_cups_pastel_de_nada.step_8`: held, `lemon_custard_pastry_cups_pastel_de_nada_step_7` → `lemon_custard_pastry_cups_pastel_de_nada_step_8`, 4 h (4800 ticks) at 4 °C, chilled, only from any to 8 °C
 - `lemon_drizzle_cake.step_7`: held, `lemon_drizzle_cake_step_6` → `lemon_drizzle_cake_step_7`, 1 min (20 ticks) at 20 °C, ambient
-- `lemon_flavoring.stale`: spoil, `lemon_flavoring` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `lemon_italian_ice.step_5`: held, `lemon_italian_ice_step_4` → `lemon_italian_ice_step_5`, 3.5 h (4200 ticks) at -18 °C, frozen, only from any to 0 °C
 - `lemon_italian_ice.step_7`: held, `lemon_italian_ice_step_6` → `lemon_italian_ice`, 3 h (3600 ticks) at -18 °C, frozen, only from any to 0 °C
 - `lemon_mayonnaise.step_3`: held, `lemon_mayonnaise_step_2` → `lemon_mayonnaise`, 21 d (604800 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `lemon_mayonnaise_step_2`
 - `lemon_meringue_pie_american.step_9`: held, `lemon_meringue_pie_american_step_8` → `lemon_meringue_pie_american_step_9`, 1 min (20 ticks) at 20 °C, ambient
 - `lemon_meringue_pie_british.step_8`: held, `lemon_meringue_pie_british_step_7` → `lemon_meringue_pie_british`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `lemon_mille_feuille.step_11`: held, `lemon_mille_feuille_step_10` → `lemon_mille_feuille_step_11`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `lemon_mille_feuille_step_10`
-- `lemon_oil.stale`: spoil, `lemon_oil` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `lemon_pepper.dry_peel`: held, `lemon_chop` → `dehydrated_lemon_peel`, 3 d (86400 ticks) at 22 °C, ambient, q10 2
-- `lemon_pepper.stale`: spoil, `lemon_pepper` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `lemon_pickle_i.step_7`: held, `lemon_pickle_i_step_6` → `lemon_pickle_i`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `lemon_pickle_i_step_6`
 - `lemon_pickle_ii.step_7`: held, `lemon_pickle_ii_step_5` → `lemon_pickle_ii`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `lemon_pickle_ii_step_5`
 - `lemon_poppy_seed_muffins_glazed.step_10`: held, `lemon_poppy_seed_muffins_glazed_step_9` → `lemon_poppy_seed_muffins_glazed`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `lemon_poppy_seed_muffins_glazed_step_9`
@@ -12997,18 +12353,9 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `lemon_pound_cake.step_9`: held, `lemon_pound_cake_step_8` → `lemon_pound_cake_step_9`, 10 min (200 ticks) at 20 °C, ambient
 - `lemon_puddings_baked.step_9`: held, `lemon_puddings_baked_step_8` → `lemon_puddings_baked`, 1 min (20 ticks) at 20 °C, ambient
 - `lemon_rosemary_pork_tenderloin.step_5`: held, `lemon_rosemary_pork_tenderloin_step_4` → `lemon_rosemary_pork_tenderloin`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `lemon_rosemary_pork_tenderloin_step_4`
-- `lemon_slice.mold`: spoil, `lemon_slice` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
-- `lemon_verbena.freezer_burn`: spoil, `lemon_verbena` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `lemon_verbena.spoil`: spoil, `lemon_verbena` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `lemonade.step_3`: held, `lemonade_step_2` → `lemonade`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `lemonade_extra_sour.step_4`: held, `lemonade_extra_sour_step_3` → `lemonade_extra_sour`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `lemonade_flavored_kool_aid.sour`: spoil, `lemonade_flavored_kool_aid` → `spoiled_food`, 633 d (18230400 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
-- `lemongrass.freezer_burn`: spoil, `lemongrass` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `lemongrass.spoil`: spoil, `lemongrass` → `spoiled_food`, 7.94 d (228672 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `lemons.mold`: spoil, `lemons` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
-- `lentil.stale`: spoil, `lentil` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `lentil_rice_loaf.step_6`: held, `lentil_rice_loaf_step_5` → `lentil_rice_loaf`, 10 min (200 ticks) at 20 °C, ambient
-- `lettuce.spoil`: spoil, `lettuce` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `liberian_butter_rice.step_7`: held, `liberian_butter_rice_step_6` → `liberian_butter_rice_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `liberian_cassava_leaf_soup.step_10`: held, `liberian_cassava_leaf_soup_step_9` → `liberian_cassava_leaf_soup`, 1 min (20 ticks) at 20 °C, ambient
 - `liberian_country_beans_torborgee.step_6`: held, `liberian_country_beans_torborgee_step_5` → `liberian_country_beans_torborgee`, 5 min (100 ticks) at 20 °C, ambient
@@ -13017,65 +12364,31 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `liberian_fried_sweet_potato_puffs.step_7`: held, `liberian_fried_sweet_potato_puffs_step_6` → `liberian_fried_sweet_potato_puffs`, 1 min (20 ticks) at 20 °C, ambient
 - `liberian_palm_oil_stew.step_9`: held, `liberian_palm_oil_stew_step_8` → `liberian_palm_oil_stew`, 1 min (20 ticks) at 20 °C, ambient
 - `liberian_pepper_soup.step_9`: held, `liberian_pepper_soup_step_8` → `liberian_pepper_soup`, 1 min (20 ticks) at 20 °C, ambient
-- `licorice.stale`: spoil, `licorice` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `light_molasses.stale`: spoil, `light_molasses` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `light_soy_sauce.mold`: spoil, `light_soy_sauce` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `lima_bean.stale`: spoil, `lima_bean` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `lime.mold`: spoil, `lime` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `lime_and_mascarpone_cheesecake.step_4`: held, `lime_and_mascarpone_cheesecake_step_3` → `lime_and_mascarpone_cheesecake`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `lime_and_mascarpone_cheesecake_step_3`
-- `lime_wedges.mold`: spoil, `lime_wedges` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
-- `linguine.stale`: spoil, `linguine` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `liquid_aminos.mold`: spoil, `liquid_aminos` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `liquid_gravy_browner.mold`: spoil, `liquid_gravy_browner` → `spoiled_food`, 1160 d (33408000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `liver.freezer_burn`: spoil, `liver` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `liver.spoil`: spoil, `liver` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `lobster.spoil`: spoil, `lobster` → `spoiled_food`, 1 d (28800 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `lobster_butter.freezer_burn`: spoil, `lobster_butter` → `spoiled_food`, 224 d (6451200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `lobster_butter.rancid`: spoil, `lobster_butter` → `spoiled_food`, 43 d (1238400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
-- `locust_bean.stale`: spoil, `locust_bean` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `lolly_cake.step_8`: held, `lolly_cake_step_7` → `lolly_cake_step_8`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `lolly_cake_step_7`
-- `long_grain_rice.stale`: spoil, `long_grain_rice` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `louis_dressing.step_2`: held, `louis_dressing_step_1` → `louis_dressing`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `louis_dressing_step_1`
 - `loukoumas_greek_donuts_with_honey_i.step_4`: held, `loukoumas_greek_donuts_with_honey_i_step_3` → `loukoumas_greek_donuts_with_honey_i_step_4`, 4 h (4800 ticks) at 20 °C, ambient
 - `loukoumas_greek_donuts_with_honey_ii.step_4`: held, `loukoumas_greek_donuts_with_honey_ii_step_3` → `loukoumas_greek_donuts_with_honey_ii_step_4`, 1.75 h (2100 ticks) at 20 °C, ambient
 - `loukoumas_greek_donuts_with_honey_ii.step_6`: held, `loukoumas_greek_donuts_with_honey_ii_step_5` → `loukoumas_greek_donuts_with_honey_ii_step_6`, 1 min (20 ticks) at 20 °C, ambient
-- `lovage.freezer_burn`: spoil, `lovage` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `lovage.spoil`: spoil, `lovage` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `luciabullar_scandinavian_saffron_buns.step_6`: held, `luciabullar_scandinavian_saffron_buns_step_5` → `luciabullar_scandinavian_saffron_buns_step_6`, 1.5 h (1800 ticks) at 20 °C, ambient
 - `luciabullar_scandinavian_saffron_buns.step_8`: held, `luciabullar_scandinavian_saffron_buns_step_7` → `luciabullar_scandinavian_saffron_buns_step_8`, 45 min (900 ticks) at 20 °C, ambient
 - `lumanda_zambian_okra_stew.step_8`: held, `lumanda_zambian_okra_stew_step_7` → `lumanda_zambian_okra_stew`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `lumanda_zambian_okra_stew_step_7`
 - `lumberjacks.step_9`: held, `lumberjacks_step_8` → `lumberjacks`, 1 min (20 ticks) at 20 °C, ambient
 - `lumpia_fried_filipino_spring_rolls.step_10`: held, `lumpia_fried_filipino_spring_rolls_step_9` → `lumpia_fried_filipino_spring_rolls`, 1 min (20 ticks) at 20 °C, ambient
 - `lumpia_fried_filipino_spring_rolls.step_7`: held, `lumpia_fried_filipino_spring_rolls_step_6` → `lumpia_fried_filipino_spring_rolls_step_7`, 8 h (9600 ticks) at -18 °C, frozen, only from any to 0 °C
-- `macadamia.freezer_burn`: spoil, `macadamia` → `spoiled_food`, 730 d (21024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `macadamia.rancid`: spoil, `macadamia` → `spoiled_food`, 19.8 d (570240 ticks) at 20 °C, ambient, q10 6.18, only from 0 °C to any
-- `macaroni.stale`: spoil, `macaroni` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `macaroni_and_cheese_baked.step_14`: held, `macaroni_and_cheese_baked_step_13` → `macaroni_and_cheese_baked`, 10 min (200 ticks) at 20 °C, ambient
 - `macaroni_salad.step_2.prep_7`: held, `pasta` → `pasta_chill`, 1 min (20 ticks) at 20 °C, ambient
 - `macaroni_salad.step_3`: held, `macaroni_salad_step_2` → `macaroni_salad`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `mackerel.freezer_burn`: spoil, `mackerel` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `mackerel.spoil`: spoil, `mackerel` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `madbucha_north_african_peppers_and_tomatoes.step_8`: held, `madbucha_north_african_peppers_and_tomatoes_step_7` → `madbucha_north_african_peppers_and_tomatoes`, 1 min (20 ticks) at 20 °C, ambient
 - `madeleines.step_5`: held, `madeleines_step_4` → `madeleines`, 1 min (20 ticks) at 20 °C, ambient
 - `mahshi_egyptian_stuffed_vegetables.step_10`: held, `mahshi_egyptian_stuffed_vegetables_step_9` → `mahshi_egyptian_stuffed_vegetables`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `mahshi_egyptian_stuffed_vegetables_step_9`
-- `maize_flour.stale`: spoil, `maize_flour` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `maize_meal.stale`: spoil, `maize_meal` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `maja_blanca_coconut_milk_pudding.step_5`: held, `maja_blanca_coconut_milk_pudding_step_4` → `maja_blanca_coconut_milk_pudding_step_5`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `malawach_flaky_flatbread.step_2`: held, `malawach_flaky_flatbread_step_1` → `malawach_flaky_flatbread_step_2`, 1 min (20 ticks) at 20 °C, ambient
 - `malawach_flaky_flatbread.step_6`: held, `malawach_flaky_flatbread_step_5` → `malawach_flaky_flatbread_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `malawach_flaky_flatbread.step_8`: held, `malawach_flaky_flatbread_step_7` → `malawach_flaky_flatbread_step_10`, 1 min (20 ticks) at 20 °C, ambient
 - `malt.dry_green_malt`: held, `green_malt` → `malt`, 12 h (14400 ticks) at 20 °C, ambient
-- `malt_biscuits.freezer_burn`: spoil, `malt_biscuits` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `malt_biscuits.stale`: spoil, `malt_biscuits` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `maltese_galletti.freezer_burn`: spoil, `maltese_galletti` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `maltese_galletti.stale`: spoil, `maltese_galletti` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `malvani_special_masala.stale`: spoil, `malvani_special_masala` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `mandarin_orange.mold`: spoil, `mandarin_orange` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `mandarin_orange_cake.step_4`: held, `mandarin_orange_cake_step_3` → `mandarin_orange_cake_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `mandarin_orange_cake.step_5.prep_5`: held, `pineapple` → `pineapple_dry`, 1 min (20 ticks) at 20 °C, ambient
-- `mandarin_oranges.mold`: spoil, `mandarin_oranges` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
-- `mango.freezer_burn`: spoil, `mango` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `mango.mold`: spoil, `mango` → `spoiled_food`, 3.87 d (111456 ticks) at 20 °C, ambient, q10 1.45, only from 0 °C to any
 - `mango_and_yellow_split_pea_curry.step_8`: held, `mango_and_yellow_split_pea_curry_step_7` → `mango_and_yellow_split_pea_curry`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `mango_and_yellow_split_pea_curry_step_7`
 - `mango_atchar.step_3`: held, `mango_atchar_step_2` → `mango_atchar`, 12 h (14400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `mango_chutney_chunky.step_5`: held, `mango_chutney_chunky_step_4` → `mango_chutney_chunky`, 1 min (20 ticks) at 20 °C, ambient
@@ -13087,49 +12400,28 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `maple_glazed_bbq_ribs.step_2`: held, `maple_glazed_bbq_ribs_step_1` → `maple_glazed_bbq_ribs_step_2`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `maple_glazed_bbq_ribs.step_7`: held, `maple_glazed_bbq_ribs_step_6` → `maple_glazed_bbq_ribs`, 15 min (300 ticks) at 20 °C, ambient
 - `maple_glazed_chicken_breasts.step_6`: held, `maple_glazed_chicken_breasts_step_5` → `maple_glazed_chicken_breasts`, 7 min (140 ticks) at 20 °C, ambient
-- `maple_syrup_and_sugar.stale`: spoil, `maple_syrup_and_sugar` → `spoiled_food`, 1460 d (42048000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `margarine.freezer_burn`: spoil, `margarine` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `margarine.rancid`: spoil, `margarine` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
-- `marie_biscuits.freezer_burn`: spoil, `marie_biscuits` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `marie_biscuits.stale`: spoil, `marie_biscuits` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `marinara.mold`: spoil, `marinara` → `spoiled_food`, 548 d (15782400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `marinated_mackerel.step_6`: held, `marinated_mackerel_step_5` → `marinated_mackerel`, 1 min (20 ticks) at 20 °C, ambient
-- `marmalade.mold`: spoil, `marmalade` → `spoiled_food`, 316 d (9100800 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `marsala_wine.sour`: spoil, `marsala_wine` → `spoiled_food`, 1410 d (40608000 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
-- `marshmallow.stale`: spoil, `marshmallow` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `marshmallow_rice_squares_i.step_4`: held, `marshmallow_rice_squares_i_step_3` → `marshmallow_rice_squares_i`, 1 min (20 ticks) at 20 °C, ambient
 - `marshmallows.step_7`: held, `marshmallows_step_6` → `marshmallows_step_7`, 3 h (3600 ticks) at 20 °C, ambient
 - `marzipan_cake.step_13`: held, `marzipan_cake_step_12` → `marzipan_cake_step_13`, 3 h (3600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `marzipan_cake.step_16`: held, `marzipan_cake_step_15` → `marzipan_cake_step_16`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `marzipan_cake_step_15`
 - `marzipan_cake.step_20`: held, `marzipan_cake_step_19` → `marzipan_cake`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `marzipan_cake_step_19`
-- `masala.stale`: spoil, `masala` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `masala_chai_i.step_2`: held, `masala_chai_i_step_1` → `masala_chai_i_step_2`, 1 min (20 ticks) at 20 °C, ambient
 - `masala_dosa.step_2`: held, `masala_dosa_step_1` → `masala_dosa_step_2`, 8 h (9600 ticks) at 20 °C, ambient
-- `mashed_potato.freezer_burn`: spoil, `mashed_potato` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `mashed_potato.spoil`: spoil, `mashed_potato` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `mashed_pumpkin.step_3`: held, `pumpkin_rinse_rinse_bake` → `pumpkin_rinse_rinse_bake_cool`, 7.5 min (150 ticks) at 20 °C, ambient
 - `masyaura_nepali_fermented_vegetable_balls.step_3`: held, `masyaura_nepali_fermented_vegetable_balls_step_2` → `masyaura_nepali_fermented_vegetable_balls_step_4`, 8 h (9600 ticks) at 20 °C, ambient
 - `masyaura_nepali_fermented_vegetable_balls.step_5`: held, `masyaura_nepali_fermented_vegetable_balls_step_4` → `masyaura_nepali_fermented_vegetable_balls_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `masyaura_nepali_fermented_vegetable_balls.step_6`: held, `masyaura_nepali_fermented_vegetable_balls_step_5` → `masyaura_nepali_fermented_vegetable_balls`, 1 min (20 ticks) at 20 °C, ambient
 - `mato_de_pedralbes_spanish_maize_custard.step_4`: held, `mato_de_pedralbes_spanish_maize_custard_step_3` → `mato_de_pedralbes_spanish_maize_custard`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `matzo.freezer_burn`: spoil, `matzo` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `matzo.stale`: spoil, `matzo` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `mayonnaise.mold`: spoil, `mayonnaise` → `spoiled_food`, 129 d (3715200 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `mbatata_a_matenda_malawian_cassava_fritters.step_8`: held, `mbatata_a_matenda_malawian_cassava_fritters_step_7` → `mbatata_a_matenda_malawian_cassava_fritters`, 1 min (20 ticks) at 20 °C, ambient
-- `mbongo_spice.stale`: spoil, `mbongo_spice` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `mbulawu_malawian_fermented_millet_porridge.step_5`: held, `mbulawu_malawian_fermented_millet_porridge_step_4` → `mbulawu_malawian_fermented_millet_porridge_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `mbulawu_malawian_fermented_millet_porridge.step_6`: held, `mbulawu_malawian_fermented_millet_porridge_step_5` → `mbulawu_malawian_fermented_millet_porridge_step_6`, 8 h (9600 ticks) at 20 °C, ambient
 - `mead.ferment`: held, `mead_must` → `mead`, 30 d (864000 ticks) at 20 °C, ambient, q10 2
-- `meat_drippings.freezer_burn`: spoil, `meat_drippings` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `meat_drippings.rancid`: spoil, `meat_drippings` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
 - `meat_masala.step_3`: held, `meat_masala_step_2` → `meat_masala`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `meat_masala_step_2`
-- `meat_masala_powder.stale`: spoil, `meat_masala_powder` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `meat_ravioli_filling.step_6`: held, `meat_ravioli_filling_step_5` → `meat_ravioli_filling`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `meatballs_with_honey_lime_sauce.step_2`: held, `meatballs_with_honey_lime_sauce_step_1` → `meatballs_with_honey_lime_sauce_step_3`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `meatloaf_ii.step_7`: held, `meatloaf_ii_step_6` → `meatloaf_ii`, 7.5 min (150 ticks) at 20 °C, ambient
 - `mediterranean_green_chicken.step_4`: held, `mediterranean_green_chicken_step_3` → `mediterranean_green_chicken_step_6`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `medium_fair_sized_potatoes.freezer_burn`: spoil, `medium_fair_sized_potatoes` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `medium_fair_sized_potatoes.spoil`: spoil, `medium_fair_sized_potatoes` → `spoiled_food`, 43 d (1238400 ticks) at 20 °C, ambient, q10 0.399, only from 0 °C to any
 - `memphis_style_bbq_ribs.step_2`: held, `memphis_style_bbq_ribs_step_1` → `memphis_style_bbq_ribs_step_2`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `memphis_style_bbq_ribs.step_8`: held, `memphis_style_bbq_ribs_step_7` → `memphis_style_bbq_ribs`, 10 min (200 ticks) at 20 °C, ambient
 - `menudo_mexican_tripe_and_hominy_soup.step_25`: held, `menudo_mexican_tripe_and_hominy_soup_step_24` → `menudo_mexican_tripe_and_hominy_soup_step_25`, 37.5 min (750 ticks) at 20 °C, ambient, not written: the game can't make `menudo_mexican_tripe_and_hominy_soup_step_24`
@@ -13148,8 +12440,6 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `meringues_with_roasted_raspberries_and_hazelnut_creme_anglaise.step_9`: held, `meringues_with_roasted_raspberries_and_hazelnut_creme_anglaise_step_8` → `meringues_with_roasted_raspberries_and_hazelnut_creme_anglaise_step_9`, 1 min (20 ticks) at 20 °C, ambient
 - `mesir_wat_spicy_ethiopian_lentil_stew.step_10`: held, `mesir_wat_spicy_ethiopian_lentil_stew_step_9` → `mesir_wat_spicy_ethiopian_lentil_stew_step_10`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `mesir_wat_spicy_ethiopian_lentil_stew_step_9`
 - `mesquite_beef_tenderloin.step_5`: held, `mesquite_beef_tenderloin_step_4` → `mesquite_beef_tenderloin`, 10 min (200 ticks) at 20 °C, ambient
-- `mesquite_seasoning.stale`: spoil, `mesquite_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `mesquite_smoke_powder.stale`: spoil, `mesquite_smoke_powder` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `mexican_chocolate_cake_with_mocha_buttercream.step_13`: held, `mexican_chocolate_cake_with_mocha_buttercream_step_12` → `mexican_chocolate_cake_with_mocha_buttercream_step_13`, 1 min (20 ticks) at 20 °C, ambient
 - `mexican_chocolate_cake_with_mocha_buttercream.step_4`: held, `mexican_chocolate_cake_with_mocha_buttercream_step_3` → `mexican_chocolate_cake_with_mocha_buttercream_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `mexican_habanero_hot_sauce.step_2`: held, `mexican_habanero_hot_sauce_step_1` → `mexican_habanero_hot_sauce`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -13162,85 +12452,44 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `microwave_chocolate_pudding.step_6`: held, `microwave_chocolate_pudding_step_5` → `microwave_chocolate_pudding`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `microwave_peanut_brittle.step_6`: held, `microwave_peanut_brittle_step_5` → `microwave_peanut_brittle_step_6`, 0.75 h (900 ticks) at 20 °C, ambient
 - `microwaved_basmati_rice.step_5`: held, `microwaved_basmati_rice_step_4` → `microwaved_basmati_rice`, 1 min (20 ticks) at 20 °C, ambient
-- `mild_chunky_salsa.mold`: spoil, `mild_chunky_salsa` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `milk.freezer_burn`: spoil, `milk` → `spoiled_food`, 91.3 d (2629440 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `milk_chocolate.stale`: spoil, `milk_chocolate` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `milk_chocolate_chips.stale`: spoil, `milk_chocolate_chips` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `milk_chocolate_pepper_vodka_tart.step_16`: held, `milk_chocolate_pepper_vodka_tart_step_15` → `milk_chocolate_pepper_vodka_tart_step_16`, 1 min (20 ticks) at 20 °C, ambient
 - `milk_chocolate_pepper_vodka_tart.step_17`: held, `milk_chocolate_pepper_vodka_tart_step_16` → `milk_chocolate_pepper_vodka_tart_step_17`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `milk_chocolate_pepper_vodka_tart.step_20`: held, `milk_chocolate_pepper_vodka_tart_step_19` → `milk_chocolate_pepper_vodka_tart_step_20`, 4 h (4800 ticks) at 4 °C, chilled, only from any to 8 °C
 - `milk_chocolate_pepper_vodka_tart.step_4`: held, `milk_chocolate_pepper_vodka_tart_step_3` → `milk_chocolate_pepper_vodka_tart_step_5`, 45 min (900 ticks) at 4 °C, chilled, only from any to 8 °C
 - `milk_chocolate_pepper_vodka_tart.step_6.prep_6`: held, `bell_pepper` → `bell_pepper_dry`, 1 min (20 ticks) at 20 °C, ambient
-- `milk_cookies.freezer_burn`: spoil, `milk_cookies` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `milk_cookies.stale`: spoil, `milk_cookies` → `spoiled_food`, 149 d (4291200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `milkfish.freezer_burn`: spoil, `milkfish` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `milkfish.spoil`: spoil, `milkfish` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `millet.freezer_burn`: spoil, `millet` → `spoiled_food`, 122 d (3513600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `millet.stale`: spoil, `millet` → `spoiled_food`, 60.9 d (1753920 ticks) at 20 °C, ambient, only from 0 °C to any
-- `milo_chocolate_drink_mix.sour`: spoil, `milo_chocolate_drink_mix` → `spoiled_food`, 633 d (18230400 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
-- `milo_chocolate_drink_powder.sour`: spoil, `milo_chocolate_drink_powder` → `spoiled_food`, 633 d (18230400 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `mincemeat.step_11`: held, `mincemeat_step_10` → `mincemeat`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `mincemeat_tart.step_10`: held, `mincemeat_tart_step_9` → `mincemeat_tart`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `mincemeat_tart_step_9`
 - `mincemeat_tart.step_4`: held, `mincemeat_tart_step_3` → `mincemeat_tart_step_4`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `mincemeat_tart_step_3`
 - `mini_english_muffin_pizzas.step_6`: held, `mini_english_muffin_pizzas_step_5` → `mini_english_muffin_pizzas`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `mini_english_muffin_pizzas_step_5`
 - `mini_herb_baguettes.step_4`: held, `mini_herb_baguettes_step_3` → `mini_herb_baguettes_step_4`, 50 min (1000 ticks) at 20 °C, ambient
-- `mini_potato_buns.freezer_burn`: spoil, `mini_potato_buns` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `mini_potato_buns.mold`: spoil, `mini_potato_buns` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `mint.spoil`: spoil, `mint` → `spoiled_food`, 9.9 d (285120 ticks) at 20 °C, ambient, q10 1.41, only from 0 °C to any
-- `mint_leaves.spoil`: spoil, `mint_leaves` → `spoiled_food`, 9.9 d (285120 ticks) at 20 °C, ambient, q10 1.41, only from 0 °C to any
 - `mirin.age_mash`: held, `mirin_mash` → `aged_mirin_mash`, 180 d (5184000 ticks) at 20 °C, ambient, q10 2
 - `mishti_doi_bengali_sweetened_yogurt.step_7`: held, `mishti_doi_bengali_sweetened_yogurt_step_6` → `mishti_doi_bengali_sweetened_yogurt`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `miso.spoil`: spoil, `miso` → `spoiled_food`, 365 d (10512000 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `misro_indonesian_palm_sugar_cassava_fritters.step_8`: held, `misro_indonesian_palm_sugar_cassava_fritters_step_7` → `misro_indonesian_palm_sugar_cassava_fritters`, 1 min (20 ticks) at 20 °C, ambient
-- `mitmita_spice_blend.stale`: spoil, `mitmita_spice_blend` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `mixed_herbs.stale`: spoil, `mixed_herbs` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `mixed_pickled_vegetables_acar_campur.step_7`: held, `mixed_pickled_vegetables_acar_campur_step_6` → `mixed_pickled_vegetables_acar_campur`, 3 d (86400 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `mixed_pickled_vegetables_acar_campur_step_6`
-- `mixed_pickles.mold`: spoil, `mixed_pickles` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `mocha_delight.step_6`: held, `mocha_delight_step_5` → `mocha_delight_step_6`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `mocha_delight_step_5`
 - `modeling_chocolate.step_2`: held, `chocolate_heat_heat` → `chocolate_heat_heat_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `modeling_chocolate.step_4`: held, `modeling_chocolate_step_3` → `modeling_chocolate`, 1 min (20 ticks) at 20 °C, ambient
 - `modern_reuben_sandwich.step_4.prep_5`: held, `sauerkraut` → `sauerkraut_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `mofletta_maghrebi_pancake.step_5`: held, `mofletta_maghrebi_pancake_step_3` → `mofletta_maghrebi_pancake_step_5`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `mofletta_maghrebi_pancake_step_3`
-- `molasses.stale`: spoil, `molasses` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `molasses_cookies.step_7`: held, `molasses_cookies_step_5` → `molasses_cookies_step_7`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `molasses_taffy.step_4`: held, `molasses_taffy_step_3` → `molasses_taffy_step_5`, 1 min (20 ticks) at 20 °C, ambient
-- `monkfish.freezer_burn`: spoil, `monkfish` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `monkfish.spoil`: spoil, `monkfish` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `monterey_jack_cheese.freezer_burn`: spoil, `monterey_jack_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `monterey_jack_cheese.mold`: spoil, `monterey_jack_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `moroccan_salad.step_4`: held, `moroccan_salad_step_3` → `moroccan_salad`, 30 min (600 ticks) at 20 °C, ambient
-- `mozzarella_cheese.freezer_burn`: spoil, `mozzarella_cheese` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `mozzarella_cheese.mold`: spoil, `mozzarella_cheese` → `spoiled_food`, 30.4 d (875520 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `mozzarella_sticks.step_13`: held, `mozzarella_sticks_step_12` → `mozzarella_sticks`, 1 min (20 ticks) at 20 °C, ambient
 - `mpt_mozzarella_pasta_with_tomato_and_basil.step_5`: held, `mpt_mozzarella_pasta_with_tomato_and_basil_step_4` → `mpt_mozzarella_pasta_with_tomato_and_basil_step_5`, 30 min (600 ticks) at 20 °C, ambient
-- `mrs_dash_seasoning.stale`: spoil, `mrs_dash_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `msemmen.step_6`: held, `msemmen_step_5` → `msemmen_step_6`, 15 min (300 ticks) at 20 °C, ambient
 - `mulling_spice_with_anise.step_2`: held, `mulling_spice_with_anise_step_1` → `mulling_spice_with_anise`, 1 min (20 ticks) at 20 °C, ambient
-- `mung_bean.freezer_burn`: spoil, `mung_bean` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `mung_bean.stale`: spoil, `mung_bean` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `muqmad.step_10`: held, `muqmad_step_9` → `muqmad`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `muqmad_step_9`
 - `muqmad.step_2`: held, `lean_beef_cut_cut` → `lean_beef_cut_cut_dry`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `lean_beef_cut_cut`
 - `muqmad.step_9`: held, `muqmad_step_8` → `muqmad_step_9`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `muqmad_step_8`
-- `mushroom.freezer_burn`: spoil, `mushroom` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `mushroom.spoil`: spoil, `mushroom` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `mushroom_bao_buns.step_20`: held, `mushroom_bao_buns_step_19` → `mushroom_bao_buns_step_21`, 1 min (20 ticks) at 20 °C, ambient
 - `mushroom_bao_buns.step_4`: held, `mushroom_bao_buns_step_3` → `mushroom_bao_buns_step_5`, 1 h (1200 ticks) at 20 °C, ambient
 - `mushroom_bao_buns.step_9`: held, `mushroom_bao_buns_step_8` → `mushroom_bao_buns_step_9`, 20 min (400 ticks) at 20 °C, ambient
-- `mushroom_catsup.mold`: spoil, `mushroom_catsup` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `mushroom_ketchup.step_2`: held, `mushroom_ketchup_step_1` → `mushroom_ketchup_step_2`, 8 h (9600 ticks) at 20 °C, ambient, not written: the game can't make `mushroom_ketchup_step_1`
 - `mushroom_oil.dry`: held, `mushroom` → `dried_mushroom`, 12 h (14400 ticks) at 20 °C, ambient
-- `mushroom_stock_cube.freezer_burn`: spoil, `mushroom_stock_cube` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `mushroom_stock_cube.mold`: spoil, `mushroom_stock_cube` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `mushrooms.freezer_burn`: spoil, `mushrooms` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `mushrooms.spoil`: spoil, `mushrooms` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `muskrat_soup.step_11`: held, `muskrat_soup_step_10` → `muskrat_soup`, 10 min (200 ticks) at 20 °C, ambient
-- `mussel.spoil`: spoil, `mussel` → `spoiled_food`, 7.07 d (203616 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `mussels_with_potatoes.step_7`: held, `mussels_with_potatoes_step_6` → `mussels_with_potatoes`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `mussels_with_potatoes_step_6`
-- `mustard.mold`: spoil, `mustard` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `mustard_and_curry_leaf_lassi.step_5`: held, `mustard_and_curry_leaf_lassi_step_4` → `mustard_and_curry_leaf_lassi`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `mustard_dip.step_2`: held, `mustard_dip_step_1` → `mustard_dip`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `mustard_greens.freezer_burn`: spoil, `mustard_greens` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `mustard_greens.spoil`: spoil, `mustard_greens` → `spoiled_food`, 2 d (57600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `mustard_seed.dry_pods`: held, `mustard_pods` → `dried_mustard_pods`, 4 d (115200 ticks) at 20 °C, ambient, q10 2
 - `mutton_broth.step_6`: held, `mutton_broth_step_5` → `mutton_broth_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `mutton_broth.step_7`: held, `mutton_broth_step_6` → `mutton_broth`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -13251,23 +12500,13 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `nanaimo_bars_i.step_8`: held, `nanaimo_bars_i_step_7` → `nanaimo_bars_i_step_8`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `nanaimo_bars_i_step_7`
 - `natto_japanese_fermented_soybeans.step_7`: held, `natto_japanese_fermented_soybeans_step_5` → `natto_japanese_fermented_soybeans_step_7`, 23 h (27600 ticks) at 20 °C, ambient
 - `natto_japanese_fermented_soybeans.step_8`: held, `natto_japanese_fermented_soybeans_step_7` → `natto_japanese_fermented_soybeans`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `navy_bean.stale`: spoil, `navy_bean` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `nectarine.freezer_burn`: spoil, `nectarine` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `nectarine.mold`: spoil, `nectarine` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `negitoro.freezer_burn`: spoil, `negitoro` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `negitoro.spoil`: spoil, `negitoro` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `nesquik_chocolate_flavored_drink_powder.sour`: spoil, `nesquik_chocolate_flavored_drink_powder` → `spoiled_food`, 633 d (18230400 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `new_england_potato_salad.step_3`: held, `cuisine_of_california_cut_boil_cut` → `cuisine_of_california_cut_boil_cut_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `new_england_potato_salad.step_8`: held, `new_england_potato_salad_step_7` → `new_england_potato_salad`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `new_england_potato_salad_step_7`
-- `new_mexico_ristra.freezer_burn`: spoil, `new_mexico_ristra` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `new_mexico_ristra.spoil`: spoil, `new_mexico_ristra` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `new_york_city_style_pizza.step_10`: held, `new_york_city_style_pizza_step_9` → `new_york_city_style_pizza`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `new_york_city_style_pizza_step_9`
 - `new_york_city_style_pizza.step_4`: held, `new_york_city_style_pizza_step_3` → `new_york_city_style_pizza_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `ngoundja_fried_plantains.step_10`: held, `ngoundja_fried_plantains_step_9` → `ngoundja_fried_plantains`, 1 min (20 ticks) at 20 °C, ambient
 - `ngoundja_fried_plantains.step_8`: held, `ngoundja_fried_plantains_step_7` → `ngoundja_fried_plantains_step_8`, 1 min (20 ticks) at 20 °C, ambient
-- `nigella.stale`: spoil, `nigella` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `nigerian_barbecued_chicken_wings.step_3`: held, `nigerian_barbecued_chicken_wings_step_2` → `nigerian_barbecued_chicken_wings_step_3`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `nigerian_barbecued_chicken_wings_step_2`
-- `nigerian_brown_bean.stale`: spoil, `nigerian_brown_bean` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `nigerian_caramelized_coconut.step_7`: held, `nigerian_caramelized_coconut_step_6` → `nigerian_caramelized_coconut`, 1 min (20 ticks) at 20 °C, ambient
 - `nigerian_cassava_fufu.step_6`: held, `nigerian_cassava_fufu_step_5` → `nigerian_cassava_fufu`, 5 min (100 ticks) at 20 °C, ambient
 - `nigerian_coleslaw.step_4`: held, `nigerian_coleslaw_step_3` → `nigerian_coleslaw`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `nigerian_coleslaw_step_3`
@@ -13284,9 +12523,6 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `no_bake_chocolate_chip_cookie_pie.step_4`: held, `no_bake_chocolate_chip_cookie_pie_step_2` → `no_bake_chocolate_chip_cookie_pie`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `no_bake_chocolate_chip_cookie_pie_step_2`
 - `no_bake_chocolate_oatmeal_cookies.step_6`: held, `no_bake_chocolate_oatmeal_cookies_step_5` → `no_bake_chocolate_oatmeal_cookies`, 20 min (400 ticks) at 20 °C, ambient
 - `no_bake_matsa_cake.step_5`: held, `no_bake_matsa_cake_step_3` → `no_bake_matsa_cake`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `no_salt_added_tomato_paste.freezer_burn`: spoil, `no_salt_added_tomato_paste` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `no_salt_added_tomato_paste.stale`: spoil, `no_salt_added_tomato_paste` → `spoiled_food`, 822 d (23673600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `noodle.stale`: spoil, `noodle` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `nori.dry`: held, `shredded_kelp` → `nori`, 4 h (4800 ticks) at 20 °C, ambient
 - `north_carolina_style_bbq_chicken.step_6`: held, `north_carolina_style_bbq_chicken_step_5` → `north_carolina_style_bbq_chicken`, 7 min (140 ticks) at 20 °C, ambient, not written: the game can't make `north_carolina_style_bbq_chicken_step_5`
 - `north_carolina_style_bbq_ribs.step_6`: held, `north_carolina_style_bbq_ribs_step_5` → `north_carolina_style_bbq_ribs`, 15 min (300 ticks) at 20 °C, ambient
@@ -13294,67 +12530,29 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `north_staffordshire_oatcakes.step_4`: held, `north_staffordshire_oatcakes_step_3` → `north_staffordshire_oatcakes_step_4`, 1 h (1200 ticks) at 20 °C, ambient
 - `nsima_cornmeal_swallow.step_8`: held, `nsima_cornmeal_swallow_step_7` → `nsima_cornmeal_swallow`, 1 min (20 ticks) at 20 °C, ambient
 - `nuremberg_gingerbread.step_8`: held, `nuremberg_gingerbread_step_7` → `nuremberg_gingerbread_step_8`, 1 min (20 ticks) at 20 °C, ambient
-- `nutmeg.stale`: spoil, `nutmeg` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `nutritional_yeast.culture`: held, `water` → `yeast_culture`, 24 h (28800 ticks) at 30 °C, warm, q10 2.5
 - `nutritional_yeast.dry`: held, `yeast_culture` → `nutritional_yeast`, 8 h (9600 ticks) at 20 °C, ambient
-- `nuts_and_seeds.freezer_burn`: spoil, `nuts_and_seeds` → `spoiled_food`, 258 d (7430400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `nuts_and_seeds.rancid`: spoil, `nuts_and_seeds` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
 - `nutty_buddy_chocolate_cookie_bars.step_10`: held, `nutty_buddy_chocolate_cookie_bars_step_9` → `nutty_buddy_chocolate_cookie_bars`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `nutty_buddy_chocolate_cookie_bars_step_9`
 - `nutty_buddy_chocolate_cookie_bars.step_8`: held, `nutty_buddy_chocolate_cookie_bars_step_7` → `nutty_buddy_chocolate_cookie_bars_step_8`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `nutty_buddy_chocolate_cookie_bars_step_7`
 - `nutty_buddy_chocolate_cookie_bars.step_9`: held, `nutty_buddy_chocolate_cookie_bars_step_8` → `nutty_buddy_chocolate_cookie_bars_step_9`, 1.5 h (1800 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `nutty_buddy_chocolate_cookie_bars_step_8`
-- `oat_flour.freezer_burn`: spoil, `oat_flour` → `spoiled_food`, 122 d (3513600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `oat_flour.stale`: spoil, `oat_flour` → `spoiled_food`, 60.9 d (1753920 ticks) at 20 °C, ambient, only from 0 °C to any
 - `oat_rice.step_6`: held, `oat_rice_step_5` → `oat_rice`, 1 min (20 ticks) at 20 °C, ambient
 - `oaties.step_6`: held, `oaties_step_5` → `oaties`, 1 min (20 ticks) at 20 °C, ambient
-- `oatmeal.freezer_burn`: spoil, `oatmeal` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `oatmeal.stale`: spoil, `oatmeal` → `spoiled_food`, 122 d (3513600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `oatmeal_chocolate_chip_cookies_ii.step_7`: held, `oatmeal_chocolate_chip_cookies_ii_step_6` → `oatmeal_chocolate_chip_cookies_ii_step_8`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `oatmeal_stout_brownies.step_9`: held, `oatmeal_stout_brownies_step_8` → `oatmeal_stout_brownies`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `oatmeal_stout_brownies_step_8`
-- `oats.freezer_burn`: spoil, `oats` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `oats.stale`: spoil, `oats` → `spoiled_food`, 122 d (3513600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `obuwunga_ugandan_traditional_bread.step_7`: held, `obuwunga_ugandan_traditional_bread_step_6` → `obuwunga_ugandan_traditional_bread`, 1 min (20 ticks) at 20 °C, ambient
-- `of_butter.freezer_burn`: spoil, `of_butter` → `spoiled_food`, 224 d (6451200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `of_butter.rancid`: spoil, `of_butter` → `spoiled_food`, 43 d (1238400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
-- `okra.freezer_burn`: spoil, `okra` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `okra.spoil`: spoil, `okra` → `spoiled_food`, 1 d (28800 ticks) at 20 °C, ambient, q10 1.75, only from 0 °C to any
-- `okra_pods.freezer_burn`: spoil, `okra_pods` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `okra_pods.spoil`: spoil, `okra_pods` → `spoiled_food`, 1 d (28800 ticks) at 20 °C, ambient, q10 1.75, only from 0 °C to any
-- `old_bay.stale`: spoil, `old_bay` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `old_bay_seasoning.stale`: spoil, `old_bay_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `olive.mold`: spoil, `olive` → `spoiled_food`, 447 d (12873600 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `olive_oil_bread.step_4`: held, `olive_oil_bread_step_3` → `olive_oil_bread_step_5`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `olive_oil_bread_step_3`
 - `olive_oil_bread.step_6`: held, `olive_oil_bread_step_5` → `olive_oil_bread_step_6`, 17.5 min (350 ticks) at 20 °C, ambient, not written: the game can't make `olive_oil_bread_step_5`
-- `olive_spread.freezer_burn`: spoil, `olive_spread` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `olive_spread.rancid`: spoil, `olive_spread` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
-- `olives.mold`: spoil, `olives` → `spoiled_food`, 447 d (12873600 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `onion.freezer_burn`: spoil, `onion` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `onion.spoil`: spoil, `onion` → `spoiled_food`, 30.4 d (875520 ticks) at 20 °C, ambient, q10 1.54, only from 0 °C to any
 - `onion_confit.step_7`: held, `onion_confit_step_6` → `onion_confit_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `onion_confit_step_6`
 - `onion_dip.step_6`: held, `onion_dip_step_5` → `onion_dip`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `onion_powder.dry`: held, `onion` → `dried_onion`, 3 d (86400 ticks) at 22 °C, ambient, q10 2
-- `onion_powder.stale`: spoil, `onion_powder` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `onion_rings.step_7`: held, `onion_rings_step_6` → `onion_rings_step_7`, 1 min (20 ticks) at 20 °C, ambient
-- `onion_salt.stale`: spoil, `onion_salt` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `onion_soup_mix.stale`: spoil, `onion_soup_mix` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `oolong_tea.stale`: spoil, `oolong_tea` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `orange.mold`: spoil, `orange` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `orange_french_toast.step_4`: held, `orange_french_toast_step_3` → `orange_french_toast_step_4`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `orange_juice.freezer_burn`: spoil, `orange_juice` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `orange_juice_concentrate.freezer_burn`: spoil, `orange_juice_concentrate` → `spoiled_food`, 730 d (21024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `orange_soda_i.step_4`: held, `orange_soda_i_step_3` → `orange_soda_i_step_4`, 1 min (20 ticks) at 20 °C, ambient
-- `oregano.stale`: spoil, `oregano` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `oreo_pie.step_6`: held, `oreo_pie_step_5` → `oreo_pie`, 2 h (2400 ticks) at -18 °C, frozen, only from any to 0 °C, not written: the game can't make `oreo_pie_step_5`
-- `orzo.stale`: spoil, `orzo` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `other_seasonings.stale`: spoil, `other_seasonings` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `other_spices.stale`: spoil, `other_spices` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `otong_soup.step_5`: held, `otong_soup_step_4` → `otong_soup_step_5`, 2 min (40 ticks) at 20 °C, ambient
-- `ounce_jar_picante_sauce.mold`: spoil, `ounce_jar_picante_sauce` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `out_of_salad_dressing_salad_dressing.step_3`: held, `out_of_salad_dressing_salad_dressing_step_2` → `out_of_salad_dressing_salad_dressing`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `oven_fried_chicken_breasts.step_6`: held, `oven_fried_chicken_breasts_step_5` → `oven_fried_chicken_breasts`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `oven_fried_chicken_breasts_step_5`
 - `owo_soup.step_6`: held, `owo_soup_step_5` → `owo_soup_step_6`, 10 min (200 ticks) at 20 °C, ambient
-- `oyster.spoil`: spoil, `oyster` → `spoiled_food`, 7.07 d (203616 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `oyster_sauce.mold`: spoil, `oyster_sauce` → `spoiled_food`, 633 d (18230400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `packages_jell_o_flavored_gelatin.stale`: spoil, `packages_jell_o_flavored_gelatin` → `spoiled_food`, 333 d (9590400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `paella_de_marisco.step_19`: held, `paella_de_marisco_step_17` → `paella_de_marisco`, 5 min (100 ticks) at 20 °C, ambient
 - `paella_roja.step_20`: held, `paella_roja_step_19` → `paella_roja`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `paella_roja_step_19`
 - `paella_valenciana.step_10`: held, `paella_valenciana_step_9` → `paella_valenciana`, 5 min (100 ticks) at 20 °C, ambient
@@ -13373,71 +12571,33 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `pan_fried_ravioli.step_7`: held, `pan_fried_ravioli_step_6` → `pan_fried_ravioli_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `pan_seared_chicken_breast.step_6`: held, `pan_seared_chicken_breast_step_5` → `pan_seared_chicken_breast`, 7 min (140 ticks) at 20 °C, ambient
 - `pan_seared_pork_chops.step_4`: held, `pan_seared_pork_chops_step_3` → `pan_seared_pork_chops`, 5 min (100 ticks) at 20 °C, ambient
-- `pancake_mix.stale`: spoil, `pancake_mix` → `spoiled_food`, 274 d (7891200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pancakes_north_american.freezer_burn`: spoil, `pancakes_north_american` → `spoiled_food`, 91.3 d (2629440 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pancakes_north_american_step_1.stale`: spoil, `pancakes_north_american_step_1` → `spoiled_food`, 274 d (7891200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pancakes_north_american_step_2.stale`: spoil, `pancakes_north_american_step_2` → `spoiled_food`, 274 d (7891200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pancakes_north_american_step_3.stale`: spoil, `pancakes_north_american_step_3` → `spoiled_food`, 274 d (7891200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pancetta.freezer_burn`: spoil, `pancetta` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pancetta.spoil`: spoil, `pancetta` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `panna_cotta_basic.step_4`: held, `panna_cotta_basic_step_3` → `panna_cotta_basic`, 4 h (4800 ticks) at 4 °C, chilled, only from any to 8 °C
 - `panna_cotta_with_red_fruit_sauce.step_3`: held, `panna_cotta_with_red_fruit_sauce_step_2` → `panna_cotta_with_red_fruit_sauce_step_3`, 2.5 h (3000 ticks) at 4 °C, chilled, only from any to 8 °C
 - `papadam_black_gram_flatbread.step_5`: held, `papadam_black_gram_flatbread_step_3` → `papadam_black_gram_flatbread_step_5`, 1 h (1200 ticks) at 20 °C, ambient
 - `papadam_black_gram_flatbread.step_6`: held, `papadam_black_gram_flatbread_step_5` → `papadam_black_gram_flatbread_step_6`, 1 min (20 ticks) at 20 °C, ambient
-- `papaya.freezer_burn`: spoil, `papaya` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `papaya.mold`: spoil, `papaya` → `spoiled_food`, 3.87 d (111456 ticks) at 20 °C, ambient, q10 1.45, only from 0 °C to any
 - `papri_chaat_crispy_indian_snack_with_potato.step_4`: held, `papri_chaat_crispy_indian_snack_with_potato_step_3` → `papri_chaat_crispy_indian_snack_with_potato_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `paprika.dry_chiles`: held, `sweet_chiles` → `dried_sweet_chiles`, 3 d (86400 ticks) at 22 °C, ambient, q10 2
-- `paprika.stale`: spoil, `paprika` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `parmesan_cheese.age`: held, `parmesan_cheese_green` → `parmesan_cheese`, 360 d (10368000 ticks) at 12 °C, ambient, q10 2
-- `parmesan_cheese.mold`: spoil, `parmesan_cheese` → `spoiled_food`, 365 d (10512000 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `parsley.freezer_burn`: spoil, `parsley` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `parsley.spoil`: spoil, `parsley` → `spoiled_food`, 2.45 d (70560 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `parsnip.freezer_burn`: spoil, `parsnip` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `parsnip.spoil`: spoil, `parsnip` → `spoiled_food`, 17.1 d (492480 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `part_of_scallions.freezer_burn`: spoil, `part_of_scallions` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `part_of_scallions.spoil`: spoil, `part_of_scallions` → `spoiled_food`, 30.4 d (875520 ticks) at 20 °C, ambient, q10 0.399, only from 0 °C to any
-- `passion_fruit.freezer_burn`: spoil, `passion_fruit` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `passion_fruit.mold`: spoil, `passion_fruit` → `spoiled_food`, 3.87 d (111456 ticks) at 20 °C, ambient, q10 1.45, only from 0 °C to any
 - `passover_carrot_almond_cake.step_11`: held, `passover_carrot_almond_cake_step_10` → `passover_carrot_almond_cake_step_11`, 1 min (20 ticks) at 20 °C, ambient
 - `passover_hazelnut_chocolate_loaf.step_17`: held, `passover_hazelnut_chocolate_loaf_step_16` → `passover_hazelnut_chocolate_loaf`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `passover_hazelnut_chocolate_loaf_step_16`
 - `passover_hazelnut_chocolate_loaf.step_2`: held, `hazelnut_roast_heat` → `hazelnut_roast_heat_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `pasta.dry`: held, `raw_pasta` → `pasta`, 12 h (14400 ticks) at 20 °C, ambient
-- `pasta.stale`: spoil, `pasta` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pasta_casserole_pastitsio.step_12`: held, `pasta_casserole_pastitsio_step_11` → `pasta_casserole_pastitsio_step_12`, 1 min (20 ticks) at 20 °C, ambient
 - `pasta_casserole_pastitsio.step_23`: held, `pasta_casserole_pastitsio_step_22` → `pasta_casserole_pastitsio`, 10 min (200 ticks) at 20 °C, ambient
 - `pasta_casserole_pastitsio.step_5`: held, `pasta_casserole_pastitsio_step_4` → `pasta_casserole_pastitsio_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `pasta_salad_with_chicken.step_4`: held, `pasta_salad_with_chicken_step_3` → `pasta_salad_with_chicken`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `pasta_sauce.mold`: spoil, `pasta_sauce` → `spoiled_food`, 548 d (15782400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `pasta_seasoning.stale`: spoil, `pasta_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pastries_filled_with_jam_marmeladetascherl.step_2`: held, `pastries_filled_with_jam_marmeladetascherl_step_1` → `pastries_filled_with_jam_marmeladetascherl_step_3`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `pastry_dough.freezer_burn`: spoil, `pastry_dough` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `pastry_dough_recipe.step_3`: held, `pastry_dough_recipe_step_2` → `pastry_dough_recipe`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `paul_prudhomme_s_seafood_magic.stale`: spoil, `paul_prudhomme_s_seafood_magic` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pawpaw.freezer_burn`: spoil, `pawpaw` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pawpaw.mold`: spoil, `pawpaw` → `spoiled_food`, 3.87 d (111456 ticks) at 20 °C, ambient, q10 1.45, only from 0 °C to any
-- `pea_soup.stale`: spoil, `pea_soup` → `spoiled_food`, 1160 d (33408000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `peach.freezer_burn`: spoil, `peach` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `peach.mold`: spoil, `peach` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `peach_chutney.step_6`: held, `peach_chutney_step_5` → `peach_chutney`, 15 min (300 ticks) at 20 °C, ambient
 - `peach_pie.step_5`: held, `peach_pie_step_4` → `peach_pie_step_6`, 0.5 h (600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `peanut.freezer_burn`: spoil, `peanut` → `spoiled_food`, 730 d (21024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `peanut.rancid`: spoil, `peanut` → `spoiled_food`, 28 d (806400 ticks) at 20 °C, ambient, q10 4.98, only from 0 °C to any
 - `peanut_brittle.step_11`: held, `peanut_brittle_step_10` → `peanut_brittle_step_11`, 1 min (20 ticks) at 20 °C, ambient
-- `peanut_butter.rancid`: spoil, `peanut_butter` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
 - `peanut_butter_cookies.step_6`: held, `peanut_butter_cookies_step_5` → `peanut_butter_cookies`, 1 min (20 ticks) at 20 °C, ambient
 - `peanut_butter_fudge.step_5`: held, `peanut_butter_fudge_step_4` → `peanut_butter_fudge`, 1 min (20 ticks) at 20 °C, ambient
 - `peanut_curry_sauce.step_5`: held, `peanut_curry_sauce_step_4` → `peanut_curry_sauce`, 0.5 h (600 ticks) at 20 °C, ambient, not written: the game can't make `peanut_curry_sauce_step_4`
-- `pear.freezer_burn`: spoil, `pear` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pear.mold`: spoil, `pear` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `pear_pie.step_10`: held, `pear_pie_step_9` → `pear_pie`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `pear_pie_step_9`
-- `pearl_onions.freezer_burn`: spoil, `pearl_onions` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pearl_onions.spoil`: spoil, `pearl_onions` → `spoiled_food`, 30.4 d (875520 ticks) at 20 °C, ambient, q10 1.54, only from 0 °C to any
 - `pease_pudding.step_11`: held, `pease_pudding_step_10` → `pease_pudding_step_11`, 1 min (20 ticks) at 20 °C, ambient
 - `pease_pudding.step_12`: held, `pease_pudding_step_11` → `pease_pudding`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `pease_pudding.step_9`: held, `pease_pudding_step_8` → `pease_pudding_step_9`, 1 min (20 ticks) at 20 °C, ambient
-- `pecan_halves.freezer_burn`: spoil, `pecan_halves` → `spoiled_food`, 730 d (21024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pecan_halves.rancid`: spoil, `pecan_halves` → `spoiled_food`, 19.8 d (570240 ticks) at 20 °C, ambient, q10 5.17, only from 0 °C to any
 - `pecan_pie.step_14`: held, `pecan_pie_step_13` → `pecan_pie_step_14`, 30 min (600 ticks) at -18 °C, frozen, only from any to 0 °C, not written: the game can't make `pecan_pie_step_13`
 - `pecan_pie.step_2`: held, `pecan_roast_roast` → `pecan_roast_roast_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `pecan_pie.step_23`: held, `pecan_pie_step_22` → `pecan_pie_step_23`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `pecan_pie_step_22`
@@ -13445,114 +12605,43 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `pecan_pie.step_3.prep_4`: held, `butter` → `butter_freeze`, 1 min (20 ticks) at 20 °C, ambient
 - `pecan_pie.step_3.prep_5`: held, `shortening` → `shortening_freeze`, 1 min (20 ticks) at 20 °C, ambient
 - `pecan_pie.step_9`: held, `pecan_pie_step_8` → `pecan_pie_step_12`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `pecan_pie_step_8`
-- `pecorino_romano_cheese.freezer_burn`: spoil, `pecorino_romano_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pecorino_romano_cheese.mold`: spoil, `pecorino_romano_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `peeled_and_deveined_shrimp.freezer_burn`: spoil, `peeled_and_deveined_shrimp` → `spoiled_food`, 316 d (9100800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `peeled_and_deveined_shrimp.spoil`: spoil, `peeled_and_deveined_shrimp` → `spoiled_food`, 1.73 d (49824 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `peeled_cucumber.spoil`: spoil, `peeled_cucumber` → `spoiled_food`, 4.9 d (141120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `pemmican.age`: held, `beef` → `dried_lean_beef`, 10 d (288000 ticks) at 20 °C, ambient, q10 2
-- `penne.stale`: spoil, `penne` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pepper.stale`: spoil, `pepper` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pepper_crusted_flank_steak.step_4`: held, `pepper_crusted_flank_steak_step_3` → `pepper_crusted_flank_steak_step_4`, 7 min (140 ticks) at 20 °C, ambient
-- `pepper_jack.freezer_burn`: spoil, `pepper_jack` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pepper_jack.mold`: spoil, `pepper_jack` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `pepper_paste.mold`: spoil, `pepper_paste` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `pepper_powder.stale`: spoil, `pepper_powder` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pepper_sauce.mold`: spoil, `pepper_sauce` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `pepper_soup_spice_mix.stale`: spoil, `pepper_soup_spice_mix` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pepper_stew.freezer_burn`: spoil, `pepper_stew` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pepper_stew.spoil`: spoil, `pepper_stew` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `peppermint.spoil`: spoil, `peppermint` → `spoiled_food`, 9.9 d (285120 ticks) at 20 °C, ambient, q10 1.41, only from 0 °C to any
-- `pepperoncini.mold`: spoil, `pepperoncini` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `pepperoni.dry`: held, `fermented_pepperoni` → `pepperoni`, 14 d (403200 ticks) at 20 °C, ambient
 - `pepperoni.ferment`: held, `pepperoni_mix` → `fermented_pepperoni`, 2 d (57600 ticks) at 25 °C, ambient, q10 2
-- `pepperoni.freezer_burn`: spoil, `pepperoni` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pepperoni.spoil`: spoil, `pepperoni` → `spoiled_food`, 17.1 d (492480 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `pepperoni_pasta_salad.step_2`: held, `pepperoni_pasta_salad_step_1` → `pepperoni_pasta_salad`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `peppers.freezer_burn`: spoil, `peppers` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `peppers.spoil`: spoil, `peppers` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `perfect_three_course_dinner.step_4`: held, `perfect_three_course_dinner_step_2` → `perfect_three_course_dinner_step_4`, 1 min (20 ticks) at 20 °C, ambient
-- `pesto.freezer_burn`: spoil, `pesto` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pesto.mold`: spoil, `pesto` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `phyllo_dough.freezer_burn`: spoil, `phyllo_dough` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `phyllo_dough.spoil`: spoil, `phyllo_dough` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `piadina_thin_italian_flatbread.step_6`: held, `piadina_thin_italian_flatbread_step_4` → `piadina_thin_italian_flatbread_step_9`, 30 min (600 ticks) at 20 °C, ambient
-- `picante_sauce.mold`: spoil, `picante_sauce` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `pickert_german_potato_dumpling.step_3`: held, `pickert_german_potato_dumpling_step_2` → `pickert_german_potato_dumpling_step_3`, 30 min (600 ticks) at 20 °C, ambient
-- `pickle.mold`: spoil, `pickle` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `pickled_cucumbers.mold`: spoil, `pickled_cucumbers` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `pickled_green_mango_aavakaaya.step_11`: held, `pickled_green_mango_aavakaaya_step_10` → `pickled_green_mango_aavakaaya_step_11`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `pickled_green_mango_aavakaaya_step_10`
 - `pickled_green_mango_aavakaaya.step_13`: held, `pickled_green_mango_aavakaaya_step_12` → `pickled_green_mango_aavakaaya`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `pickled_green_mango_aavakaaya_step_12`
 - `pickled_green_mango_aavakaaya.step_5`: held, `pickled_green_mango_aavakaaya_step_4` → `pickled_green_mango_aavakaaya_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `pickled_herring.step_5`: held, `pickled_herring_step_4` → `pickled_herring`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `pickles.mold`: spoil, `pickles` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `pickling_onions.mold`: spoil, `pickling_onions` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `pickling_spices.stale`: spoil, `pickling_spices` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pico_de_gallo.step_5`: held, `pico_de_gallo_step_4` → `pico_de_gallo`, 30 min (600 ticks) at 20 °C, ambient
-- `pie_crust.freezer_burn`: spoil, `pie_crust` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `pierogi_i.step_5`: held, `pierogi_i_step_4` → `pierogi_i_step_6`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `pig_s_trotters_and_ginger_vinegar_stew.step_10`: held, `pig_s_trotters_and_ginger_vinegar_stew_step_9` → `pig_s_trotters_and_ginger_vinegar_stew`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `pig_s_trotters_and_ginger_vinegar_stew_step_9`
-- `pigeon_pea.stale`: spoil, `pigeon_pea` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pigs_feet.freezer_burn`: spoil, `pigs_feet` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pigs_feet.spoil`: spoil, `pigs_feet` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `pigs_trotters.freezer_burn`: spoil, `pigs_trotters` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pigs_trotters.spoil`: spoil, `pigs_trotters` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `pikelet_australian_mini_pancakes.step_5`: held, `pikelet_australian_mini_pancakes_step_3` → `pikelet_australian_mini_pancakes_step_5`, 2 h (2400 ticks) at 20 °C, ambient
-- `pillsbury_pie_crusts.freezer_burn`: spoil, `pillsbury_pie_crusts` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pimento.freezer_burn`: spoil, `pimento` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pimento.spoil`: spoil, `pimento` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `pimento_cheese_spread_i.step_2`: held, `pimento_cheese_spread_i_step_1` → `pimento_cheese_spread_i`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `pine_nut.freezer_burn`: spoil, `pine_nut` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pine_nut.rancid`: spoil, `pine_nut` → `spoiled_food`, 17.1 d (492480 ticks) at 20 °C, ambient, q10 2.84, only from 0 °C to any
-- `pineapple.freezer_burn`: spoil, `pineapple` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pineapple.mold`: spoil, `pineapple` → `spoiled_food`, 5.92 d (170496 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `pineapple_juice.step_5`: held, `pineapple_juice_step_4` → `pineapple_juice`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `pineapple_juice_step_4`
 - `pineapple_tarts.step_14`: held, `pineapple_tarts_step_13` → `pineapple_tarts_step_14`, 5 min (100 ticks) at 20 °C, ambient
 - `pineapple_tarts.step_6`: held, `pineapple_tarts_step_4` → `pineapple_tarts_step_6`, 1 d (28800 ticks) at 4 °C, chilled, only from any to 8 °C
-- `pistachio.freezer_burn`: spoil, `pistachio` → `spoiled_food`, 730 d (21024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pistachio.rancid`: spoil, `pistachio` → `spoiled_food`, 21 d (604800 ticks) at 20 °C, ambient, q10 5.96, only from 0 °C to any
 - `pita.step_2`: held, `pita_step_1` → `pita_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `pita.step_5`: held, `pita_step_3` → `pita_step_5`, 30 min (600 ticks) at 20 °C, ambient
-- `pita_bread.freezer_burn`: spoil, `pita_bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pita_bread.mold`: spoil, `pita_bread` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `pitted_salt_cured_black_olives.mold`: spoil, `pitted_salt_cured_black_olives` → `spoiled_food`, 447 d (12873600 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `pizza_dough.step_2`: held, `pizza_dough_step_1` → `pizza_dough_step_2`, 25 min (500 ticks) at 20 °C, ambient
-- `placenta.freezer_burn`: spoil, `placenta` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `placenta.spoil`: spoil, `placenta` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `plain_flour.stale`: spoil, `plain_flour` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `plantain.freezer_burn`: spoil, `plantain` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `plantain.mold`: spoil, `plantain` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `plantains.freezer_burn`: spoil, `plantains` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `plantains.mold`: spoil, `plantains` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `ployes.step_4`: held, `ployes_step_3` → `ployes_step_6`, 22.5 min (450 ticks) at 20 °C, ambient
-- `plum.freezer_burn`: spoil, `plum` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `plum.mold`: spoil, `plum` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `polenta.stale`: spoil, `polenta` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `polish_doughnuts_paczki.step_3`: held, `polish_doughnuts_paczki_step_2` → `polish_doughnuts_paczki_step_4`, 5 min (100 ticks) at 20 °C, ambient
 - `polish_doughnuts_paczki.step_5`: held, `polish_doughnuts_paczki_step_4` → `polish_doughnuts_paczki_step_5`, 30 min (600 ticks) at 20 °C, ambient
 - `polvorones_spanish_shortbread.step_7`: held, `polvorones_spanish_shortbread_step_6` → `polvorones_spanish_shortbread`, 1 min (20 ticks) at 20 °C, ambient
-- `pomegranate.freezer_burn`: spoil, `pomegranate` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pomegranate.mold`: spoil, `pomegranate` → `spoiled_food`, 3.16 d (91008 ticks) at 20 °C, ambient, q10 5.8, only from 0 °C to any
-- `porcini_mushroom.freezer_burn`: spoil, `porcini_mushroom` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `porcini_mushroom.spoil`: spoil, `porcini_mushroom` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `pork_aachi.step_9`: held, `pork_aachi_step_8` → `pork_aachi`, 4 min (80 ticks) at 20 °C, ambient
 - `pork_burritos_with_green_pepper_sauce.step_6`: held, `pork_burritos_with_green_pepper_sauce_step_5` → `pork_burritos_with_green_pepper_sauce_step_6`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `pork_burritos_with_green_pepper_sauce_step_5`
-- `pork_flavored_gravy_base.mold`: spoil, `pork_flavored_gravy_base` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 0.0202, only from 0 °C to any
 - `pork_gyoza.step_5`: held, `pork_gyoza_step_3` → `pork_gyoza_step_5`, 1 min (20 ticks) at -18 °C, frozen, only from any to 0 °C
 - `pork_jerky.age`: held, `cured_pork_belly` → `salted_pork_strips`, 24 h (28800 ticks) at 20 °C, ambient, q10 2
 - `pork_jerky.dry`: held, `salted_pork_strips` → `pork_jerky`, 8 h (9600 ticks) at 20 °C, ambient
-- `pork_mince.freezer_burn`: spoil, `pork_mince` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pork_mince.spoil`: spoil, `pork_mince` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `pork_pot_pie.step_11`: held, `pork_pot_pie_step_10` → `pork_pot_pie`, 5 min (100 ticks) at 20 °C, ambient
 - `pork_roast_with_cayenne_apple_glaze.step_7`: held, `pork_roast_with_cayenne_apple_glaze_step_6` → `pork_roast_with_cayenne_apple_glaze`, 10 min (200 ticks) at 20 °C, ambient
 - `pork_tenderloin_with_asparagus_and_prosciutto.step_15`: held, `pork_tenderloin_with_asparagus_and_prosciutto_step_14` → `pork_tenderloin_with_asparagus_and_prosciutto_step_15`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `pork_tenderloin_with_asparagus_and_prosciutto_step_14`
-- `port_wine.sour`: spoil, `port_wine` → `spoiled_food`, 1410 d (40608000 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `posho_ugandan_cornmeal_porridge.step_6`: held, `posho_ugandan_cornmeal_porridge_step_5` → `posho_ugandan_cornmeal_porridge`, 1 min (20 ticks) at 20 °C, ambient
-- `pot_herbs.freezer_burn`: spoil, `pot_herbs` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pot_herbs.spoil`: spoil, `pot_herbs` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `potage_parmentier.step_4`: held, `potage_parmentier_step_3` → `potage_parmentier_step_4`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `potato.freezer_burn`: spoil, `potato` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `potato.spoil`: spoil, `potato` → `spoiled_food`, 43 d (1238400 ticks) at 20 °C, ambient, q10 0.399, only from 0 °C to any
 - `potato_almond_milk.step_7`: held, `potato_almond_milk_step_6` → `potato_almond_milk`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `potato_and_garlic_ravioli_filling.step_2`: held, `potato_boil_boil` → `potato_boil_boil_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `potato_and_garlic_ravioli_filling.step_6`: held, `potato_and_garlic_ravioli_filling_step_5` → `potato_and_garlic_ravioli_filling`, 1 min (20 ticks) at 20 °C, ambient
@@ -13571,58 +12660,25 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `potato_samosas_aloo_pies.step_9`: held, `potato_samosas_aloo_pies_step_8` → `potato_samosas_aloo_pies`, 1 min (20 ticks) at 20 °C, ambient
 - `potato_snow.step_4`: held, `potato_soak_boil_boil` → `potato_soak_boil_boil_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `potatoes_with_green_sauce.step_4`: held, `potatoes_with_green_sauce_step_3` → `potatoes_with_green_sauce_step_4`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `potatoes_with_green_sauce_step_3`
-- `poultry_seasoning.stale`: spoil, `poultry_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `poultry_stuffing.stale`: spoil, `poultry_stuffing` → `spoiled_food`, 316 d (9100800 ticks) at 20 °C, ambient, only from 0 °C to any
-- `powdered_creamer.sour`: spoil, `powdered_creamer` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
-- `powdered_ginger.stale`: spoil, `powdered_ginger` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `powdered_hot_paprika.stale`: spoil, `powdered_hot_paprika` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `powdered_pepper.stale`: spoil, `powdered_pepper` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `powdered_smoked_paprika.stale`: spoil, `powdered_smoked_paprika` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pralin.step_7`: held, `pralin_step_6` → `pralin`, 1 min (20 ticks) at 20 °C, ambient
 - `prata.step_4`: held, `prata_step_3` → `prata_step_5`, 1 h (1200 ticks) at 20 °C, ambient
-- `prawn_cracker.freezer_burn`: spoil, `prawn_cracker` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `prawn_cracker.stale`: spoil, `prawn_cracker` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `prawn_crackers_shrimp_chips.freezer_burn`: spoil, `prawn_crackers_shrimp_chips` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `prawn_crackers_shrimp_chips.stale`: spoil, `prawn_crackers_shrimp_chips` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pre_baked_whole_grain_pizza_shell.freezer_burn`: spoil, `pre_baked_whole_grain_pizza_shell` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pre_baked_whole_grain_pizza_shell.spoil`: spoil, `pre_baked_whole_grain_pizza_shell` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `preserved_lemon.step_2`: held, `preserved_lemon_step_1` → `preserved_lemon_step_2`, 1 min (20 ticks) at 20 °C, ambient
 - `preserved_lemon.step_3`: held, `preserved_lemon_step_2` → `preserved_lemon`, 14 d (403200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `pretzels.stale`: spoil, `pretzels` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `prickly_pear.freezer_burn`: spoil, `prickly_pear` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `prickly_pear.mold`: spoil, `prickly_pear` → `spoiled_food`, 3.16 d (91008 ticks) at 20 °C, ambient, q10 2.04, only from 0 °C to any
 - `prime_rib_dinner.step_2`: held, `prime_rib_dinner_step_1` → `prime_rib_dinner_step_2`, 2 h (2400 ticks) at 20 °C, ambient
-- `processed_cheese.mold`: spoil, `processed_cheese` → `spoiled_food`, 24.2 d (696960 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `prosciutto.freezer_burn`: spoil, `prosciutto` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `prosciutto.spoil`: spoil, `prosciutto` → `spoiled_food`, 74.6 d (2148480 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `provolone_cheese.freezer_burn`: spoil, `provolone_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `provolone_cheese.mold`: spoil, `provolone_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `prune.dry`: held, `plum` → `prune`, 1 d (28800 ticks) at 20 °C, ambient, q10 2
-- `prune.stale`: spoil, `prune` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pudding_mix.stale`: spoil, `pudding_mix` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pudding_with_pistachios_and_rose_water_muhallebi.step_5`: held, `pudding_with_pistachios_and_rose_water_muhallebi_step_4` → `pudding_with_pistachios_and_rose_water_muhallebi_step_5`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `puff_pastry.freezer_burn`: spoil, `puff_pastry` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `puffed_rice_cereal.stale`: spoil, `puffed_rice_cereal` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pulse_chutney.step_1`: held, `mung_bean_soak` → `mung_bean_soak_sprout`, 3.5 h (4200 ticks) at 20 °C, ambient
-- `pulses.stale`: spoil, `pulses` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pumpkin.spoil`: spoil, `pumpkin` → `spoiled_food`, 74.6 d (2148480 ticks) at 20 °C, ambient, q10 1.33, only from 0 °C to any
 - `pumpkin_bread_i.step_5`: held, `pumpkin_bread_i_step_4` → `pumpkin_bread_i`, 1 min (20 ticks) at 20 °C, ambient
 - `pumpkin_bread_ii.step_10`: held, `pumpkin_bread_ii_step_9` → `pumpkin_bread_ii`, 7.5 min (150 ticks) at 20 °C, ambient
 - `pumpkin_bread_iii.step_7`: held, `pumpkin_bread_iii_step_6` → `pumpkin_bread_iii`, 1 min (20 ticks) at 20 °C, ambient
 - `pumpkin_chips.step_6`: held, `pumpkin_chips_step_5` → `pumpkin_chips`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `pumpkin_chips_step_5`
-- `pumpkin_leaves.freezer_burn`: spoil, `pumpkin_leaves` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pumpkin_leaves.spoil`: spoil, `pumpkin_leaves` → `spoiled_food`, 2 d (57600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `pumpkin_pie_i.step_5`: held, `pumpkin_pie_i_step_4` → `pumpkin_pie_i`, 1 min (20 ticks) at 20 °C, ambient
 - `pumpkin_pie_ii.step_5`: held, `pumpkin_pie_ii_step_4` → `pumpkin_pie_ii_step_5`, 2 h (2400 ticks) at 20 °C, ambient
 - `pumpkin_roll.step_19`: held, `pumpkin_roll_step_16` → `pumpkin_roll_step_19`, 1 min (20 ticks) at -18 °C, frozen, only from any to 0 °C
 - `puri_indian_fried_flatbread.step_5`: held, `puri_indian_fried_flatbread_step_4` → `puri_indian_fried_flatbread_step_5`, 30 min (600 ticks) at 20 °C, ambient, not written: the game can't make `puri_indian_fried_flatbread_step_4`
 - `puri_indian_fried_flatbread.step_9`: held, `puri_indian_fried_flatbread_step_8` → `puri_indian_fried_flatbread`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `puri_indian_fried_flatbread_step_8`
 - `purple_plum_pie.step_4`: held, `purple_plum_pie_step_3` → `purple_plum_pie`, 1 min (20 ticks) at 20 °C, ambient
-- `quail.freezer_burn`: spoil, `quail` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `quail.spoil`: spoil, `quail` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `quail_egg.spoil`: spoil, `quail_egg` → `spoiled_food`, 27.1 d (780480 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `quail_egg_and_chili_jangjorim.step_2`: held, `quail_boil_boil` → `quail_boil_boil_cool`, 1 min (20 ticks) at 20 °C, ambient
-- `quark.sour`: spoil, `quark` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `queen_of_puddings.step_5`: held, `queen_of_puddings_step_4` → `queen_of_puddings_step_5`, 10 min (200 ticks) at 20 °C, ambient
 - `quiche_lorraine.step_10`: held, `quiche_lorraine_step_9` → `quiche_lorraine_step_10`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `quiche_lorraine_step_9`
 - `quick_and_delicious_pineapple_upside_down_cake.step_7`: held, `quick_and_delicious_pineapple_upside_down_cake_step_6` → `quick_and_delicious_pineapple_upside_down_cake`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `quick_and_delicious_pineapple_upside_down_cake_step_6`
@@ -13633,14 +12689,10 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `quick_puff_pastry.step_8`: held, `quick_puff_pastry_step_5` → `quick_puff_pastry`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `quick_sourdough_starter.step_2`: held, `quick_sourdough_starter_step_1` → `quick_sourdough_starter_step_2`, 1 h (1200 ticks) at 20 °C, ambient
 - `quick_sourdough_starter.step_3`: held, `quick_sourdough_starter_step_2` → `quick_sourdough_starter`, 1 min (20 ticks) at 20 °C, ambient
-- `quinoa.stale`: spoil, `quinoa` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `quinoa_vegetable_slaw_with_peanut_dressing_gluten_free.step_3.prep_9`: held, `quinoa` → `quinoa_cool`, 1 min (20 ticks) at 20 °C, ambient
-- `rabbit.freezer_burn`: spoil, `rabbit` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `rabbit.spoil`: spoil, `rabbit` → `spoiled_food`, 2 d (57600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `rabbit_jerky.age`: held, `rabbit` → `salted_rabbit_strips`, 24 h (28800 ticks) at 20 °C, ambient, q10 2
 - `rabbit_jerky.dry`: held, `salted_rabbit_strips` → `rabbit_jerky`, 8 h (9600 ticks) at 20 °C, ambient
 - `rabbit_with_abbey_beer_konijn_met_paterbier.step_7`: held, `rabbit_with_abbey_beer_konijn_met_paterbier_step_6` → `rabbit_with_abbey_beer_konijn_met_paterbier`, 1 min (20 ticks) at 20 °C, ambient
-- `radish.spoil`: spoil, `radish` → `spoiled_food`, 11.8 d (339840 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `radish_pie.step_9`: held, `radish_pie_step_8` → `radish_pie`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `radish_pie_step_8`
 - `ragi_dosa_south_indian_millet_and_rice_pancake.step_3`: held, `ragi_dosa_south_indian_millet_and_rice_pancake_step_2` → `ragi_dosa_south_indian_millet_and_rice_pancake_step_3`, 10 h (12000 ticks) at 20 °C, ambient
 - `rainbow_cake.step_10`: held, `rainbow_cake_step_9` → `rainbow_cake_step_10`, 1 min (20 ticks) at 20 °C, ambient
@@ -13648,57 +12700,32 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `rainbow_jell_o.step_5`: held, `rainbow_jell_o_step_4` → `rainbow_jell_o_step_5`, 5 min (100 ticks) at 4 °C, chilled, only from any to 8 °C
 - `rainbow_jell_o.step_8`: held, `rainbow_jell_o_step_7` → `rainbow_jell_o_step_9`, 15 min (300 ticks) at 4 °C, chilled, only from any to 8 °C
 - `raisin.dry`: held, `grape` → `raisin`, 5 d (144000 ticks) at 20 °C, ambient, q10 2
-- `raisin.stale`: spoil, `raisin` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `raisin_crumb_pie.step_3`: held, `raisin_crumb_pie_step_2` → `raisin_crumb_pie_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `raisin_oatmeal_muffins.step_7`: held, `raisin_oatmeal_muffins_step_6` → `raisin_oatmeal_muffins`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `raisin_oatmeal_muffins_step_6`
 - `raita.step_1.prep_1`: held, `cucumber` → `cucumber_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `raita.step_7`: held, `raita_step_6` → `raita`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `raita_step_6`
-- `raspberries.freezer_burn`: spoil, `raspberries` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `raspberries.mold`: spoil, `raspberries` → `spoiled_food`, 2.45 d (70560 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `raspberry.freezer_burn`: spoil, `raspberry` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `raspberry.mold`: spoil, `raspberry` → `spoiled_food`, 2.45 d (70560 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `raspberry_ripple_cake.step_9`: held, `raspberry_ripple_cake_step_8` → `raspberry_ripple_cake_step_9`, 1 min (20 ticks) at 20 °C, ambient
-- `ravioli.freezer_burn`: spoil, `ravioli` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `ravioli.mold`: spoil, `ravioli` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `raw_prawns_shrimp.freezer_burn`: spoil, `raw_prawns_shrimp` → `spoiled_food`, 316 d (9100800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `raw_prawns_shrimp.spoil`: spoil, `raw_prawns_shrimp` → `spoiled_food`, 1.73 d (49824 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `raw_yam.spoil`: spoil, `raw_yam` → `spoiled_food`, 17.1 d (492480 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `reblochon_cheese.age`: held, `reblochon_cheese_green` → `reblochon_cheese`, 20 d (576000 ticks) at 12 °C, ambient, q10 2
-- `reblochon_cheese.freezer_burn`: spoil, `reblochon_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `reblochon_cheese.mold`: spoil, `reblochon_cheese` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `red_bean_paste.step_9`: held, `red_bean_paste_step_8` → `red_bean_paste`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `red_beet_food_coloring.step_8`: held, `red_beet_food_coloring_step_7` → `red_beet_food_coloring`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `red_beet_food_coloring_step_7`
 - `red_chile_sauce.step_3.prep_2`: held, `water` → `water_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `red_cross_fudge.step_4`: held, `red_cross_fudge_step_3` → `red_cross_fudge_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `red_cross_fudge.step_6`: held, `red_cross_fudge_step_5` → `red_cross_fudge`, 1 min (20 ticks) at 20 °C, ambient
-- `red_pepper.stale`: spoil, `red_pepper` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `red_snapper.freezer_burn`: spoil, `red_snapper` → `spoiled_food`, 172 d (4953600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `red_snapper.spoil`: spoil, `red_snapper` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `reindling_austrian_yeasted_easter_cake.step_2`: held, `reindling_austrian_yeasted_easter_cake_step_1` → `reindling_austrian_yeasted_easter_cake_step_2`, 30 min (600 ticks) at 20 °C, ambient
 - `reindling_austrian_yeasted_easter_cake.step_9`: held, `reindling_austrian_yeasted_easter_cake_step_8` → `reindling_austrian_yeasted_easter_cake`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `reindling_austrian_yeasted_easter_cake_step_8`
-- `rendered_bacon_fat.freezer_burn`: spoil, `rendered_bacon_fat` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `rendered_bacon_fat.rancid`: spoil, `rendered_bacon_fat` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
-- `rhubarb.spoil`: spoil, `rhubarb` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `rhubarb_marmalade.step_6`: held, `rhubarb_marmalade_step_5` → `rhubarb_marmalade`, 1 min (20 ticks) at 20 °C, ambient
 - `rhubarb_pie.step_1`: held, `flaky_pie_crust_chill` → `flaky_pie_crust_chill_chill`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `rhubarb_pie.step_1.prep_1`: held, `flaky_pie_crust` → `flaky_pie_crust_chill`, 1 min (20 ticks) at 20 °C, ambient
-- `rice.stale`: spoil, `rice` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `rice_cooked_in_tomato_meat_sauce_ross_il_forn.step_5`: held, `rice_cooked_in_tomato_meat_sauce_ross_il_forn_step_4` → `rice_cooked_in_tomato_meat_sauce_ross_il_forn_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `rice_milk.step_3`: held, `rice_milk_step_2` → `rice_milk`, 4 h (4800 ticks) at 4 °C, chilled, only from any to 8 °C
 - `rice_modak_coconut_pastries_ii.step_3`: held, `rice_modak_coconut_pastries_ii_step_2` → `rice_modak_coconut_pastries_ii_step_3`, 1 min (20 ticks) at 20 °C, ambient
-- `rice_rava.stale`: spoil, `rice_rava` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `rice_tamale_pastel_de_arroz.step_2`: held, `rice_tamale_pastel_de_arroz_step_1` → `rice_tamale_pastel_de_arroz_step_2`, 1 min (20 ticks) at 20 °C, ambient
-- `rice_vinegar.mold`: spoil, `rice_vinegar` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `rice_wafer.dry`: held, `rice_paper_sheet` → `rice_wafer`, 4 h (4800 ticks) at 20 °C, ambient
 - `rice_with_tofu_and_nuts.step_8`: held, `rice_with_tofu_and_nuts_step_7` → `rice_with_tofu_and_nuts_step_8`, 1 min (20 ticks) at 20 °C, ambient
 - `rich_brownies.step_3`: held, `rich_brownies_step_2` → `rich_brownies_step_3`, 1 min (20 ticks) at 20 °C, ambient
-- `ricotta.sour`: spoil, `ricotta` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `risotto.stale`: spoil, `risotto` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `risotto_ai_funghi.step_11`: held, `risotto_ai_funghi_step_10` → `risotto_ai_funghi`, 2 min (40 ticks) at 20 °C, ambient
 - `risotto_alla_milanese.step_13`: held, `risotto_alla_milanese_step_12` → `risotto_alla_milanese_step_13`, 1 min (20 ticks) at 20 °C, ambient
 - `risotto_basic.step_6`: held, `risotto_basic_step_5` → `risotto_basic`, 1 min (20 ticks) at 20 °C, ambient
-- `ritz_crackers.freezer_burn`: spoil, `ritz_crackers` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `ritz_crackers.stale`: spoil, `ritz_crackers` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `roast_beef.step_11`: held, `roast_beef_step_10` → `roast_beef_step_11`, 15 min (300 ticks) at 20 °C, ambient, not written: the game can't make `roast_beef_step_10`
 - `roast_chicken.step_5`: held, `roast_chicken_step_4` → `roast_chicken`, 20 min (400 ticks) at 20 °C, ambient
 - `roast_leg_of_lamb_with_gravy.step_10`: held, `roast_leg_of_lamb_with_gravy_step_9` → `roast_leg_of_lamb_with_gravy_step_10`, 15 min (300 ticks) at 20 °C, ambient
@@ -13714,18 +12741,10 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `rocky_road_confectionery_i.step_6`: held, `rocky_road_confectionery_i_step_5` → `rocky_road_confectionery_i`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `rocky_road_ice_cream.step_3`: held, `rocky_road_ice_cream_step_2` → `rocky_road_ice_cream_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `rocky_road_ice_cream.step_8`: held, `rocky_road_ice_cream_step_7` → `rocky_road_ice_cream`, 1 min (20 ticks) at -18 °C, frozen, only from any to 0 °C, not written: the game can't make `rocky_road_ice_cream_step_7`
-- `roe.spoil`: spoil, `roe` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `rojak_salad_with_sweet_chile_sauce.step_3`: held, `rojak_salad_with_sweet_chile_sauce_step_2` → `rojak_salad_with_sweet_chile_sauce_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `rolitos_gibraltarian_beef_rolls.step_3`: held, `rolitos_gibraltarian_beef_rolls_step_2` → `rolitos_gibraltarian_beef_rolls_step_3`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `rolitos_gibraltarian_beef_rolls_step_2`
-- `rolled_oats.freezer_burn`: spoil, `rolled_oats` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `rolled_oats.stale`: spoil, `rolled_oats` → `spoiled_food`, 122 d (3513600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `roma_tomato.freezer_burn`: spoil, `roma_tomato` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `romanian_roasted_eggplant_spread_i.step_6`: held, `romanian_roasted_eggplant_spread_i_step_5` → `romanian_roasted_eggplant_spread_i`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `romanian_roasted_eggplant_spread_ii.step_5`: held, `romanian_roasted_eggplant_spread_ii_step_4` → `romanian_roasted_eggplant_spread_ii`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `romano_cheese.freezer_burn`: spoil, `romano_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `romano_cheese.mold`: spoil, `romano_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `room_temperature_milk.freezer_burn`: spoil, `room_temperature_milk` → `spoiled_food`, 91.3 d (2629440 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `rosemary.spoil`: spoil, `rosemary` → `spoiled_food`, 9.9 d (285120 ticks) at 20 °C, ambient, q10 1.41, only from 0 °C to any
 - `rosemary_balsamic_chicken_wings.step_3`: held, `rosemary_balsamic_chicken_wings_step_2` → `rosemary_balsamic_chicken_wings`, 5 min (100 ticks) at 20 °C, ambient
 - `rosemary_bread.step_4`: held, `rosemary_bread_step_3` → `rosemary_bread_step_4`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `rosemary_bread_step_3`
 - `rosemary_garlic_pork_roast.step_4`: held, `rosemary_garlic_pork_roast_step_3` → `rosemary_garlic_pork_roast`, 10 min (200 ticks) at 20 °C, ambient
@@ -13734,8 +12753,6 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `rosogulla_bengali_milk_balls_in_syrup.step_29`: held, `rosogulla_bengali_milk_balls_in_syrup_step_28` → `rosogulla_bengali_milk_balls_in_syrup`, 3.5 h (4200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `rosogulla_bengali_milk_balls_in_syrup.step_3`: held, `rosogulla_bengali_milk_balls_in_syrup_step_2` → `rosogulla_bengali_milk_balls_in_syrup_step_3`, 6 min (120 ticks) at 20 °C, ambient
 - `roti_jala_malaysian_lacy_pancakes.step_2`: held, `roti_jala_malaysian_lacy_pancakes_step_1` → `roti_jala_malaysian_lacy_pancakes_step_3`, 30 min (600 ticks) at 20 °C, ambient
-- `round_brisket_of_corned_beef.freezer_burn`: spoil, `round_brisket_of_corned_beef` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `round_brisket_of_corned_beef.spoil`: spoil, `round_brisket_of_corned_beef` → `spoiled_food`, 5.92 d (170496 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `roz_bel_laban_egyptian_rice_pudding.step_5`: held, `roz_bel_laban_egyptian_rice_pudding_step_4` → `roz_bel_laban_egyptian_rice_pudding_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `roz_bel_laban_egyptian_rice_pudding.step_7`: held, `roz_bel_laban_egyptian_rice_pudding_step_5` → `roz_bel_laban_egyptian_rice_pudding_step_7`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `rugelach.step_16`: held, `rugelach_step_15` → `rugelach`, 30 min (600 ticks) at 20 °C, ambient, not written: the game can't make `rugelach_step_15`
@@ -13744,20 +12761,12 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `rugelach.step_9`: held, `rugelach_step_8` → `rugelach_step_9`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `rum_truffles.step_3`: held, `rum_truffles_step_2` → `rum_truffles_step_4`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `rum_truffles.step_5`: held, `rum_truffles_step_4` → `rum_truffles`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `runner_beans.freezer_burn`: spoil, `runner_beans` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `runner_beans.spoil`: spoil, `runner_beans` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `russet_potato.freezer_burn`: spoil, `russet_potato` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `russet_potato.spoil`: spoil, `russet_potato` → `spoiled_food`, 43 d (1238400 ticks) at 20 °C, ambient, q10 0.399, only from 0 °C to any
 - `russian_style_waffle_cake.step_12`: held, `russian_style_waffle_cake_step_11` → `russian_style_waffle_cake_step_12`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `russian_style_waffle_cake.step_6`: held, `russian_style_waffle_cake_step_5` → `russian_style_waffle_cake_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `russian_style_waffle_cake.step_9`: held, `russian_style_waffle_cake_step_8` → `russian_style_waffle_cake_step_9`, 1 min (20 ticks) at 20 °C, ambient
 - `rustic_beer_bread.step_2`: held, `rustic_beer_bread_step_1` → `rustic_beer_bread_step_3`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `rustic_beer_bread_step_1`
 - `rustic_beer_bread.step_4`: held, `rustic_beer_bread_step_3` → `rustic_beer_bread_step_4`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `rustic_beer_bread_step_3`
-- `rutabaga.freezer_burn`: spoil, `rutabaga` → `spoiled_food`, 272 d (7833600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `rutabaga.spoil`: spoil, `rutabaga` → `spoiled_food`, 7 d (201600 ticks) at 20 °C, ambient, q10 1.75, only from 0 °C to any
 - `rwandan_goat_brochette.step_6`: held, `rwandan_goat_brochette_step_5` → `rwandan_goat_brochette`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `rwandan_goat_brochette_step_5`
-- `rye.freezer_burn`: spoil, `rye` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `rye.stale`: spoil, `rye` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `rye_bread.step_10`: held, `rye_bread_step_9` → `rye_bread`, 1 min (20 ticks) at 20 °C, ambient
 - `rye_bread.step_9`: held, `rye_bread_step_8` → `rye_bread_step_9`, 15 min (300 ticks) at 20 °C, ambient
 - `rye_bread_layer_cake.step_1`: held, `rye_dry` → `rye_dry_dry`, 1 min (20 ticks) at 20 °C, ambient
@@ -13767,10 +12776,6 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `sachertorte.step_7`: held, `sachertorte_step_6` → `sachertorte`, 10 min (200 ticks) at 20 °C, ambient
 - `sachertorte_duramecho_version.step_10`: held, `sachertorte_duramecho_version_step_9` → `sachertorte_duramecho_version_step_10`, 30 min (600 ticks) at 20 °C, ambient
 - `sadza_zimbabwean_corn_porridge.step_9`: held, `sadza_zimbabwean_corn_porridge_step_8` → `sadza_zimbabwean_corn_porridge`, 1 min (20 ticks) at 20 °C, ambient
-- `saffron.stale`: spoil, `saffron` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `sage.freezer_burn`: spoil, `sage` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `sage.spoil`: spoil, `sage` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `sago.stale`: spoil, `sago` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `saj_bread_i.step_5`: held, `saj_bread_i_step_4` → `saj_bread_i`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `saj_bread_i_step_4`
 - `saj_bread_ii.step_2`: held, `saj_bread_ii_step_1` → `saj_bread_ii_step_3`, 30 min (600 ticks) at 20 °C, ambient
 - `saj_bread_ii.step_5`: held, `saj_bread_ii_step_4` → `saj_bread_ii`, 1 min (20 ticks) at 20 °C, ambient
@@ -13779,19 +12784,11 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `salami.dry`: held, `fermented_salami_mix` → `salami`, 21 d (604800 ticks) at 20 °C, ambient
 - `salami.ferment`: held, `salami_mix` → `fermented_salami_mix`, 2 d (57600 ticks) at 25 °C, ambient, q10 2
 - `salata_hara_libyan_spicy_salad.step_4`: held, `salata_hara_libyan_spicy_salad_step_3` → `salata_hara_libyan_spicy_salad_step_4`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `salmon.freezer_burn`: spoil, `salmon` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `salmon.spoil`: spoil, `salmon` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `salsa.mold`: spoil, `salsa` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `salsa_fermented.step_8`: held, `salsa_fermented_step_7` → `salsa_fermented_step_8`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `salsa_fermented_step_7`
 - `salsa_fermented.step_9`: held, `salsa_fermented_step_8` → `salsa_fermented`, 2.5 d (72000 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `salsa_fermented_step_8`
 - `salt_cod.dry`: held, `cod` → `salt_cod`, 10 d (288000 ticks) at 20 °C, ambient
 - `salt_pork.dry`: held, `pork` → `salt_pork`, 7 d (201600 ticks) at 10 °C, ambient
 - `salted_mustard_greens_and_shredded_meat_noodle_soup.step_3`: held, `salted_mustard_greens_and_shredded_meat_noodle_soup_step_2` → `salted_mustard_greens_and_shredded_meat_noodle_soup_step_3`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `saltine_cracker.freezer_burn`: spoil, `saltine_cracker` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `saltine_cracker.stale`: spoil, `saltine_cracker` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `sambal_oelek.mold`: spoil, `sambal_oelek` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `sambar_masalar.stale`: spoil, `sambar_masalar` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `sambhar_masala.stale`: spoil, `sambhar_masala` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `san_francisco_sourdough_bread.step_1`: held, `grape_grind` → `grape_grind_ferment`, 48 h (57600 ticks) at 20 °C, ambient
 - `san_francisco_sourdough_bread.step_10`: held, `san_francisco_sourdough_bread_step_9` → `san_francisco_sourdough_bread_step_11`, 1 min (20 ticks) at 20 °C, ambient
 - `san_francisco_sourdough_bread.step_12`: held, `san_francisco_sourdough_bread_step_11` → `san_francisco_sourdough_bread_step_12`, 1 min (20 ticks) at 20 °C, ambient
@@ -13809,85 +12806,32 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `sauerkraut_ii.step_7`: held, `sauerkraut_ii_step_6` → `sauerkraut_ii_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `sausage_egg_breakfast_dish.step_2`: held, `sausage_egg_breakfast_dish_step_1` → `sausage_egg_breakfast_dish_step_2`, 1 min (20 ticks) at 20 °C, ambient
 - `sausage_egg_breakfast_dish.step_6`: held, `sausage_egg_breakfast_dish_step_5` → `sausage_egg_breakfast_dish_step_6`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `sauteed_vegetables.freezer_burn`: spoil, `sauteed_vegetables` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `sauteed_vegetables.spoil`: spoil, `sauteed_vegetables` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `savory_mustard_sauce.step_6`: held, `savory_mustard_sauce_step_5` → `savory_mustard_sauce`, 1 min (20 ticks) at 20 °C, ambient
 - `sayadeya_egyptian_fish_with_rice.step_8`: held, `sayadeya_egyptian_fish_with_rice_step_7` → `sayadeya_egyptian_fish_with_rice_step_8`, 1 min (20 ticks) at 20 °C, ambient
-- `sazon.stale`: spoil, `sazon` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `scallop.freezer_burn`: spoil, `scallop` → `spoiled_food`, 316 d (9100800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `scallop.spoil`: spoil, `scallop` → `spoiled_food`, 1.73 d (49824 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `scent_leaf.freezer_burn`: spoil, `scent_leaf` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `scent_leaf.spoil`: spoil, `scent_leaf` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `scent_leaves.freezer_burn`: spoil, `scent_leaves` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `scent_leaves.spoil`: spoil, `scent_leaves` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `scoop_chocolate_ice_cream.freezer_burn`: spoil, `scoop_chocolate_ice_cream` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `scoop_strawberry_ice_cream.freezer_burn`: spoil, `scoop_strawberry_ice_cream` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `scorched_rice.step_10`: held, `scorched_rice_step_9` → `scorched_rice_step_10`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `scorched_rice_step_9`
-- `scorpionfish.freezer_burn`: spoil, `scorpionfish` → `spoiled_food`, 172 d (4953600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `scorpionfish.spoil`: spoil, `scorpionfish` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `scotch_bonnet_chile.freezer_burn`: spoil, `scotch_bonnet_chile` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `scotch_bonnet_chile.spoil`: spoil, `scotch_bonnet_chile` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `scotch_bonnet_pepper.freezer_burn`: spoil, `scotch_bonnet_pepper` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `scotch_bonnet_pepper.spoil`: spoil, `scotch_bonnet_pepper` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `scotch_bonnet_pepper_poppers.step_8`: held, `scotch_bonnet_pepper_poppers_step_7` → `scotch_bonnet_pepper_poppers`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `scotch_bonnet_pepper_poppers_step_7`
-- `scotch_bonnet_peppers.freezer_burn`: spoil, `scotch_bonnet_peppers` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `scotch_bonnet_peppers.spoil`: spoil, `scotch_bonnet_peppers` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `scottish_porridge.step_5`: held, `scottish_porridge_step_4` → `scottish_porridge`, 1.5 min (30 ticks) at 20 °C, ambient
 - `scottish_wheat_bannock_bread.step_6`: held, `scottish_wheat_bannock_bread_step_5` → `scottish_wheat_bannock_bread`, 7.5 min (150 ticks) at 20 °C, ambient
-- `sea_biscuit.freezer_burn`: spoil, `sea_biscuit` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `sea_biscuit.stale`: spoil, `sea_biscuit` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `seafood_cocktail_sauce.step_4`: held, `seafood_cocktail_sauce_step_3` → `seafood_cocktail_sauce`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `seafood_cocktail_sauce_step_3`
-- `seasoning_mix.stale`: spoil, `seasoning_mix` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `seasoning_salt.stale`: spoil, `seasoning_salt` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `self_rising_flour.step_2`: held, `self_rising_flour_step_1` → `self_rising_flour`, 1 min (20 ticks) at 20 °C, ambient
-- `semi_sweet_chocolate.stale`: spoil, `semi_sweet_chocolate` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `semi_sweet_chocolate_pieces.stale`: spoil, `semi_sweet_chocolate_pieces` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `semisweet_chocolate.stale`: spoil, `semisweet_chocolate` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `semolina_pudding.step_4`: held, `semolina_pudding_step_3` → `semolina_pudding_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `serbian_flatbread_lepinja.step_4`: held, `serbian_flatbread_lepinja_step_3` → `serbian_flatbread_lepinja_step_7`, 1 min (20 ticks) at 20 °C, ambient
-- `serrano_chili.freezer_burn`: spoil, `serrano_chili` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `serrano_chili.spoil`: spoil, `serrano_chili` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `serrano_peppers.freezer_burn`: spoil, `serrano_peppers` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `serrano_peppers.spoil`: spoil, `serrano_peppers` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `sesame_crackers.freezer_burn`: spoil, `sesame_crackers` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `sesame_crackers.stale`: spoil, `sesame_crackers` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `sesame_ginger_marinade.step_2`: held, `sesame_ginger_marinade_step_1` → `sesame_ginger_marinade`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `sesame_milk.step_3`: held, `sesame_milk_step_2` → `sesame_milk`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `sesame_noodle_salad.step_4`: held, `sesame_noodle_salad_step_3` → `sesame_noodle_salad`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `sesame_oil.rancid`: spoil, `sesame_oil` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
-- `sesame_seed.rancid`: spoil, `sesame_seed` → `spoiled_food`, 1830 d (52704000 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
 - `sese_plaintains_cameroonian_plantain_stew.step_6`: held, `sese_plaintains_cameroonian_plantain_stew_step_5` → `sese_plaintains_cameroonian_plantain_stew`, 1 min (20 ticks) at 20 °C, ambient
-- `shallot.freezer_burn`: spoil, `shallot` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `shallot.spoil`: spoil, `shallot` → `spoiled_food`, 30.4 d (875520 ticks) at 20 °C, ambient, q10 1.54, only from 0 °C to any
 - `sharmoula_bil_lahm_libyan_marinated_meat_sharmoula.step_3`: held, `sharmoula_bil_lahm_libyan_marinated_meat_sharmoula_step_2` → `sharmoula_bil_lahm_libyan_marinated_meat_sharmoula_step_5`, 3 h (3600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `sharmoula_bil_lahm_libyan_marinated_meat_sharmoula_step_2`
 - `sharmoula_bil_lahm_libyan_marinated_meat_sharmoula.step_8`: held, `sharmoula_bil_lahm_libyan_marinated_meat_sharmoula_step_7` → `sharmoula_bil_lahm_libyan_marinated_meat_sharmoula_step_8`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `sharmoula_bil_lahm_libyan_marinated_meat_sharmoula_step_7`
-- `shatkora.mold`: spoil, `shatkora` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
-- `shell_pasta.stale`: spoil, `shell_pasta` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `sherry.age_wine`: held, `fortified_wine` → `sherry`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2
-- `shichimi_seasoning.stale`: spoil, `shichimi_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `shiitake.freezer_burn`: spoil, `shiitake` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `shiitake.spoil`: spoil, `shiitake` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `shiitake_mushrooms.freezer_burn`: spoil, `shiitake_mushrooms` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `shiitake_mushrooms.spoil`: spoil, `shiitake_mushrooms` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `shirmal_persian_saffron_flatbread.step_12`: held, `shirmal_persian_saffron_flatbread_step_11` → `shirmal_persian_saffron_flatbread`, 1 min (20 ticks) at 20 °C, ambient
 - `shiro_ethiopian_spiced_chickpea_or_lentil_stew.step_9`: held, `shiro_ethiopian_spiced_chickpea_or_lentil_stew_step_8` → `shiro_ethiopian_spiced_chickpea_or_lentil_stew_step_9`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `shiro_ethiopian_spiced_chickpea_or_lentil_stew_step_8`
-- `shiso.freezer_burn`: spoil, `shiso` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `shiso.spoil`: spoil, `shiso` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `shitha.step_7`: held, `shitha_step_6` → `shitha`, 1 min (20 ticks) at 20 °C, ambient
 - `shortbread.step_7`: held, `shortbread_step_6` → `shortbread_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `shortbread.step_8`: held, `shortbread_step_7` → `shortbread`, 1 min (20 ticks) at 20 °C, ambient
 - `shortcrust_pastry.step_5`: held, `shortcrust_pastry_step_3` → `shortcrust_pastry`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `shortening.chill`: held, `vegetable_oil` → `shortening`, 4 h (4800 ticks) at 20 °C, ambient
-- `shortening.rancid`: spoil, `shortening` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
-- `shrimp.freezer_burn`: spoil, `shrimp` → `spoiled_food`, 316 d (9100800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `shrimp.spoil`: spoil, `shrimp` → `spoiled_food`, 1.73 d (49824 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `shrimp_crackers.freezer_burn`: spoil, `shrimp_crackers` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `shrimp_crackers.stale`: spoil, `shrimp_crackers` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `shrimp_paste.dry`: held, `fermented_shrimp_mash` → `shrimp_paste`, 2 d (57600 ticks) at 30 °C, warm, q10 2
 - `shrimp_paste.ferment`: held, `salted_shrimp_mash` → `fermented_shrimp_mash`, 60 d (1728000 ticks) at 25 °C, ambient, q10 2
-- `shrimp_seasoning_powder.stale`: spoil, `shrimp_seasoning_powder` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `shrimps.freezer_burn`: spoil, `shrimps` → `spoiled_food`, 316 d (9100800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `shrimps.spoil`: spoil, `shrimps` → `spoiled_food`, 1.73 d (49824 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `simple_ayurvedic_sprout_salad.step_1.prep_1`: held, `bean_sprout` → `bean_sprout_sprout`, 1 min (20 ticks) at 20 °C, ambient
 - `simple_chicken_salad.step_2`: held, `simple_chicken_salad_step_1` → `simple_chicken_salad`, 1 min (20 ticks) at 20 °C, ambient
 - `simple_chocolate_cheese_pie.step_5`: held, `simple_chocolate_cheese_pie_step_4` → `simple_chocolate_cheese_pie`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `simple_chocolate_cheese_pie_step_4`
@@ -13898,34 +12842,16 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `simple_tarragon_quiche.step_5`: held, `simple_tarragon_quiche_step_4` → `simple_tarragon_quiche`, 20 min (400 ticks) at 20 °C, ambient
 - `sindhi_fried_potatoes.step_3`: held, `sindhi_fried_potatoes_step_2` → `sindhi_fried_potatoes_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `sindhi_raitha.step_2`: held, `sindhi_raitha_step_1` → `sindhi_raitha`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `skimmed_gravy.mold`: spoil, `skimmed_gravy` → `spoiled_food`, 1160 d (33408000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `slices_of_lemon.mold`: spoil, `slices_of_lemon` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
-- `slices_white_bread.freezer_burn`: spoil, `slices_white_bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `slices_white_bread.mold`: spoil, `slices_white_bread` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `smoked_paprika.stale`: spoil, `smoked_paprika` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `smoked_pork_slices.freezer_burn`: spoil, `smoked_pork_slices` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `smoked_pork_slices.spoil`: spoil, `smoked_pork_slices` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `smoked_salmon_ravioli_filling.step_4`: held, `smoked_salmon_ravioli_filling_step_3` → `smoked_salmon_ravioli_filling`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `smoked_salmon_ravioli_filling_step_3`
-- `snap_pea.freezer_burn`: spoil, `snap_pea` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `snap_pea.spoil`: spoil, `snap_pea` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `snappy_ginger_muffins.step_8`: held, `snappy_ginger_muffins_step_7` → `snappy_ginger_muffins`, 10 min (200 ticks) at 20 °C, ambient
 - `snezhanka_bulgarian_cucumber_and_yogurt_salad.step_1.prep_1`: held, `yogurt` → `yogurt_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `snickerdoodles_iii.step_6`: held, `snickerdoodles_iii_step_5` → `snickerdoodles_iii_step_6`, 1.5 h (1800 ticks) at 4 °C, chilled, only from any to 8 °C
 - `snickerdoodles_iv.step_11`: held, `snickerdoodles_iv_step_10` → `snickerdoodles_iv`, 1 min (20 ticks) at 20 °C, ambient
 - `snickerdoodles_iv.step_9`: held, `snickerdoodles_iv_step_7` → `snickerdoodles_iv_step_9`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
-- `snow_pea.freezer_burn`: spoil, `snow_pea` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `snow_pea.spoil`: spoil, `snow_pea` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `sockerdricka_swedish_ginger_drink.step_5`: held, `sockerdricka_swedish_ginger_drink_step_4` → `sockerdricka_swedish_ginger_drink`, 5 d (144000 ticks) at 20 °C, ambient
-- `soft_flatbread.freezer_burn`: spoil, `soft_flatbread` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `soft_flatbread.mold`: spoil, `soft_flatbread` → `spoiled_food`, 91.3 d (2629440 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `soft_grain_white_flour.stale`: spoil, `soft_grain_white_flour` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `soft_light_cream_cheese.sour`: spoil, `soft_light_cream_cheese` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `sopaipillas_latin_american_fried_dough.step_2`: held, `sopaipillas_latin_american_fried_dough_step_1` → `sopaipillas_latin_american_fried_dough_step_3`, 15 min (300 ticks) at 20 °C, ambient
-- `sorghum.freezer_burn`: spoil, `sorghum` → `spoiled_food`, 122 d (3513600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `sorghum.stale`: spoil, `sorghum` → `spoiled_food`, 60.9 d (1753920 ticks) at 20 °C, ambient, only from 0 °C to any
 - `soto_ayam_indonesian_chicken_noodle_soup.step_4`: held, `soto_ayam_indonesian_chicken_noodle_soup_step_3` → `soto_ayam_indonesian_chicken_noodle_soup_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `soup_joumou_haitian_beef_and_squash_soup.step_2`: held, `soup_joumou_haitian_beef_and_squash_soup_step_1` → `soup_joumou_haitian_beef_and_squash_soup_step_2`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `soup_joumou_haitian_beef_and_squash_soup_step_1`
-- `sour_bamboo.spoil`: spoil, `sour_bamboo` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `sour_cream.ferment`: held, `cream` → `sour_cream`, 1 d (28800 ticks) at 22 °C, ambient, q10 2.5
 - `sour_mashed_sweet_potato.step_2`: held, `sweet_potato_roast_roast` → `sweet_potato_roast_roast_cool`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `sweet_potato_roast_roast`
 - `sour_mashed_sweet_potato.step_7`: held, `sour_mashed_sweet_potato_step_6` → `sour_mashed_sweet_potato_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `sour_mashed_sweet_potato_step_6`
@@ -13938,31 +12864,19 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `sourdough_starter_recipe.step_5`: held, `sourdough_starter_recipe_step_4` → `sourdough_starter_recipe`, 1 min (20 ticks) at 20 °C, ambient
 - `south_side_fizz.step_4`: held, `south_side_fizz_step_3` → `south_side_fizz_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `southern_cornbread.step_7`: held, `southern_cornbread_step_6` → `southern_cornbread`, 5 min (100 ticks) at 20 °C, ambient
-- `soy_bean.stale`: spoil, `soy_bean` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `soy_flour.rancid`: spoil, `soy_flour` → `spoiled_food`, 60.9 d (1753920 ticks) at 20 °C, ambient, q10 1.99, only from 0 °C to any
 - `soy_ginger_barbecue_sauce.step_2`: held, `soy_ginger_barbecue_sauce_step_1` → `soy_ginger_barbecue_sauce`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `soy_ginger_barbecue_sauce_step_1`
 - `soy_milk_i.step_5`: held, `soy_milk_i_step_4` → `soy_milk_i_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `soy_milk_ii.step_7`: held, `soy_milk_ii_step_6` → `soy_milk_ii`, 1 min (20 ticks) at 20 °C, ambient
-- `soy_protein.rancid`: spoil, `soy_protein` → `spoiled_food`, 60.9 d (1753920 ticks) at 20 °C, ambient, q10 1.99, only from 0 °C to any
 - `soy_protein_bread.step_5`: held, `soy_protein_bread_step_4` → `soy_protein_bread_step_6`, 25 min (500 ticks) at 20 °C, ambient
 - `soy_protein_bread.step_7`: held, `soy_protein_bread_step_6` → `soy_protein_bread_step_7`, 15 min (300 ticks) at 20 °C, ambient
 - `soy_sauce.age_moromi`: held, `moromi` → `aged_moromi`, 180 d (5184000 ticks) at 25 °C, ambient, q10 2
-- `soy_sauce.mold`: spoil, `soy_sauce` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `space_cake.step_7`: held, `space_cake_step_6` → `space_cake`, 1 min (20 ticks) at 20 °C, ambient
-- `spaghetti.stale`: spoil, `spaghetti` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `spaghetti_pasta.stale`: spoil, `spaghetti_pasta` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `spaghetti_sauce.step_4`: held, `spaghetti_sauce_step_3` → `spaghetti_sauce`, 1 min (20 ticks) at 20 °C, ambient
 - `speculaas_dutch_spiced_cookies.step_3`: held, `speculaas_dutch_spiced_cookies_step_2` → `speculaas_dutch_spiced_cookies_step_7`, 2 d (57600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `speculaas_dutch_spiced_cookies.step_9`: held, `speculaas_dutch_spiced_cookies_step_8` → `speculaas_dutch_spiced_cookies`, 1 min (20 ticks) at 20 °C, ambient
-- `speculaas_spices.stale`: spoil, `speculaas_spices` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `spek.freezer_burn`: spoil, `spek` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `spek.spoil`: spoil, `spek` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `spelt.freezer_burn`: spoil, `spelt` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `spelt.stale`: spoil, `spelt` → `spoiled_food`, 91.3 d (2629440 ticks) at 20 °C, ambient, only from 0 °C to any
 - `spelt_bread.step_4`: held, `spelt_bread_step_3` → `spelt_bread_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `spice_rub_for_chicken.step_3`: held, `spice_rub_for_chicken_step_2` → `spice_rub_for_chicken`, 1 min (20 ticks) at 20 °C, ambient
 - `spice_rubbed_grilled_chicken_breast.step_4`: held, `spice_rubbed_grilled_chicken_breast_step_3` → `spice_rubbed_grilled_chicken_breast`, 3 min (60 ticks) at 20 °C, ambient, not written: the game can't make `spice_rubbed_grilled_chicken_breast_step_3`
-- `spiced_clarified_butter.rancid`: spoil, `spiced_clarified_butter` → `spoiled_food`, 211 d (6076800 ticks) at 20 °C, ambient, q10 1.75, only from 0 °C to any
 - `spiced_creme_caramel.step_3`: held, `spiced_creme_caramel_step_2` → `spiced_creme_caramel_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `spiced_creme_caramel.step_9`: held, `spiced_creme_caramel_step_8` → `spiced_creme_caramel`, 3.5 h (4200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `spiced_oysters.step_4`: held, `spiced_oysters_step_3` → `spiced_oysters_step_4`, 1 min (20 ticks) at 20 °C, ambient
@@ -13979,27 +12893,11 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `spinach_and_ricotta_lasagna.step_6.prep_5`: held, `ricotta` → `ricotta_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `spinach_and_ricotta_lasagna.step_8`: held, `spinach_and_ricotta_lasagna_step_7` → `spinach_and_ricotta_lasagna_step_8`, 1 min (20 ticks) at 20 °C, ambient
 - `split_pea.dry`: held, `pea` → `dried_pea`, 3 d (86400 ticks) at 20 °C, ambient, q10 2
-- `split_pea.stale`: spoil, `split_pea` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `split_peas.stale`: spoil, `split_peas` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `sponge_cake_i.step_9`: held, `sponge_cake_i_step_8` → `sponge_cake_i_step_9`, 1 min (20 ticks) at 20 °C, ambient
 - `sponge_cake_ii.step_9`: held, `sponge_cake_ii_step_8` → `sponge_cake_ii_step_9`, 1 min (20 ticks) at 20 °C, ambient
-- `spring_onions.freezer_burn`: spoil, `spring_onions` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `spring_onions.spoil`: spoil, `spring_onions` → `spoiled_food`, 30.4 d (875520 ticks) at 20 °C, ambient, q10 0.399, only from 0 °C to any
 - `spritzgeback_german_spritz_butter_cookies.step_4`: held, `spritzgeback_german_spritz_butter_cookies_step_3` → `spritzgeback_german_spritz_butter_cookies_step_5`, 0.5 h (600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `spritzgeback_german_spritz_butter_cookies.step_6`: held, `spritzgeback_german_spritz_butter_cookies_step_5` → `spritzgeback_german_spritz_butter_cookies_step_7`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `spritzgeback_german_spritz_butter_cookies.step_9`: held, `spritzgeback_german_spritz_butter_cookies_step_8` → `spritzgeback_german_spritz_butter_cookies`, 1 min (20 ticks) at 20 °C, ambient
-- `squash.freezer_burn`: spoil, `squash` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `squash.spoil`: spoil, `squash` → `spoiled_food`, 24.2 d (696960 ticks) at 20 °C, ambient, q10 1.62, only from 0 °C to any
-- `squid.freezer_burn`: spoil, `squid` → `spoiled_food`, 316 d (9100800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `squid.spoil`: spoil, `squid` → `spoiled_food`, 1.73 d (49824 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `squid_tentacles.freezer_burn`: spoil, `squid_tentacles` → `spoiled_food`, 316 d (9100800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `squid_tentacles.spoil`: spoil, `squid_tentacles` → `spoiled_food`, 1.73 d (49824 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `stale_french_bread.freezer_burn`: spoil, `stale_french_bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `stale_french_bread.mold`: spoil, `stale_french_bread` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `standing_rib_roast.freezer_burn`: spoil, `standing_rib_roast` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `standing_rib_roast.spoil`: spoil, `standing_rib_roast` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `star_anise.stale`: spoil, `star_anise` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `starch_based_creamer.sour`: spoil, `starch_based_creamer` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `steak_and_wine_pie.step_3`: held, `steak_and_wine_pie_step_2` → `steak_and_wine_pie_step_3`, 20 min (400 ticks) at -18 °C, frozen, only from any to 0 °C
 - `steak_bacon_and_arugula_salad.step_4`: held, `steak_bacon_and_arugula_salad_step_3` → `steak_bacon_and_arugula_salad_step_4`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `steamed_buns_with_bbq_pork.step_11`: held, `steamed_buns_with_bbq_pork_step_10` → `steamed_buns_with_bbq_pork_step_11`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `steamed_buns_with_bbq_pork_step_10`
@@ -14009,19 +12907,10 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `steamed_tuna_bao_buns.step_12`: held, `steamed_tuna_bao_buns_step_11` → `steamed_tuna_bao_buns_step_13`, 2 h (2400 ticks) at 20 °C, ambient
 - `steamed_tuna_bao_buns.step_6`: held, `steamed_tuna_bao_buns_step_4` → `steamed_tuna_bao_buns_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `steamed_tuna_bao_buns.step_7`: held, `steamed_tuna_bao_buns_step_6` → `steamed_tuna_bao_buns_step_7`, 2 h (2400 ticks) at 20 °C, ambient
-- `stevia.stale`: spoil, `stevia` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `stew.freezer_burn`: spoil, `stew` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `stew.spoil`: spoil, `stew` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `sticky_date_pudding.step_3`: held, `sticky_date_pudding_step_2` → `sticky_date_pudding_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `sticky_date_pudding.step_6`: held, `sticky_date_pudding_step_5` → `sticky_date_pudding_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `stir_fried_tomato_and_scrambled_eggs.step_2`: held, `tomato_boil_boil` → `tomato_boil_boil_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `stockfish.dry`: held, `cod` → `stockfish`, 20 d (576000 ticks) at 20 °C, ambient
-- `store_bought_gyoza_wonton_wrappers.freezer_burn`: spoil, `store_bought_gyoza_wonton_wrappers` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `store_bought_gyoza_wonton_wrappers.mold`: spoil, `store_bought_gyoza_wonton_wrappers` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `strawberries.freezer_burn`: spoil, `strawberries` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `strawberries.mold`: spoil, `strawberries` → `spoiled_food`, 2.45 d (70560 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `strawberry.freezer_burn`: spoil, `strawberry` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `strawberry.mold`: spoil, `strawberry` → `spoiled_food`, 2.45 d (70560 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `strawberry_cream_pie.step_4`: held, `strawberry_cream_pie_step_3` → `strawberry_cream_pie`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `strawberry_cream_pie_step_3`
 - `strawberry_dumplings.step_7`: held, `strawberry_dumplings_step_6` → `strawberry_dumplings_step_10`, 5 min (100 ticks) at 20 °C, ambient
 - `strawberry_frozen_yogurt.step_1.prep_3`: held, `lemon` → `lemon_dry`, 1 min (20 ticks) at 20 °C, ambient
@@ -14033,41 +12922,21 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `stuffed_duck_breast_with_cabbage_and_dumplings.step_3`: held, `stuffed_duck_breast_with_cabbage_and_dumplings_step_2` → `stuffed_duck_breast_with_cabbage_and_dumplings_step_3`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `stuffed_grilled_chicken_breasts.step_5`: held, `stuffed_grilled_chicken_breasts_step_4` → `stuffed_grilled_chicken_breasts`, 7 min (140 ticks) at 20 °C, ambient
 - `stuffed_pork_roast.step_7`: held, `stuffed_pork_roast_step_6` → `stuffed_pork_roast`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `stuffed_pork_roast_step_6`
-- `sugar_substitute.stale`: spoil, `sugar_substitute` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `sumac.stale`: spoil, `sumac` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `summer_rolls.step_7`: held, `summer_rolls_step_6` → `summer_rolls`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `summer_rolls_step_6`
 - `sun_dried_tomatoes.dry`: held, `tomatoes` → `sun_dried_tomatoes`, 2 d (57600 ticks) at 30 °C, warm, q10 2
-- `sun_dried_tomatoes.stale`: spoil, `sun_dried_tomatoes` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `suqaar_somali_spiced_meat_stir_fry.step_9`: held, `suqaar_somali_spiced_meat_stir_fry_step_8` → `suqaar_somali_spiced_meat_stir_fry_step_9`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `suqaar_somali_spiced_meat_stir_fry_step_8`
 - `sushi_rice.step_12`: held, `sushi_rice_step_11` → `sushi_rice`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `sushi_rice_step_11`
-- `suya_spice.stale`: spoil, `suya_spice` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `svelekake_norwegian_yogurt_pancakes.step_2`: held, `svelekake_norwegian_yogurt_pancakes_step_1` → `svelekake_norwegian_yogurt_pancakes_step_2`, 0.5 h (600 ticks) at 20 °C, ambient
 - `sweet_and_sour_grilled_tuna.step_4`: held, `sweet_and_sour_grilled_tuna_step_3` → `sweet_and_sour_grilled_tuna_step_4`, 3 min (60 ticks) at 20 °C, ambient, not written: the game can't make `sweet_and_sour_grilled_tuna_step_3`
 - `sweet_and_sour_pork_loin.step_2`: held, `sweet_and_sour_pork_loin_step_1` → `sweet_and_sour_pork_loin_step_2`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `sweet_and_sour_pork_loin_step_1`
 - `sweet_and_sour_pork_loin.step_5`: held, `sweet_and_sour_pork_loin_step_4` → `sweet_and_sour_pork_loin`, 7 min (140 ticks) at 20 °C, ambient, not written: the game can't make `sweet_and_sour_pork_loin_step_4`
 - `sweet_carrot_juice.step_5`: held, `sweet_carrot_juice_step_4` → `sweet_carrot_juice`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `sweet_herbs.stale`: spoil, `sweet_herbs` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `sweet_maple_barbecue_chicken.step_5`: held, `sweet_maple_barbecue_chicken_step_4` → `sweet_maple_barbecue_chicken`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `sweet_maple_barbecue_chicken_step_4`
 - `sweet_masa_bites_with_hazelnut_chocolate_dipping_sauce.step_3`: held, `sweet_masa_bites_with_hazelnut_chocolate_dipping_sauce_step_2` → `sweet_masa_bites_with_hazelnut_chocolate_dipping_sauce_step_3`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `sweet_masa_bites_with_hazelnut_chocolate_dipping_sauce.step_8`: held, `sweet_masa_bites_with_hazelnut_chocolate_dipping_sauce_step_7` → `sweet_masa_bites_with_hazelnut_chocolate_dipping_sauce`, 1.5 min (30 ticks) at 20 °C, ambient
-- `sweet_paprika.stale`: spoil, `sweet_paprika` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `sweet_peppers.freezer_burn`: spoil, `sweet_peppers` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `sweet_peppers.spoil`: spoil, `sweet_peppers` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `sweet_pickle_relish.mold`: spoil, `sweet_pickle_relish` → `spoiled_food`, 913 d (26294400 ticks) at 20 °C, ambient, q10 0.471, only from 0 °C to any
-- `sweet_potato.spoil`: spoil, `sweet_potato` → `spoiled_food`, 17.1 d (492480 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
-- `sweet_potato_greens.freezer_burn`: spoil, `sweet_potato_greens` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `sweet_potato_greens.spoil`: spoil, `sweet_potato_greens` → `spoiled_food`, 2 d (57600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `sweet_red_pepper.freezer_burn`: spoil, `sweet_red_pepper` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `sweet_red_pepper.spoil`: spoil, `sweet_red_pepper` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `sweet_red_peppers.freezer_burn`: spoil, `sweet_red_peppers` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `sweet_red_peppers.spoil`: spoil, `sweet_red_peppers` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `sweet_rice_fritters.step_3`: held, `sweet_rice_fritters_step_2` → `sweet_rice_fritters_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `sweet_rice_i.step_5`: held, `sweet_rice_i_step_4` → `sweet_rice_i`, 1 min (20 ticks) at 20 °C, ambient
-- `sweetened_whipped_cream.freezer_burn`: spoil, `sweetened_whipped_cream` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `sweetened_whipped_cream.sour`: spoil, `sweetened_whipped_cream` → `spoiled_food`, 1 d (28800 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `swiss_meringue.step_3`: held, `swiss_meringue_step_2` → `swiss_meringue`, 1 min (20 ticks) at 20 °C, ambient
-- `swiss_roll.freezer_burn`: spoil, `swiss_roll` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `swiss_roll.mold`: spoil, `swiss_roll` → `spoiled_food`, 4.58 d (131904 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `switchel_ginger_water.step_3`: held, `switchel_ginger_water_step_2` → `switchel_ginger_water`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `switchel_ginger_water_step_2`
 - `sylheti_fried_rice.step_3.prep_1`: held, `leftover_cooked_rice` → `leftover_cooked_rice_cool`, 12 h (14400 ticks) at 20 °C, ambient
 - `sylheti_fried_rice.step_6`: held, `sylheti_fried_rice_step_5` → `sylheti_fried_rice_step_6`, 1 min (20 ticks) at 20 °C, ambient
@@ -14075,55 +12944,31 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `sylheti_handesh.step_6`: held, `sylheti_handesh_step_5` → `sylheti_handesh`, 1 min (20 ticks) at 20 °C, ambient
 - `sylheti_rice_pudding.step_6`: held, `sylheti_rice_pudding_step_5` → `sylheti_rice_pudding_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `sylheti_rice_pudding.step_8`: held, `sylheti_rice_pudding_step_7` → `sylheti_rice_pudding`, 1 min (20 ticks) at 20 °C, ambient
-- `syrup.stale`: spoil, `syrup` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `szechuan_pepper.stale`: spoil, `szechuan_pepper` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tabbouleh_i.step_8`: held, `tabbouleh_i_step_7` → `tabbouleh_i`, 4 h (4800 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `tabbouleh_i_step_7`
 - `tabbouleh_iv.step_5`: held, `tabbouleh_iv_step_4` → `tabbouleh_iv`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `tabbouleh_iv_step_4`
 - `tabbouleh_vi.step_2`: held, `bulgur_boil` → `bulgur_boil_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `tabbouleh_vi.step_4`: held, `tabbouleh_vi_step_3` → `tabbouleh_vi`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `taboon_bread.step_3`: held, `taboon_bread_step_2` → `taboon_bread_step_4`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `taboon_bread_step_2`
-- `taco_mix.stale`: spoil, `taco_mix` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `taco_seasoning.stale`: spoil, `taco_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `taco_seasoning_mix.stale`: spoil, `taco_seasoning_mix` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `taco_seasoning_packet.stale`: spoil, `taco_seasoning_packet` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `tahini.mold`: spoil, `tahini` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `tahini_cookies.step_6`: held, `tahini_cookies_step_5` → `tahini_cookies`, 1 min (20 ticks) at 20 °C, ambient
 - `tajine_bil_samak_libyan_fish_tajine.step_8`: held, `tajine_bil_samak_libyan_fish_tajine_step_7` → `tajine_bil_samak_libyan_fish_tajine_step_8`, 1 min (20 ticks) at 20 °C, ambient
 - `tall_quiche_shell.step_10`: held, `tall_quiche_shell_step_9` → `tall_quiche_shell_step_12`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `tall_quiche_shell.step_16`: held, `tall_quiche_shell_step_15` → `tall_quiche_shell`, 1 min (20 ticks) at 20 °C, ambient
 - `tall_quiche_shell.step_6`: held, `tall_quiche_shell_step_5` → `tall_quiche_shell_step_9`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `tamari_sauce.mold`: spoil, `tamari_sauce` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `tamarind.stale`: spoil, `tamarind` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `tamarind_chutney.mold`: spoil, `tamarind_chutney` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `tamina_algerian_semolina_honey_dessert.step_7`: held, `tamina_algerian_semolina_honey_dessert_step_6` → `tamina_algerian_semolina_honey_dessert`, 1 min (20 ticks) at 20 °C, ambient
-- `tangerine.mold`: spoil, `tangerine` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `tangy_lemon_battered_fried_chicken.step_7`: held, `tangy_lemon_battered_fried_chicken_step_6` → `tangy_lemon_battered_fried_chicken`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `tangy_lemon_battered_fried_chicken_step_6`
 - `tangy_lemon_mousse.step_3`: held, `tangy_lemon_mousse_step_2` → `tangy_lemon_mousse`, 20 min (400 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `tangy_lemon_mousse_step_2`
 - `tapai_ketan_indonesian_fermented_sticky_rice.step_2`: held, `tapai_ketan_indonesian_fermented_sticky_rice_step_1` → `tapai_ketan_indonesian_fermented_sticky_rice_step_2`, 1 min (20 ticks) at 20 °C, ambient
 - `tapai_ketan_indonesian_fermented_sticky_rice.step_4`: held, `tapai_ketan_indonesian_fermented_sticky_rice_step_3` → `tapai_ketan_indonesian_fermented_sticky_rice`, 3 d (86400 ticks) at 20 °C, ambient
 - `tapalapa_gambian_bread.step_10`: held, `tapalapa_gambian_bread_step_9` → `tapalapa_gambian_bread`, 1 min (20 ticks) at 20 °C, ambient
 - `tapalapa_gambian_bread.step_4`: held, `tapalapa_gambian_bread_step_3` → `tapalapa_gambian_bread_step_8`, 1.5 h (1800 ticks) at 20 °C, ambient
-- `tapioca.stale`: spoil, `tapioca` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tapioca_pearls.dry`: held, `tapioca_dough` → `tapioca_pearls`, 600 min (12000 ticks) at 20 °C, ambient
-- `tapioca_pearls.stale`: spoil, `tapioca_pearls` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tapioca_starch.dry`: held, `wet_tapioca_starch` → `tapioca_starch`, 720 min (14400 ticks) at 20 °C, ambient
-- `tapioca_starch.stale`: spoil, `tapioca_starch` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tarator_bulgarian_cucumber_soup.step_2`: held, `tarator_bulgarian_cucumber_soup_step_1` → `tarator_bulgarian_cucumber_soup`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `tarhana_turkish_yogurt_soup.step_5`: held, `tarhana_turkish_yogurt_soup_step_4` → `tarhana_turkish_yogurt_soup_step_5`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `tarhana_turkish_yogurt_soup_step_4`
-- `taro_root.spoil`: spoil, `taro_root` → `spoiled_food`, 7 d (201600 ticks) at 20 °C, ambient, q10 0.519, only from 0 °C to any
-- `tarragon.freezer_burn`: spoil, `tarragon` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `tarragon.spoil`: spoil, `tarragon` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `tarta_de_santiago.step_6`: held, `tarta_de_santiago_step_5` → `tarta_de_santiago_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `tarte_tatin.step_3`: held, `tarte_tatin_step_2` → `tarte_tatin_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `tarte_tatin.step_8`: held, `tarte_tatin_step_7` → `tarte_tatin`, 15 min (300 ticks) at 20 °C, ambient
-- `tater_tots.freezer_burn`: spoil, `tater_tots` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `tattie_scones.step_6`: held, `tattie_scones_step_5` → `tattie_scones`, 1 min (20 ticks) at 20 °C, ambient
-- `tea.stale`: spoil, `tea` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `tea_bag.stale`: spoil, `tea_bag` → `spoiled_food`, 775 d (22320000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `tea_leaf.stale`: spoil, `tea_leaf` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `tea_leaves.stale`: spoil, `tea_leaves` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `teff.freezer_burn`: spoil, `teff` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `teff.stale`: spoil, `teff` → `spoiled_food`, 122 d (3513600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tekka_japanese_root_vegetables_in_miso.step_6`: held, `tekka_japanese_root_vegetables_in_miso_step_5` → `tekka_japanese_root_vegetables_in_miso`, 1 min (20 ticks) at 20 °C, ambient
 - `tembleque_puerto_rican_coconut_pudding.step_6`: held, `tembleque_puerto_rican_coconut_pudding_step_5` → `tembleque_puerto_rican_coconut_pudding_step_6`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `tempe_mendoan_ii.step_7`: held, `tempe_mendoan_ii_step_6` → `tempe_mendoan_ii`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `tempe_mendoan_ii_step_6`
@@ -14136,117 +12981,61 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `texas_style_barbecue_ribs.step_5`: held, `texas_style_barbecue_ribs_step_4` → `texas_style_barbecue_ribs`, 7 min (140 ticks) at 20 °C, ambient
 - `texas_style_chicken_fried_steak.step_4`: held, `texas_style_chicken_fried_steak_step_3` → `texas_style_chicken_fried_steak_step_4`, 12.5 min (250 ticks) at 20 °C, ambient, not written: the game can't make `texas_style_chicken_fried_steak_step_3`
 - `textured_vegetable_protein.dry`: held, `extruded_soy` → `textured_vegetable_protein`, 3 h (3600 ticks) at 20 °C, ambient
-- `textured_vegetable_protein.spoil`: spoil, `textured_vegetable_protein` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
-- `thai_chiles.freezer_burn`: spoil, `thai_chiles` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `thai_chiles.spoil`: spoil, `thai_chiles` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `thai_chili_paste.mold`: spoil, `thai_chili_paste` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `thai_green_curry_paste.step_4`: held, `thai_green_curry_paste_step_3` → `thai_green_curry_paste`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `thai_green_curry_paste_step_3`
 - `thai_green_curry_with_chicken.step_7`: held, `thai_green_curry_with_chicken_step_6` → `thai_green_curry_with_chicken`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `thai_green_curry_with_chicken_step_6`
 - `thai_lemonade.step_2`: held, `thai_lemonade_step_1` → `thai_lemonade_step_2`, 1 min (20 ticks) at 20 °C, ambient
 - `thick_crust_pizza.step_8`: held, `thick_crust_pizza_step_6` → `thick_crust_pizza_step_8`, 2 h (2400 ticks) at 20 °C, ambient, not written: the game can't make `thick_crust_pizza_step_6`
-- `thick_cut_ribeye_steaks.freezer_burn`: spoil, `thick_cut_ribeye_steaks` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `thick_cut_ribeye_steaks.spoil`: spoil, `thick_cut_ribeye_steaks` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `thobwa_la_mtedza_malawian_sesame_seed_drink.step_2`: held, `thobwa_la_mtedza_malawian_sesame_seed_drink_step_1` → `thobwa_la_mtedza_malawian_sesame_seed_drink_step_2`, 1 min (20 ticks) at 20 °C, ambient
 - `thobwa_la_mtedza_malawian_sesame_seed_drink.step_8`: held, `thobwa_la_mtedza_malawian_sesame_seed_drink_step_7` → `thobwa_la_mtedza_malawian_sesame_seed_drink`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `thong_yib_thai_candied_egg_yolks.step_11`: held, `thong_yib_thai_candied_egg_yolks_step_10` → `thong_yib_thai_candied_egg_yolks`, 1 min (20 ticks) at 20 °C, ambient
 - `thong_yib_thai_candied_egg_yolks.step_3`: held, `thong_yib_thai_candied_egg_yolks_step_2` → `thong_yib_thai_candied_egg_yolks_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `thousand_island_dressing.step_2`: held, `thousand_island_dressing_step_1` → `thousand_island_dressing`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `thousand_island_dressing_step_1`
-- `threads_of_saffron.stale`: spoil, `threads_of_saffron` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `three_bean_confetti_salad.step_2`: held, `three_bean_confetti_salad_step_1` → `three_bean_confetti_salad`, 1 min (20 ticks) at 20 °C, ambient
-- `thyme.spoil`: spoil, `thyme` → `spoiled_food`, 9.9 d (285120 ticks) at 20 °C, ambient, q10 1.41, only from 0 °C to any
 - `tibetan_meat_momos.step_4`: held, `tibetan_meat_momos_step_3` → `tibetan_meat_momos_step_7`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `tibetan_meat_momos_step_3`
-- `tilapia.freezer_burn`: spoil, `tilapia` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `tilapia.spoil`: spoil, `tilapia` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `tilapia_fish.freezer_burn`: spoil, `tilapia_fish` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `tilapia_fish.spoil`: spoil, `tilapia_fish` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `timatim_fitfit_ethiopian_tomato_salad.step_5`: held, `timatim_fitfit_ethiopian_tomato_salad_step_3` → `timatim_fitfit_ethiopian_tomato_salad_step_5`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `tiramisu.step_1`: held, `coffee_cool` → `coffee_cool_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `tiramisu.step_9`: held, `tiramisu_step_8` → `tiramisu_step_9`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `toast.freezer_burn`: spoil, `toast` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `toast.mold`: spoil, `toast` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `toasted_coconut_flakes.step_5`: held, `toasted_coconut_flakes_step_4` → `toasted_coconut_flakes`, 1 min (20 ticks) at 20 °C, ambient
-- `toasted_hazelnut_oil.rancid`: spoil, `toasted_hazelnut_oil` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
 - `tod_mun_thai_fish_cakes.step_9`: held, `tod_mun_thai_fish_cakes_step_8` → `tod_mun_thai_fish_cakes`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `tod_mun_thai_fish_cakes_step_8`
-- `tofu.freezer_burn`: spoil, `tofu` → `spoiled_food`, 152 d (4377600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `tofu.spoil`: spoil, `tofu` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `tofu_chocolate_mousse.step_5`: held, `tofu_chocolate_mousse_step_4` → `tofu_chocolate_mousse`, 7 h (8400 ticks) at 4 °C, chilled, only from any to 8 °C
-- `togarashi_pepper_powder.stale`: spoil, `togarashi_pepper_powder` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tokyo_pancake_khanom_tokyo.step_4`: held, `tokyo_pancake_khanom_tokyo_step_3` → `tokyo_pancake_khanom_tokyo_step_4`, 5 min (100 ticks) at 20 °C, ambient
 - `tom_kha_kai.step_5`: held, `tom_kha_kai_step_4` → `tom_kha_kai_step_5`, 1 min (20 ticks) at 20 °C, ambient
-- `tomato.freezer_burn`: spoil, `tomato` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `tomato_beans.stale`: spoil, `tomato_beans` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tomato_juice.step_3`: held, `tomato_juice_step_2` → `tomato_juice`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `tomato_juice_step_2`
 - `tomato_ketchup.step_2`: held, `tomato_ketchup_step_1` → `tomato_ketchup`, 14 d (403200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `tomato_ketchup_step_1`
-- `tomato_paste.freezer_burn`: spoil, `tomato_paste` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `tomato_paste.stale`: spoil, `tomato_paste` → `spoiled_food`, 822 d (23673600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tomato_pizza.step_3`: held, `pizza_dough` → `tomato_pizza_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `tomato_pizza.step_8`: held, `tomato_pizza_step_7` → `tomato_pizza_step_8`, 1 min (20 ticks) at 20 °C, ambient
-- `tomato_puree.freezer_burn`: spoil, `tomato_puree` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `tomato_puree.stale`: spoil, `tomato_puree` → `spoiled_food`, 822 d (23673600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `tomatoes.freezer_burn`: spoil, `tomatoes` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `tonkatsu.step_2`: held, `tonkatsu_step_1` → `tonkatsu_step_2`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `torn_mixed_greens.spoil`: spoil, `torn_mixed_greens` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `tortellini.freezer_burn`: spoil, `tortellini` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `tortellini.mold`: spoil, `tortellini` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `tortilla.freezer_burn`: spoil, `tortilla` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `tortilla.mold`: spoil, `tortilla` → `spoiled_food`, 91.3 d (2629440 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `tortilla_espanola_de_patatas.step_5`: held, `tortilla_espanola_de_patatas_step_4` → `tortilla_espanola_de_patatas`, 15 min (300 ticks) at 20 °C, ambient
 - `tostones_fried_plantains.step_4`: held, `tostones_fried_plantains_step_3` → `tostones_fried_plantains`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `tostones_fried_plantains_step_3`
 - `traditional_finnish_lemon_mead_sima.step_11`: held, `traditional_finnish_lemon_mead_sima_step_10` → `traditional_finnish_lemon_mead_sima_step_11`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `traditional_finnish_lemon_mead_sima_step_10`
 - `traditional_finnish_lemon_mead_sima.step_12`: held, `traditional_finnish_lemon_mead_sima_step_11` → `traditional_finnish_lemon_mead_sima`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `traditional_finnish_lemon_mead_sima_step_11`
 - `traditional_finnish_lemon_mead_sima.step_7`: held, `traditional_finnish_lemon_mead_sima_step_6` → `traditional_finnish_lemon_mead_sima_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `traditional_finnish_lemon_mead_sima_step_6`
 - `traditional_finnish_lemon_mead_sima.step_9`: held, `traditional_finnish_lemon_mead_sima_step_8` → `traditional_finnish_lemon_mead_sima_step_9`, 8 h (9600 ticks) at 20 °C, ambient, not written: the game can't make `traditional_finnish_lemon_mead_sima_step_8`
-- `treacle.stale`: spoil, `treacle` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tres_leches_cake_i.step_6`: held, `tres_leches_cake_i_step_5` → `tres_leches_cake_i_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `tres_leches_cake_i.step_9`: held, `tres_leches_cake_i_step_8` → `tres_leches_cake_i_step_9`, 1 min (20 ticks) at 20 °C, ambient
 - `tres_leches_cake_ii.step_5`: held, `tres_leches_cake_ii_step_4` → `tres_leches_cake_ii_step_5`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `tri_colored_autumn_rice_balls.step_4.prep_4`: held, `smooth_japanese_bean_paste` → `smooth_japanese_bean_paste_chill`, 1 min (20 ticks) at 20 °C, ambient
 - `trifle.step_5.prep_5`: held, `creme_anglaise` → `creme_anglaise_cool`, 1 min (20 ticks) at 20 °C, ambient
-- `tripe.freezer_burn`: spoil, `tripe` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `tripe.spoil`: spoil, `tripe` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `triple_chocolate_chip_cookies.step_9`: held, `triple_chocolate_chip_cookies_step_8` → `triple_chocolate_chip_cookies`, 1 min (20 ticks) at 20 °C, ambient
 - `tropical_squares.step_9`: held, `tropical_squares_step_8` → `tropical_squares`, 1 min (20 ticks) at 20 °C, ambient
-- `trout.freezer_burn`: spoil, `trout` → `spoiled_food`, 172 d (4953600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `trout.spoil`: spoil, `trout` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `tuna.stale`: spoil, `tuna` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tuna_melt_fishcakes.step_2.prep_1`: held, `tuna` → `tuna_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `tuna_salad_1940.step_3`: held, `tuna_salad_1940_step_2` → `tuna_salad_1940_step_3`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `turkey.freezer_burn`: spoil, `turkey` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `turkey.spoil`: spoil, `turkey` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `turkey_with_plantain_stuffing_pavo_relleno_de_mofongo.step_9`: held, `turkey_with_plantain_stuffing_pavo_relleno_de_mofongo_step_8` → `turkey_with_plantain_stuffing_pavo_relleno_de_mofongo_step_11`, 3 h (3600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `turkey_with_plantain_stuffing_pavo_relleno_de_mofongo_step_8`
 - `turkey_wrap.step_12`: held, `turkey_wrap_step_11` → `turkey_wrap`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `turkey_wrap_step_11`
 - `turkish_delight.step_8`: held, `turkish_delight_step_7` → `turkish_delight`, 1 min (20 ticks) at 20 °C, ambient
-- `turmeric.stale`: spoil, `turmeric` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `turmeric_powder.stale`: spoil, `turmeric_powder` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `turnip.freezer_burn`: spoil, `turnip` → `spoiled_food`, 272 d (7833600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `turnip.spoil`: spoil, `turnip` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `tuscan_roast_potatoes.step_2`: held, `potato_boil_boil` → `potato_boil_boil_chill`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `tvorog_russian_farmer_cheese.step_2`: held, `tvorog_russian_farmer_cheese_step_1` → `tvorog_russian_farmer_cheese_step_2`, 1.5 d (43200 ticks) at 20 °C, ambient
 - `twice_baked_potatoes_i.step_4`: held, `twice_baked_potatoes_i_step_3` → `twice_baked_potatoes_i_step_4`, 10 min (200 ticks) at 20 °C, ambient
 - `twice_baked_potatoes_ii.step_5`: held, `potato_bake_bake` → `potato_bake_bake_cool`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `potato_bake_bake`
-- `twinkies.freezer_burn`: spoil, `twinkies` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `twinkies.mold`: spoil, `twinkies` → `spoiled_food`, 4.58 d (131904 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `two_ingredient_brownies.step_6`: held, `two_ingredient_brownies_step_5` → `two_ingredient_brownies_step_7`, 1 min (20 ticks) at 20 °C, ambient
-- `ube.spoil`: spoil, `ube` → `spoiled_food`, 7 d (201600 ticks) at 20 °C, ambient, q10 0.519, only from 0 °C to any
 - `ugali_rwandan_cornmeal_porridge.step_5`: held, `ugali_rwandan_cornmeal_porridge_step_4` → `ugali_rwandan_cornmeal_porridge`, 1 min (20 ticks) at 20 °C, ambient
 - `ume_shu_japanese_plum_juice.step_4`: held, `ume_shu_japanese_plum_juice_step_3` → `ume_shu_japanese_plum_juice_step_4`, 1 min (20 ticks) at 20 °C, ambient
-- `uncolored_sazon.stale`: spoil, `uncolored_sazon` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `uncooked_ham_hock.freezer_burn`: spoil, `uncooked_ham_hock` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `uncooked_ham_hock.spoil`: spoil, `uncooked_ham_hock` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `unpopped_popcorn_kernels.stale`: spoil, `unpopped_popcorn_kernels` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `unsalted_butter.freezer_burn`: spoil, `unsalted_butter` → `spoiled_food`, 224 d (6451200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `unsalted_butter.rancid`: spoil, `unsalted_butter` → `spoiled_food`, 43 d (1238400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
-- `unsalted_tomato_paste.freezer_burn`: spoil, `unsalted_tomato_paste` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `unsalted_tomato_paste.stale`: spoil, `unsalted_tomato_paste` → `spoiled_food`, 822 d (23673600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `urad_bean.stale`: spoil, `urad_bean` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `valencian_inspired_paella.step_16`: held, `valencian_inspired_paella_step_15` → `valencian_inspired_paella_step_16`, 1 min (20 ticks) at 20 °C, ambient
 - `valencian_inspired_paella.step_7`: held, `valencian_inspired_paella_step_6` → `valencian_inspired_paella_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `valentine_s_day_chocolate_cake.step_13`: held, `valentine_s_day_chocolate_cake_step_12` → `valentine_s_day_chocolate_cake_step_13`, 1 min (20 ticks) at 20 °C, ambient
 - `valentine_s_day_chocolate_cake.step_17`: held, `valentine_s_day_chocolate_cake_step_16` → `valentine_s_day_chocolate_cake_step_17`, 1 min (20 ticks) at 20 °C, ambient
 - `vanilla.cure`: held, `vanilla_curing_batch` → `vanilla`, 30 d (864000 ticks) at 25 °C, ambient, q10 2
-- `vanilla.stale`: spoil, `vanilla` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `vanilla_crisps.step_8`: held, `vanilla_crisps_step_7` → `vanilla_crisps`, 1 min (20 ticks) at 20 °C, ambient
-- `vanilla_extract.stale`: spoil, `vanilla_extract` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `vanilla_fudge_i.step_5`: held, `vanilla_fudge_i_step_4` → `vanilla_fudge_i_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `vanilla_fudge_ii.step_5`: held, `vanilla_fudge_ii_step_4` → `vanilla_fudge_ii_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `vanilla_fudge_ii.step_7`: held, `vanilla_fudge_ii_step_6` → `vanilla_fudge_ii_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `vanilla_fudge_ii_step_6`
@@ -14255,36 +13044,23 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `vanilla_ice_cream_custard_based.step_6`: held, `vanilla_ice_cream_custard_based_step_5` → `vanilla_ice_cream_custard_based_step_6`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `vanilla_ice_cream_custard_based.step_8`: held, `vanilla_ice_cream_custard_based_step_7` → `vanilla_ice_cream_custard_based`, 3 h (3600 ticks) at -18 °C, frozen, only from any to 0 °C
 - `vanilla_ice_cream_egg_free.step_3`: held, `vanilla_ice_cream_egg_free_step_2` → `vanilla_ice_cream_egg_free`, 1 min (20 ticks) at -18 °C, frozen, only from any to 0 °C
-- `vanilla_instant_pudding.stale`: spoil, `vanilla_instant_pudding` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `vanilla_kifli.step_2`: held, `vanilla_kifli_step_1` → `vanilla_kifli_step_4`, 2 h (2400 ticks) at 20 °C, ambient
-- `vanilla_wafer_crumbs.freezer_burn`: spoil, `vanilla_wafer_crumbs` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `vanilla_wafer_crumbs.stale`: spoil, `vanilla_wafer_crumbs` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `vanilla_wafers.freezer_burn`: spoil, `vanilla_wafers` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `vanilla_wafers.stale`: spoil, `vanilla_wafers` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `vegan_gingerbread_cake.step_2.prep_10`: held, `coconut_oil` → `coconut_oil_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `vegan_gingerbread_cake.step_6`: held, `vegan_gingerbread_cake_step_5` → `vegan_gingerbread_cake`, 1 min (20 ticks) at 20 °C, ambient
 - `vegemite.ferment`: held, `yeast_extract` → `vegemite`, 7 d (201600 ticks) at 25 °C, ambient, q10 2
-- `vegetable_oil.rancid`: spoil, `vegetable_oil` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
 - `vegetable_party_sandwiches.step_3`: held, `vegetable_party_sandwiches_step_2` → `vegetable_party_sandwiches_step_4`, 25 h (30000 ticks) at 4 °C, chilled, only from any to 8 °C
 - `vegetable_spring_roll.step_8`: held, `vegetable_spring_roll_step_7` → `vegetable_spring_roll_step_9`, 1 min (20 ticks) at 20 °C, ambient
 - `veggie_pizza.step_7`: held, `veggie_pizza_step_6` → `veggie_pizza`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `veggie_pizza_step_6`
-- `velveeta_cheese.mold`: spoil, `velveeta_cheese` → `spoiled_food`, 24.2 d (696960 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `venison.freezer_burn`: spoil, `venison` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `venison.spoil`: spoil, `venison` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `venison_italian_style.step_5`: held, `venison_italian_style_step_4` → `venison_italian_style_step_5`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `venison_italian_style_step_4`
-- `vermicelli.stale`: spoil, `vermicelli` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `vetkoek_south_african_fried_dough.step_4`: held, `vetkoek_south_african_fried_dough_step_3` → `vetkoek_south_african_fried_dough_step_4`, 1.5 h (1800 ticks) at 20 °C, ambient
 - `vichyssoise_chilled_potato_leek_soup.step_3`: held, `potato_chop_boil` → `potato_cut_boil_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `vichyssoise_chilled_potato_leek_soup.step_7`: held, `vichyssoise_chilled_potato_leek_soup_step_6` → `vichyssoise_chilled_potato_leek_soup_step_7`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `victoria_sandwich.step_6`: held, `victoria_sandwich_step_5` → `victoria_sandwich_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `victorian_butter.step_11`: held, `victorian_butter_step_10` → `victorian_butter_step_11`, 1 h (1200 ticks) at 20 °C, ambient
 - `victorian_butter.step_2.prep_1`: held, `milk` → `milk_age`, 1 min (20 ticks) at 20 °C, ambient
-- `vienna_sausages.freezer_burn`: spoil, `vienna_sausages` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `vienna_sausages.spoil`: spoil, `vienna_sausages` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `vietnamese_caramel_sauce_n_c_maou.step_5`: held, `vietnamese_caramel_sauce_n_c_maou_step_4` → `vietnamese_caramel_sauce_n_c_maou`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `vietnamese_fish_dipping_sauce_n_c_m_m_pha.step_3`: held, `vietnamese_fish_dipping_sauce_n_c_m_m_pha_step_2` → `vietnamese_fish_dipping_sauce_n_c_m_m_pha`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `vietnamese_fish_dipping_sauce_n_c_m_m_pha_step_2`
 - `vinegar.ferment`: held, `apple_cider` → `vinegar`, 14 d (403200 ticks) at 25 °C, ambient, q10 2
-- `vinegar.mold`: spoil, `vinegar` → `spoiled_food`, 1410 d (40608000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `vinegar_pickled_eggs_and_onions.step_2`: held, `vinegar_pickled_eggs_and_onions_step_1` → `vinegar_pickled_eggs_and_onions_step_2`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `vinegar_pickled_eggs_and_onions_step_1`
 - `vinegar_pickled_eggs_and_onions.step_5`: held, `vinegar_pickled_eggs_and_onions_step_4` → `vinegar_pickled_eggs_and_onions_step_5`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `vinegar_pickled_eggs_and_onions_step_4`
 - `vinegar_pickled_eggs_and_onions.step_9`: held, `vinegar_pickled_eggs_and_onions_step_8` → `vinegar_pickled_eggs_and_onions`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `vinegar_pickled_eggs_and_onions_step_8`
@@ -14293,37 +13069,19 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `wakeup_sausage_casserole.step_8`: held, `wakeup_sausage_casserole_step_7` → `wakeup_sausage_casserole_step_8`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `wakeup_sausage_casserole_step_7`
 - `waldorf_salad.step_6`: held, `waldorf_salad_step_5` → `waldorf_salad_step_6`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `waldorf_salad_step_5`
 - `wali_wa_nazi.step_8`: held, `wali_wa_nazi_step_7` → `wali_wa_nazi_step_8`, 7.5 min (150 ticks) at 20 °C, ambient
-- `walnut.freezer_burn`: spoil, `walnut` → `spoiled_food`, 730 d (21024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `walnut.rancid`: spoil, `walnut` → `spoiled_food`, 19.8 d (570240 ticks) at 20 °C, ambient, q10 5.65, only from 0 °C to any
-- `walnut_oil.rancid`: spoil, `walnut_oil` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
-- `water_celery.freezer_burn`: spoil, `water_celery` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `water_celery.spoil`: spoil, `water_celery` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `watermelon.freezer_burn`: spoil, `watermelon` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `watermelon.mold`: spoil, `watermelon` → `spoiled_food`, 1.41 d (40608 ticks) at 20 °C, ambient, q10 1.75, only from 0 °C to any
 - `welsh_fruit_bread_bara_brith_i.step_4`: held, `welsh_fruit_bread_bara_brith_i_step_3` → `welsh_fruit_bread_bara_brith_i_step_4`, 37.5 min (750 ticks) at 20 °C, ambient, not written: the game can't make `welsh_fruit_bread_bara_brith_i_step_3`
-- `wheat_chex_cereal.stale`: spoil, `wheat_chex_cereal` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `wheat_flour.stale`: spoil, `wheat_flour` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `wheat_grass_juice.step_2`: held, `wheat_soak_soak` → `wheat_grass_juice_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `wheat_grass_juice.step_4`: held, `wheat_grass_juice_step_3` → `wheat_grass_juice_step_4`, 7 d (201600 ticks) at 20 °C, ambient
 - `wheat_modak_coconut_pastries.step_6`: held, `wheat_modak_coconut_pastries_step_5` → `wheat_modak_coconut_pastries_step_7`, 1 min (20 ticks) at 20 °C, ambient
-- `whipped_cream.sour`: spoil, `whipped_cream` → `spoiled_food`, 24.2 d (696960 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `whipping_cream.sour`: spoil, `whipping_cream` → `spoiled_food`, 30.4 d (875520 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `whiskey.age_spirit`: held, `new_make_spirit` → `whiskey`, 1095 d (31536000 ticks) at 20 °C, ambient, q10 2
 - `whiskey_barbecue_sauce.step_2`: held, `whiskey_barbecue_sauce_step_1` → `whiskey_barbecue_sauce`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `whiskey_barbecue_sauce_step_1`
-- `white_bread.freezer_burn`: spoil, `white_bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `white_bread.mold`: spoil, `white_bread` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `white_chocolate_cheesecake.step_3`: held, `white_chocolate_cheesecake_step_2` → `white_chocolate_cheesecake_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `white_house_honey_porter.step_4`: held, `white_house_honey_porter_step_3` → `white_house_honey_porter_step_4`, 15 min (300 ticks) at 20 °C, ambient
 - `white_house_honey_porter.step_5`: held, `white_house_honey_porter_step_4` → `white_house_honey_porter_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `white_house_honey_porter.step_7`: held, `white_house_honey_porter_step_6` → `white_house_honey_porter_step_7`, 5.5 d (158400 ticks) at 20 °C, ambient
-- `white_radish.spoil`: spoil, `white_radish` → `spoiled_food`, 11.8 d (339840 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `white_stock.freezer_burn`: spoil, `white_stock` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `white_stock.mold`: spoil, `white_stock` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `whole_wheat_bread_vegan.step_5`: held, `whole_wheat_bread_vegan_step_4` → `whole_wheat_bread_vegan_step_6`, 1.25 h (1500 ticks) at 20 °C, ambient, not written: the game can't make `whole_wheat_bread_vegan_step_4`
 - `whole_wheat_bread_vegan.step_9`: held, `whole_wheat_bread_vegan_step_8` → `whole_wheat_bread_vegan`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `whole_wheat_bread_vegan_step_8`
 - `whole_wheat_chocolate_cake_with_nuts.step_7`: held, `whole_wheat_chocolate_cake_with_nuts_step_6` → `whole_wheat_chocolate_cake_with_nuts`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `whole_wheat_chocolate_cake_with_nuts_step_6`
-- `whole_wheat_flour.freezer_burn`: spoil, `whole_wheat_flour` → `spoiled_food`, 730 d (21024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C, not written: the game can't make `whole_wheat_flour`
-- `whole_wheat_flour.rancid`: spoil, `whole_wheat_flour` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 1.54, only from 0 °C to any, not written: the game can't make `whole_wheat_flour`
 - `whole_wheat_irish_soda_bread.step_10`: held, `whole_wheat_irish_soda_bread_step_9` → `whole_wheat_irish_soda_bread_step_10`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `whole_wheat_irish_soda_bread_step_9`
 - `whole_wheat_irish_soda_bread.step_11`: held, `whole_wheat_irish_soda_bread_step_10` → `whole_wheat_irish_soda_bread`, 8 h (9600 ticks) at 20 °C, ambient, not written: the game can't make `whole_wheat_irish_soda_bread_step_10`
 - `wine_glazed_pork_chops.step_5`: held, `wine_glazed_pork_chops_step_4` → `wine_glazed_pork_chops`, 5 min (100 ticks) at 20 °C, ambient
@@ -14331,45 +13089,30 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `wonton_wrappers.step_4`: held, `wonton_wrappers_step_3` → `wonton_wrappers_step_5`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `wonton_wrappers.step_7`: held, `wonton_wrappers_step_6` → `wonton_wrappers`, 1 min (20 ticks) at 20 °C, ambient
 - `worcestershire_sauce.age`: held, `worcestershire_base` → `worcestershire_sauce`, 30 d (864000 ticks) at 20 °C, ambient, q10 2
-- `worcestershire_sauce.mold`: spoil, `worcestershire_sauce` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `yam.spoil`: spoil, `yam` → `spoiled_food`, 17.1 d (492480 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `yam_casserole.step_4`: held, `yam_casserole_step_3` → `yam_casserole`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `yam_casserole_step_3`
-- `yam_tubers.spoil`: spoil, `yam_tubers` → `spoiled_food`, 17.1 d (492480 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
-- `yardlong_bean.freezer_burn`: spoil, `yardlong_bean` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `yardlong_bean.spoil`: spoil, `yardlong_bean` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `yeast.ferment_starter`: held, `yeast_starter` → `yeast`, 5 d (144000 ticks) at 24 °C, ambient, q10 2
-- `yeast.freezer_burn`: spoil, `yeast` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `yeast.stale`: spoil, `yeast` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `yeasted_kifli.step_6`: held, `yeasted_kifli_step_5` → `yeasted_kifli_step_7`, 2 h (2400 ticks) at 20 °C, ambient
 - `yeasted_rolls_ii.step_4`: held, `yeasted_rolls_ii_step_3` → `yeasted_rolls_ii_step_5`, 45 min (900 ticks) at 20 °C, ambient
 - `yeasted_vanilla_sponge_cake.step_9`: held, `yeasted_vanilla_sponge_cake_step_8` → `yeasted_vanilla_sponge_cake_step_9`, 1 min (20 ticks) at 20 °C, ambient
 - `yellow_curry_paste.step_6`: held, `yellow_curry_paste_step_5` → `yellow_curry_paste`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `yellow_curry_paste_step_5`
 - `yellow_saffron_food_coloring.step_6`: held, `yellow_saffron_food_coloring_step_5` → `yellow_saffron_food_coloring`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `yellow_saffron_food_coloring_step_5`
 - `yemiser_selatta_ethiopian_lentil_salad.step_7`: held, `yemiser_selatta_ethiopian_lentil_salad_step_6` → `yemiser_selatta_ethiopian_lentil_salad`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `yemiser_selatta_ethiopian_lentil_salad_step_6`
-- `yerba_mate.stale`: spoil, `yerba_mate` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `yetakelt_alicha_ethiopian_vegetable_stew.step_7`: held, `yetakelt_alicha_ethiopian_vegetable_stew_step_6` → `yetakelt_alicha_ethiopian_vegetable_stew_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `yetakelt_wot_ethiopian_spiced_vegetable_stew.step_7`: held, `yetakelt_wot_ethiopian_spiced_vegetable_stew_step_6` → `yetakelt_wot_ethiopian_spiced_vegetable_stew_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `yetakelt_wot_ethiopian_spiced_vegetable_stew_step_6`
 - `yetsom_shiro_ethiopian_vegan_chickpea_stew.step_8`: held, `yetsom_shiro_ethiopian_vegan_chickpea_stew_step_7` → `yetsom_shiro_ethiopian_vegan_chickpea_stew_step_8`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `yetsom_shiro_ethiopian_vegan_chickpea_stew_step_7`
 - `yogi_tea.step_6`: held, `yogi_tea_step_5` → `yogi_tea_step_6`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `yogi_tea_step_5`
 - `yogurt.ferment`: held, `milk` → `yogurt`, 8 h (9600 ticks) at 22 °C, ambient, q10 2.5
-- `yogurt.freezer_burn`: spoil, `yogurt` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `yogurt.sour`: spoil, `yogurt` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `yogurt_cupcakes_vegan.step_4`: held, `yogurt_cupcakes_vegan_step_3` → `yogurt_cupcakes_vegan_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `yorkshire_pudding.step_6`: held, `yorkshire_pudding_step_5` → `yorkshire_pudding_step_7`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `yorkshire_pudding.step_9`: held, `yorkshire_pudding_step_8` → `yorkshire_pudding`, 1 min (20 ticks) at 20 °C, ambient
 - `yubeshi_japanese_walnut_mochi_confection.step_7`: held, `yubeshi_japanese_walnut_mochi_confection_step_6` → `yubeshi_japanese_walnut_mochi_confection_step_7`, 1 min (20 ticks) at 20 °C, ambient
-- `za_atar.stale`: spoil, `za_atar` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `zalabiyeh_sweet_fritters_ii.step_5`: held, `zalabiyeh_sweet_fritters_ii_step_4` → `zalabiyeh_sweet_fritters_ii_step_6`, 8.5 min (170 ticks) at 20 °C, ambient
 - `zambian_beef_stew.step_8`: held, `zambian_beef_stew_step_7` → `zambian_beef_stew`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `zambian_beef_stew_step_7`
 - `zambian_fish_stew.step_9`: held, `zambian_fish_stew_step_8` → `zambian_fish_stew`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `zambian_fish_stew_step_8`
 - `zambian_tomato_and_onion_salad.step_5`: held, `zambian_tomato_and_onion_salad_step_4` → `zambian_tomato_and_onion_salad_step_5`, 1 min (20 ticks) at 20 °C, ambient
-- `zest_from_juiced_lemons.mold`: spoil, `zest_from_juiced_lemons` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
-- `zest_of_lemon.mold`: spoil, `zest_of_lemon` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `zhug_i.step_2`: held, `zhug_i_step_1` → `zhug_i`, 1 min (20 ticks) at 20 °C, ambient
 - `zhug_ii.step_3`: held, `zhug_ii_step_2` → `zhug_ii`, 1 min (20 ticks) at 20 °C, ambient
 - `zhug_iii.step_4`: held, `zhug_iii_step_3` → `zhug_iii`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `zucchini.freezer_burn`: spoil, `zucchini` → `spoiled_food`, 304 d (8755200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `zucchini.spoil`: spoil, `zucchini` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `zucchini_bread.step_7`: held, `zucchini_bread_step_6` → `zucchini_bread`, 20 min (400 ticks) at 20 °C, ambient
 
 ## Steps
@@ -14909,11 +13652,11 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `acorn_squash.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `acorn_squash.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `acorn_squash_with_orange_marmalade.step_2` (separate)
 
@@ -14953,7 +13696,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `adobo_chicken_philippine.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `adobo_sauce.step_1` (simmer)
 
@@ -14973,7 +13716,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `adobo_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `adoyo_nigerian_ogi_beverage.step_1` (simmer)
 
@@ -15120,11 +13863,11 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `african_eggplants.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `african_eggplants.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `african_salad_ii.step_1` (soak)
 
@@ -15258,7 +14001,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `agave_syrup.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `agbalumo_smoothie.step_1` (separate)
 
@@ -15535,31 +14278,31 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `aji_amarillo.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `aji_amarillo.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `aji_dulce.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `aji_dulce.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `aji_limo.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `aji_limo.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `ajwain.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `akabenz_rwandan_fried_chicken.step_1` (mix)
 
@@ -16413,11 +15156,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `all_purpose_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `allspice.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `almond_cake.step_1` (mix)
 
@@ -16466,7 +15209,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `almond_extract.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `almond_extract.steep` (steep)
 
@@ -16600,7 +15343,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `almond_oil.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `almond_pancakes.step_10` (pan_fry)
 
@@ -16839,15 +15582,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `amaranth.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `amaranth.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `amba_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `ambrosia_fruit_salad.step_1` (mix)
 
@@ -16878,7 +15621,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `amchoor.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `american_marinara_sauce_i.step_10` (season)
 
@@ -17180,11 +15923,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `anchovy.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `anchovy.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `anchovy_herb_salsa_verde.step_1` (mix)
 
@@ -17219,7 +15962,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `anchovy_paste.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `anchovy_paste.grind` (blend)
 
@@ -17227,7 +15970,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `anchovy_paste.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `ancient_roman_pancakes_ova_sfongia_ex_lacte.step_1` (mix)
 
@@ -17265,11 +16008,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `anise.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `annatto.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ants_on_a_log.step_1` (cut)
 
@@ -17386,11 +16129,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `apple.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `apple.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `apple_and_almond_cake.step_3` (mix)
 
@@ -17573,7 +16316,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `apple_cider.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `apple_cider_syrup.step_2` (boil)
 
@@ -17802,11 +16545,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `apple_juice.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `apple_juice.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `apple_juice.strain` (strain)
 
@@ -18075,7 +16818,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `applesauce.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `applesauce_cake.step_2` (mix)
 
@@ -18156,7 +16899,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `apricot.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `apricot_chicken_salad.step_1` (assemble)
 
@@ -18274,11 +17017,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `arbol_chiles.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `arborio_rice.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `arisa_malaysian_blended_chicken.step_1` (cut)
 
@@ -18632,7 +17375,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `artichoke.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `artichoke_dip_with_parmesan.step_1` (mix)
 
@@ -18647,11 +17390,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `arugula.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `asafoetida.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `asaro.step_1` (blend)
 
@@ -18907,11 +17650,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `asian_pear.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `asian_pear.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `asida_bil_zibda_libyan_semolina_pudding.step_1` (heat)
 
@@ -19020,11 +17763,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `asparagus.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `asparagus.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `asparagus_frittata.step_1` (whisk)
 
@@ -19165,7 +17908,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `assorted_salad_greens.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `asun_goat_in_pepper_sauce.step_1` (season)
 
@@ -19629,7 +18372,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `avocado.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `avocado_coconut_smoothie.step_1` (blend)
 
@@ -19664,7 +18407,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `awaze_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `awaze_tibs_spicy_ethiopian_meat_stir_fry.step_2` (stir_fry)
 
@@ -19916,7 +18659,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `azuki_bean.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `baba_ganoush.step_1` (roast)
 
@@ -20024,7 +18767,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bacon.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `bacon.smoke` (smoke)
 
@@ -20034,7 +18777,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bacon.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `bacon_and_egg_pie.step_2.prep_1` (cut)
 
@@ -20145,19 +18888,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bacon_drippings.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `bacon_drippings.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `bacon_fat.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `bacon_fat.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `bacon_fat.render` (separate)
 
@@ -20167,11 +18910,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bacon_grease.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `bacon_grease.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `bacon_wrapped_scallops.step_2` (mix)
 
@@ -20299,11 +19042,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bagel.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `bagel.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `bagel_toast.step_1` (cut)
 
@@ -20354,19 +19097,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `baguette.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `baguette.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `baguettes.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `baguettes.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `baingan_bartha_south_indian_eggplant_with_chili_ii.step_1` (steam)
 
@@ -20960,7 +19703,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `baking_mix.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `baking_powder.mix` (mix)
 
@@ -21223,19 +19966,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bambara_bean.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `bamboo_shoot.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `banana.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `banana.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `banana_and_pear_cake_vegan.step_10` (coat)
 
@@ -21735,7 +20478,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `banana_ketchup.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `banana_milkshake.step_1` (blend)
 
@@ -21867,19 +20610,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `banana_pepper.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `banana_pepper.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `banana_peppers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `banana_peppers.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `banana_pudding.step_1` (heat)
 
@@ -22122,7 +20865,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `banga_spice.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `bangers_and_mash.step_2` (pan_fry)
 
@@ -22530,11 +21273,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `barley.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `barley.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `basbousa_egyptian_semolina_cake.step_10` (cool)
 
@@ -22878,7 +21621,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `basil.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `basin_ki_kadi_sindhi_chickpea_flour_curry.step_1` (fry)
 
@@ -22908,7 +21651,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `basmati.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `bassi_salte_senegalese_couscous_with_meat_and_vegetables.step_1` (soak)
 
@@ -22972,7 +21715,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bay_leaf.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `bazeen_bil_lahm_libyan_meat_bazeen.step_2` (pan_fry)
 
@@ -23291,7 +22034,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bean_sprout.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `beanburger.step_1` (fry)
 
@@ -23570,11 +22313,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `beef_bouillon_cubes.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `beef_bouillon_cubes.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `beef_burgers_with_onion.step_1` (pan_fry)
 
@@ -23663,11 +22406,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `beef_consomme.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `beef_consomme.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `beef_croquettes.step_1` (simmer)
 
@@ -23974,11 +22717,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `beef_steaks.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `beef_steaks.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `beef_stew_i.step_2` (coat)
 
@@ -24057,19 +22800,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `beef_stock.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `beef_stock.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `beef_stock_cubes.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `beef_stock_cubes.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `beef_tenderloin_steak.step_1` (season)
 
@@ -24336,11 +23079,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `beet.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `beet.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `beet_and_cabbage_stew.step_1` (cool)
 
@@ -24466,11 +23209,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bell_pepper.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `bell_pepper.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `bell_pepper_chili.step_2` (fry)
 
@@ -24512,11 +23255,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bell_peppers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `bell_peppers.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `benachin_gambian_rice_with_meat_and_vegetables.step_10` (season)
 
@@ -24757,7 +23500,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `berbere_spice.stale` (stale)
 
-- transition: not written: the game can't make `berbere_spice`
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `bete_noire_flourless_chocolate_cake.step_1` (dissolve)
 
@@ -25194,7 +23937,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `biltong.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `biltong_zambian_dried_and_salted_meat.step_1` (mix)
 
@@ -25623,7 +24366,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bitter_bean.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `bizcochito_cinnamon_anise_cookies_i.step_1` (mix)
 
@@ -25684,7 +24427,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `black_bean_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `black_bean_soup.step_1` (separate)
 
@@ -25891,11 +24634,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `black_cardamom.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `black_eyed_peas.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `black_eyed_peas_and_kale.step_1` (pan_fry)
 
@@ -26170,15 +24913,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `black_vinegar.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `blackberry.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `blackberry.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `blackberry_mush.step_2` (mix)
 
@@ -26223,7 +24966,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `blackstrap_molasses.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `bliny.step_1` (mix)
 
@@ -26273,7 +25016,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `blood_orange.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `blotkake_norwegian_berries_and_cream_cake.step_1` (fold)
 
@@ -26361,15 +25104,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `blue_cheese_dressing.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `blueberry.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `blueberry.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `blueberry_cream_pie.step_10` (chill)
 
@@ -27049,11 +25792,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bok_choy.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `bok_choy.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `boliche_cuban_chorizo_stuffed_roast.step_1` (assemble)
 
@@ -27250,11 +25993,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bonga_fish_fillets.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `bonga_fish_fillets.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `bonito_flakes.boil` (boil)
 
@@ -27283,7 +26026,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `boom_blackcurrant_beverage.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `booyah_chicken_vegetable_stew.step_2` (separate)
 
@@ -27635,7 +26378,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `boursin_brand_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `boursin_brand_cheese.mix` (mix)
 
@@ -27645,7 +26388,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `boursin_brand_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `boxty_irish_potato_cakes.step_1` (separate)
 
@@ -28062,11 +26805,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `bread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `bread.stale` (stale)
 
@@ -28079,7 +26822,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bread_crumbs.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `bread_filled_with_potato_curry_pani_puri.step_1` (blend)
 
@@ -28114,7 +26857,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bread_flour.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `bread_pudding.step_2` (assemble)
 
@@ -28156,11 +26899,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bread_rolls.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `bread_rolls.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `bread_with_tomato_sauce_pappa_al_pomodoro.step_2` (fry)
 
@@ -28263,7 +27006,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `breading.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `breakfast_burrito.step_1` (assemble)
 
@@ -28297,7 +27040,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `breakfast_cereal.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `breakfast_durum.step_1` (toast)
 
@@ -28436,19 +27179,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `brewer_s_yeast.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `brewer_s_yeast.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `brie_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `brie_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `brigadeiro_brazilian_chocolate_fudge.step_1` (mix)
 
@@ -28515,11 +27258,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `broccoli.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `broccoli.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `broccoli_kugel.step_2` (mix)
 
@@ -28547,11 +27290,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `broccoli_rabe.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `broccoli_rabe.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `broccoli_salad.step_1` (whisk)
 
@@ -28609,7 +27352,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `brown_beans.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `brown_butter_biscuits.step_10` (bake)
 
@@ -28858,11 +27601,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `brown_stock.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `brown_stock.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `brown_sugar_brownies.step_3` (mix)
 
@@ -28989,11 +27732,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `brussels_sprout.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `brussels_sprout.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `bryndzove_halusky_slovak_dumplings_with_cheese.step_1` (mix)
 
@@ -29233,11 +27976,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `buckwheat.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `buckwheat.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `buckwheat_crepes.step_1` (whisk)
 
@@ -29280,7 +28023,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `buckwheat_flour.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `buckwheat_flour.grind` (grind)
 
@@ -29289,7 +28032,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `buckwheat_flour.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `buffalo_chicken_sandwich.step_2` (coat)
 
@@ -29511,7 +28254,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bulgur.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `bulgur_burgers.step_2` (toast)
 
@@ -29583,11 +28326,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bun.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `bun.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `bunny_chow.step_11` (assemble)
 
@@ -29652,11 +28395,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `buns.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `buns.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `bunuelos_sweet_fried_pastry.step_1` (whisk)
 
@@ -29805,11 +28548,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `butter.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `butter.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `butter_tart.step_1` (mix)
 
@@ -29898,7 +28641,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `buttercream.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `buttered_popcorn.step_1` (coat)
 
@@ -29915,11 +28658,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `buttermilk.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `buttermilk.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `buttermilk_curry_soup_kadi_pakora.step_1` (mix)
 
@@ -30015,11 +28758,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `butternut_squash.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `butternut_squash.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `butternut_squash_soup.step_2` (cut)
 
@@ -30125,11 +28868,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cabbage.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cabbage.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cabbage_fufu.step_1` (separate)
 
@@ -30515,7 +29258,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cajun_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cake.bake` (bake)
 
@@ -30525,7 +29268,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cake.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cake.mix_batter` (mix)
 
@@ -30535,7 +29278,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cake.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `cake_brownies.step_3` (mix)
 
@@ -30567,7 +29310,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cake_mix.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cake_mix_cookies.step_2` (mix)
 
@@ -30583,11 +29326,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `calabash_nutmeg.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `calamansi.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `calamansi_juice_drink.step_1` (cut)
 
@@ -30623,15 +29366,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `calasparra_rice.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `calf_s_foot.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `calf_s_foot.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `california_curry_chicken.step_2` (fry)
 
@@ -31514,7 +30257,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cara_cara_orange.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `caramel.heat` (heat)
 
@@ -31751,11 +30494,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `caraway.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `caraway_seed.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `carbonara_pasta.step_1` (boil)
 
@@ -31801,7 +30544,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cardamom.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `carpetbag_steak.step_1` (cut)
 
@@ -31883,11 +30626,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `carrot.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `carrot.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `carrot_and_coriander_soup.step_2` (pan_fry)
 
@@ -32191,11 +30934,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `carrots.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `carrots.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `carrots_cooked_kinpira_style.step_2` (stir_fry)
 
@@ -32223,11 +30966,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cashew.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cashew.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `cashew_butter.blend` (blend)
 
@@ -32235,7 +30978,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cashew_butter.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `cashew_gravy.step_2` (pan_fry)
 
@@ -32264,11 +31007,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cassava.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cassava.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cassava_pone.step_2` (mix)
 
@@ -32284,11 +31027,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cassava_tubers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cassava_tubers.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cassoulet.step_1` (boil)
 
@@ -32351,19 +31094,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `catfish.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `catfish.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cauliflower.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cauliflower.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cauliflower_cheese.step_1` (soak)
 
@@ -32442,11 +31185,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `caviar.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cayenne.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cayenne_hot_sauce.step_1` (mix)
 
@@ -32456,7 +31199,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cayenne_pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cazuela_gallega_egg_ham_and_cheese_casserole.step_3` (assemble)
 
@@ -32490,15 +31233,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `celery.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `celery.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `celery_root.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `celery_salt.mix` (mix)
 
@@ -32508,15 +31251,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `celery_seed.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `celery_stalk.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `celery_stalk.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `central_texan_pinto_beans.step_1` (soak)
 
@@ -32575,11 +31318,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cereal.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `chaat_masala.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `chadian_gilled_fish.step_2` (mix)
 
@@ -33069,7 +31812,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chard.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `chargrilled_asparagus_salad.step_1` (rinse)
 
@@ -33179,11 +31922,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cheddar_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cheddar_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `cheddar_cheese_green.press` (press)
 
@@ -33193,15 +31936,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cheerios.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `cheese_and_crackers.step_2` (cut)
 
@@ -33634,11 +32377,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cheeselets.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cheeselets.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `cheesy_asparagus.bake` (bake)
 
@@ -33848,11 +32591,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cherry.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cherry.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `cherry_berry_jumble_fruit_pie.step_2` (strain)
 
@@ -33990,7 +32733,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cherry_jam.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `cherry_pie_filling.boil` (boil)
 
@@ -34000,7 +32743,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cherry_pie_filling.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `cherry_soda.step_1` (mix)
 
@@ -34028,11 +32771,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chervil.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chervil.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `chess_pie.step_2` (boil)
 
@@ -34248,11 +32991,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chicken.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chicken.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `chicken_a_la_king.step_1` (season)
 
@@ -34503,7 +33246,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chicken_and_herb_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `chicken_and_pasta_alfredo.step_2` (mix)
 
@@ -34780,27 +33523,27 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chicken_breast.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chicken_breast.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `chicken_breast_halves.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chicken_breast_halves.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `chicken_broth.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chicken_broth.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `chicken_broth_ii.step_1` (simmer)
 
@@ -35054,11 +33797,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chicken_flavour_bouillon_cube.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chicken_flavour_bouillon_cube.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `chicken_fried_rice.step_1` (stir_fry)
 
@@ -35169,11 +33912,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chicken_hot_dogs.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chicken_hot_dogs.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `chicken_jerky.age` (age)
 
@@ -35663,7 +34406,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chicken_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `chicken_sopas.step_1` (pan_fry)
 
@@ -36648,11 +35391,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chile.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chile.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `chile_flakes.chop_dried_chiles` (chop)
 
@@ -36667,7 +35410,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chile_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `chiles.dry_hot` (dry)
 
@@ -36676,7 +35419,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chiles.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chiles.separate` (separate)
 
@@ -36686,11 +35429,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chiles.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `chiles_de_arbol.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `chiles_en_nogada_stuffed_chile_peppers_with_almonds.step_1` (mix)
 
@@ -36943,7 +35686,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chili_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `chili_powder_i.step_1` (grind)
 
@@ -37030,11 +35773,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chilies.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chilies.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `chilli_crab.step_1` (freeze)
 
@@ -37091,7 +35834,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chilli_ginger_paste.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `chilli_oil.step_1` (mix)
 
@@ -37125,11 +35868,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chillies.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chillies.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `chimichurri.step_1` (mix)
 
@@ -37226,7 +35969,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chip.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `chip_butty.step_1` (strain)
 
@@ -37767,7 +36510,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chive.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `chivito_uruguayan_beef_sandwich.step_1` (heat)
 
@@ -37870,7 +36613,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chocolate.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `chocolate_and_banana_bread.step_10` (bake)
 
@@ -38147,11 +36890,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chocolate_chip_cookies.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chocolate_chip_cookies.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `chocolate_chip_cookies_gluten_free.step_2` (mix)
 
@@ -38575,7 +37318,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chocolate_glaze.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `chocolate_icing.step_2` (mix)
 
@@ -39034,7 +37777,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chocolate_syrup.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `chocolate_truffles.step_10` (chill)
 
@@ -39606,11 +38349,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chuck_roast.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `chuck_roast.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `chuck_wagon_beans.step_1` (pan_fry)
 
@@ -39807,7 +38550,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chutney.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `ciabatta.step_1` (dissolve)
 
@@ -39837,23 +38580,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ciabatta_roll.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `ciabatta_roll.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `ciabatta_rolls.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `ciabatta_rolls.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `cilantro.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cilbir_turkish_eggs_with_yogurt.step_1` (mix)
 
@@ -39910,7 +38653,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cinnamon.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cinnamon_braised_chicken_kotopoulo_kapama.step_1` (pan_fry)
 
@@ -39946,7 +38689,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cinnamon_bread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cinnamon_bread.knead` (knead)
 
@@ -39956,7 +38699,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cinnamon_bread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `cinnamon_chicken.step_2` (pan_fry)
 
@@ -40190,11 +38933,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `citron.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `citrus.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `citrus_energy_drink.step_1` (steep)
 
@@ -40223,11 +38966,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `clam.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `clams.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `clams_steamed_in_aluminum_foil.step_2` (rinse)
 
@@ -40259,7 +39002,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `clarified_butter.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `classic_american_apple_pie.step_1` (mix)
 
@@ -40435,39 +39178,39 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cleaned_leek_green.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cleaned_leek_green.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `clementine.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `clove.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `coarse_bulgur.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `coarsely_chopped_leeks.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `coarsely_chopped_leeks.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `coarsely_chopped_onion.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `coarsely_chopped_onion.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cochinita_pibil_mexican_braised_pork.step_1` (grind)
 
@@ -40507,7 +39250,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `coco_pops_cereal.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cocoa_mix.step_1` (assemble)
 
@@ -40517,7 +39260,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `coconut.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `coconut_barfi.step_1` (evaporate)
 
@@ -40827,7 +39570,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `coconut_oil.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `coconut_pudding_i.step_1` (blend)
 
@@ -41032,15 +39775,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `coconut_water.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `coconut_yogurt.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `coconut_yogurt.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `cocoyam_fufu.step_1` (boil)
 
@@ -41056,23 +39799,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cocoyam_leaves.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cocoyam_leaves.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cocoyams.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cod.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cod.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_1` (soak)
 
@@ -41165,7 +39908,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `coffee_beans.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `coffee_cake.step_1` (mix)
 
@@ -41619,11 +40362,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `collard_greens.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `collard_greens.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `colonial_goose.step_1` (mix)
 
@@ -41694,15 +40437,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `common_bean.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `common_mushroom.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `common_mushroom.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `common_sauce_hartshorne.step_1` (assemble)
 
@@ -41770,19 +40513,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `comte.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `comte.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `comte_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `comte_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `condensed_milk.evaporate` (evaporate)
 
@@ -41872,7 +40615,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cookie.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cookie.mix_dough` (mix)
 
@@ -41882,7 +40625,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cookie.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cookies_and_milk.step_2` (soak)
 
@@ -41940,15 +40683,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cooking_bananas.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cooking_bananas.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `cooking_spray.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `coq_au_vin_i.step_1` (coat)
 
@@ -42118,15 +40861,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cored_and_sliced_apples.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cored_and_sliced_apples.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `coriander.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `coriander_chutney.step_1` (rinse)
 
@@ -42151,15 +40894,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `coriander_leaves.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `corn.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `corn.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `corn_and_kelp_chowder.step_1` (pan_fry)
 
@@ -42397,11 +41140,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `corn_flakes.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `corn_flour.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `corn_muffins.step_1` (mix)
 
@@ -42565,7 +41308,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `corn_syrup.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cornbread.bake` (bake)
 
@@ -42692,11 +41435,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `corned_beef.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `corned_beef.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `corned_beef_pie.step_10` (coat)
 
@@ -42769,7 +41512,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cornmeal.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cornmeal_fried_morels.step_1` (soak)
 
@@ -43021,7 +41764,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cottage_cheese.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `cottage_cheese_eggs.step_2` (whisk)
 
@@ -43058,11 +41801,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `country_bread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `country_bread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `country_fried_chicken.step_1` (coat)
 
@@ -43106,7 +41849,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `country_onion_spice.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `country_roast_chicken.step_1` (season)
 
@@ -43206,15 +41949,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cow_feet.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cow_feet.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cowpea.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `crab_and_corn_salad.step_1` (chop)
 
@@ -43403,7 +42146,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `crab_meat_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `crab_quesadillas_with_mango_salsa.step_1` (mix)
 
@@ -43454,7 +42197,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cracked_black_peppercorns.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cracker.bake` (bake)
 
@@ -43464,7 +42207,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cracker.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cracker.shape` (shape)
 
@@ -43475,15 +42218,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cracker.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cranberry.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cranberry.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `cranberry_orange_squares.step_10` (cut)
 
@@ -43526,7 +42269,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cranberry_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `cranberry_walnut_fudge.step_1` (heat)
 
@@ -43558,11 +42301,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `crawfish.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `crawfish.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `crawfish_boil.step_1` (boil)
 
@@ -43591,7 +42334,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cream.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cream.separate` (separate)
 
@@ -43601,7 +42344,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cream.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `cream_cheese.ferment` (ferment)
 
@@ -43624,7 +42367,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cream_cheese.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `cream_cheese_american_buttercream.step_2` (mix)
 
@@ -43782,7 +42525,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cream_of_wheat.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cream_puff.step_1` (mix)
 
@@ -44000,7 +42743,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `creamy_russian_dressing.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `creamy_tomato_and_bean_soup.step_2` (pan_fry)
 
@@ -44764,11 +43507,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `crouton.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `crouton.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `crown_roast_of_lamb.step_1` (season)
 
@@ -44851,7 +43594,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `crumbled_bread.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `crunchy_baked_chicken.step_2` (coat)
 
@@ -44899,19 +43642,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `crustless_bread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `crustless_bread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `crusty_bread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `crusty_bread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `crystallised_orange_peel.step_1` (separate)
 
@@ -45034,23 +43777,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cubanelle_pepper.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cubanelle_pepper.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cubanelle_peppers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cubanelle_peppers.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cucumber.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cucumber_and_buttermilk_soup.step_3` (chop)
 
@@ -45235,7 +43978,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cumin.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `cupcakes_plain.step_3` (mix)
 
@@ -45262,11 +44005,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `curd.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `curd.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `curdled_milk.coagulate` (coagulate)
 
@@ -45283,23 +44026,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cured_anchovies.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cured_anchovies.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `currant.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `currant.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `currants.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `curried_chiles_mirchi_ka_salan.step_1` (grind)
 
@@ -45505,11 +44248,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `curry_leaf.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `curry_leaf.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `curry_paste.mix` (mix)
 
@@ -45519,7 +44262,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `curry_paste.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `curry_powder.grind` (blend)
 
@@ -45527,7 +44270,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `curry_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `curtido_spicy_cabbage_slaw.step_2` (mix)
 
@@ -45556,7 +44299,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `custard.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `custard_creams.step_1` (mix)
 
@@ -45620,11 +44363,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cut_green_italian_beans.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `cut_green_italian_beans.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `cypriot_salad.step_1` (cut)
 
@@ -45645,7 +44388,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dabeli_masala.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `dabeli_potato_stuffed_buns_with_chutney.step_1` (mix)
 
@@ -45875,7 +44618,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dalda.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `dalgona_coffee.step_1` (mix)
 
@@ -46018,11 +44761,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dark_chocolate_chunks.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `dark_soy_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `dashi.steep` (steep)
 
@@ -46033,11 +44776,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `date.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `date.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `date_bars.step_1` (mix)
 
@@ -46201,23 +44944,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `day_old_corn_tortillas.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `day_old_french_bread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `day_old_french_bread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `day_old_white_bread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `day_old_white_bread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `deep_dish_pizza.step_1` (mix)
 
@@ -46581,23 +45324,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dehydrated_garlic.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `deli_meat.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `deli_meat.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `delicious_apple.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `delicious_apple.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `deluxe_burgers.step_1` (mix)
 
@@ -46918,7 +45661,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `digestive_biscuit.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `digestive_biscuit.mix_dough` (mix)
 
@@ -46928,15 +45671,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `digestive_biscuit.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `dill.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `dill.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `dill_cucumber_salad.step_1` (mix)
 
@@ -47124,7 +45867,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `distilled_white_vinegar.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `dodo_ikire_fried_leftover_plantain.step_1` (blend)
 
@@ -47179,11 +45922,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dog_buns.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `dog_buns.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `dokunu_fermented_corn_dumplings.step_1` (mix)
 
@@ -47460,11 +46203,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dongu_mushrooms.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `dongu_mushrooms.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_1` (mix)
 
@@ -47893,7 +46636,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `douchi.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `dough.knead` (knead)
 
@@ -47986,7 +46729,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dressing.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `dried_chili.dry` (dry)
 
@@ -47995,7 +46738,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dried_chili.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `dried_fruit.dry` (dry)
 
@@ -48004,15 +46747,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dried_fruit.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `dripping.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `dripping.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `drippings.separate` (separate)
 
@@ -48022,7 +46765,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `drizzle_of_olive.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `drover_s_damper.step_1` (mix)
 
@@ -48056,11 +46799,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `drumstick.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `drumstick.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `drunken_shrimp.step_1` (cool)
 
@@ -48114,11 +46857,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dry_beans.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `dry_red.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `dry_rub.step_1` (mix)
 
@@ -48185,11 +46928,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dry_toast.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `dry_toast.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `dryfish.smoke` (smoke)
 
@@ -48231,11 +46974,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `duck.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `duck.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `duck_a_l_orange.step_1` (season)
 
@@ -48381,7 +47124,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dulce_de_leche.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `dulce_de_leche.simmer` (simmer)
 
@@ -49127,11 +47870,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `eel.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `eel.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `eel_alla_milanese.step_1` (boil)
 
@@ -49319,7 +48062,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `egg.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `egg_butter.step_2` (chop)
 
@@ -49430,7 +48173,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `egg_noodles.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `egg_noodles_i.step_1` (mix)
 
@@ -49813,11 +48556,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `egg_whites.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `egg_whites.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `egg_with_cabbage_and_turkish_sausage.step_2` (pan_fry)
 
@@ -49901,11 +48644,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `eggplant.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `eggplant.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `eggplant_and_chickpea_skillet.step_1` (stir_fry)
 
@@ -50793,11 +49536,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `emmental_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `emmental_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `emmental_cheese_green.press` (press)
 
@@ -50903,7 +49646,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `english_muffins.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `english_muffins.knead_dough` (knead)
 
@@ -50913,7 +49656,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `english_muffins.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `english_pea_salad.step_1` (boil)
 
@@ -51019,19 +49762,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `enoki_mushroom.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `enoki_mushroom.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `enoki_mushrooms.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `enoki_mushrooms.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `ensalada_de_pallares_peruvian_lima_bean_salad.step_1` (soak)
 
@@ -51134,15 +49877,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `envelope_vegetable_soup_mix.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `epazote.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `epazote.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `ertesuppe_pea_soup.step_1` (soak)
 
@@ -51374,11 +50117,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `eulachon.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `eulachon.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `euneo_juk_korean_sweetfish_porridge.step_1` (soak)
 
@@ -52033,7 +50776,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fat_free_italian_salad_dressing.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `faten_wake_hausa_bean_porridge.step_1` (rinse)
 
@@ -52186,15 +50929,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fenugreek.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `fermentation_starter.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `fermentation_starter.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `fermented_soda.step_2` (mix)
 
@@ -52577,19 +51320,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `finely_chopped_celery_leaves.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `finely_chopped_celery_leaves.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `finely_diced_rocoto_peppers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `finely_diced_rocoto_peppers.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `firecracker_grilled_shrimp.step_1` (coat)
 
@@ -52834,11 +51577,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `firm_sourdough.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `firm_sourdough.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `fish_and_chips.step_2` (fry)
 
@@ -53220,7 +51963,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `five_spice_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `flaky_pastry_dough.step_1` (cut)
 
@@ -53465,11 +52208,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `flavoring.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `flavorings_extracts.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `fleischkrapfen_austrian_meat_pasties.step_1` (mix)
 
@@ -53526,7 +52269,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `florida_bay_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `florida_style_crab_cakes.step_1` (mix)
 
@@ -53565,11 +52308,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `flounder.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `flounder.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `flourless_chocolate_cake.step_1` (heat)
 
@@ -53608,7 +52351,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fluted_pumpkin.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `focaccia_with_onion_marmalade_blue_cheese_and_walnuts.step_2` (assemble)
 
@@ -53641,11 +52384,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fontina.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `fontina.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `food_coloring.boil` (boil)
 
@@ -53787,11 +52530,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `french_bread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `french_bread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `french_canadian_shepherd_s_pie_pate_chinois.step_1` (boil)
 
@@ -53981,19 +52724,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `french_roll.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `french_roll.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `french_sandwich_hoagie_rolls.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `french_sandwich_hoagie_rolls.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `french_toast.step_1` (whisk)
 
@@ -54226,11 +52969,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `freshly_grated_nutmeg.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `freshly_ground_black_pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `friar_s_omelette.step_1` (assemble)
 
@@ -54447,7 +53190,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fried_chicken.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `fried_chicken.fry` (fry)
 
@@ -54458,7 +53201,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fried_chicken.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `fried_chicken_and_fried_potatoes.step_2` (fry)
 
@@ -54519,11 +53262,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fried_egg.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `fried_egg.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `fried_eggs.step_2` (pan_fry)
 
@@ -55364,11 +54107,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fromage_frais.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `frosting_and_icing.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `fruit_cake.bake` (bake)
 
@@ -55433,7 +54176,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fruit_cocktail.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `fruit_crumble.step_1` (mix)
 
@@ -55461,7 +54204,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fruit_filling.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `fruit_for_the_day_smoothie.step_1` (assemble)
 
@@ -55505,11 +54248,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fruit_nectar.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `fruit_preserves.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `fruit_salad_with_orange_juice.step_1` (cut)
 
@@ -55614,7 +54357,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fruit_salt.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `fruit_whip.step_1` (whisk)
 
@@ -55872,7 +54615,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `full_fat_milk.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `funkaso_hausa_fritters.step_1` (mix)
 
@@ -56465,11 +55208,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `garam_masala.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `garam_masala_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `garbanzo_bean_stew.step_2` (pan_fry)
 
@@ -56529,11 +55272,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `garden_egg.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `garden_egg.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `garden_egg_stew.step_1` (boil)
 
@@ -56578,15 +55321,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `garlic.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `garlic.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `garlic_and_herb_salt.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `garlic_and_lemon_dressing.step_1` (assemble)
 
@@ -56709,11 +55452,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `garlic_cloves.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `garlic_cloves.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `garlic_croutons_i.step_1` (steep)
 
@@ -56939,7 +55682,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `garlic_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `garlic_salt.step_1` (mix)
 
@@ -57331,11 +56074,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `gelatin.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `gelato.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `general_tso_s_chicken.mix_sauce` (mix)
 
@@ -57745,7 +56488,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `gherkins.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `ghevar_rajasthani_honeycomb_fritter.step_1` (simmer)
 
@@ -57993,11 +56736,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `giblets.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `giblets.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `gimbap.step_1` (cut)
 
@@ -58085,11 +56828,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ginger.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `ginger.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `ginger_ale.step_1` (strain)
 
@@ -58190,7 +56933,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ginger_green_chilli_paste.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `ginger_pancakes.step_10` (pan_fry)
 
@@ -58477,11 +57220,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `gingersnap_cookies.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `gingersnap_cookies.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `githeri.step_1` (soak)
 
@@ -58553,7 +57296,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `glass_of_red_wine.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `glazed_onion_canapes.step_2` (heat)
 
@@ -58832,7 +57575,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `golden_raisins.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `golden_syrup.boil` (boil)
 
@@ -58842,7 +57585,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `golden_syrup.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `gomen_ethiopian_collard_greens.step_2` (pan_fry)
 
@@ -58957,11 +57700,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `goose.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `goose.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `gored_gored_ethiopian_raw_beef.step_1` (mix)
 
@@ -59104,11 +57847,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `goya_adobo_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `goya_sazon_con_azafran.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `gozleme_turkish_flatbread.step_1` (separate)
 
@@ -59183,15 +57926,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `graham_cracker.stale` (stale)
 
-- transition: not written: the game can't make `graham_cracker`
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `grain_rice.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `grains_of_paradise.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `grand_union_bacon.step_1` (mix)
 
@@ -59323,7 +58066,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `granola_bar.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `granola_bars.bake` (bake)
 
@@ -59362,15 +58105,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `granulated_garlic.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `grape.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `grape.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `grape_juice.press` (press)
 
@@ -59390,7 +58133,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `grapefruit.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `grapefruit_and_crab_cocktail.step_1` (cut)
 
@@ -59467,7 +58210,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `gravy.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `gravy_cakes_hartshorne.step_1` (simmer)
 
@@ -59510,7 +58253,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `gravy_granules.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `gravy_powder.dry` (evaporate)
 
@@ -59518,11 +58261,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `gravy_powder.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `gravy_spices.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `gravy_vegetarian.step_1` (heat)
 
@@ -59661,11 +58404,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `green_bean.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `green_bean.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `green_bean_casserole.step_2` (mix)
 
@@ -59851,19 +58594,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `green_onion.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `green_onion.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `green_pepper.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `green_pepper.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `green_spinach_food_coloring.step_1` (boil)
 
@@ -60664,7 +59407,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `grits.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `grits_with_cheese.step_2` (mix)
 
@@ -60716,7 +59459,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ground_and_fried_beans.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_beef_and_potato_taquitos.step_2` (boil)
 
@@ -60744,11 +59487,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ground_black_pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_cameroon_pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_cardamom.grind` (blend)
 
@@ -60756,7 +59499,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ground_cardamom.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_cinnamon.grind` (blend)
 
@@ -60764,7 +59507,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ground_cinnamon.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_coriander.grind` (blend)
 
@@ -60772,7 +59515,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ground_coriander.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_crayfish.dry` (dry)
 
@@ -60790,11 +59533,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ground_cumin.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_dried_pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_fish.grind` (grind)
 
@@ -60809,7 +59552,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ground_fresh_pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_ginger.dry` (dry)
 
@@ -60823,7 +59566,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ground_ginger.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_gingerbread_spices.mix` (mix)
 
@@ -60833,19 +59576,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ground_gingerbread_spices.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_mahaleb_cherry.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_meat.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `ground_meat.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `ground_nutmeg.grind` (blend)
 
@@ -60853,15 +59596,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ground_nutmeg.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_red_pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ground_sesame_seeds.grind` (blend)
 
@@ -60869,7 +59612,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ground_sesame_seeds.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `ground_tofu.step_1` (mix)
 
@@ -60980,11 +59723,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `gruyere_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `gruyere_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `gruyere_cheese_green.press` (press)
 
@@ -61086,11 +59829,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `guanciale.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `guanciale.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `gudeg_green_jackfruit_stew.step_1` (cut)
 
@@ -61271,7 +60014,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `gyro_spice.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `gyudon_japanese_beef_and_rice_bowl.step_2` (boil)
 
@@ -61372,27 +60115,27 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `habanero.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `habanero.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `habanero_chile.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `habanero_chile.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `habanero_pepper.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `habanero_pepper.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `habas_con_jamon_broad_beans_with_ham.step_1` (pan_fry)
 
@@ -61519,11 +60262,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `haddock.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `haddock.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `haggis.step_2` (simmer)
 
@@ -61573,11 +60316,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hake.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `hake.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `hake_in_herby_breadcrumbs.step_2` (mix)
 
@@ -61606,11 +60349,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `halibut.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `halibut.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `halibut_cheek_stir_fry.step_2` (pan_fry)
 
@@ -61994,11 +60737,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hamburger_bun.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `hamburger_bun.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `hamburger_fried_rice.step_1` (stir_fry)
 
@@ -62022,11 +60765,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hamburger_meat.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `hamburger_meat.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `hamburger_skillet_dinner.step_2` (pan_fry)
 
@@ -62109,15 +60852,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `handful_fresh_parsley.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `handful_fresh_parsley.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `handfuls_of_pretzels.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `hanjin_ligidi_nigerian_lollipops.step_2` (rinse)
 
@@ -62165,19 +60908,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hard_boiling_potatoes.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `hard_boiling_potatoes.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `hard_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `hard_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `hard_cider.ferment` (ferment)
 
@@ -62189,11 +60932,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hard_cider.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `hard_cooked_eggs.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `hard_tack.step_1` (mix)
 
@@ -62220,15 +60963,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hare.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `hare.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `haricot_beans.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `harissa_bil_djaj_libyan_chicken_harissa.step_2` (pan_fry)
 
@@ -62472,15 +61215,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hawthorn_tea_bag.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `hazelnut.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `hazelnut.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `hazelnut_and_black_raspberry_panna_cotta.step_1` (heat)
 
@@ -62530,11 +61273,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hazelnuts.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `hazelnuts.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `hearty_beef_vegetable_soup.step_1` (pan_fry)
 
@@ -62581,11 +61324,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `heavy_whipping_cream.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `heavy_whipping_cream.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `heinz_burger_sauce.step_1` (mix)
 
@@ -62601,7 +61344,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `heinz_sweet_relish.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `henry_thiele_s_pancake.step_2` (mix)
 
@@ -62716,7 +61459,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `herb_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `herbal_energy_drink.step_1` (steep)
 
@@ -63015,7 +61758,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hickory_smoke_flavored_albacore_tuna.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `hickory_smoked_pork_chops.step_1` (mix)
 
@@ -63134,11 +61877,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hilsa_fish.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `hilsa_fish.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `hlib_tmer_algerian_date_milk.step_1` (separate)
 
@@ -63166,11 +61909,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hoagie_rolls.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `hoagie_rolls.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `hobo_burgers.step_1` (mix)
 
@@ -63222,7 +61965,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hoisin_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `holiday_cake_spiced_fruitcake_loaf.step_1` (soak)
 
@@ -63529,7 +62272,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `homemade_biscuit_mix.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `homemade_cider_vinegar.step_1` (rinse)
 
@@ -64367,7 +63110,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `honey.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `honey_apple_glazed_pork.step_2` (mix)
 
@@ -64835,7 +63578,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `horseradish.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `hot_and_sour_soup.step_2` (simmer)
 
@@ -65022,11 +63765,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hot_dog.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `hot_dog.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `hot_fudge_sauce.step_1` (boil)
 
@@ -65136,7 +63879,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hot_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `hot_sauce_homemade.step_1` (mix)
 
@@ -65243,7 +63986,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hummus.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `hummus_greek.step_1` (soak)
 
@@ -65825,7 +64568,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ice_cream.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `ice_cream.mix` (mix)
 
@@ -65879,7 +64622,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ice_cream_topping.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `iced_tea.step_2` (assemble)
 
@@ -66334,15 +65077,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `imitation_crab.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `imitation_whipped_cream.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `imitation_whipped_cream.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `inarizushi_stuffed_sushi.step_1` (separate)
 
@@ -66397,19 +65140,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `inch_ginger_root.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `inch_ginger_root.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `inch_piece_fresh_ginger.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `inch_piece_fresh_ginger.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `indian_baked_yoghurt_with_saffron_and_cardamom.step_2` (bake)
 
@@ -66768,11 +65511,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `indian_walnuts.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `indian_walnuts.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `indonesian_style_fried_rice.step_1` (stir_fry)
 
@@ -67023,7 +65766,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `instant_mashed_potato_flakes.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `instant_pot_beans.step_1` (soak)
 
@@ -67060,15 +65803,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `instant_vanilla_pudding_mix.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `instant_yeast.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `instant_yeast.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `inyama_y_isugi_rwandan_grilled_pork.step_2` (mix)
 
@@ -67529,7 +66272,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `italian_dressing.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `italian_dressing_i.step_1` (assemble)
 
@@ -67556,11 +66299,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `italian_frying_peppers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `italian_frying_peppers.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `italian_garlic_and_herb_marinade.step_1` (mix)
 
@@ -67570,7 +66313,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `italian_herb_blend.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `italian_marinated_chicken.step_1` (mix)
 
@@ -68012,11 +66755,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `jalapeno.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `jalapeno.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `jalapeno_eggs.step_10` (steam)
 
@@ -68106,11 +66849,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `jalapeno_pepper.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `jalapeno_pepper.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `jalapeno_sausage_and_bacon_appetizers_atomic_buffalo_turds.step_1` (cut)
 
@@ -68398,7 +67141,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `jamaican_pickapeppa_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `jamaican_rice_and_peas.step_1` (soak)
 
@@ -68630,11 +67373,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `japanese_plum.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `japanese_plum.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `jasmine_water.steep` (steep)
 
@@ -68656,7 +67399,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `jello.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `jerk_lobster.step_1` (chop)
 
@@ -68729,11 +67472,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `jerk_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `jerked_beef.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `jersey_breakfast_dog.step_2` (assemble)
 
@@ -68802,7 +67545,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `jicama.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `jigarthanda_milk.step_1` (soak)
 
@@ -68924,47 +67667,47 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `john_dory.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `john_dory.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `juice_from_medium_lemons.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `juice_from_medium_lemons.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `juice_from_same_lemons.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `juice_from_same_lemons.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `juice_of_fresh_lemons.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `juice_of_fresh_lemons.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `juice_of_lemon.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `juice_of_lime.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `juniper_berry.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ka_ak_savory_ring_shaped_biscuit.step_1` (mix)
 
@@ -69067,7 +67810,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kaffir_lime.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `kaiserschmarrn_austrian_shredded_pancake.step_1` (separate)
 
@@ -69198,11 +67941,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kale.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `kale.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `kale_and_garlic_pasta.step_1` (heat)
 
@@ -69705,11 +68448,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kashkaval.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `kashkaval.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `kashkaval_pane_bulgarian_fried_cheese.step_1` (cut)
 
@@ -70039,7 +68782,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kefir.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `kek_batik_malaysian_tiffin.step_1` (mix)
 
@@ -70323,7 +69066,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ketchup.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `ketchup.simmer` (simmer)
 
@@ -70966,11 +69709,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kidney.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `kidney.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `kids_vegetable_puree.step_1` (assemble)
 
@@ -71109,7 +69852,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kimchi.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `kipspek_bacon_wrapped_chicken.step_1` (season)
 
@@ -71151,7 +69894,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kismis.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `kisra_sudanese_bread.step_1` (mix)
 
@@ -71244,7 +69987,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kiwifruit.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `klepon_indonesian_sweet_boiled_rice_cake.step_1` (grind)
 
@@ -71285,11 +70028,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `knob_of_butter.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `knob_of_butter.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `knoephla_small_flour_dumplings.step_1` (mix)
 
@@ -71432,11 +70175,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kohlrabi.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `kohlrabi.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `koko_da_kosai_fermented_corn_porridge_and_bean_fritters.step_1` (ferment)
 
@@ -72637,11 +71380,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ladi_pav.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `ladi_pav.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `lady_arundel_s_manchet.step_1` (mix)
 
@@ -72792,11 +71535,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lamb_and_mutton.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `lamb_and_mutton.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `lamb_and_okra_stew_khoresht_bamiye.step_1` (fry)
 
@@ -73422,7 +72165,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lavender.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `layered_pecan_pie.step_2` (mix)
 
@@ -73568,11 +72311,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `leek.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `leek.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `leek_parsley_and_cheddar_mash.step_3` (steam)
 
@@ -73599,11 +72342,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `leek_stem.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `leek_stem.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `lefse_norwegian_potato_flatbread.step_1` (mix)
 
@@ -73630,11 +72373,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `leftover_cooked_rice.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `leftover_cooked_rice.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `lekhchef_algerian_raisin_drink.step_1` (boil)
 
@@ -73671,7 +72414,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lemon.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `lemon_blueberry_pancakes.step_10` (assemble)
 
@@ -73975,7 +72718,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lemon_flavoring.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `lemon_icing.step_1` (separate)
 
@@ -74257,7 +73000,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lemon_oil.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `lemon_pepper.dry_peel` (dry)
 
@@ -74272,7 +73015,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lemon_pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `lemon_pickle_i.step_1` (rinse)
 
@@ -74601,7 +73344,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lemon_slice.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `lemon_sponge.step_2` (mix)
 
@@ -74661,11 +73404,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lemon_verbena.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `lemon_verbena.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `lemonade.mix` (mix)
 
@@ -74709,23 +73452,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lemonade_flavored_kool_aid.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `lemongrass.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `lemongrass.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `lemons.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `lentil.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `lentil_and_sausage_stew.step_1` (simmer)
 
@@ -74892,7 +73635,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lettuce.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `lettuce_soup.step_1` (boil)
 
@@ -75481,7 +74224,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `licorice.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `light_fluffy_pancakes.step_10` (pan_fry)
 
@@ -75519,19 +74262,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `light_molasses.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `light_soy_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `lima_bean.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `lime.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `lime_and_mascarpone_cheesecake.step_1` (shape)
 
@@ -75566,7 +74309,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lime_wedges.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `limeade.mix` (mix)
 
@@ -75626,7 +74369,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `linguine.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `linguine_primavera_mediterranean.step_2` (pan_fry)
 
@@ -75673,11 +74416,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `liquid_aminos.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `liquid_gravy_browner.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `liquid_smoke.distill` (distill)
 
@@ -75685,11 +74428,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `liver.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `liver.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `liver_and_onions.step_1` (boil)
 
@@ -75802,7 +74545,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lobster.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `lobster_bisque.step_1` (pan_fry)
 
@@ -75829,11 +74572,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lobster_butter.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `lobster_butter.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `lobster_thermidor.step_1` (mix)
 
@@ -75981,7 +74724,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `locust_bean.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `lolly_cake.step_1` (grind)
 
@@ -76111,7 +74854,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `long_grain_rice.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `long_island_iced_tea.step_1` (mix)
 
@@ -76234,11 +74977,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lovage.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `lovage.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `low_country_shrimp_and_grits.step_2` (pan_fry)
 
@@ -76696,11 +75439,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `macadamia.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `macadamia.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `macaron.bake` (bake)
 
@@ -76716,7 +75459,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `macaroni.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `macaroni_and_cheese_baked.step_11` (coat)
 
@@ -76948,11 +75691,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mackerel.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `mackerel.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `madbucha_north_african_peppers_and_tomatoes.step_2` (assemble)
 
@@ -77315,11 +76058,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `maize_flour.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `maize_meal.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `maja_blanca_coconut_milk_pudding.step_1` (dissolve)
 
@@ -77576,11 +76319,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `malt_biscuits.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `malt_biscuits.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `maltese_almond_cookies_biskuttini_tal_lewz.step_1` (mix)
 
@@ -77609,11 +76352,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `maltese_galletti.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `maltese_galletti.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `maltese_rabbit_stew_stuffat_tal_fenek.step_1` (cut)
 
@@ -77738,11 +76481,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `malvani_special_masala.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `mandarin_orange.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `mandarin_orange_cake.step_2` (blend)
 
@@ -77771,7 +76514,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mandarin_oranges.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `mandazi_east_african_doughnuts.step_1` (mix)
 
@@ -77818,11 +76561,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mango.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `mango.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `mango_and_yellow_split_pea_curry.step_1` (soak)
 
@@ -78377,7 +77120,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `maple_syrup_and_sugar.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `maple_syrup_planked_salmon.step_3` (coat)
 
@@ -78448,11 +77191,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `margarine.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `margarine.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `margarita_grilled_chicken.step_1` (coat)
 
@@ -78479,15 +77222,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `marie_biscuits.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `marie_biscuits.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `marinara.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `marinated_cucumbers_and_onions.step_1` (mix)
 
@@ -78570,7 +77313,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `marmalade.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `marsala_chicken_scallopini.step_2` (coat)
 
@@ -78613,7 +77356,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `marsala_wine.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `marshmallow.boil_syrup` (boil)
 
@@ -78623,7 +77366,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `marshmallow.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `marshmallow.whip` (whisk)
 
@@ -78852,7 +77595,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `masala.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `masala_chai_i.step_1` (blend)
 
@@ -79059,11 +77802,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mashed_potato.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `mashed_potato.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `mashed_potatoes.step_2` (assemble)
 
@@ -79381,7 +78124,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `matzo.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `matzo.knead_dough` (knead)
 
@@ -79391,7 +78134,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `matzo.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `matzo_meal.grind` (grind)
 
@@ -79400,7 +78143,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mayonnaise.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `mayonnaise.whisk` (whisk)
 
@@ -79628,7 +78371,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mbongo_spice.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `mbongo_tchobi_cameroonian_black_stew.step_1` (season)
 
@@ -79904,11 +78647,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `meat_drippings.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `meat_drippings.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `meat_masala.step_1` (toast)
 
@@ -79937,7 +78680,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `meat_masala_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `meat_ravioli_filling.step_1` (pan_fry)
 
@@ -80199,11 +78942,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `medium_fair_sized_potatoes.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `medium_fair_sized_potatoes.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `medu_vada_south_indian_savory_lentil_donut.step_1` (grind)
 
@@ -80818,11 +79561,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mesquite_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `mesquite_smoke_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `mexican_chocolate_cake_with_mocha_buttercream.step_12` (bake)
 
@@ -81515,7 +80258,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mild_chunky_salsa.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `mild_salty_lassi.step_2` (blend)
 
@@ -81523,15 +80266,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `milk.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `milk_chocolate.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `milk_chocolate_chips.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `milk_chocolate_pepper_vodka_tart.step_1` (mix)
 
@@ -81631,11 +80374,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `milk_cookies.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `milk_cookies.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `milk_toast_i.step_2` (coat)
 
@@ -81681,27 +80424,27 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `milkfish.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `milkfish.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `millet.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `millet.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `milo_chocolate_drink_mix.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `milo_chocolate_drink_powder.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `mince_pie_tartlets_with_pork.step_10` (bake)
 
@@ -82034,11 +80777,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mini_potato_buns.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `mini_potato_buns.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `mini_three_cheese_english_muffin_pizzas.step_2` (coat)
 
@@ -82080,11 +80823,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mint.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `mint_leaves.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `mint_tea.step_3` (steep)
 
@@ -82244,7 +80987,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `miso.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `miso_soup.step_1` (heat)
 
@@ -82340,11 +81083,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mitmita_spice_blend.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `mixed_herbs.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `mixed_pickled_vegetables_acar_campur.step_1` (blend)
 
@@ -82384,7 +81127,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mixed_pickles.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `miyan_karkashi_nigerian_sesame_leaf_soup.step_1` (grind)
 
@@ -82934,7 +81677,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `molasses.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `molasses_cookies.step_2` (mix)
 
@@ -83100,11 +81843,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `monkfish.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `monkfish.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `monte_cristo_sandwich.step_1` (assemble)
 
@@ -83131,11 +81874,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `monterey_jack_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `monterey_jack_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `monterey_jack_chicken_breasts.step_1` (season)
 
@@ -83318,11 +82061,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mozzarella_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `mozzarella_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `mozzarella_sticks.step_10` (fry)
 
@@ -83434,7 +82177,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mrs_dash_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `msemmen.step_1` (mix)
 
@@ -83680,11 +82423,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mung_bean.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `mung_bean.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `mung_bean_and_brown_rice_curry.step_2` (heat)
 
@@ -83892,11 +82635,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mushroom.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `mushroom.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `mushroom_bao_buns.step_1` (mix)
 
@@ -84072,7 +82815,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mushroom_catsup.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `mushroom_fried_rice.step_1` (pan_fry)
 
@@ -84268,11 +83011,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mushroom_stock_cube.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `mushroom_stock_cube.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `mushroom_tofu_soup.step_1` (blend)
 
@@ -84316,11 +83059,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mushrooms.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `mushrooms.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `mushy_peas.step_1` (soak)
 
@@ -84430,7 +83173,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mussel.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `mussels_in_onion_and_butter_sauce_moules_mariniere.step_1` (pan_fry)
 
@@ -84516,7 +83259,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mustard.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `mustard_and_curry_leaf_lassi.step_1` (whisk)
 
@@ -84553,11 +83296,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mustard_greens.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `mustard_greens.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `mustard_seed.dry_pods` (dry)
 
@@ -85074,7 +83817,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `navy_bean.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ndizi_na_nyama_tanzanian_green_bananas_with_beef.step_2` (simmer)
 
@@ -85263,15 +84006,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nectarine.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `nectarine.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `negitoro.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `negitoro.mix` (mix)
 
@@ -85281,7 +84024,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `negitoro.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `nesquik_a_la_cafe.step_1` (assemble)
 
@@ -85297,7 +84040,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nesquik_chocolate_flavored_drink_powder.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `nettle_pesto.step_1` (toast)
 
@@ -85461,11 +84204,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `new_mexico_ristra.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `new_mexico_ristra.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `new_world_affogato.step_2` (steep)
 
@@ -85602,7 +84345,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigella.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `nigerian_barbecued_chicken_wings.step_1` (mix)
 
@@ -85692,7 +84435,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_brown_bean.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `nigerian_caramelized_coconut.step_1` (separate)
 
@@ -87397,11 +86140,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `no_salt_added_tomato_paste.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `no_salt_added_tomato_paste.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `nonpareil_sauce_hartshorne.step_1` (mix)
 
@@ -87428,7 +86171,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `noodle.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `noodles_for_soup.step_1` (knead)
 
@@ -87810,7 +86553,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nutmeg.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `nutritional_yeast.culture` (ferment)
 
@@ -87833,11 +86576,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nuts_and_seeds.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `nuts_and_seeds.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `nutty_brownie_bars.step_1` (mix)
 
@@ -88000,7 +86743,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `oat_flour.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `oat_flour.grind` (grind)
 
@@ -88009,7 +86752,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `oat_flour.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `oat_fufu.step_1` (blend)
 
@@ -88124,7 +86867,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `oatmeal.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `oatmeal.grind` (blend)
 
@@ -88132,7 +86875,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `oatmeal.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `oatmeal_banana_waffle.step_2` (blend)
 
@@ -88373,11 +87116,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `oats.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `oats.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `obe_eja_kika_nigerian_smoked_fish_stew.step_1` (blend)
 
@@ -88441,11 +87184,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `of_butter.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `of_butter.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `ofe_aku_igbo_palmnut_soup.step_1` (boil)
 
@@ -88805,11 +87548,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `okra.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `okra.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `okra_plantain_porridge.step_1` (simmer)
 
@@ -88836,23 +87579,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `okra_pods.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `okra_pods.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `old_bay.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `old_bay_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `olive.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `olive_ascolane_stuffed_fried_olives.step_1` (simmer)
 
@@ -88939,15 +87682,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `olive_spread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `olive_spread.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `olives.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `omelette_of_breadcrumbs.step_1` (whisk)
 
@@ -89022,11 +87765,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `onion.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `onion.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `onion_chutney.step_1` (roast)
 
@@ -89138,7 +87881,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `onion_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `onion_rings.batter` (assemble)
 
@@ -89208,15 +87951,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `onion_salt.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `onion_soup_mix.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `oolong_tea.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `ora_soup_ii.step_1` (boil)
 
@@ -89250,7 +87993,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `orange.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `orange_brulee.step_2` (cut)
 
@@ -89392,7 +88135,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `orange_juice.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `orange_juice.press` (press)
 
@@ -89406,7 +88149,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `orange_juice_concentrate.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `orange_julius.step_1` (assemble)
 
@@ -89514,7 +88257,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `oregano.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `oreo_milkshake.step_1` (assemble)
 
@@ -89590,7 +88333,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `orzo.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `orzo_salad.step_1` (boil)
 
@@ -89713,11 +88456,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `other_seasonings.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `other_spices.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `otong_soup.step_1` (blend)
 
@@ -89757,7 +88500,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ounce_jar_picante_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `out_of_salad_dressing_salad_dressing.step_1` (mix)
 
@@ -89950,7 +88693,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `oyster.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `oyster_sauce.boil_broth` (boil)
 
@@ -89960,7 +88703,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `oyster_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `oyster_sauce.simmer` (simmer)
 
@@ -90016,7 +88759,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `packages_jell_o_flavored_gelatin.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pad_kra_pao_gai_thai_basil_chicken_stir_fry.step_2` (stir_fry)
 
@@ -90976,7 +89719,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pancake_mix.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pancakes.add_milk` (mix)
 
@@ -91011,7 +89754,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pancakes_north_american.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pancakes_north_american.step_5` (pan_fry)
 
@@ -91022,15 +89765,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pancakes_north_american_step_1.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pancakes_north_american_step_2.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pancakes_north_american_step_3.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pancakes_vegan.step_1` (mix)
 
@@ -91095,11 +89838,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pancetta.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pancetta.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `pancetta_fusilli_with_herb_shallot_cream.step_1` (pan_fry)
 
@@ -91294,11 +90037,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `papaya.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `papaya.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `papaya_lassi.step_1` (assemble)
 
@@ -91362,7 +90105,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `paprika.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `paprika_chicken.step_2` (pan_fry)
 
@@ -91396,7 +90139,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `parmesan_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `parmesan_cheese_green.press` (press)
 
@@ -91464,19 +90207,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `parsley.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `parsley.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `parsnip.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `parsnip.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `parson_s_sauce_hartshorne.step_1` (mix)
 
@@ -91492,11 +90235,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `part_of_scallions.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `part_of_scallions.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `pashofa_chickasaw_pork_and_corn.step_1` (rinse)
 
@@ -91522,11 +90265,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `passion_fruit.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `passion_fruit.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `passover_apple_cake.step_1` (whisk)
 
@@ -91715,7 +90458,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pasta.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pasta_alla_gricia_pasta_with_guanciale.step_2` (boil)
 
@@ -92036,11 +90779,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pasta_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pasta_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pasta_soup_for_kids.step_2` (mix)
 
@@ -92306,7 +91049,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pastry_dough.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pastry_dough.knead` (knead)
 
@@ -92383,7 +91126,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `paul_prudhomme_s_seafood_magic.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pavlova.step_1` (whisk)
 
@@ -92414,15 +91157,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pawpaw.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pawpaw.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pea_soup.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pea_soup_quebecois_style.step_1` (roast)
 
@@ -92504,11 +91247,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `peach.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `peach.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `peach_and_tomato_gazpacho.step_1` (separate)
 
@@ -92694,11 +91437,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `peanut.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `peanut.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `peanut_brittle.step_11` (cool)
 
@@ -92745,7 +91488,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `peanut_butter.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `peanut_butter_and_jelly_sandwich.step_1` (coat)
 
@@ -92999,11 +91742,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pear.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pear.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pear_and_almond_smoothie_vegan.step_2` (season)
 
@@ -93113,11 +91856,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pearl_onions.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pearl_onions.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `peas_supreme.step_2` (strain)
 
@@ -93260,11 +92003,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pecan_halves.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pecan_halves.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `pecan_pie.assemble` (assemble)
 
@@ -93460,11 +92203,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pecorino_romano_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pecorino_romano_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pedernales_river_chili.step_1` (pan_fry)
 
@@ -93487,15 +92230,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `peeled_and_deveined_shrimp.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `peeled_and_deveined_shrimp.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `peeled_cucumber.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `pemmican.age` (dry)
 
@@ -93510,7 +92253,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `penne.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `penne_alla_casa_penne_in_creamy_tomato_sauce.step_2` (pan_fry)
 
@@ -93645,7 +92388,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pepper_crusted_chicken.step_1` (season)
 
@@ -93707,23 +92450,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pepper_jack.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pepper_jack.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pepper_paste.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pepper_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pepper_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pepper_soda.step_1` (mix)
 
@@ -93783,15 +92526,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pepper_soup_spice_mix.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pepper_stew.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pepper_stew.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `peppercorn_strip_steaks_with_cognac_cream_sauce.step_1` (season)
 
@@ -93830,11 +92573,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `peppermint.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `pepperoncini.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pepperoni.dry` (dry)
 
@@ -93851,7 +92594,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pepperoni.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pepperoni.grind` (blend)
 
@@ -93859,7 +92602,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pepperoni.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `pepperoni_pasta_salad.step_1` (mix)
 
@@ -93880,11 +92623,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `peppers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `peppers.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `percolator_punch.step_1` (assemble)
 
@@ -94004,11 +92747,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pesto.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pesto.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pesto_i.step_2` (toast)
 
@@ -94195,7 +92938,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `phyllo_dough.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `phyllo_dough.knead` (knead)
 
@@ -94205,7 +92948,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `phyllo_dough.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `piadina_thin_italian_flatbread.step_1` (blend)
 
@@ -94318,7 +93061,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `picante_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pickert_german_potato_dumpling.step_1` (mix)
 
@@ -94356,11 +93099,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pickle.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pickled_cucumbers.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pickled_green_mango_aavakaaya.step_1` (soak)
 
@@ -94505,15 +93248,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pickles.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pickling_onions.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pickling_spices.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pico_de_gallo.step_2` (mix)
 
@@ -94541,7 +93284,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pie_crust.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pie_floater.step_1` (bake)
 
@@ -94721,7 +93464,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pigeon_pea.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pigeon_pea_and_fenugreek_curry_methi_tadka_dal.step_1` (boil)
 
@@ -94756,19 +93499,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pigs_feet.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pigs_feet.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `pigs_trotters.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pigs_trotters.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `pikelet_australian_mini_pancakes.step_1` (mix)
 
@@ -94805,15 +93548,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pillsbury_pie_crusts.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pimento.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pimento.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `pimento_cheese_spread_i.step_1` (mix)
 
@@ -94860,19 +93603,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pine_nut.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pine_nut.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `pineapple.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pineapple.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pineapple_curry.step_1` (simmer)
 
@@ -95140,11 +93883,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pistachio.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pistachio.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `pita.step_1` (knead)
 
@@ -95176,15 +93919,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pita_bread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pita_bread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pitted_salt_cured_black_olives.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pizza_dough.step_1` (mix)
 
@@ -95355,11 +94098,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `placenta.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `placenta.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `placenta_stew.step_1` (coat)
 
@@ -95418,7 +94161,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `plain_flour.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `plain_lassi.step_1` (whisk)
 
@@ -95477,19 +94220,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `plantain.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `plantain.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `plantains.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `plantains.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `ploughman_s_sandwich.step_1` (assemble)
 
@@ -95528,11 +94271,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `plum.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `plum.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `po_boy.step_2` (assemble)
 
@@ -95628,7 +94371,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `polenta.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `polish_cauliflower_with_breadcrumbs.step_2` (heat)
 
@@ -95757,11 +94500,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pomegranate.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pomegranate.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `ponche_de_creme.step_1` (whisk)
 
@@ -95843,11 +94586,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `porcini_mushroom.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `porcini_mushroom.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `pork_aachi.step_1` (pan_fry)
 
@@ -96117,7 +94860,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pork_flavored_gravy_base.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `pork_gyoza.step_1` (knead)
 
@@ -96189,11 +94932,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pork_mince.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pork_mince.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `pork_pot_pie.assemble` (assemble)
 
@@ -96446,7 +95189,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `port_wine.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `portable_eggs_benedict.step_3` (boil)
 
@@ -96544,11 +95287,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pot_herbs.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pot_herbs.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `potage_parmentier.step_1` (rinse)
 
@@ -96578,11 +95321,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `potato.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `potato.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `potato_almond_milk.step_1` (soak)
 
@@ -97821,7 +96564,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `poultry_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `poultry_shake.step_1` (mix)
 
@@ -97831,7 +96574,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `poultry_stuffing.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pounded_yam.step_1` (rinse)
 
@@ -97919,23 +96662,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `powdered_creamer.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `powdered_ginger.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `powdered_hot_paprika.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `powdered_pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `powdered_smoked_paprika.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pralin.step_2` (simmer)
 
@@ -98010,11 +96753,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `prawn_cracker.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `prawn_cracker.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `prawn_crackers.fry` (fry)
 
@@ -98024,11 +96767,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `prawn_crackers_shrimp_chips.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `prawn_crackers_shrimp_chips.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `prawn_curry.step_1` (pan_fry)
 
@@ -98069,11 +96812,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pre_baked_whole_grain_pizza_shell.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pre_baked_whole_grain_pizza_shell.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `prekmurska_gibanica_slovenian_layered_strudel_cake.step_1` (mix)
 
@@ -98233,7 +96976,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pretzels.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pretzels_soft.step_1` (dissolve)
 
@@ -98268,11 +97011,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `prickly_pear.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `prickly_pear.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `prickly_pear_soda.step_1` (cut)
 
@@ -98380,7 +97123,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `processed_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `proja_serbian_cornbread.step_1` (mix)
 
@@ -98396,19 +97139,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `prosciutto.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `prosciutto.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `provolone_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `provolone_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `prune.dry` (dry)
 
@@ -98417,11 +97160,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `prune.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pudding_mix.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pudding_with_pistachios_and_rose_water_muhallebi.step_1` (simmer)
 
@@ -98513,7 +97256,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `puff_pastry.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `puff_pastry.knead_base` (knead)
 
@@ -98577,7 +97320,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `puffed_rice_cereal.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pufftaloons.step_1` (mix)
 
@@ -98707,7 +97450,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pulses.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `pulut_durian_durian_with_sticky_rice.step_1` (steam)
 
@@ -98723,7 +97466,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pumpkin.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `pumpkin_bread_i.step_2` (mix)
 
@@ -98847,11 +97590,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pumpkin_leaves.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `pumpkin_leaves.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `pumpkin_muffins.step_1` (mix)
 
@@ -99321,15 +98064,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `quail.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `quail.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `quail_egg.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `quail_egg_and_chili_jangjorim.step_1` (boil)
 
@@ -99398,7 +98141,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `quark.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `queen_of_puddings.step_1` (heat)
 
@@ -99854,7 +98597,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `quinoa.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `quinoa_shiitake_mushrooms_and_adzuki_beans.step_1` (stir_fry)
 
@@ -99947,11 +98690,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rabbit.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `rabbit.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `rabbit_jerky.age` (age)
 
@@ -100028,7 +98771,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `radish.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `radish_pie.step_2` (bake)
 
@@ -100306,7 +99049,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `raisin.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `raisin_crumb_pie.step_1` (mix)
 
@@ -100515,19 +99258,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `raspberries.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `raspberries.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `raspberry.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `raspberry.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `raspberry_filled_pastry_strips_alexandertorte.step_1` (mix)
 
@@ -100808,23 +99551,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ravioli.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `ravioli.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `raw_prawns_shrimp.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `raw_prawns_shrimp.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `raw_yam.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `reblochon_cheese.age` (age)
 
@@ -100834,11 +99577,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `reblochon_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `reblochon_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `reblochon_cheese_green.press` (press)
 
@@ -101140,15 +99883,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `red_pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `red_snapper.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `red_snapper.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `refried_beans.step_1` (simmer)
 
@@ -101261,11 +100004,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rendered_bacon_fat.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `rendered_bacon_fat.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `reuben_sandwich.step_1` (mix)
 
@@ -101301,7 +100044,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rhubarb.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `rhubarb_cake.step_1` (mix)
 
@@ -101559,7 +100302,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rice.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `rice_an_peas.step_2` (rinse)
 
@@ -102040,7 +100783,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rice_rava.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `rice_tamale_pastel_de_arroz.step_1` (mix)
 
@@ -102092,7 +100835,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rice_vinegar.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `rice_wafer.dry` (dry)
 
@@ -102316,7 +101059,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ricotta.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `ricotta_lasagne.step_1` (separate)
 
@@ -102447,7 +101190,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `risotto.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `risotto_ai_funghi.step_10` (mix)
 
@@ -102664,11 +101407,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ritz_crackers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `ritz_crackers.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `riz_gras_west_african_fried_rice.step_10` (stir_fry)
 
@@ -103799,7 +102542,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `roe.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `rojak_salad_with_sweet_chile_sauce.step_1` (simmer)
 
@@ -103885,7 +102628,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rolled_oats.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `rolled_oats.press` (press)
 
@@ -103895,11 +102638,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rolled_oats.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `roma_tomato.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `roman_sauce_i.step_1` (mix)
 
@@ -104034,11 +102777,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `romano_cheese.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `romano_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `rooibos_tea.step_2` (steep)
 
@@ -104055,7 +102798,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `room_temperature_milk.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `ropa_vieja_caribbean_shredded_beef.step_1` (boil)
 
@@ -104099,7 +102842,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rosemary.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `rosemary_and_citrus_cordial.step_1` (separate)
 
@@ -104616,11 +103359,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `round_brisket_of_corned_beef.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `round_brisket_of_corned_beef.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `roux.heat` (heat)
 
@@ -104779,19 +103522,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `runner_beans.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `runner_beans.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `russet_potato.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `russet_potato.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `russian_salad.step_1` (boil)
 
@@ -104900,11 +103643,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rutabaga.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `rutabaga.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `rwandan_goat_brochette.step_1` (mix)
 
@@ -104931,11 +103674,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rye.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `rye.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `rye_bread.step_1` (mix)
 
@@ -105251,7 +103994,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `saffron.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `saffron_rice.step_10` (simmer)
 
@@ -105389,15 +104132,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sage.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `sage.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `sago.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `sai_bhaji_sindhi_vegetable_curry.step_2` (boil)
 
@@ -105708,11 +104451,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `salmon.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `salmon.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `salmon_cakes.step_1` (grind)
 
@@ -105923,7 +104666,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `salsa.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `salsa_fermented.step_3` (cut)
 
@@ -106196,11 +104939,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `saltine_cracker.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `saltine_cracker.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `salty_namkin_lassi.step_1` (blend)
 
@@ -106260,7 +105003,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sambal_oelek.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste.step_1` (fry)
 
@@ -106430,7 +105173,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sambar_masalar.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `sambhar_masala.grind` (blend)
 
@@ -106438,7 +105181,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sambhar_masala.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `samosa.step_1` (steam)
 
@@ -107375,11 +106118,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sauteed_vegetables.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `sauteed_vegetables.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `savory_mustard_sauce.step_1` (pan_fry)
 
@@ -107534,15 +106277,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sazon.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `scallop.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `scallop.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `scalloped_oysters.step_1` (mix)
 
@@ -107564,19 +106307,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `scent_leaf.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `scent_leaf.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `scent_leaves.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `scent_leaves.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `scheiterhaufen_austrian_bread_pudding.step_1` (cut)
 
@@ -107613,11 +106356,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `scoop_chocolate_ice_cream.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `scoop_strawberry_ice_cream.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `scorched_rice.step_1` (rinse)
 
@@ -107690,27 +106433,27 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `scorpionfish.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `scorpionfish.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `scotch_bonnet_chile.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `scotch_bonnet_chile.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `scotch_bonnet_pepper.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `scotch_bonnet_pepper.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `scotch_bonnet_pepper_poppers.step_3` (mix)
 
@@ -107740,11 +106483,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `scotch_bonnet_peppers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `scotch_bonnet_peppers.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `scottish_porridge.step_1` (mix)
 
@@ -107896,11 +106639,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sea_biscuit.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `sea_biscuit.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `seafood_bruschetta.step_1` (mix)
 
@@ -108216,7 +106959,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `seasoning_mix.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `seasoning_salt.mix` (mix)
 
@@ -108226,7 +106969,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `seasoning_salt.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `seblak.step_10` (mix)
 
@@ -108390,15 +107133,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `semi_sweet_chocolate.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `semi_sweet_chocolate_pieces.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `semisweet_chocolate.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `semmelknoedel_bavarian_bread_dumplings.step_1` (pan_fry)
 
@@ -108553,27 +107296,27 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `serrano_chili.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `serrano_chili.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `serrano_peppers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `serrano_peppers.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `sesame_crackers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `sesame_crackers.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `sesame_ginger_marinade.step_1` (mix)
 
@@ -108626,11 +107369,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sesame_oil.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `sesame_seed.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `sesame_shrimp_toast.step_1` (chop)
 
@@ -108965,11 +107708,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shallot.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `shallot.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `sharba_libya_libyan_soup.step_1` (pan_fry)
 
@@ -109180,7 +107923,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shatkora.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `sheer_khurma.step_2` (fry)
 
@@ -109220,7 +107963,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shell_pasta.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `shepherd_s_pie_i.step_10` (coat)
 
@@ -109338,23 +108081,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shichimi_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `shiitake.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `shiitake.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `shiitake_mushrooms.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `shiitake_mushrooms.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `shikanjvi_punjabi_spiced_lemonade.step_2` (mix)
 
@@ -109501,11 +108244,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shiso.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `shiso.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `shitha.step_2` (pan_fry)
 
@@ -109672,7 +108415,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shortening.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `shrewsbury_cakes.step_2` (mix)
 
@@ -109706,11 +108449,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shrimp.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `shrimp.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `shrimp_and_cheese_grits.step_2` (pan_fry)
 
@@ -109763,11 +108506,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shrimp_crackers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `shrimp_crackers.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `shrimp_curry.step_1` (pan_fry)
 
@@ -109886,15 +108629,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shrimp_seasoning_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `shrimps.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `shrimps.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `silken_tofu.blend_milk` (blend)
 
@@ -110767,7 +109510,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `skimmed_gravy.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `slasko_modro_kapusta_red_cabbage_with_onion_and_bacon.step_1` (boil)
 
@@ -110797,15 +109540,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `slices_of_lemon.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `slices_white_bread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `slices_white_bread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `slinger.step_2` (heat)
 
@@ -111011,11 +109754,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `smoked_paprika.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `smoked_pork_slices.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `smoked_pork_slices.smoke` (smoke)
 
@@ -111025,7 +109768,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `smoked_pork_slices.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `smoked_salmon.smoke` (smoke)
 
@@ -111339,11 +110082,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `snap_pea.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `snap_pea.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `snappy_ginger_muffins.step_2` (mix)
 
@@ -111600,11 +110343,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `snow_pea.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `snow_pea.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `socca_italian_chickpea_flatbread.step_2` (whisk)
 
@@ -111672,19 +110415,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `soft_flatbread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `soft_flatbread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `soft_grain_white_flour.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `soft_light_cream_cheese.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `soft_light_cream_cheese.strain` (strain)
 
@@ -111836,11 +110579,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sorghum.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `sorghum.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `soso_coconut_rice.step_1` (rinse)
 
@@ -112080,7 +110823,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sour_bamboo.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `sour_cream.ferment` (ferment)
 
@@ -112512,7 +111255,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `soy_bean.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `soy_flour.grind` (grind)
 
@@ -112521,7 +111264,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `soy_flour.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `soy_flour.toast` (toast)
 
@@ -112688,7 +111431,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `soy_protein.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `soy_protein_bread.step_1` (mix)
 
@@ -112750,7 +111493,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `soy_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `soy_sauce.press` (press)
 
@@ -112835,7 +111578,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `spaghetti.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `spaghetti_a_la_monegasque.step_1` (simmer)
 
@@ -113028,7 +111771,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `spaghetti_pasta.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `spaghetti_pie.step_10` (pan_fry)
 
@@ -113477,23 +112220,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `speculaas_spices.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `spek.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `spek.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `spelt.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `spelt.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `spelt_bread.step_1` (mix)
 
@@ -113684,7 +112427,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `spiced_clarified_butter.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `spiced_creme_caramel.step_1` (heat)
 
@@ -114784,11 +113527,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `split_pea.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `split_peas.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `split_peas_cooked.step_2` (simmer)
 
@@ -114915,11 +113658,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `spring_onions.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `spring_onions.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `springerle.step_2` (mix)
 
@@ -115031,27 +113774,27 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `squash.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `squash.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `squid.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `squid.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `squid_tentacles.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `squid_tentacles.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `sriracha.step_1` (blend)
 
@@ -115099,23 +113842,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `stale_french_bread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `stale_french_bread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `standing_rib_roast.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `standing_rib_roast.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `star_anise.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `starch.evaporate_starchy_water` (evaporate)
 
@@ -115123,7 +113866,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `starch_based_creamer.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `stargazy_pie.step_1` (separate)
 
@@ -115903,15 +114646,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `stevia.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `stew.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `stew.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `stewed_oysters_i.step_1` (separate)
 
@@ -116270,11 +115013,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `store_bought_gyoza_wonton_wrappers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `store_bought_gyoza_wonton_wrappers.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `stovetop_barley_i.step_1` (rinse)
 
@@ -116415,19 +115158,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `strawberries.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `strawberries.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `strawberry.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `strawberry.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `strawberry_and_banana_smoothie.step_1` (cut)
 
@@ -117551,7 +116294,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sugar_substitute.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `sukiyaki.step_1` (rinse)
 
@@ -117614,7 +116357,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sumac.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `summer_rolls.step_1` (soak)
 
@@ -117639,7 +116382,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sun_dried_tomatoes.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `sunglow_motel_cafe_pickle_pie.step_1` (mix)
 
@@ -118068,7 +116811,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `suya_spice.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `svelekake_norwegian_yogurt_pancakes.step_1` (mix)
 
@@ -118507,7 +117250,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sweet_herbs.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `sweet_italian_sausage_skillet.step_2` (pan_fry)
 
@@ -118691,7 +117434,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sweet_paprika.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `sweet_peach_cobbler.step_2` (mix)
 
@@ -118737,11 +117480,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sweet_peppers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `sweet_peppers.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `sweet_pickle_relish.boil` (boil)
 
@@ -118751,7 +117494,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sweet_pickle_relish.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `sweet_pork_condiment.step_1` (season)
 
@@ -118784,7 +117527,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sweet_potato.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `sweet_potato_crisp.step_1` (blend)
 
@@ -118804,11 +117547,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sweet_potato_greens.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `sweet_potato_greens.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `sweet_potato_soup.step_1` (assemble)
 
@@ -118893,19 +117636,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sweet_red_pepper.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `sweet_red_pepper.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `sweet_red_peppers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `sweet_red_peppers.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `sweet_rice_fritters.step_1` (shape)
 
@@ -119013,11 +117756,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sweetened_whipped_cream.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `sweetened_whipped_cream.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `swiss_meringue.step_1` (mix)
 
@@ -119077,11 +117820,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `swiss_roll.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `swiss_roll.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `switchel_ginger_water.step_1` (dissolve)
 
@@ -119397,11 +118140,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `syrup.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `szechuan_pepper.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `szegedin_goulash.step_1` (pan_fry)
 
@@ -119666,7 +118409,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `taco_mix.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `taco_salad.step_10` (assemble)
 
@@ -119746,7 +118489,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `taco_seasoning.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `taco_seasoning_mix.mix` (mix)
 
@@ -119756,7 +118499,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `taco_seasoning_mix.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `taco_seasoning_packet.shape` (shape)
 
@@ -119767,7 +118510,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `taco_seasoning_packet.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `taco_soup.step_1` (heat)
 
@@ -119950,7 +118693,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tahini.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `tahini_cookies.step_2` (mix)
 
@@ -120091,11 +118834,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tamari_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `tamarind.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tamarind_chutney.boil` (boil)
 
@@ -120105,7 +118848,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tamarind_chutney.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `tamate_ka_kut_hyderabadi_tomato_curry.step_2` (blend)
 
@@ -120233,7 +118976,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tangerine.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `tangerine_jelly.step_1` (cut)
 
@@ -120425,7 +119168,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tapioca.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tapioca_pearls.dry` (dry)
 
@@ -120440,7 +119183,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tapioca_pearls.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tapioca_pudding.step_1` (soak)
 
@@ -120491,7 +119234,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tapioca_starch.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tarator_bulgarian_cucumber_soup.step_1` (mix)
 
@@ -120608,15 +119351,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `taro_root.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `tarragon.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `tarragon.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `tarta_de_santiago.step_1` (whisk)
 
@@ -120778,7 +119521,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tater_tots.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `tattie_scones.step_1` (boil)
 
@@ -120944,7 +119687,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tea.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tea.steep` (steep)
 
@@ -120955,7 +119698,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tea_bag.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tea_eggs.step_1` (boil)
 
@@ -121006,19 +119749,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tea_leaf.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tea_leaves.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `teff.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `teff.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tegabino_shiro_ethiopian_spiced_chickpea_dip.step_1` (whisk)
 
@@ -121619,15 +120362,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `textured_vegetable_protein.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `thai_chiles.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `thai_chiles.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `thai_chili_paste.grind` (blend)
 
@@ -121635,7 +120378,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `thai_chili_paste.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `thai_green_curry_paste.step_1` (grind)
 
@@ -121975,11 +120718,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `thick_cut_ribeye_steaks.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `thick_cut_ribeye_steaks.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `thiebou_yapp.step_1` (heat)
 
@@ -122194,7 +120937,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `threads_of_saffron.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `three_bean_confetti_salad.step_1` (mix)
 
@@ -122346,7 +121089,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `thyme.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `tibetan_meat_momos.step_1` (assemble)
 
@@ -122437,19 +121180,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tilapia.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `tilapia.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `tilapia_fish.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `tilapia_fish.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `timatim_fitfit_ethiopian_tomato_salad.step_1` (mix)
 
@@ -122738,11 +121481,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `toast.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `toast.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `toast.roast` (roast)
 
@@ -122821,7 +121564,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `toasted_hazelnut_oil.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `tod_mun_thai_fish_cakes.step_2` (chop)
 
@@ -122857,7 +121600,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tofu.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `tofu.press` (press)
 
@@ -122867,7 +121610,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tofu.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `tofu_and_couscous.step_1` (stir_fry)
 
@@ -123145,7 +121888,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `togarashi_pepper_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tokyo_pancake_khanom_tokyo.step_1` (mix)
 
@@ -123255,7 +121998,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tomato.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `tomato_and_onion_salad.step_1` (mix)
 
@@ -123325,7 +122068,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tomato_beans.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tomato_bredie.step_2` (coat)
 
@@ -123489,11 +122232,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tomato_paste.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `tomato_paste.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tomato_paste_and_ham_sandwiches_pan_tomaca.step_1` (toast)
 
@@ -123576,7 +122319,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tomato_puree.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `tomato_puree.press` (press)
 
@@ -123586,7 +122329,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tomato_puree.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tomato_salad.step_2` (separate)
 
@@ -123654,7 +122397,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tomatoes.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `tomatoes_with_cheese_stuffing.step_1` (separate)
 
@@ -123719,7 +122462,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `torn_mixed_greens.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `torta_de_acelga_chard_pie.step_1` (separate)
 
@@ -123754,11 +122497,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tortellini.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `tortellini.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `tortellini_in_sweet_potato_sauce.step_1` (bake)
 
@@ -123793,7 +122536,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tortilla.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `tortilla.knead_dough` (knead)
 
@@ -123803,7 +122546,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tortilla.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `tortilla.roast` (roast)
 
@@ -124233,7 +122976,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `treacle.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `treacle_tart.bake` (bake)
 
@@ -124419,11 +123162,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tripe.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `tripe.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `tripes_a_la_mode_de_caen_norman_stewed_tripe.step_2` (mix)
 
@@ -124555,11 +123298,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `trout.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `trout.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `tub_tim_krob_thai_water_chestnuts_in_coconut.step_1` (cut)
 
@@ -124602,7 +123345,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tuna.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `tuna_and_herb_salad.step_1` (whisk)
 
@@ -124864,11 +123607,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `turkey.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `turkey.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `turkey_and_bacon_salad.step_1` (heat)
 
@@ -125184,7 +123927,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `turmeric.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `turmeric_chicken_and_asparagus_stir_fry.step_1` (mix)
 
@@ -125227,15 +123970,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `turmeric_powder.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `turnip.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `turnip.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `turon_filipino_plantain_spring_rolls.step_1` (assemble)
 
@@ -125633,11 +124376,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `twinkies.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `twinkies.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `two_ingredient_brownies.step_3` (mix)
 
@@ -125727,7 +124470,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ube.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `ugali_maize_porridge.step_2` (mix)
 
@@ -126061,35 +124804,35 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `uncolored_sazon.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `uncooked_ham_hock.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `uncooked_ham_hock.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `unpopped_popcorn_kernels.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `unsalted_butter.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `unsalted_butter.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `unsalted_tomato_paste.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `unsalted_tomato_paste.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `upeseru_indian_lentils_with_greens.step_1` (fry)
 
@@ -126235,7 +124978,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `urad_bean.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `valencian_inspired_paella.step_11` (evaporate)
 
@@ -126541,7 +125284,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `vanilla.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `vanilla_coconut_caramel.step_1` (boil)
 
@@ -126591,7 +125334,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `vanilla_extract.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `vanilla_extract.steep` (steep)
 
@@ -126724,7 +125467,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `vanilla_instant_pudding.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `vanilla_kifli.step_1` (mix)
 
@@ -126754,7 +125497,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `vanilla_wafer_crumbs.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `vanilla_wafer_crumbs.grind` (grind)
 
@@ -126763,7 +125506,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `vanilla_wafer_crumbs.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `vanilla_wafers.bake` (bake)
 
@@ -126773,7 +125516,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `vanilla_wafers.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `vanilla_wafers.mix_batter` (mix)
 
@@ -126783,7 +125526,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `vanilla_wafers.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `veal_with_lima_beans.step_1` (stir_fry)
 
@@ -126964,7 +125707,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `vegetable_oil.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `vegetable_party_sandwiches.step_1` (dissolve)
 
@@ -127335,7 +126078,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `velveeta_cheese.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `venetian_soup.step_1` (mix)
 
@@ -127364,11 +126107,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `venison.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `venison.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `venison_bolognese_sauce.step_1` (pan_fry)
 
@@ -127520,7 +126263,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `vermicelli.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `very_simple_cookies.step_2` (mix)
 
@@ -127715,11 +126458,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `vienna_sausages.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `vienna_sausages.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `vietnamese_caramel_sauce_n_c_maou.step_1` (mix)
 
@@ -127835,7 +126578,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `vinegar.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `vinegar_pickled_eggs_and_onions.step_1` (simmer)
 
@@ -128170,11 +126913,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `walnut.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `walnut.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `walnut_oil.press` (press)
 
@@ -128184,7 +126927,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `walnut_oil.rancid` (rancid)
 
-- transition: written
+No routes: no machine does rancid or any technique above it.
 
 ### `wasawasa_yam_couscous.step_2` (strain)
 
@@ -128241,19 +126984,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `water_celery.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `water_celery.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `watermelon.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `watermelon.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `watermelon_smoothie.step_1` (cut)
 
@@ -128483,7 +127226,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `wheat_chex_cereal.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `wheat_flour.grind_wheat` (grind)
 
@@ -128492,7 +127235,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `wheat_flour.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `wheat_free_baking_mix.step_1` (mix)
 
@@ -128565,7 +127308,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `whipped_cream.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `whipped_cream.whisk` (whisk)
 
@@ -128573,7 +127316,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `whipping_cream.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `whiskey.age_spirit` (age)
 
@@ -128648,11 +127391,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `white_bread.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `white_bread.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `white_chocolate.mix` (mix)
 
@@ -128768,7 +127511,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `white_radish.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `white_russian_cocktail.step_2` (assemble)
 
@@ -128801,11 +127544,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `white_stock.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `white_stock.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `whole_wheat_bread_vegan.step_1` (ferment)
 
@@ -128880,7 +127623,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `whole_wheat_flour.freezer_burn` (freezer_burn)
 
-- transition: not written: the game can't make `whole_wheat_flour`
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `whole_wheat_flour.grind` (mix)
 
@@ -128890,7 +127633,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `whole_wheat_flour.rancid` (rancid)
 
-- transition: not written: the game can't make `whole_wheat_flour`
+No routes: no machine does rancid or any technique above it.
 
 ### `whole_wheat_irish_soda_bread.step_10` (cool)
 
@@ -129306,7 +128049,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `worcestershire_sauce.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `wow_wow_sauce.step_1` (mix)
 
@@ -129461,7 +128204,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `yam.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `yam_and_egg_sauce.step_1` (boil)
 
@@ -129542,15 +128285,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `yam_tubers.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `yardlong_bean.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `yardlong_bean.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `yassa_poulet_senegalese_chicken.step_2` (season)
 
@@ -129635,7 +128378,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `yeast.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `yeast.mix_starter` (mix)
 
@@ -129645,7 +128388,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `yeast.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `yeasted_cornbread.step_1` (ferment)
 
@@ -129958,7 +128701,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `yerba_mate.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `yerushalmi_kugel_sweet_noodle_casserole.step_2` (heat)
 
@@ -130251,11 +128994,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `yogurt.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `yogurt.sour` (sour)
 
-- transition: written
+No routes: no machine does sour or any technique above it.
 
 ### `yogurt_cupcakes_vegan.step_2` (mix)
 
@@ -130455,7 +129198,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `za_atar.stale` (stale)
 
-- transition: written
+No routes: it should happen over time, but it isn't one ingredient becoming another after a set time.
 
 ### `zacusca_romanian_vegetable_spread.step_1` (roast)
 
@@ -130848,7 +129591,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `zest_from_juiced_lemons.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `zest_of_lemon.grind` (grind)
 
@@ -130857,7 +129600,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `zest_of_lemon.mold` (mold)
 
-- transition: written
+No routes: no machine does mold or any technique above it.
 
 ### `zhug_i.step_1` (blend)
 
@@ -131049,11 +129792,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `zucchini.freezer_burn` (freezer_burn)
 
-- transition: written
+No routes: no machine does freezer_burn or any technique above it.
 
 ### `zucchini.spoil` (spoil)
 
-- transition: written
+No routes: no machine does spoil or any technique above it.
 
 ### `zucchini_bread.step_2` (mix)
 

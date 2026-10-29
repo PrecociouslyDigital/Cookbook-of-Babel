@@ -75,7 +75,7 @@ public record StackClock(Environment environment, Map<ResourceLocation, Clock> c
         return at.isPresent() ? Optional.of(new Finish(id, at.getAsLong())) : Optional.empty();
     }
 
-    /** Babel's {@code firstSpoilage}: of the transitions done by {@code now}, the one that got there first. */
+    /** Of the transitions done by {@code now}, the one that got there first. */
     public Optional<Finish> firstDone(Map<ResourceLocation, ? extends Timed> transitions, long now) {
         return next(transitions, now).filter(f -> f.at() <= now);
     }

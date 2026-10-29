@@ -69,7 +69,7 @@ class GraphProperties {
         assertThat(table.bindingFor(start)).isEqualTo(expected);
     }
 
-    /** Only a machine makes its techniques' results alike; the kinds of spoiling stay apart. */
+    /** Only a machine makes its techniques' results alike. */
     @Property
     void techniquesDoneInNoMachineKeepTheirResultsApart(@ForAll("tableKeys") TechniqueId bound) {
         var table = new Techniques(new Dataset(Worlds.export(

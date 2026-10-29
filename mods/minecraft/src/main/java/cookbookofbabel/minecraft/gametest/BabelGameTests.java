@@ -17,7 +17,6 @@ import cookbookofbabel.minecraft.clock.Food;
 import cookbookofbabel.minecraft.clock.ItemClocks;
 import cookbookofbabel.minecraft.clock.Transition;
 import cookbookofbabel.minecraft.clock.Transitions;
-import cookbookofbabel.minecraft.compat.hexerei.DryingRackHolder;
 import cookbookofbabel.minecraft.dataset.NamedDish;
 import cookbookofbabel.minecraft.room.Air;
 import cookbookofbabel.minecraft.room.Climate;
@@ -492,18 +491,19 @@ public final class BabelGameTests {
     }
 
     /**
-     * Warm outside air, damp enough that bread drying in it can still go stale (water activity ≥ 0.6) but too dry for
-     * it to mold (< 0.9). The tests below date food under it rather than the installed climate, so neither the biome
-     * nor the weather of the test world matters.
+     * The tests below date food under a warm day rather than the installed climate, so neither the biome nor the
+     * weather of the test world matters.
      */
     private static final Air WARM_DAY = new Air(25, 70);
     private static final ResourceLocation BREAD = CookbookOfBabel.id("bread");
-    private static final ResourceLocation BREAD_MOLD = CookbookOfBabel.id("bread.mold");
     private static final ResourceLocation BREAD_STALE = CookbookOfBabel.id("bread.stale");
 
-    /** Bread in a warm shed's barrel has molded by a time when bread in an ice-cooled cellar's hasn't. */
+    /**
+     * Staling runs faster chilled than warm, its Q10 being below one: bread in an ice-cooled cellar's barrel goes
+     * stale sooner than in a warm shed's.
+     */
     @GameTest(template = EMPTY)
-    public static void breadMoldsSoonerInAWarmShedThanInACellar(GameTestHelper helper) {
+    public static void breadStalesSoonerInAnIceCooledCellarThanInAWarmShed(GameTestHelper helper) {
         var clocks = clocksOn(WARM_DAY);
         var shed = box(helper, new BlockPos(0, 1, 0), Blocks.OAK_PLANKS);
         var cellar = iceCellar(helper, new BlockPos(4, 1, 0));
@@ -513,54 +513,11 @@ public final class BabelGameTests {
             long now = level.getGameTime();
             var inShed = clocks.observe(bread(level), barrel(clocks, helper, shed), level, now);
             var inCellar = clocks.observe(bread(level), barrel(clocks, helper, cellar), level, now);
-            long shedMolds = doneAt(inShed, BREAD_MOLD, level, now)
-                    .orElseThrow(() -> new IllegalStateException("bread in the shed never molds: " + ItemClocks.read(inShed)));
-            var cellarMolds = doneAt(inCellar, BREAD_MOLD, level, now);
-            helper.assertTrue(cellarMolds.isEmpty() || cellarMolds.getAsLong() > shedMolds,
-                    "bread molds in the cellar at " + cellarMolds + ", in the shed at " + shedMolds);
-
-            var moldy = transition(level, BREAD_MOLD).output();
-            var shedThen = clocks.observe(inShed, barrel(clocks, helper, shed), level, shedMolds);
-            var cellarThen = clocks.observe(inCellar, barrel(clocks, helper, cellar), level, shedMolds);
-            helper.assertTrue(is(shedThen, moldy, level), "bread in the shed became " + shedThen + " " + shedThen.getTag());
-            helper.assertFalse(is(cellarThen, moldy, level), "bread in the cellar molded as soon as in the shed");
-            helper.succeed();
-        });
-    }
-
-    /**
-     * Bread hung on a drying rack in a warm shed dries too far to mold, but still goes stale. In an ice-cooled cellar
-     * the air is damp enough that it molds even on a rack, though later than in a barrel in the warm shed.
-     */
-    @GameTest(template = EMPTY)
-    public static void breadOnARackGoesStaleInAWarmShedAndMoldsSlowlyInACellar(GameTestHelper helper) {
-        var clocks = clocksOn(WARM_DAY);
-        var rack = ForgeRegistries.BLOCKS.getValue(new ResourceLocation("hexerei", "herb_drying_rack"));
-        var shed = box(helper, new BlockPos(0, 1, 0), Blocks.OAK_PLANKS);
-        var cellar = iceCellar(helper, new BlockPos(4, 1, 0));
-        var otherShed = box(helper, new BlockPos(0, 1, 4), Blocks.OAK_PLANKS);
-        helper.setBlock(shed, rack);
-        helper.setBlock(cellar, rack);
-        helper.runAfterDelay(20, () -> {
-            var level = helper.getLevel();
-            long now = level.getGameTime();
-            var inShed = clocks.observe(bread(level), rack(clocks, helper, shed), level, now);
-            var inCellar = clocks.observe(bread(level), rack(clocks, helper, cellar), level, now);
-            var inBarrel = clocks.observe(bread(level), barrel(clocks, helper, otherShed), level, now);
-
-            helper.assertTrue(doneAt(inShed, BREAD_MOLD, level, now).isEmpty(),
-                    "bread on a rack in the shed molds: " + ItemClocks.read(inShed));
             long shedStales = doneAt(inShed, BREAD_STALE, level, now)
-                    .orElseThrow(() -> new IllegalStateException("bread on a rack in the shed never goes stale: " + ItemClocks.read(inShed)));
-            var shedThen = clocks.observe(inShed, rack(clocks, helper, shed), level, shedStales);
-            helper.assertTrue(is(shedThen, transition(level, BREAD_STALE).output(), level),
-                    "bread on a rack in the shed became " + shedThen + " " + shedThen.getTag());
-
-            var cellarMolds = doneAt(inCellar, BREAD_MOLD, level, now);
-            var barrelMolds = doneAt(inBarrel, BREAD_MOLD, level, now);
-            helper.assertTrue(cellarMolds.isPresent(), "bread on a rack in the cellar never molds: " + ItemClocks.read(inCellar));
-            helper.assertTrue(barrelMolds.isPresent() && cellarMolds.getAsLong() > barrelMolds.getAsLong(),
-                    "bread molds on a rack in the cellar at " + cellarMolds + ", in a barrel in the shed at " + barrelMolds);
+                    .orElseThrow(() -> new IllegalStateException("bread in the shed never goes stale: " + ItemClocks.read(inShed)));
+            var cellarStales = doneAt(inCellar, BREAD_STALE, level, now);
+            helper.assertTrue(cellarStales.isPresent() && cellarStales.getAsLong() < shedStales,
+                    "bread goes stale in the cellar at " + cellarStales + ", in the shed at " + shedStales);
             helper.succeed();
         });
     }
@@ -639,10 +596,6 @@ public final class BabelGameTests {
 
     private static ContainerHolder barrel(ItemClocks clocks, GameTestHelper helper, BlockPos pos) {
         return new ContainerHolder(clocks.rooms(), helper.getLevel(), helper.absolutePos(pos));
-    }
-
-    private static DryingRackHolder rack(ItemClocks clocks, GameTestHelper helper, BlockPos pos) {
-        return new DryingRackHolder(clocks.rooms(), helper.getLevel(), helper.absolutePos(pos));
     }
 
     private static ItemStack bread(Level level) {

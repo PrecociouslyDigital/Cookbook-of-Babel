@@ -96,7 +96,11 @@ public final class Techniques {
             hold("age", VD_FERMENTING_JAR, BNC_KEG),
             // Food left in a chest also ferments, on the item clock: a starter turns to yeast.
             hold("ferment", VD_FERMENTING_JAR, BNC_KEG, PNC_THERMO_PLANT, THEURGY_FERMENTATION),
-            Map.entry(new TechniqueId("spoil"), new Binding.Spoils()));
+            // Staling is cooking, not decay: bread stale enough for croutons and bread crumbs.
+            hold("stale"),
+            // Spoilage is declined: it stops here, so spoil and everything below it (mould, freezer burn,
+            // going rancid and sour) binds to nothing instead of falling through to the age holding.
+            Map.entry(new TechniqueId("spoil"), new Binding.Unbound()));
 
     /**
      * Media a technique uses up. Minecraft has no "already in the pan", so a step of one of these
