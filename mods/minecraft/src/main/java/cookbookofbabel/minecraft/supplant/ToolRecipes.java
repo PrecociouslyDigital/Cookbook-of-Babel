@@ -119,12 +119,18 @@ public final class ToolRecipes {
                     json.add("ingredients", of(foods));
                     json.add("results", resultsOf(result));
                     json.addProperty("processingTime", 200);
-                } else {
+                } else if (foods.size() <= 6) {
                     json.addProperty("type", tool.serializer());
                     json.add("ingredients", of(foods));
                     addResult(json, result);
                     json.addProperty("cookingtime", 200);
                     json.addProperty("experience", 0.35f);
+                } else {
+                    // More than a pestle or a pot holds: a heated basin takes the mill's place.
+                    json.addProperty("type", "create:mixing");
+                    json.add("ingredients", of(foods));
+                    json.add("results", resultsOf(result));
+                    json.addProperty("heatCondition", "heated");
                 }
             }
             case POT -> {
