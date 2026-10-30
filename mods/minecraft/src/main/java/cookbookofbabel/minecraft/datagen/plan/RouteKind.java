@@ -71,7 +71,9 @@ public enum RouteKind {
      * Hexerei's mixing cauldron: up to eight items, one per slot, stirred into a liquid, make one
      * item, over a fire where the step is warm. Every recipe takes as long as any other.
      */
-    HEXEREI_MIXING_CAULDRON(Mod.HEXEREI, new Constraints(8, 1, 1, 0, false, 0, 0).needsFluid(), Nbt.ON_RESULTS, Optional.empty());
+    HEXEREI_MIXING_CAULDRON(Mod.HEXEREI, new Constraints(8, 1, 1, 0, false, 0, 0).needsFluid(), Nbt.ON_RESULTS, Optional.empty()),
+    /** Hexerei's dipper, over its mixing cauldron: one item dipped in one fluid comes out coated. */
+    HEXEREI_DIPPER(Mod.HEXEREI, new Constraints(1, 1, 1, 0, false, 20, 1200).needsFluid(), Nbt.ON_RESULTS, Optional.empty());
 
 
     public final Mod mod;

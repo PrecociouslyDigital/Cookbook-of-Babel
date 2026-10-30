@@ -124,16 +124,11 @@
         "tag": "cookbook_of_babel:ingredients/salt"
       }
     ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:allspice\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/allspice"
-      }
-    ],
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:allspice\"}}}"
+    },
     [
       {
         "type": "forge:partial_nbt",
@@ -144,16 +139,13 @@
         "tag": "cookbook_of_babel:ingredients/curry_powder"
       }
     ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:worcestershire_sauce\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/worcestershire_sauce"
+    {
+      "amount": 5,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:worcestershire_sauce"
       }
-    ]
+    }
   ],
   "processingTime": 20,
   "results": [

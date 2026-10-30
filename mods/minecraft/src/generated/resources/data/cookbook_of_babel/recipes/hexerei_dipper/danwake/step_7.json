@@ -1,0 +1,35 @@
+{
+  "type": "hexerei:dipper",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/danwake_step_7"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "dippingTimeInTicks": 20,
+  "dryingTimeInTicks": 200,
+  "fluidLevelsConsumed": 4,
+  "input": {
+    "type": "forge:partial_nbt",
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:danwake_step_6\"}"
+  },
+  "liquid": {
+    "amount": 4,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "numberOfDips": 1,
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:danwake_step_7\"}"
+  }
+}

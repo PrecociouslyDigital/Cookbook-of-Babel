@@ -1,0 +1,80 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/peanut_chicken_stir_fry_step_3"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:peanut_chicken_stir_fry_step_2\"}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:peanut_chicken_stir_fry_step_2\"}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:peanut_chicken_stir_fry_step_2\"}"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chicken\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chicken"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chicken\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chicken"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mushroom\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mushroom"
+      }
+    ],
+    {
+      "amount": 8,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 11,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:peanut_chicken_stir_fry_step_3"
+      }
+    }
+  ]
+}

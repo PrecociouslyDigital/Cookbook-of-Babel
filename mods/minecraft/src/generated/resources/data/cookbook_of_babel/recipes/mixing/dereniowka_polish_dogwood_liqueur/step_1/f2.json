@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/dereniowka_polish_dogwood_liqueur_step_1"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:cornus_alba_fruits\"}"
+    },
+    {
+      "amount": 1,
+      "fluid": "brewinandchewin:vodka",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "amount": 131,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:dereniowka_polish_dogwood_liqueur_step_1\"}"
+    }
+  ]
+}

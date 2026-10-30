@@ -65,6 +65,8 @@ public final class RecipesGen extends RecipeProvider {
     private List<PlannedTransition> transitions = List.of();
     /** What {@link #buildRecipes} found the mod's recipes take over. */
     private Map<IngredientId, List<String>> supplanted = Map.of();
+    /** What {@link #buildRecipes} found nothing in the game can make. */
+    private List<String> unreachable = List.of();
 
     public RecipesGen(PackOutput output, DatagenContext context, CompletableFuture<HolderLookup.Provider> registries) {
         super(output);
@@ -88,7 +90,10 @@ public final class RecipesGen extends RecipeProvider {
             groups.add(ingredient.value(), array);
         });
         var taken = DataProvider.saveStable(output, groups, root.resolve(CookbookOfBabel.ID).resolve("supplanted.json"));
-        return CompletableFuture.allOf(recipes, CompletableFuture.allOf(written), taken);
+        var lost = new JsonArray();
+        unreachable.forEach(lost::add);
+        var unreachable = DataProvider.saveStable(output, lost, root.resolve(CookbookOfBabel.ID).resolve("unreachable.json"));
+        return CompletableFuture.allOf(recipes, CompletableFuture.allOf(written), taken, unreachable);
     }
 
     private static JsonElement encoded(Transition transition) {
@@ -104,7 +109,7 @@ public final class RecipesGen extends RecipeProvider {
      */
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> sink) {
-        var carriers = new Carriers(context.dataset, registries.join().lookupOrThrow(Substance.REGISTRY));
+        var carriers = new Carriers(context.dataset, registries.join().lookupOrThrow(Substance.REGISTRY), context::tagged);
         var emitter = new RouteEmitter(context.dataset, context.mappings, carriers);
         var amounts = new Amounts(context.dataset);
         var planned = context.recipes().stream()
@@ -122,6 +127,15 @@ public final class RecipesGen extends RecipeProvider {
         var reachability = Reachability.of(seeds, plans, context.dataset::descendants);
         supplanted = supplanted(ready, reachability, seeds, plans);
         context.coverage.supplanted(supplanted);
+        // What nothing makes is unobtainable, however much JEI would like to offer it: in-game
+        // reachability only ever falls short of datagen's, since conditions only ever disable
+        // recipes, so listing these never hides a thing the game can make.
+        unreachable = context.dataset.ingredients().stream()
+                .map(i -> i.id())
+                .filter(id -> !reachability.makes(id))
+                .map(id -> id.value())
+                .sorted()
+                .toList();
         var live = new ArrayList<PlannedTransition>();
         for (var step : planned) {
             var variants = step.variants().stream()

@@ -11,26 +11,18 @@
     }
   ],
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:pulses_rinse\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/pulses_rinse"
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:pulses_rinse\"}"
+    },
+    {
+      "amount": 1,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:water_rinse"
       }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:water_rinse\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/water_rinse"
-      }
-    ]
+    }
   ],
   "processingTime": 400,
   "results": [

@@ -1,0 +1,36 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/red_bean_paste_step_1"
+    }
+  ],
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:azuki_bean_rinse\"}"
+    },
+    {
+      "amount": 1,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:water"
+      }
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:red_bean_paste_step_1"
+      }
+    }
+  ]
+}

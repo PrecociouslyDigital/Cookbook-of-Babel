@@ -12,26 +12,16 @@
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:garlic_shrimp_with_lemon_butter_sauce_step_4\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/garlic_shrimp_with_lemon_butter_sauce_step_4"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:garlic_shrimp_with_lemon_butter_sauce_step_4\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/garlic_shrimp_with_lemon_butter_sauce_step_4"
-      }
-    ],
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:garlic_shrimp_with_lemon_butter_sauce_step_4\"}}}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:garlic_shrimp_with_lemon_butter_sauce_step_4\"}}}"
+    },
     [
       {
         "type": "forge:partial_nbt",
@@ -122,16 +112,13 @@
         "tag": "cookbook_of_babel:ingredients/lemon"
       }
     ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:cream\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/cream"
+    {
+      "amount": 1,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:cream"
       }
-    ]
+    }
   ],
   "processingTime": 20,
   "results": [

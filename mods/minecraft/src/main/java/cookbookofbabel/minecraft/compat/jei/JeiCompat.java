@@ -1,8 +1,10 @@
 package cookbookofbabel.minecraft.compat.jei;
 
+import com.google.gson.JsonParser;
 import cookbookofbabel.minecraft.BabelTags;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.Registration;
+import cookbookofbabel.minecraft.dataset.NamedDish;
 import cookbookofbabel.minecraft.spice.SpiceSeedsItem;
 import cookbookofbabel.minecraft.substance.Container;
 import cookbookofbabel.minecraft.substance.FluidKind;
@@ -18,8 +20,16 @@ import mezz.jei.api.helpers.IPlatformFluidHelper;
 import mezz.jei.api.ingredients.subtypes.IIngredientSubtypeInterpreter;
 import mezz.jei.api.registration.ISubtypeRegistration;
 import mezz.jei.api.runtime.IJeiRuntime;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.UncheckedIOException;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.List;
 import net.minecraft.client.Minecraft;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 
@@ -76,6 +86,48 @@ public final class JeiCompat implements IModPlugin {
                 .toList());
         var split = Supplanting.split(level.getRecipeManager().getRecipes(), registries);
         ingredients.removeIngredientsAtRuntime(VanillaTypes.ITEM_STACK, split.withdrawn().stream().map(ItemStack::new).toList());
+        hideUnreachable(ingredients, registries);
+    }
+
+    /**
+     * The ingredients datagen found nothing in the game can make: their substance, fluid and dish
+     * would sit in JEI looking craftable when they aren't. Datagen's reachability is the ceiling of
+     * the game's, since conditions only ever disable recipes, so this never hides a keeper.
+     */
+    private static void hideUnreachable(mezz.jei.api.runtime.IIngredientManager ingredients, HolderLookup.Provider registries) {
+        var stacks = new ArrayList<ItemStack>();
+        var fluids = new ArrayList<net.minecraftforge.fluids.FluidStack>();
+        for (var id : Unreachable.INGREDIENTS) {
+            var key = ResourceKey.create(Substance.REGISTRY, CookbookOfBabel.id(id));
+            registries.lookup(Substance.REGISTRY).flatMap(r -> r.get(key)).ifPresent(s -> {
+                stacks.add(Substances.stackOf(s, 1));
+                Substances.fluidOf(s, Container.PORTION_MB).ifPresent(fluids::add);
+            });
+            NamedDish.byId(id).ifPresent(dish -> stacks.add(new ItemStack(Registration.DISHES.get(dish).get())));
+        }
+        ingredients.removeIngredientsAtRuntime(VanillaTypes.ITEM_STACK, stacks);
+        ingredients.removeIngredientsAtRuntime(ForgeTypes.FLUID_STACK, fluids);
+    }
+
+    /** Generated: {@code cookbook_of_babel/unreachable.json}, read off the classpath like Supplanting's. */
+    private static final class Unreachable {
+        static final List<String> INGREDIENTS = read();
+
+        private Unreachable() {}
+
+        private static List<String> read() {
+            try (var in = JeiCompat.class.getResourceAsStream("/cookbook_of_babel/unreachable.json")) {
+                if (in == null) {
+                    return List.of();
+                }
+                var json = JsonParser.parseReader(new InputStreamReader(in, StandardCharsets.UTF_8)).getAsJsonArray();
+                var ids = new ArrayList<String>(json.size());
+                json.forEach(e -> ids.add(e.getAsString()));
+                return List.copyOf(ids);
+            } catch (IOException e) {
+                throw new UncheckedIOException(e);
+            }
+        }
     }
 
     private static String named(CompoundTag tag) {

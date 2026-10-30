@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mahshi_egyptian_stuffed_vegetables_step_6"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:mahshi_egyptian_stuffed_vegetables_step_4\"}"
+    },
+    {
+      "amount": 1,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:mahshi_egyptian_stuffed_vegetables_step_6"
+      }
+    }
+  ]
+}

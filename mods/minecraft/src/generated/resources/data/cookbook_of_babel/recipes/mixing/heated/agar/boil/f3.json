@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/agar_broth"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:seaweed\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/seaweed"
+      }
+    ],
+    {
+      "amount": 783,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "amount": 131,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:agar_broth\"}"
+    },
+    {
+      "amount": 783,
+      "fluid": "minecraft:water"
+    }
+  ]
+}

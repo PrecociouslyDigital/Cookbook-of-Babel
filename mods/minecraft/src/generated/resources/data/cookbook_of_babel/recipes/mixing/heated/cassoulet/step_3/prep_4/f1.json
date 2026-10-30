@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/duck_pan_fry"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:duck\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/duck"
+      }
+    ],
+    {
+      "amount": 2,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:oil_and_fat"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:duck_pan_fry"
+      }
+    }
+  ]
+}

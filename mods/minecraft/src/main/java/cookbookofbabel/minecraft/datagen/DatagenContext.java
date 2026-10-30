@@ -19,7 +19,9 @@ import cookbookofbabel.minecraft.supplant.Supplanting;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import net.minecraft.resources.ResourceLocation;
@@ -131,6 +133,26 @@ public final class DatagenContext {
         if (!problems.isEmpty()) {
             throw new IllegalStateException("datagen input problems:\n  " + String.join("\n  ", problems));
         }
+    }
+
+    private final Map<IngredientId, Boolean> tagged = new HashMap<>();
+
+    /**
+     * Whether an ingredient's {@code ingredients} tag has content: what a mapping maps to it, a dish
+     * of its own, or a tagged descendant. A tag with none of these is empty, which JEI shows as an
+     * accepted-but-empty ingredient, so it is written at all only for these.
+     */
+    public boolean tagged(IngredientId id) {
+        var cached = tagged.get(id);
+        if (cached != null) {
+            return cached;
+        }
+        // The is-a graph is a DAG, so the recursion below never re-enters this ingredient.
+        var result = dataset.ingredient(id).named()
+                || mappings.stream().anyMatch(m -> m.entry(id).filter(e -> !e.items().isEmpty() || !e.itemTags().isEmpty()).isPresent())
+                || dataset.children(id).stream().anyMatch(this::tagged);
+        tagged.put(id, result);
+        return result;
     }
 
     public Set<IngredientId> producedSomewhere() {

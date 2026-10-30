@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bell_pepper_chili_step_2"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:beef_fry\"}"
+    },
+    {
+      "amount": 4,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:oil_and_fat"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 7,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:bell_pepper_chili_step_2"
+      }
+    }
+  ]
+}

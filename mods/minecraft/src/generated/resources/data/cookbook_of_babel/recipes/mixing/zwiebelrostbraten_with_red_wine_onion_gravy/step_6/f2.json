@@ -1,0 +1,51 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/zwiebelrostbraten_with_red_wine_onion_gravy"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:zwiebelrostbraten_with_red_wine_onion_gravy_step_5\"}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:zwiebelrostbraten_with_red_wine_onion_gravy_step_5\"}"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:onion\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/onion"
+      }
+    ],
+    {
+      "amount": 1,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:zwiebelrostbraten_with_red_wine_onion_gravy"
+    }
+  ]
+}

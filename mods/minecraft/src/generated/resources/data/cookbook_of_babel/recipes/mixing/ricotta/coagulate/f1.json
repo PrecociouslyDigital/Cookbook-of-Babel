@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ricotta"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 241,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:milk"
+      }
+    },
+    {
+      "amount": 7,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:vinegar"
+      }
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:ricotta"
+      }
+    },
+    {
+      "amount": 205,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:whey\"}"
+    }
+  ]
+}

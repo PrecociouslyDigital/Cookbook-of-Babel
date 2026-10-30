@@ -16,46 +16,21 @@
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:chickpea_soak_soak_boil\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/chickpea_soak_soak_boil"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:onion_fry\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/onion_fry"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:onion_fry\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/onion_fry"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:vegetable_oil_boil\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/vegetable_oil_boil"
-      }
-    ],
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:chickpea_soak_soak_boil\"}}}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:onion_fry\"}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:onion_fry\"}"
+    },
     [
       {
         "type": "forge:partial_nbt",
@@ -76,6 +51,13 @@
         "tag": "cookbook_of_babel:ingredients/tomato"
       }
     ],
+    {
+      "amount": 1,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:vegetable_oil_boil"
+      }
+    },
     {
       "amount": 17,
       "fluid": "pneumaticcraft:vegetable_oil",

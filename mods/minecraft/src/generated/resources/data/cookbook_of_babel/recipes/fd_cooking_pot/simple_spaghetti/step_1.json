@@ -10,19 +10,17 @@
       "tag": "cookbook_of_babel:external/simple_spaghetti_step_1"
     }
   ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
   "cookingtime": 100,
   "experience": 0.1,
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:water_boil\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/water_boil"
-      }
-    ],
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:water_boil\"}}}"
+    },
     [
       {
         "type": "forge:partial_nbt",
@@ -33,16 +31,11 @@
         "tag": "cookbook_of_babel:ingredients/salt"
       }
     ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:vegetable_oil\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/vegetable_oil"
-      }
-    ]
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:vegetable_oil\"}}}"
+    }
   ],
   "result": {
     "item": "cookbook_of_babel:portion",

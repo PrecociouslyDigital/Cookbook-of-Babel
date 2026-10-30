@@ -11381,6 +11381,7 @@ Ingredients the mod's live recipes make as other mods' items, and every item map
 - `croissant`: `pamhc2foodextended:croissantitem`
 - `croque_monsieur`: `croptopia:croque_monsieur`
 - `curd`: `croptopia:yoghurt`, `pamhc2foodcore:yogurtitem`
+- `curdled_milk`: `vintagedelight:cheese_curds`
 - `curry_powder`: `pamhc2foodextended:currypowderitem`
 - `custard`: `pamhc2foodextended:custarditem`
 - `damper_australian_campfire_bread`: `pamhc2foodextended:damperitem`
@@ -13325,7 +13326,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `a_nice_cup_of_tea.step_6` (season)
 
-- create_mixing: 1 recipe, disabled: the game can't make `a_nice_cup_of_tea_step_5`
+- create_mixing: 4 recipes, disabled: the game can't make `a_nice_cup_of_tea_step_5`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `a_nice_cup_of_tea_step_5`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `a_nice_cup_of_tea_step_5`
 
@@ -13609,6 +13610,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 - create_deploying: 1 recipe, rounding 14%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `acid_drops.step_6` (cool)
@@ -13631,6 +13633,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `acorn_crusted_salmon.step_5` (bake)
@@ -13833,7 +13836,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `african_cabbage_stew.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -13945,7 +13948,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `agar.boil` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 15%
+- create_heated_mixing: 3 recipes, rounding 15%
 - fd_cooking_pot: 1 recipe, rounding 28% ⚠, drops `water`
 - hexerei_mixing_cauldron: 1 recipe, rounding 50% ⚠, drops `water`
 
@@ -14071,7 +14074,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `agbugbu_nigerian_pigeon_pea_and_yam_porridge.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: 1 recipe, rounding 25% ⚠, estimated
 
@@ -14117,6 +14120,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 4%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 4%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `agedashi_tofu.step_6` (fry)
@@ -14166,7 +14170,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ager_soup.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 6%, estimated
+- create_heated_mixing: 2 recipes, rounding 6%, estimated
 - fd_cooking_pot: none, whole items would distort it by 534%
 - hexerei_mixing_cauldron: none, whole items would distort it by 164%
 
@@ -14268,6 +14272,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `air_fried_zucchini.step_3` (coat)
@@ -14276,6 +14281,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `air_fried_zucchini.step_4` (fry)
@@ -14324,12 +14330,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 730%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `akabenz_rwandan_fried_chicken_step_1`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `akabenz_rwandan_fried_chicken.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `akabenz_rwandan_fried_chicken_step_2`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `akabenz_rwandan_fried_chicken_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `akabenz_rwandan_fried_chicken_step_2`
 
@@ -14432,11 +14439,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 142%
 - hexerei_mixing_cauldron: 2 recipes, rounding 15%
 - create_spout: 3 recipes, rounding 15%
+- hexerei_dipper: 2 recipes, rounding 15%
 - thermal_bottler: 2 recipes, rounding 15%
 
 ### `akpu.step_1` (rinse)
 
-- create_mixing: 1 recipe, rounding 4%
+- create_mixing: 3 recipes, rounding 4%
 - create_splashing: 1 recipe, rounding 4%
 
 ### `akpu.step_1.prep_1` (rinse)
@@ -14598,7 +14606,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `albanian_stewed_fig_pudding.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 18% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 17% ⚠, estimated
 
@@ -14698,7 +14706,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `ale_mustard_and_winter_vegetable_pie.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -14927,7 +14935,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `algerian_couscous_with_meat_and_vegetables.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - create_splashing: none, takes one input, not 2
 
 ### `algerian_couscous_with_meat_and_vegetables.step_10` (steam)
@@ -15101,6 +15109,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `alicha_wot_mild_ethiopian_stew.step_6` (boil)
@@ -15219,6 +15228,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `almond_extract.stale` (stale)
@@ -15402,7 +15412,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `almond_pancakes.step_8` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
+- create_heated_mixing: 2 recipes, rounding 4%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -15511,6 +15521,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, whole items would distort it by 745%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `alsatian_chicken_fricassee_step_6`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `alsatian_chicken_fricassee.step_7.prep_11` (mix)
@@ -15525,6 +15536,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `alsatian_chicken_fricassee_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `alsatian_chicken_fricassee.step_8.prep_13` (chop)
@@ -15544,6 +15556,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne.step_2` (mix)
@@ -15794,6 +15807,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 26945%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 16% ⚠
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `american_potato_salad_i.step_7` (cool)
@@ -16046,6 +16060,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `celery_cut_cut`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `ants_on_a_log.step_3` (assemble)
@@ -16108,7 +16123,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `appam_fermented_rice_pancake.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 3 recipes, rounding 1%, estimated
 - create_splashing: 1 recipe, rounding 6%, estimated
 
 ### `appam_fermented_rice_pancake.step_1.prep_1` (soak)
@@ -16145,7 +16160,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `appam_fermented_rice_pancake.step_9` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `appam_fermented_rice_pancake_step_8`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `appam_fermented_rice_pancake_step_8`
 - pnc_thermo_plant: 1 recipe, disabled: the game can't make `appam_fermented_rice_pancake_step_8`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `appam_fermented_rice_pancake_step_8`
 
@@ -16190,6 +16205,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `apple_bars.step_1` (mix)
@@ -16220,6 +16236,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `apple_bars.step_6` (mix)
@@ -16444,6 +16461,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: 1 recipe, rounding 4%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `apple_crisp_ii.step_3` (assemble)
@@ -16482,6 +16500,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `apple_crisp_iii_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `apple_crisp_iii_step_3`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `apple_crisp_iii.step_5` (bake)
@@ -16502,6 +16521,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `apple_crusted_ham.step_4` (bake)
@@ -16528,7 +16548,7 @@ No routes: no machine does sour or any technique above it.
 ### `apple_fritters.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 5%
+- create_heated_mixing: 2 recipes, rounding 5%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 35% ⚠
 
@@ -16544,6 +16564,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 2 recipes, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `apple_glazed_pork_chops.step_1` (season)
@@ -16655,6 +16676,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `apple_pie_i_step_14`
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `apple_pie_i.step_16` (bake)
@@ -16684,6 +16706,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, whole items would distort it by 12070%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `apple_pie_i.step_7` (mix)
@@ -16834,6 +16857,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `apple_with_mustard_and_goat_cheese.step_3` (assemble)
@@ -16866,7 +16890,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `applesauce_cake.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 3 recipes, rounding 1%, estimated
 - shapeless_crafting: 1 recipe, rounding 2%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 2%, estimated
 
@@ -17228,7 +17252,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas.step_7` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `puerto_rican_sofrito`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `puerto_rican_sofrito`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 8
 - hexerei_mixing_cauldron: none, whole items would distort it by 6661%
 
@@ -17348,6 +17372,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `arroz_con_maiz_rice_with_corn_step_8`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `arroz_con_pollo_rice_and_chicken.step_1` (season)
@@ -17605,6 +17630,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 11
 - create_spout: none, takes at most 2 inputs, not 11
+- hexerei_dipper: none, takes at most 2 inputs, not 11
 - thermal_bottler: none, takes at most 2 inputs, not 11
 
 ### `asian_grilled_salmon.step_3` (separate)
@@ -17670,6 +17696,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, doesn't fit in 2 input items, 2 of each, and 1000 mB tanks at any scale
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `asian_inspired_chicken_salad.step_6` (assemble)
@@ -17764,7 +17791,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `asida_sudanese_porridge.step_5` (season)
 
-- create_mixing: 1 recipe, rounding 10%
+- create_mixing: 3 recipes, rounding 10%
 - shapeless_crafting: 1 recipe, rounding 10%
 - hexerei_mixing_cauldron: 2 recipes, rounding 10%
 
@@ -17774,6 +17801,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 10%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 10%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `asondo_nigerian_dried_sweet_potatoes.step_1` (cut)
@@ -18012,7 +18040,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `atama_soup.step_1` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 3 recipes, rounding 0%, estimated
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -18091,6 +18119,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 6
+- hexerei_dipper: none, takes at most 2 inputs, not 6
 - thermal_bottler: none, takes at most 2 inputs, not 6
 
 ### `atkilt_wat_ethiopian_cabbage_and_potato_stew.step_5` (coat)
@@ -18099,6 +18128,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `atkilt_wat_ethiopian_cabbage_and_potato_stew.step_6` (steam)
@@ -18125,7 +18155,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `atkins_friendly_mock_tiramisu.step_1` (blend)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
+- create_mixing: 2 recipes, rounding 11%, estimated
 
 ### `atomic_fudge_cake.step_1` (mix)
 
@@ -18146,7 +18176,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `atomic_fudge_cake.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 252%
 - hexerei_mixing_cauldron: none, whole items would distort it by 202%
 
@@ -18254,6 +18284,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `aubergine_and_onion_vegetable_pie_step_8`
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `aubergine_and_onion_vegetable_pie.step_11` (coat)
@@ -18262,6 +18293,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `aubergine_and_onion_vegetable_pie_step_10`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `aubergine_and_onion_vegetable_pie_step_10`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `aubergine_and_onion_vegetable_pie.step_12` (bake)
@@ -18278,7 +18310,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `aubergine_and_onion_vegetable_pie.step_3` (knead)
 
-- create_mixing: 1 recipe, rounding 14%
+- create_mixing: 3 recipes, rounding 14%
 - shapeless_crafting: 1 recipe, rounding 14%
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%
 
@@ -18332,7 +18364,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `austrian_apricot_dumplings_marillenknodel.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 113%
 
@@ -18342,6 +18374,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `austrian_meatloaf_faschierter_braten.step_2` (soak)
@@ -18477,6 +18510,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `awaze_tibs_spicy_ethiopian_meat_stir_fry.step_6` (season)
@@ -18556,12 +18590,13 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `ayamase_jollof_rice.step_1` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
+- create_heated_mixing: 2 recipes, rounding 7%
 - pnc_thermo_plant: 2 recipes, rounding 7%
 - hexerei_mixing_cauldron: 1 recipe, rounding 7%
 
@@ -18915,6 +18950,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 1590%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `bacon_cheese_omelet_step_2`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `bacon_cheese_omelet.step_5` (whisk)
@@ -19141,6 +19177,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `baguette.freezer_burn` (freezer_burn)
@@ -19342,7 +19379,7 @@ No routes: no machine does mold or any technique above it.
 ### `baked_chicken_with_onions_sumac_and_allspice_musakhan.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 807%
 
@@ -20001,6 +20038,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `balsamic_steak_and_brie_paninis_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `balsamic_steak_and_brie_paninis.step_6` (grill)
@@ -20035,6 +20073,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `banana_and_pear_cake_vegan.step_10.prep_12` (grind)
@@ -20048,6 +20087,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `banana_and_pear_cake_vegan_step_10`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `banana_and_pear_cake_vegan.step_12` (chill)
@@ -20533,7 +20573,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `banana_milkshake.step_1` (blend)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 
 ### `banana_milkshake.step_2` (season)
 
@@ -20543,7 +20583,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `banana_nut_muffins.step_3` (mix)
 
-- create_mixing: 3 recipes, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 1309%
 - hexerei_mixing_cauldron: none, whole items would distort it by 213%
 
@@ -20784,6 +20824,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 67% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `banana_spirulina_pancakes.step_6` (pan_fry)
@@ -20822,6 +20863,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `banana_split_ii.step_2` (assemble)
@@ -20836,6 +20878,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 150%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `banana_split_ii.step_4` (coat)
@@ -20844,6 +20887,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `banana_split_ii.step_5` (coat)
@@ -20852,6 +20896,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `banana_split_ii.step_6` (assemble)
@@ -20950,7 +20995,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bangers_and_mash.step_6` (mix)
 
-- create_mixing: 2 recipes, rounding 0%, estimated
+- create_mixing: 8 recipes, rounding 0%, estimated
 - shapeless_crafting: 2 recipes, rounding 0%, estimated
 - hexerei_mixing_cauldron: 2 recipes, rounding 0%, estimated
 
@@ -21063,7 +21108,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `barbecue_chicken.step_2` (evaporate)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, rounding 15%, estimated
 
 ### `barbecue_chicken.step_4` (season)
 
@@ -21169,6 +21214,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `barbecue_potato_chips.step_2` (fry)
@@ -21186,7 +21232,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `barbecue_prime_rib.step_1` (season)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -21313,6 +21359,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 12
 - create_spout: none, takes at most 2 inputs, not 12
+- hexerei_dipper: none, takes at most 2 inputs, not 12
 - thermal_bottler: none, takes at most 2 inputs, not 12
 
 ### `barbecued_spare_ribs.step_3` (roast)
@@ -21418,7 +21465,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `basic_cobbler.step_3` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 
 ### `basic_cobbler.step_4` (assemble)
 
@@ -21719,7 +21766,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `bassi_salte_senegalese_couscous_with_meat_and_vegetables.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 174%
 
@@ -21801,6 +21848,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 8
+- hexerei_dipper: none, takes at most 2 inputs, not 8
 - thermal_bottler: none, takes at most 2 inputs, not 8
 
 ### `bazeen_bil_lahm_libyan_meat_bazeen.step_6` (boil)
@@ -22081,7 +22129,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bean_spelt_oat_spread.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 10%, estimated
+- create_mixing: 2 recipes, rounding 10%, estimated
 - shapeless_crafting: 1 recipe, rounding 10%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 10%, estimated
 
@@ -22311,7 +22359,7 @@ No routes: no machine does spoil or any technique above it.
 ### `beef_and_gizzard_sauce.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 150%
 
@@ -22337,6 +22385,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `beef_and_guinness_casserole.step_4` (pan_fry)
@@ -22361,7 +22410,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `beef_and_guinness_casserole.step_7` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `beef_and_guinness_casserole_step_6`
+- create_mixing: 4 recipes, disabled: the game can't make `beef_and_guinness_casserole_step_6`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `beef_and_guinness_casserole_step_6`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `beef_and_guinness_casserole_step_6`
 
@@ -22500,6 +22549,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `beef_croquettes.step_7` (fry)
@@ -22672,7 +22722,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `beef_muchomo_ugandan_beef_skewers.step_1` (season)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 17% ⚠, estimated
 
@@ -22701,6 +22751,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 4%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 4%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `beef_pasties.step_11` (bake)
@@ -22791,12 +22842,13 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 3281%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 9%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `beef_stew_i.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 6%
+- create_heated_mixing: 2 recipes, rounding 6%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 1071%
 
@@ -22938,14 +22990,14 @@ No routes: no machine does mold or any technique above it.
 ### `beef_tongue_with_chiles_corn_and_tomato_lengua_de_res.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
 ### `beef_tongue_with_chiles_corn_and_tomato_lengua_de_res.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 33% ⚠
 
@@ -22972,7 +23024,7 @@ No routes: no machine does mold or any technique above it.
 ### `beef_yakiniku_pizza.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 9%
+- create_heated_mixing: 2 recipes, rounding 9%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 294%
 
@@ -23015,7 +23067,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `beer_and_rye_bread_porridge_ollebrod.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 2 recipes, rounding 0%
 - create_splashing: none, takes one input, not 2
 
 ### `beer_and_rye_bread_porridge_ollebrod.step_2` (simmer)
@@ -23263,6 +23315,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 277%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `behari_kabab.step_4` (grill)
@@ -23282,7 +23335,7 @@ No routes: no machine does spoil or any technique above it.
 ### `bell_pepper_chili.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: 2 recipes, rounding 14%
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%
 
@@ -23368,6 +23421,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 18% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `benachin_gambian_rice_with_meat_and_vegetables.step_8` (boil)
@@ -23403,7 +23457,7 @@ No routes: no machine does spoil or any technique above it.
 ### `benechin_kunkujang_gambian_seasoned_rice_and_lamb.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%, estimated
+- create_heated_mixing: 2 recipes, rounding 12%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 700%
 
@@ -23464,6 +23518,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `bengal_potatoes_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `bengal_potatoes_step_2`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `bengal_potatoes.step_4` (season)
@@ -23622,6 +23677,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, whole items would distort it by 969%
 - create_spout: none, takes at most 2 inputs, not 7
+- hexerei_dipper: none, takes at most 2 inputs, not 7
 - thermal_bottler: none, takes at most 2 inputs, not 7
 
 ### `betty_s_salad.step_3` (chill)
@@ -23830,7 +23886,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `bhuna_khichuri_bengali_rice_and_lentils.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: none, whole items would distort it by 1168%
 
@@ -23988,7 +24044,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `bigos_polish_cabbage_meat_stew.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `bigos_polish_cabbage_meat_stew_step_2`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `bigos_polish_cabbage_meat_stew_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `bigos_polish_cabbage_meat_stew_step_2`
 
@@ -24019,6 +24075,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `biltong_zambian_dried_and_salted_meat.step_4` (dry)
@@ -24115,6 +24172,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 6
+- hexerei_dipper: none, takes at most 2 inputs, not 6
 - thermal_bottler: none, takes at most 2 inputs, not 6
 
 ### `biryani.step_1` (steep)
@@ -24155,6 +24213,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `biryani.step_4` (season)
@@ -24184,14 +24243,14 @@ No routes: no machine does spoil or any technique above it.
 ### `biryani.step_7` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 79% ⚠, estimated
 
 ### `biryani.step_7.prep_17` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -24428,6 +24487,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `bison_meatballs_baked_in_hoisin_sauce_marvin_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `bison_meatballs_baked_in_hoisin_sauce_marvin_step_7`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `bison_meatballs_baked_in_hoisin_sauce_marvin.step_9` (bake)
@@ -24474,6 +24534,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `bizcochito_cinnamon_anise_cookies_i.step_8` (cool)
@@ -24774,6 +24835,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 15% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `black_forest_cake.step_15` (soak)
@@ -24793,6 +24855,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `black_forest_cake.step_3` (mix)
@@ -24932,6 +24995,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 6
+- hexerei_dipper: none, takes at most 2 inputs, not 6
 - thermal_bottler: none, takes at most 2 inputs, not 6
 
 ### `black_pepper_beef_with_green_beans.step_4` (steam)
@@ -25127,6 +25191,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `blotkake_norwegian_berries_and_cream_cake.step_7` (assemble)
@@ -25162,6 +25227,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `blt_sandwich.step_4` (assemble)
@@ -25408,6 +25474,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `bobotie.step_8` (assemble)
@@ -25903,7 +25970,7 @@ No routes: no machine does spoil or any technique above it.
 ### `boliche_cuban_chorizo_stuffed_roast.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `boliche_cuban_chorizo_stuffed_roast_step_3`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `boliche_cuban_chorizo_stuffed_roast_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 11
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 11
 
@@ -26019,7 +26086,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `bonda_south_indian_vegetable_fritter.step_8` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -26153,7 +26220,7 @@ No routes: no machine does sour or any technique above it.
 ### `borscht.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 10%, estimated
+- create_heated_mixing: 2 recipes, rounding 10%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 203%
 
@@ -26179,7 +26246,7 @@ No routes: no machine does sour or any technique above it.
 ### `boston_baked_beans.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 5%, estimated
+- create_heated_mixing: 2 recipes, rounding 5%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 5%, estimated
 
@@ -26377,7 +26444,7 @@ No routes: no machine does sour or any technique above it.
 ### `boule_di_senegalese_fish_and_rice.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 263%
 
@@ -26430,6 +26497,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `bourbon_apples.step_2` (coat)
@@ -26438,6 +26506,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `bourbon_apples.step_2.prep_6` (grind)
@@ -26532,6 +26601,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 7900%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 2400%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `braai_zambian_barbecue.step_6` (grill)
@@ -26571,7 +26641,7 @@ No routes: no machine does mold or any technique above it.
 ### `braised_beef_short_ribs.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 6%
+- create_heated_mixing: 2 recipes, rounding 6%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 6%
 
@@ -26627,7 +26697,7 @@ No routes: no machine does mold or any technique above it.
 ### `braised_shortribs.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 859%
 
@@ -26954,6 +27024,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 733%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 11%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `bread_pudding.step_4` (mix)
@@ -26991,7 +27062,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `bread_with_tomato_sauce_pappa_al_pomodoro.step_2` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -27024,6 +27095,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 29% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `breaded_chicken_livers.step_3` (pan_fry)
@@ -27075,6 +27147,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 8
+- hexerei_dipper: none, takes at most 2 inputs, not 8
 - thermal_bottler: none, takes at most 2 inputs, not 8
 
 ### `breaded_potato_wedges.step_2` (fry)
@@ -27170,7 +27243,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `breakfast_durum.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `breakfast_durum_step_4`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `breakfast_durum_step_4`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `breakfast_durum_step_4`
 
@@ -27199,7 +27272,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `breakfast_sludge.step_7` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `breakfast_sludge_step_5`
+- create_mixing: 4 recipes, disabled: the game can't make `breakfast_sludge_step_5`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `breakfast_sludge_step_5`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `breakfast_sludge_step_5`
 
@@ -27235,7 +27308,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `breakfast_waffles_gluten_free.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 25% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -27512,7 +27585,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `brown_butter_toffee_chocolate_chip_cookies.step_2` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 2740%
 - hexerei_mixing_cauldron: none, whole items would distort it by 1590%
 
@@ -27555,7 +27628,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `brown_gravy.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 300%
 
@@ -27606,6 +27679,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 280%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `brown_rice_casserole.step_7` (bake)
@@ -27617,7 +27691,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `brown_rice_with_ground_turkey.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 11%
 
@@ -27967,7 +28041,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `bubble_tea.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
+- create_mixing: 3 recipes, rounding 11%, estimated
 - shapeless_crafting: none, whole items would distort it by 300%
 - hexerei_mixing_cauldron: none, whole items would distort it by 265%
 
@@ -28081,7 +28155,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `buckwheat_crepes.step_2` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 
 ### `buckwheat_crepes.step_3` (age)
 
@@ -28127,6 +28201,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `buffalo_chicken_sandwich.step_3` (fry)
@@ -28155,6 +28230,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 238%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `buffalo_chicken_sandwich.step_6` (assemble)
@@ -28182,6 +28258,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `buffalo_wings.step_4` (assemble)
@@ -28493,7 +28570,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `bunuelos_sweet_fried_pastry.step_1` (whisk)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
+- create_mixing: 2 recipes, rounding 11%, estimated
 
 ### `bunuelos_sweet_fried_pastry.step_2` (mix)
 
@@ -28513,6 +28590,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `burgoo.step_1` (mix)
@@ -28563,6 +28641,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `burmese_pork_curry_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `burmese_pork_curry.step_4.prep_7` (heat)
@@ -28623,7 +28702,7 @@ No routes: no machine does mold or any technique above it.
 ### `burrito_mix.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 94% ⚠
 
@@ -28741,6 +28820,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 150%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `buttered_popcorn.step_2` (season)
@@ -28759,7 +28839,7 @@ No routes: no machine does sour or any technique above it.
 
 ### `buttermilk_curry_soup_kadi_pakora.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 3 recipes, rounding 6%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 6%, estimated
 
@@ -28785,7 +28865,7 @@ No routes: no machine does sour or any technique above it.
 ### `buttermilk_curry_soup_kadi_pakora.step_6` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%, estimated
+- create_heated_mixing: 2 recipes, rounding 12%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: none, whole items would distort it by 500%
 
@@ -28817,6 +28897,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `buttermilk_fried_chicken_with_pan_gravy.step_5` (fry)
@@ -29073,6 +29154,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, whole items would distort it by 239%
 - create_spout: none, takes at most 2 inputs, not 6
+- hexerei_dipper: none, takes at most 2 inputs, not 6
 - thermal_bottler: none, takes at most 2 inputs, not 6
 
 ### `cabbage_rolls_in_tomato_sauce_holubtsi.step_8` (bake)
@@ -29102,7 +29184,7 @@ No routes: no machine does spoil or any technique above it.
 ### `cabbage_rolls_in_yogurt_sauce_sarmi.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 2 recipes, rounding 11%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 8
 - hexerei_mixing_cauldron: none, whole items would distort it by 957%
 
@@ -29482,7 +29564,7 @@ No routes: no machine does spoil or any technique above it.
 ### `california_curry_chicken.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `california_curry_chicken_step_2`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `california_curry_chicken_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `california_curry_chicken_step_2`
 
@@ -29498,6 +29580,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 11
 - create_spout: none, takes at most 2 inputs, not 11
+- hexerei_dipper: none, takes at most 2 inputs, not 11
 - thermal_bottler: none, takes at most 2 inputs, not 11
 
 ### `california_curry_chicken.step_6` (simmer)
@@ -29761,6 +29844,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `candied_almonds_branda_mandlar.step_4` (cool)
@@ -29812,6 +29896,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 13%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `candied_nuts.roast` (roast)
@@ -29833,6 +29918,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 2 recipes, rounding 15%
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `candied_sweet_potatoes.step_3` (bake)
@@ -29871,6 +29957,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `candied_yams.step_6` (bake)
@@ -29934,7 +30021,7 @@ No routes: no machine does spoil or any technique above it.
 ### `canjeero_somali_pancake.step_10` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -29961,7 +30048,7 @@ No routes: no machine does spoil or any technique above it.
 ### `canjeero_somali_pancake.step_9` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
+- create_heated_mixing: 2 recipes, rounding 7%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 7%, estimated
 
@@ -30147,6 +30234,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 323%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `cantonese_roast_duck_step_2`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `cantonese_roast_duck.step_6` (chill)
@@ -30214,6 +30302,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 12
 - create_spout: none, takes at most 2 inputs, not 12
+- hexerei_dipper: none, takes at most 2 inputs, not 12
 - thermal_bottler: none, takes at most 2 inputs, not 12
 
 ### `cape_malay_butter_chicken.step_2` (grill)
@@ -30482,6 +30571,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 121%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `caramel_squares.step_9` (cool)
@@ -30510,6 +30600,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 650%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 113%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `caramelized_pineapple.step_5` (grill)
@@ -30567,6 +30658,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 11%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 11%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `caramelized_sweet_and_sour_onion_marmalade.step_1` (pan_fry)
@@ -30708,6 +30800,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `carquinyoli_catalan_almond_cookies.step_6` (bake)
@@ -30833,6 +30926,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `carrot_cake_ii.step_1` (blend)
@@ -30971,7 +31065,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `carrot_paprika_spread.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -31029,6 +31123,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 868%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 12%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `carrot_salad.step_3` (season)
@@ -31059,7 +31154,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `carrots_cooked_kinpira_style.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 14%
+- create_mixing: 3 recipes, rounding 14%
 - shapeless_crafting: 1 recipe, rounding 14%
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%
 
@@ -31164,14 +31259,14 @@ No routes: no machine does spoil or any technique above it.
 
 ### `cassoulet.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 12%
 
 ### `cassoulet.step_3.prep_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -31385,7 +31480,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `central_texan_pinto_beans.step_3` (season)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 1371%
 - hexerei_mixing_cauldron: none, whole items would distort it by 1371%
 
@@ -31447,6 +31542,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 614%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 35% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chadian_gilled_fish.step_3.prep_9` (dry)
@@ -31562,7 +31658,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `chakarai_pongal_sweet_rice_and_black_gram_pudding.step_6` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `chakarai_pongal_sweet_rice_and_black_gram_pudding_step_5`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `chakarai_pongal_sweet_rice_and_black_gram_pudding_step_5`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 142%
 
@@ -31588,7 +31684,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `chalupa.step_1.prep_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -31646,7 +31742,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `champorado_chocolate_rice_porridge.step_2` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 2%, estimated
+- create_heated_mixing: 3 recipes, rounding 2%, estimated
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -31681,7 +31777,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `chanterelle_goulash.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `chanterelle_goulash_step_2`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `chanterelle_goulash_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 2043%
 
@@ -31709,7 +31805,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chapati.step_1` (knead)
 
-- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- create_mixing: 3 recipes, disabled: the game can't make `whole_wheat_flour`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 
@@ -31738,11 +31834,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `chapati_step_6`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `chapati_step_6`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chapati_za_maji_tanzanian_pancakes.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 15% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -31769,7 +31866,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
-- create_compacting: 1 recipe, rounding 4%, estimated
+- create_compacting: 2 recipes, rounding 4%, estimated
 
 ### `chapati_za_maji_tanzanian_pancakes.step_8` (pan_fry)
 
@@ -31785,7 +31882,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chapman_nigerian_party_drink.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
+- create_mixing: 3 recipes, rounding 4%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -32089,7 +32186,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `cheese_dumplings.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -32329,6 +32426,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 31% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `cheese_spaetzle.step_3.prep_4` (grind)
@@ -32377,7 +32475,7 @@ No routes: no machine does mold or any technique above it.
 - shapeless_crafting: 1 recipe, rounding 0%
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
-- create_compacting: 1 recipe, rounding 0%
+- create_compacting: 2 recipes, rounding 0%
 
 ### `cheese_stuffed_crust_pizza.step_4` (fold)
 
@@ -32397,6 +32495,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 15% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `cheese_stuffed_crust_pizza.step_8` (assemble)
@@ -32507,7 +32606,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `cheesy_asparagus.boil` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 15%
+- create_heated_mixing: 3 recipes, rounding 15%
 - fd_cooking_pot: 1 recipe, rounding 13%, drops `water`
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, drops `water`
 
@@ -32579,7 +32678,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `cheesy_potato_soup.step_5` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 4 recipes, rounding 15%, estimated
 - fd_cooking_pot: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -32658,7 +32757,7 @@ No routes: no machine does mold or any technique above it.
 ### `chereh_tamba_gambian_groundnut_stew.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 1168%
 
@@ -33065,7 +33164,7 @@ No routes: no machine does spoil or any technique above it.
 ### `chicago_sirloin_with_cabernet_balsamic_reduction.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 80% ⚠
 
@@ -33188,7 +33287,7 @@ No routes: no machine does spoil or any technique above it.
 ### `chicken_and_andouille_sausage_gumbo.step_1.prep_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 9%
+- create_heated_mixing: 2 recipes, rounding 9%
 - pnc_thermo_plant: 2 recipes, rounding 9%
 - hexerei_mixing_cauldron: 1 recipe, rounding 9%
 
@@ -33283,6 +33382,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `chicken_and_corn_empanadas_step_10`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chicken_and_corn_empanadas.step_17` (chill)
@@ -33383,6 +33483,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `chicken_and_ricotta_paninis.step_1` (assemble)
@@ -33424,7 +33525,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chicken_bacon_broccoli_alfredo_spaghetti.step_5` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 4 recipes, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 137%
 - hexerei_mixing_cauldron: 1 recipe, rounding 18% ⚠, estimated
 
@@ -33536,7 +33637,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `chicken_bog_i.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 2 recipes, rounding 11%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 11%, estimated
 
@@ -33599,7 +33700,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chicken_bog_iii.step_2` (boil)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `chicken_bog_iii_step_1`
+- create_heated_mixing: 3 recipes, disabled: the game can't make `chicken_bog_iii_step_1`
 - fd_cooking_pot: none, whole items would distort it by 146%
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `chicken_bog_iii_step_1`
 
@@ -33729,7 +33830,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `chicken_cabbage_salad.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 18% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -33829,14 +33930,14 @@ No routes: no machine does mold or any technique above it.
 ### `chicken_curry.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
 ### `chicken_curry.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 472%
 
@@ -33964,6 +34065,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `chicken_fried_steak.step_4` (coat)
@@ -33972,6 +34074,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `chicken_fried_steak_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `chicken_fried_steak_step_3`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chicken_fried_steak.step_5` (pan_fry)
@@ -34058,7 +34161,7 @@ No routes: no machine does spoil or any technique above it.
 ### `chicken_karahi_pakistani_chicken_with_tomato_and_peppers.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 2751%
 
@@ -34152,6 +34255,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 20% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chicken_marsala_ii.step_4` (pan_fry)
@@ -34231,7 +34335,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `chicken_paprikash.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 3 recipes, rounding 0%
 - fd_cooking_pot: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -34259,6 +34363,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 50% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chicken_parmesan.step_10` (assemble)
@@ -34289,6 +34394,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `chicken_parmesan.step_6` (pan_fry)
@@ -34340,6 +34446,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 165%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chicken_parmigiana.step_5` (pan_fry)
@@ -34518,7 +34625,7 @@ No routes: no machine does spoil or any technique above it.
 ### `chicken_riggies.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%, estimated
+- create_heated_mixing: 2 recipes, rounding 12%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 338%
 
@@ -34547,7 +34654,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chicken_sopas.step_3` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 107%
 - hexerei_mixing_cauldron: none, whole items would distort it by 107%
 
@@ -34681,7 +34788,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chicken_soup_with_dumplings.step_17` (simmer)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `chicken_soup_with_dumplings_step_16`
+- create_heated_mixing: 3 recipes, disabled: the game can't make `chicken_soup_with_dumplings_step_16`
 - fd_cooking_pot: none, takes at most 6 inputs, not 7
 - hexerei_mixing_cauldron: 2 recipes, disabled: the game can't make `chicken_soup_with_dumplings_step_16`
 
@@ -34773,6 +34880,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `chicken_soup_with_pasta.step_3` (heat)
@@ -34940,6 +35048,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1168%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 12%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chicken_tetrazzini.step_13` (bake)
@@ -35007,6 +35116,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 2300%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chicken_tikka.step_3` (chill)
@@ -35160,6 +35270,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `chicken_wings_asian_style.step_2` (fry)
@@ -35181,6 +35292,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 6
+- hexerei_dipper: none, takes at most 2 inputs, not 6
 - thermal_bottler: none, takes at most 2 inputs, not 6
 
 ### `chicken_with_orange_spinach_and_cherry_tomatoes.step_12` (bake)
@@ -35217,6 +35329,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chicken_with_orange_spinach_and_cherry_tomatoes.step_7` (assemble)
@@ -35412,6 +35525,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `chikwanda_zambian_sweet_potato_stew.step_5` (mix)
@@ -35574,7 +35688,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chiles_en_nogada_stuffed_chile_peppers_with_almonds.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 13%
 
@@ -35646,6 +35760,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `chili_colorado.step_4` (pan_fry)
@@ -35719,7 +35834,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chili_cornbread_casserole.step_10` (whisk)
 
-- create_mixing: 1 recipe, disabled: the game can't make `chili_cornbread_casserole_step_9`
+- create_mixing: 4 recipes, disabled: the game can't make `chili_cornbread_casserole_step_9`
 
 ### `chili_cornbread_casserole.step_11` (mix)
 
@@ -35755,7 +35870,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `chili_cornbread_casserole.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `chili_cornbread_casserole_step_4`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `chili_cornbread_casserole_step_4`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `chili_cornbread_casserole_step_4`
 
@@ -35893,7 +36008,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chili_with_meat.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: none, takes at most 9 inputs, not 13
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 13
 
@@ -35931,7 +36046,7 @@ No routes: no machine does spoil or any technique above it.
 ### `chilli_crab.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 3281%
 
@@ -35947,6 +36062,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 6%
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%
 - create_spout: 3 recipes, rounding 15%
+- hexerei_dipper: 1 recipe, rounding 15%
 - thermal_bottler: 1 recipe, rounding 15%
 
 ### `chilli_crab.step_6` (simmer)
@@ -35981,6 +36097,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 57% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 - create_spout: 1 recipe, rounding 14%, estimated
+- hexerei_dipper: 1 recipe, rounding 15%, estimated
 - thermal_bottler: 1 recipe, rounding 15%, estimated
 
 ### `chilli_oil.step_3` (heat)
@@ -36076,6 +36193,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chinese_rice_porridge_congee.step_1` (boil)
@@ -36123,6 +36241,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `chip_butty.step_4` (press)
@@ -36252,7 +36371,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `chipotle_chili.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `chipotle_chili_step_4`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `chipotle_chili_step_4`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `chipotle_chili_step_4`
 
@@ -36297,6 +36416,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `chipotle_fish_n_chips.step_3.prep_12` (cut)
@@ -36338,6 +36458,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chipotle_fried_chicken.step_4` (pan_fry)
@@ -36402,6 +36523,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `chipotle_lime_tortilla_chips.step_1` (soak)
@@ -36428,7 +36550,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chipotle_maple_glazed_pork_tenderloin.step_1` (season)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 1590%
 - hexerei_mixing_cauldron: none, whole items would distort it by 1239%
 
@@ -36707,6 +36829,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 254%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 13%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `choco_crunch_bites.step_4` (chill)
@@ -36785,6 +36908,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chocolate_and_banana_bread.step_6` (assemble)
@@ -36813,6 +36937,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `chocolate_and_nut_covered_strawberries.step_3.prep_7` (chop)
@@ -36865,6 +36990,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `chocolate_bananas_foster_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `chocolate_bananas_foster_step_3`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chocolate_bourbon_pecan_pie.step_10` (cool)
@@ -36934,6 +37060,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `chocolate_cheesecake.step_10` (cool)
@@ -37289,6 +37416,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chocolate_chip_pancakes_i.step_9` (pan_fry)
@@ -37331,7 +37459,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chocolate_chip_pancakes_ii.step_8` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 5%, estimated
 
@@ -37347,6 +37475,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 13%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chocolate_chip_peanut_butter_toast.step_3` (assemble)
@@ -37430,6 +37559,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 6%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chocolate_crinkles.step_9` (bake)
@@ -37535,6 +37665,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chocolate_macaroons_no_bake.step_2` (heat)
@@ -37583,6 +37714,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chocolate_marmalade_layer_cake.step_3` (mix)
@@ -38058,7 +38190,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `cholley_chickpea_curry.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 8
 - hexerei_mixing_cauldron: none, whole items would distort it by 150%
 
@@ -38141,6 +38273,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `choripan_argentine_chorizo_sandwich.step_6` (assemble)
@@ -38406,6 +38539,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `christmas_ham.step_9` (cool)
@@ -38440,6 +38574,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `christmas_mince_pies_meat_free_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `christmas_mince_pies_meat_free_step_5`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `christmas_pudding_i.step_1` (mix)
@@ -38484,7 +38619,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `christmas_pudding_ii.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: none, takes at most 9 inputs, not 15
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 15
 
@@ -38539,6 +38674,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 25% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `chukauni_nepalese_potato_salad.step_4` (season)
@@ -38774,6 +38910,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 1590%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 12%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `cincinnati_style_chili.step_1` (mix)
@@ -39014,6 +39151,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `cinnamon_rolls.step_9` (cut)
@@ -39237,7 +39375,7 @@ No routes: no machine does rancid or any technique above it.
 ### `classic_pot_roast.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 121%
 
@@ -39323,6 +39461,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `classic_salad_step_3`
 - hexerei_mixing_cauldron: 2 recipes, disabled: the game can't make `classic_salad_step_3`
 - create_spout: 3 recipes, disabled: the game can't make `classic_salad_step_3`
+- hexerei_dipper: 2 recipes, disabled: the game can't make `classic_salad_step_3`
 - thermal_bottler: 2 recipes, disabled: the game can't make `classic_salad_step_3`
 
 ### `classic_vanilla_milkshake.step_1` (blend)
@@ -39907,6 +40046,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `coconut_rum_battered_shrimp.step_3` (fry)
@@ -40007,7 +40147,7 @@ No routes: no machine does spoil or any technique above it.
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 2 recipes, rounding 11%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 180%
 
@@ -40088,6 +40228,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `coffee_cake.step_5` (bake)
@@ -40143,7 +40284,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `coffee_mousse.step_2` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 4 recipes, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: none, whole items would distort it by 160%
 
@@ -40191,6 +40332,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `cognac_beef_stew.step_2` (pan_fry)
@@ -40861,6 +41003,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 6
+- hexerei_dipper: none, takes at most 2 inputs, not 6
 - thermal_bottler: none, takes at most 2 inputs, not 6
 
 ### `coq_au_vin_i.step_2` (pan_fry)
@@ -40899,6 +41042,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `coq_au_vin_ii.step_3` (pan_fry)
@@ -40911,14 +41055,14 @@ No routes: no machine does rancid or any technique above it.
 ### `coq_au_vin_ii.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 286%
 
 ### `coq_au_vin_ii.step_4.prep_18` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -40942,7 +41086,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `coq_au_vin_iii.step_1` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 233%
 - hexerei_mixing_cauldron: 1 recipe, rounding 100% ⚠, estimated
 
@@ -40966,7 +41110,7 @@ No routes: no machine does rancid or any technique above it.
 ### `coq_au_vin_iii.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 329%
 
@@ -40991,7 +41135,7 @@ No routes: no machine does rancid or any technique above it.
 ### `coq_au_vin_iii.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 9%, estimated
+- create_heated_mixing: 2 recipes, rounding 9%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 200%
 
@@ -41167,6 +41311,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 217%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `corn_bread_fish.step_5` (coat)
@@ -41175,6 +41320,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 68% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `corn_bread_fish.step_5.prep_5` (chop)
@@ -41276,7 +41422,7 @@ No routes: no machine does spoil or any technique above it.
 ### `corn_dogs.fry` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 2 recipes, rounding 12%, estimated
+- create_heated_mixing: 4 recipes, rounding 12%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 2 recipes, rounding 12%, estimated
 
@@ -41359,6 +41505,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `corn_pancakes_step_9`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `corn_pancakes.step_11` (pan_fry)
@@ -41588,6 +41735,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 67% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `cornbread_stuffed_zucchini.step_6` (bake)
@@ -41615,6 +41763,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 - create_spout: 4 recipes, rounding 0%
+- hexerei_dipper: 1 recipe, rounding 0%
 - thermal_bottler: 1 recipe, rounding 0%
 
 ### `corned_beef_pie.step_11` (bake)
@@ -41749,7 +41898,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `cornmeal_pancakes_arepa.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, whole items would distort it by 458%
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%
 
@@ -41781,6 +41930,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `corny_souffle_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `corny_souffle_step_4`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `corny_souffle.step_6` (bake)
@@ -41983,6 +42133,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 7
+- hexerei_dipper: none, takes at most 2 inputs, not 7
 - thermal_bottler: none, takes at most 2 inputs, not 7
 
 ### `country_fried_chicken.step_2` (coat)
@@ -41991,12 +42142,13 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, doesn't fit in 2 input items, 2 of each, and 1000 mB tanks at any scale
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `country_fried_chicken.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `country_fried_chicken_step_2`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `country_fried_chicken_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `country_fried_chicken_step_2`
 
@@ -42094,6 +42246,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 9
+- hexerei_dipper: none, takes at most 2 inputs, not 9
 - thermal_bottler: none, takes at most 2 inputs, not 9
 
 ### `couscous_bil_khodra_libyan_vegetable_couscous.step_4` (simmer)
@@ -42213,7 +42366,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `crab_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 10%
+- create_heated_mixing: 2 recipes, rounding 10%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: 1 recipe, rounding 83% ⚠
 
@@ -42287,6 +42440,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 238%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `crab_meat_canape.step_9` (bake)
@@ -42341,7 +42495,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `crab_quesadillas_with_mango_salsa.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 700%
 
@@ -42772,7 +42926,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cream_soda.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 282%
 - hexerei_mixing_cauldron: none, whole items would distort it by 300%
 
@@ -42890,6 +43044,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `creamy_mustard_vinaigrette.step_1` (mix)
@@ -43028,6 +43183,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 29% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `creme_brulee_cheesecake.step_15` (toast)
@@ -43179,13 +43335,13 @@ No routes: no machine does mold or any technique above it.
 
 ### `crepes_ii.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 529%
 - hexerei_mixing_cauldron: none, whole items would distort it by 400%
 
 ### `crepes_ii.step_5` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
+- create_heated_mixing: 2 recipes, rounding 4%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -43213,12 +43369,13 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `crispy_buffalo_shrimp.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 5%
+- create_heated_mixing: 2 recipes, rounding 5%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 35% ⚠
 
@@ -43244,12 +43401,13 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `crispy_calamari.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 8%
+- create_heated_mixing: 2 recipes, rounding 8%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 8%
 
@@ -43265,6 +43423,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 217%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `crispy_chicken.step_3` (steep)
@@ -43298,12 +43457,13 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `crispy_fish_sandwich.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 5%
+- create_heated_mixing: 2 recipes, rounding 5%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 35% ⚠
 
@@ -43413,6 +43573,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `crispy_salmon.step_3` (bake)
@@ -43440,6 +43601,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `crispy_santa_fe_chicken.step_4` (coat)
@@ -43448,6 +43610,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `crispy_santa_fe_chicken_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `crispy_santa_fe_chicken_step_3`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `crispy_santa_fe_chicken.step_5` (bake)
@@ -43582,6 +43745,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 3900%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 1500%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `croissant.step_13` (bake)
@@ -43616,7 +43780,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `croque_monsieur.step_3` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 
 ### `croque_monsieur.step_4` (simmer)
 
@@ -43748,6 +43912,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `crullers_twisted.step_1` (mix)
@@ -43787,6 +43952,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1168%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 169%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `crunchy_baked_chicken.step_3` (mix)
@@ -44054,6 +44220,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `cucumber_sprout_sandwich.step_2` (assemble)
@@ -44085,6 +44252,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `cucumber_sprout_sandwich_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `cucumber_sprout_sandwich.step_6` (season)
@@ -44106,7 +44274,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `cullen_skink_haddock_and_potato_soup.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 3 recipes, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 
 ### `cullen_skink_haddock_and_potato_soup.step_11` (mix)
@@ -44190,6 +44358,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `curd.freezer_burn` (freezer_burn)
@@ -44202,7 +44371,7 @@ No routes: no machine does sour or any technique above it.
 
 ### `curdled_milk.coagulate` (coagulate)
 
-- create_mixing: 4 recipes, rounding 1%
+- create_mixing: 2 recipes, rounding 3%
 
 ### `curdled_soy_milk.coagulate` (coagulate)
 
@@ -44269,7 +44438,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `curried_chiles_mirchi_ka_salan.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `curried_chiles_mirchi_ka_salan_step_2`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `curried_chiles_mirchi_ka_salan_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 225%
 
@@ -44624,6 +44793,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `dabeli_potato_stuffed_buns_with_chutney.step_7` (assemble)
@@ -44646,7 +44816,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dabo_kolo_ethiopian_spiced_bread_snacks.step_2` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `dabo_kolo_ethiopian_spiced_bread_snacks_step_1`
+- create_mixing: 2 recipes, disabled: the game can't make `dabo_kolo_ethiopian_spiced_bread_snacks_step_1`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `dabo_kolo_ethiopian_spiced_bread_snacks_step_1`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `dabo_kolo_ethiopian_spiced_bread_snacks_step_1`
 
@@ -44668,7 +44838,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dahi_baingana_fried_eggplant_in_yogurt.step_1` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 50% ⚠
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -44741,6 +44911,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `dajaj_mashwi_libyan_grilled_chicken.step_4` (grill)
@@ -44784,7 +44955,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `dal_makhani_black_gram_with_cream.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 9
 - hexerei_mixing_cauldron: none, whole items would distort it by 5695%
 
@@ -44829,7 +45000,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `dambun_masara.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 3 recipes, rounding 1%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 6%, estimated
 
@@ -44866,7 +45037,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `damper_australian_campfire_bread.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 3 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -44943,6 +45114,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, whole items would distort it by 4408%
 - hexerei_mixing_cauldron: 1 recipe, rounding 8%
 - create_spout: 2 recipes, rounding 8%
+- hexerei_dipper: 1 recipe, rounding 8%
 - thermal_bottler: 1 recipe, rounding 8%
 
 ### `danwake.step_8` (assemble)
@@ -45193,7 +45365,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `deep_fried_chickpea_dough_balls_chyueeam.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 3 recipes, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 
 ### `deep_fried_chickpea_dough_balls_chyueeam.step_2` (boil)
@@ -45227,7 +45399,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `deep_fried_chickpea_dough_curry_snacks_pakoda.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
+- create_mixing: 2 recipes, rounding 14%, estimated
 - shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 17% ⚠, estimated
 
@@ -45283,6 +45455,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `deep_fried_chiles_filled_with_chickpea_flour_mirchi_bhajji.step_5` (fry)
@@ -45310,7 +45483,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `deep_fried_chiles_stuffed_with_potato_mirchi_bada.step_3` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `deep_fried_chiles_stuffed_with_potato_mirchi_bada_step_2`
+- create_mixing: 3 recipes, disabled: the game can't make `deep_fried_chiles_stuffed_with_potato_mirchi_bada_step_2`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `deep_fried_chiles_stuffed_with_potato_mirchi_bada_step_2`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `deep_fried_chiles_stuffed_with_potato_mirchi_bada_step_2`
 
@@ -45373,7 +45546,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `deep_fried_mars_bar.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 18% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -45383,6 +45556,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `deep_fried_mars_bar.step_5` (fry)
@@ -45602,7 +45776,7 @@ No routes: no machine does mold or any technique above it.
 ### `denver_omelet.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: none, whole items would distort it by 3231%
 
@@ -45629,7 +45803,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `dereniowka_polish_dogwood_liqueur.step_1` (steep)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own dereniowka_polish_dogwood_liqueur_step_1, and no other mod provides it
 - theurgy_liquefaction: 1 recipe, rounding 25% ⚠, estimated
@@ -45652,6 +45826,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 16% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 16% ⚠
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `desert_rubbed_strip_steaks.step_2` (season)
@@ -45699,6 +45874,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `dharwad_pedha_sweetened_paneer_cheese.step_2` (coagulate)
@@ -45766,7 +45942,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `dhokla_steamed_black_gram_bread.step_10` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `dhokla_steamed_black_gram_bread_step_9`
+- create_mixing: 2 recipes, disabled: the game can't make `dhokla_steamed_black_gram_bread_step_9`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `dhokla_steamed_black_gram_bread_step_9`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `dhokla_steamed_black_gram_bread_step_9`
 
@@ -45789,7 +45965,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `dhokla_steamed_black_gram_bread.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 80% ⚠, estimated
+- create_mixing: 3 recipes, rounding 80% ⚠, estimated
 - shapeless_crafting: 1 recipe, rounding 14%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -45889,6 +46065,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `dill_cucumber_salad.step_3` (chill)
@@ -46127,7 +46304,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `dokunu_fermented_corn_dumplings.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 8%, estimated
+- create_mixing: 3 recipes, rounding 8%, estimated
 - shapeless_crafting: 1 recipe, rounding 8%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 8%, estimated
 
@@ -46203,7 +46380,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `dole_pineapple_upside_down_cake.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 18% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -46471,6 +46648,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_8`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `doro_fitfit_ethiopian_chicken_salad.step_1` (assemble)
@@ -46567,12 +46745,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 125%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `dorowot_fitfit_ethiopian_chicken_stew_salad.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `dorowot_fitfit_ethiopian_chicken_stew_salad_step_3`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `dorowot_fitfit_ethiopian_chicken_stew_salad_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `dorowot_fitfit_ethiopian_chicken_stew_salad_step_3`
 
@@ -46695,7 +46874,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dosa_ii.step_6` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%, estimated
 
@@ -46760,6 +46939,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 323%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `double_chocolate_cheesecake.step_11.prep_9` (heat)
@@ -47036,7 +47216,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dry_aged_prime_rib.step_2` (season)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -47082,6 +47262,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 2 recipes, rounding 34% ⚠, estimated
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `dry_rub_barbecue_ribs.step_2` (season)
@@ -47145,14 +47326,14 @@ No routes: no machine does mold or any technique above it.
 ### `dublin_lamb_stew.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 76% ⚠
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
 ### `dublin_lamb_stew.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 8
 - hexerei_mixing_cauldron: none, whole items would distort it by 1500%
 
@@ -47282,7 +47463,7 @@ No routes: no machine does spoil or any technique above it.
 ### `duck_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: 1 recipe, rounding 61% ⚠, estimated
 
@@ -47408,6 +47589,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 300%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `duonos_gira_lithuanian_rye_drink.step_1` (soak)
@@ -47462,7 +47644,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `durian_pancake.step_5` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 2 recipes, rounding 11%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 11%, estimated
 
@@ -47584,6 +47766,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `dynamite_shrimp.step_3` (fry)
@@ -48585,6 +48768,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `egg_roast.step_6` (stir_fry)
@@ -48597,7 +48781,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `egg_roll.fry` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 3 recipes, rounding 12%
+- create_heated_mixing: 6 recipes, rounding 12%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 3 recipes, rounding 49% ⚠
 
@@ -48777,7 +48961,7 @@ No routes: no machine does spoil or any technique above it.
 ### `egg_with_cabbage_and_turkish_sausage.step_2.prep_7` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: 2 recipes, rounding 11%
 - hexerei_mixing_cauldron: 1 recipe, rounding 11%
 
@@ -48886,7 +49070,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `eggplant_parmesan_melanzane_alla_parmigiana_i.step_3` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
+- create_heated_mixing: 2 recipes, rounding 7%, estimated
 - fd_cooking_pot: 1 recipe, rounding 20% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 17% ⚠, estimated
 
@@ -49085,6 +49269,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 650%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 170%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `egyptian_fish_tagine_samak_tajine.step_8` (simmer)
@@ -49155,6 +49340,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 137%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 67% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `egyptian_lentil_soup.step_4.prep_1` (rinse)
@@ -49168,6 +49354,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `egyptian_lentil_soup.step_6` (mix)
@@ -49341,6 +49528,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 650%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 104%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `egyptian_okra_stew.step_6.prep_1` (rinse)
@@ -49416,6 +49604,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `egyptian_roast_lamb_kharouf_mahshi_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `egyptian_roast_lamb_kharouf_mahshi.step_4` (chill)
@@ -49467,6 +49656,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `egyptian_stuffed_eggplant_mahshi_betinjan_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `egyptian_stuffed_eggplant_mahshi_betinjan_step_5`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `egyptian_stuffed_eggplant_mahshi_betinjan.step_8` (bake)
@@ -49834,7 +50024,7 @@ No routes: no machine does mold or any technique above it.
 ### `enchiladas_rojas.step_9` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 114%
 
@@ -49996,7 +50186,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `ensalada_de_pallares_peruvian_lima_bean_salad.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 3 recipes, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 
 ### `ensalada_de_pallares_peruvian_lima_bean_salad.step_1.prep_1` (soak)
@@ -50059,7 +50249,7 @@ No routes: no machine does spoil or any technique above it.
 ### `entula_ugandan_eggplant_stew.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 6%
+- create_heated_mixing: 2 recipes, rounding 6%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 100% ⚠
 
@@ -50117,7 +50307,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `ertesuppe_pea_soup.step_2` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, rounding 15%, estimated
 - fd_cooking_pot: 1 recipe, rounding 13%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -50474,7 +50664,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ewedu_soup_yoruba_style.step_1` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 3 recipes, rounding 0%
 - fd_cooking_pot: 1 recipe, rounding 100% ⚠
 - hexerei_mixing_cauldron: 1 recipe, rounding 17% ⚠
 
@@ -50633,6 +50823,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `falafel.step_2` (blend)
@@ -50791,7 +50982,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fankasau_hausa_wheat_puff_puff.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 6%
+- create_mixing: 3 recipes, rounding 6%
 - shapeless_crafting: 1 recipe, rounding 6%
 - hexerei_mixing_cauldron: 1 recipe, rounding 6%
 
@@ -50814,7 +51005,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 14%
 - create_deploying: 1 recipe, rounding 14%
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%
-- create_compacting: 1 recipe, rounding 14%
+- create_compacting: 2 recipes, rounding 14%
 
 ### `fankasau_hausa_wheat_puff_puff.step_5` (fry)
 
@@ -50851,7 +51042,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `fanke_hausa_puff_puff.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%, estimated
+- create_heated_mixing: 2 recipes, rounding 12%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 12%, estimated
 
@@ -50947,6 +51138,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 8
+- hexerei_dipper: none, takes at most 2 inputs, not 8
 - thermal_bottler: none, takes at most 2 inputs, not 8
 
 ### `fasolia_ethiopian_green_bean_stew.step_5` (mix)
@@ -50978,7 +51170,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fast_food_french_fries.step_2` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
 - pnc_thermo_plant: 2 recipes, rounding 12%
 - hexerei_mixing_cauldron: 1 recipe, rounding 12%
 
@@ -51005,7 +51197,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `faten_wake_hausa_bean_porridge.step_2` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 3 recipes, rounding 0%
 - fd_cooking_pot: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -51102,7 +51294,7 @@ No routes: no machine does mold or any technique above it.
 ### `feijao_tropeiro_brazilian_beans_and_sausage.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 12%
 
@@ -51140,6 +51332,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 745%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `feijao_tropeiro_brazilian_beans_and_sausage_step_6`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `feijao_tropeiro_brazilian_beans_and_sausage.step_8` (assemble)
@@ -51286,7 +51479,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `figgie_obbin_cornish_raisin_pastry.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
+- create_mixing: 3 recipes, rounding 11%, estimated
 - shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 17% ⚠, estimated
 
@@ -51304,7 +51497,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `figgy_pudding.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 650%
 - hexerei_mixing_cauldron: none, whole items would distort it by 510%
 
@@ -51561,6 +51754,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 3100%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `firecracker_grilled_shrimp.step_3` (grill)
@@ -51648,6 +51842,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 21% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fireweed_scones.step_7` (cut)
@@ -51820,7 +52015,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `fish_and_chips.step_4` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 
 ### `fish_and_chips.step_5` (coat)
 
@@ -51828,6 +52023,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 650%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 170%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fish_and_chips.step_6` (fry)
@@ -51844,7 +52040,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `fish_biryani.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 68% ⚠, estimated
+- create_mixing: 2 recipes, rounding 68% ⚠, estimated
 - shapeless_crafting: none, whole items would distort it by 7202%
 - hexerei_mixing_cauldron: none, whole items would distort it by 7202%
 
@@ -51865,6 +52061,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fish_biryani.step_3` (boil)
@@ -52029,6 +52226,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `fish_sticks.step_3` (fry)
@@ -52122,6 +52320,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `fisherman_s_casserole.step_7` (bake)
@@ -52165,6 +52364,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 1928%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fit_fit_ethiopian_bread_salad.step_5` (mix)
@@ -52208,7 +52408,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `flaky_pastry_dough.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 12%, estimated
+- create_mixing: 3 recipes, rounding 12%, estimated
 - shapeless_crafting: 1 recipe, rounding 12%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 12%, estimated
 
@@ -52487,7 +52687,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fleischnacka_alsatian_meat_and_pasta_roll.step_6` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -52677,7 +52877,7 @@ No routes: no machine does mold or any technique above it.
 ### `fool_s_gold_loaf.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 159%
 
@@ -52714,7 +52914,7 @@ No routes: no machine does mold or any technique above it.
 - shapeless_crafting: 1 recipe, rounding 0%
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
-- create_compacting: 1 recipe, rounding 0%
+- create_compacting: 2 recipes, rounding 0%
 
 ### `four_in_one_pizza.step_5` (coat)
 
@@ -52722,6 +52922,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 2435%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 10%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `four_in_one_pizza.step_6` (bake)
@@ -52776,7 +52977,7 @@ No routes: no machine does mold or any technique above it.
 ### `french_canadian_shepherd_s_pie_pate_chinois.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: 1 recipe, rounding 13%
 
@@ -52946,6 +53147,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `french_onioned_chicken.step_3` (bake)
@@ -53295,6 +53497,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `fried_apple_pies_step_11`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `fried_apple_pies_step_11`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fried_apple_pies.step_2` (simmer)
@@ -53420,6 +53623,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fried_chicken.freezer_burn` (freezer_burn)
@@ -53429,7 +53633,7 @@ No routes: no machine does freezer_burn or any technique above it.
 ### `fried_chicken.fry` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 3 recipes, rounding 13%
+- create_heated_mixing: 6 recipes, rounding 13%
 - pnc_thermo_plant: 6 recipes, rounding 13%
 - hexerei_mixing_cauldron: 3 recipes, rounding 13%
 
@@ -53440,7 +53644,7 @@ No routes: no machine does spoil or any technique above it.
 ### `fried_chicken_and_fried_potatoes.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 201%
 
@@ -53480,6 +53684,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 100% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fried_corn.step_3` (season)
@@ -53548,7 +53753,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `fried_fish.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 18% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -53580,12 +53785,13 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%, estimated
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `fried_green_tomatoes.fry` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 2 recipes, rounding 5%
+- create_heated_mixing: 4 recipes, rounding 5%
 - pnc_thermo_plant: 4 recipes, rounding 5%
 - hexerei_mixing_cauldron: 2 recipes, rounding 5%
 
@@ -53626,7 +53832,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `fried_green_tomatoes_with_tomato_and_cheese.step_6` (fry)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `fried_green_tomatoes_with_tomato_and_cheese_step_5`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `fried_green_tomatoes_with_tomato_and_cheese_step_5`
 - pnc_thermo_plant: 2 recipes, disabled: the game can't make `fried_green_tomatoes_with_tomato_and_cheese_step_5`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `fried_green_tomatoes_with_tomato_and_cheese_step_5`
 
@@ -53657,6 +53863,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `fried_okra.step_3.prep_2` (soak)
@@ -53689,6 +53896,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fried_onion_blooms.step_11` (fry)
@@ -53750,6 +53958,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fried_pasta.step_3` (pan_fry)
@@ -53792,6 +54001,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 1400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 335%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fried_pickle.step_4` (fry)
@@ -54043,7 +54253,7 @@ No routes: no machine does spoil or any technique above it.
 ### `friggione_onion_and_tomato_relish.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -54078,7 +54288,7 @@ No routes: no machine does spoil or any technique above it.
 ### `frijoles_antioquenos_colombian_bean_stew.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 25% ⚠, estimated
+- create_heated_mixing: 2 recipes, rounding 25% ⚠, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 8
 - hexerei_mixing_cauldron: none, whole items would distort it by 1928%
 
@@ -54168,7 +54378,7 @@ No routes: no machine does spoil or any technique above it.
 ### `frito_pie_chili.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: none, whole items would distort it by 812%
 
@@ -54215,14 +54425,14 @@ No routes: no machine does spoil or any technique above it.
 
 ### `frittaten_soup.step_2` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 60% ⚠, estimated
+- create_heated_mixing: 3 recipes, rounding 60% ⚠, estimated
 - fd_cooking_pot: 1 recipe, rounding 29% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 28% ⚠, estimated
 
 ### `frittaten_soup.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
+- create_heated_mixing: 2 recipes, rounding 7%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 83% ⚠, estimated
 
@@ -54396,6 +54606,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fruit_cake.step_7` (assemble)
@@ -54439,7 +54650,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fruit_filling.boil` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 3 recipes, rounding 14%
 - fd_cooking_pot: none, whole items would distort it by 530%
 - hexerei_mixing_cauldron: none, whole items would distort it by 237%
 
@@ -54652,6 +54863,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1900%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fruity_cheese_dogs.step_3.prep_2` (heat)
@@ -54666,6 +54878,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 182%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `fruity_cheese_dogs_step_3`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `fruity_white_sangria.step_1` (mix)
@@ -55060,6 +55273,7 @@ No routes: no machine does freezer_burn or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `galaktoboureko_greek_semolina_custard_pastry.step_6` (bake)
@@ -55184,7 +55398,7 @@ No routes: no machine does freezer_burn or any technique above it.
 ### `gambas_al_ajillo_garlic_shrimp.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 2 recipes, rounding 11%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 202%
 
@@ -55245,7 +55459,7 @@ No routes: no machine does freezer_burn or any technique above it.
 ### `gambian_caldo_seafood_soup.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: 1 recipe, rounding 50% ⚠
 
@@ -55285,6 +55499,7 @@ No routes: no machine does freezer_burn or any technique above it.
 - create_deploying: none, whole items would distort it by 3900%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 1329%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `gambian_chicken_with_lemon_and_mustard_yassa.step_3` (separate)
@@ -55340,11 +55555,12 @@ No routes: no machine does freezer_burn or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `gambian_mbamba_soup.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -55375,7 +55591,7 @@ No routes: no machine does freezer_burn or any technique above it.
 ### `gambian_superkanja_soup.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 1593%
 
@@ -55427,6 +55643,7 @@ No routes: no machine does freezer_burn or any technique above it.
 - create_deploying: none, whole items would distort it by 1400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 355%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `gambian_yassa_poulet.step_4` (separate)
@@ -55715,7 +55932,7 @@ No routes: no machine does spoil or any technique above it.
 ### `garlic_croutons_i.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 2 recipes, rounding 11%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 43% ⚠, estimated
 
@@ -55731,6 +55948,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `garlic_croutons_ii.step_3` (toast)
@@ -55757,6 +55975,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `garlic_croutons_iii.step_3` (pan_fry)
@@ -55777,6 +55996,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 650%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 576%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `garlic_lemon_chicken.step_3` (soak)
@@ -55882,6 +56102,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `garlic_parmesan_pasta.step_3` (assemble)
@@ -55911,7 +56132,7 @@ No routes: no machine does spoil or any technique above it.
 ### `garlic_pork_chops_with_black_mushrooms.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 238%
 
@@ -56042,6 +56263,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1590%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `garlic_tomato_and_cheddar_sandwich.step_5` (season)
@@ -56228,7 +56450,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow.step_1` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 336%
 
@@ -56345,6 +56567,7 @@ No routes: no machine does freezer_burn or any technique above it.
 - create_deploying: none, whole items would distort it by 1590%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 2 recipes, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `general_tso_s_chicken.step_2` (whisk)
@@ -56357,6 +56580,7 @@ No routes: no machine does freezer_burn or any technique above it.
 - create_deploying: none, whole items would distort it by 125%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `general_tso_s_chicken.step_4` (mix)
@@ -56426,7 +56650,7 @@ No routes: no machine does freezer_burn or any technique above it.
 
 ### `genfo_ethiopian_porridge.step_6` (season)
 
-- create_mixing: 1 recipe, disabled: the game can't make `berbere`, `genfo_ethiopian_porridge_step_5`
+- create_mixing: 3 recipes, disabled: the game can't make `berbere`, `genfo_ethiopian_porridge_step_5`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `berbere`, `genfo_ethiopian_porridge_step_5`
 - hexerei_mixing_cauldron: 2 recipes, disabled: the game can't make `berbere`, `genfo_ethiopian_porridge_step_5`
 
@@ -56499,7 +56723,7 @@ No routes: no machine does freezer_burn or any technique above it.
 ### `german_potato_salad.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%
 
@@ -56572,6 +56796,7 @@ No routes: no machine does freezer_burn or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `germknodel_plum_and_poppy_seed_dumpling.step_2` (dissolve)
@@ -56835,6 +57060,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `ghormeh_sabzi_iranian_herb_stew.step_13.prep_15` (grind)
@@ -56851,7 +57077,7 @@ No routes: no machine does mold or any technique above it.
 ### `ghormeh_sabzi_iranian_herb_stew.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 233%
 
@@ -56924,6 +57150,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `giant_spaghetti_stuffed_meatball.step_3` (mix)
@@ -57116,7 +57343,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `ginger_beer.step_1` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: 1 recipe, rounding 47% ⚠, estimated
 
@@ -57151,7 +57378,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `ginger_biscuits.step_3` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `ginger_biscuits_step_2`
+- create_mixing: 4 recipes, disabled: the game can't make `ginger_biscuits_step_2`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `ginger_biscuits_step_2`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `ginger_biscuits_step_2`
 
@@ -57400,11 +57627,12 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `gingerbread_cookies_frosted_with_royal_icing.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 2%, estimated
+- create_mixing: 2 recipes, rounding 2%, estimated
 - shapeless_crafting: 1 recipe, rounding 13%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 13%, estimated
 
@@ -57461,7 +57689,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `gingerbread_pancakes_i.step_9` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
+- create_heated_mixing: 2 recipes, rounding 4%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -57473,7 +57701,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `gingerbread_pancakes_ii.step_5` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
+- create_heated_mixing: 2 recipes, rounding 7%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 7%, estimated
 
@@ -57487,7 +57715,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `githeri.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - create_splashing: none, takes one input, not 2
 
 ### `githeri.step_1.prep_1` (rinse)
@@ -57504,7 +57732,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `githeri.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 745%
 
@@ -57575,6 +57803,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, whole items would distort it by 241%
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `glazed_onion_canapes.step_5` (assemble)
@@ -57601,6 +57830,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, whole items would distort it by 852%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 12%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `glazed_sweet_potatoes.step_3` (assemble)
@@ -57754,6 +57984,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, whole items would distort it by 957%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 363%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `goat_cheese_cakes.step_9` (coat)
@@ -57762,6 +57993,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `goat_milk_caramel_sauce.step_2` (mix)
@@ -57876,6 +58108,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `gomen_ethiopian_collard_greens.step_6` (simmer)
@@ -58212,6 +58445,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `grand_union_bacon.step_3` (pan_fry)
@@ -58547,7 +58781,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `gravy_vegetarian.step_3` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 
 ### `gravy_vegetarian.step_4` (simmer)
 
@@ -58581,7 +58815,7 @@ No routes: no machine does mold or any technique above it.
 ### `greek_moussaka.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: none, whole items would distort it by 2154%
 
@@ -58647,6 +58881,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 13%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 13%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `greek_style_grilled_chicken.step_2` (season)
@@ -58702,7 +58937,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `green_chicken_curry_with_coconut_milk.step_2` (simmer)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `green_chicken_curry_with_coconut_milk_step_1`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `green_chicken_curry_with_coconut_milk_step_1`
 - fd_cooking_pot: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, whole items would distort it by 192%
 
@@ -58727,7 +58962,7 @@ No routes: no machine does spoil or any technique above it.
 ### `green_chili_beef_stew.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 831%
 
@@ -59046,6 +59281,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `green_turtle_soup.step_4` (pan_fry)
@@ -59123,6 +59359,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 - create_spout: 2 recipes, rounding 0%
+- hexerei_dipper: 1 recipe, rounding 0%
 - thermal_bottler: 1 recipe, rounding 0%
 
 ### `grilled_aubergine.step_3` (grill)
@@ -59164,6 +59401,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `grilled_cheese_sandwich_ii.step_5` (grill)
@@ -59292,6 +59530,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `grilled_filet_mignon_with_a_cognac_reduction.step_3` (grill)
@@ -59360,6 +59599,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `grilled_peaches_with_vanilla_maple_sauce.step_3` (grill)
@@ -59380,6 +59620,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `grilled_peanut_butter_sandwiches.step_3` (grill)
@@ -59426,6 +59667,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `grilled_pork_loin.step_2` (coat)
@@ -59434,6 +59676,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 125%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `grilled_pork_loin.step_3` (grill)
@@ -59462,6 +59705,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `grilled_portobello_mushrooms.step_3` (grill)
@@ -59521,6 +59765,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 650%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 170%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `grilled_ribeye_steak.step_1` (mix)
@@ -59535,6 +59780,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `grilled_ribeye_steak.step_3` (chill)
@@ -59764,7 +60010,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `ground_beef_and_potato_taquitos.step_6` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 186%
 
@@ -60074,7 +60320,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `guacamole_dip.step_4` (blend)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 4 recipes, rounding 0%
 
 ### `guacamole_i.step_2` (cut)
 
@@ -60093,6 +60339,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `guacamole_i_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `guacamole_i.step_5` (mix)
@@ -60142,6 +60389,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 7
+- hexerei_dipper: none, takes at most 2 inputs, not 7
 - thermal_bottler: none, takes at most 2 inputs, not 7
 
 ### `gudeg_green_jackfruit_stew.step_3.prep_3` (grind)
@@ -60185,7 +60433,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `gullisuwa_nigerian_milk_balls.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 3 recipes, rounding 6%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 6%, estimated
 
@@ -60194,7 +60442,7 @@ No routes: no machine does spoil or any technique above it.
 - shapeless_crafting: 1 recipe, rounding 6%
 - create_deploying: 1 recipe, rounding 6%
 - hexerei_mixing_cauldron: 1 recipe, rounding 6%
-- create_compacting: 1 recipe, rounding 6%
+- create_compacting: 2 recipes, rounding 6%
 
 ### `gullisuwa_nigerian_milk_balls.step_4` (fry)
 
@@ -60256,7 +60504,7 @@ No routes: no machine does spoil or any technique above it.
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
-- create_compacting: 1 recipe, rounding 1%, estimated
+- create_compacting: 2 recipes, rounding 1%, estimated
 
 ### `gurasa_hausa_flatbread_with_vegetables.step_6` (pan_fry)
 
@@ -60365,7 +60613,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `gyuvetch_bulgarian_casserole_i.step_1` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - fd_cooking_pot: 1 recipe, rounding 14%
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%
 
@@ -60378,7 +60626,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `gyuvetch_bulgarian_casserole_i.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 2 recipes, rounding 11%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 8
 - hexerei_mixing_cauldron: none, whole items would distort it by 500%
 
@@ -60438,7 +60686,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `habet_hlawa_algerian_anise_beverage.step_1` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, rounding 15%, estimated
 - fd_cooking_pot: 1 recipe, rounding 11%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -60519,6 +60767,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `hachee_dutch_beef_stew.step_2` (pan_fry)
@@ -60531,7 +60780,7 @@ No routes: no machine does spoil or any technique above it.
 ### `hachee_dutch_beef_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `hachee_dutch_beef_stew_step_2`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `hachee_dutch_beef_stew_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 145%
 
@@ -60621,6 +60870,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `hake_in_herby_breadcrumbs.step_5` (bake)
@@ -60919,7 +61169,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `halva_wheat_based.step_2` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, rounding 15%, estimated
 - fd_cooking_pot: 1 recipe, rounding 100% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -60947,6 +61197,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `ham_and_cheese_crepes.step_8` (bake)
@@ -61035,7 +61286,7 @@ No routes: no machine does mold or any technique above it.
 ### `hamburger_fried_rice.step_1` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 1027%
 
@@ -61076,7 +61327,7 @@ No routes: no machine does spoil or any technique above it.
 ### `hamburger_stoup.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 13%
 
@@ -61110,6 +61361,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 8
+- hexerei_dipper: none, takes at most 2 inputs, not 8
 - thermal_bottler: none, takes at most 2 inputs, not 8
 
 ### `hamli_ethiopian_spinach_stew.step_3` (mix)
@@ -61282,6 +61534,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 11
 - create_spout: none, takes at most 2 inputs, not 11
+- hexerei_dipper: none, takes at most 2 inputs, not 11
 - thermal_bottler: none, takes at most 2 inputs, not 11
 
 ### `harissa_bil_djaj_libyan_chicken_harissa.step_5` (boil)
@@ -61335,6 +61588,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 6%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `hartshorne_cream_sauce_for_a_hare.step_2` (boil)
@@ -61490,7 +61744,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hawthorn_tea.step_1` (steep)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - create_splashing: none, takes one input, not 4
 - fr_kettle: none, can't make the mod's own hawthorn_tea_step_1, and no other mod provides it
 - theurgy_liquefaction: none, takes at most 2 inputs, not 5
@@ -61561,7 +61815,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `hazelnut_torte.step_8` (whisk)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 
 ### `hazelnuts.freezer_burn` (freezer_burn)
 
@@ -61640,7 +61894,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `henry_thiele_s_pancake.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 233%
 - hexerei_mixing_cauldron: none, whole items would distort it by 122%
 
@@ -61812,6 +62066,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `herbed_corn.step_4` (grill)
@@ -61975,7 +62230,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `hickory_bbq_chicken_wings.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `hickory_bbq_chicken_wings_step_2`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `hickory_bbq_chicken_wings_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `hickory_bbq_chicken_wings_step_2`
 
@@ -62034,6 +62289,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `hickory_maple_glazed_wings.step_3` (fry)
@@ -62049,6 +62305,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `hickory_smoke_flavored_albacore_tuna.stale` (stale)
@@ -62405,6 +62662,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `holland_tea_cakes.step_5` (bake)
@@ -62420,7 +62678,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `hollandaise_sauce.step_3` (whisk)
 
-- create_mixing: 1 recipe, rounding 52% ⚠, estimated
+- create_mixing: 3 recipes, rounding 52% ⚠, estimated
 
 ### `hollandaise_sauce.step_4` (whisk)
 
@@ -63077,7 +63335,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `homemade_seitan.step_1` (knead)
 
-- create_mixing: 1 recipe, rounding 1%
+- create_mixing: 3 recipes, rounding 1%
 - shapeless_crafting: 1 recipe, rounding 1%
 - hexerei_mixing_cauldron: 1 recipe, rounding 1%
 
@@ -63145,7 +63403,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `homemade_tempeh.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 13%
+- create_mixing: 3 recipes, rounding 13%
 - create_splashing: 1 recipe, rounding 13%
 
 ### `homemade_tempeh.step_1.prep_1` (soak)
@@ -63318,7 +63576,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `homemade_yellow_cake_mix.step_1` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 
 ### `homemade_yellow_cake_mix.step_8` (bake)
 
@@ -63403,7 +63661,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hominy_grits.step_6` (season)
 
-- create_mixing: 1 recipe, rounding 12%
+- create_mixing: 3 recipes, rounding 12%
 - shapeless_crafting: 1 recipe, rounding 12%
 - hexerei_mixing_cauldron: 2 recipes, rounding 12%
 
@@ -63462,7 +63720,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `honey_bbq_hot_wings.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: none, whole items would distort it by 346%
 
@@ -63497,6 +63755,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 2 recipes, rounding 13%
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `honey_garlic_chicken.step_5` (pan_fry)
@@ -63511,6 +63770,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `honey_lime_chicken_wings.step_2` (coat)
@@ -63519,6 +63779,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `honey_lime_chicken_wings_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `honey_lime_chicken_wings_step_1`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `honey_lime_chicken_wings.step_3` (fry)
@@ -63534,6 +63795,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 2 recipes, disabled: the game can't make `honey_lime_chicken_wings_step_3`
 - create_spout: none, takes at most 2 inputs, not 6
+- hexerei_dipper: none, takes at most 2 inputs, not 6
 - thermal_bottler: none, takes at most 2 inputs, not 6
 
 ### `honey_lime_pork_loin.step_1` (pan_fry)
@@ -63737,7 +63999,7 @@ No routes: no machine does mold or any technique above it.
 ### `hongshao_rou_red_braised_pork_belly.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 555%
 
@@ -63810,7 +64072,7 @@ No routes: no machine does mold or any technique above it.
 ### `hopping_john_with_pinto_or_great_northern_beans.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 8%, estimated
+- create_heated_mixing: 2 recipes, rounding 8%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 74% ⚠, estimated
 
@@ -64017,7 +64279,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `hot_cross_bun.step_11` (mix)
 
-- create_mixing: 1 recipe, rounding 13%
+- create_mixing: 2 recipes, rounding 13%
 - shapeless_crafting: none, whole items would distort it by 182%
 - hexerei_mixing_cauldron: none, whole items would distort it by 182%
 
@@ -64232,6 +64494,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `hot_wings.step_4` (fry)
@@ -64299,7 +64562,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `hummus_greek.step_2` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
 - fd_cooking_pot: 1 recipe, rounding 1%
 - hexerei_mixing_cauldron: 1 recipe, rounding 1%
 
@@ -64332,7 +64595,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `hummus_i.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
+- create_mixing: 3 recipes, rounding 4%, estimated
 - create_splashing: none, takes one input, not 2
 
 ### `hummus_i.step_2` (rinse)
@@ -64499,7 +64762,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha.step_3` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 4 recipes, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: none, whole items would distort it by 122%
 
@@ -64632,7 +64895,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `ibihaza_rwandan_beans.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 745%
 
@@ -64727,6 +64990,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef.step_5` (simmer)
@@ -64877,7 +65141,7 @@ No routes: no machine does freezer_burn or any technique above it.
 
 ### `ice_cream.mix` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 14%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -65198,6 +65462,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 50% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `ikijumba_n_umutsima_rwandan_sweet_potato_stew_with_corn_and_bean_dish.step_4` (simmer)
@@ -65523,6 +65788,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `indian_butter_chicken_i.step_4` (pan_fry)
@@ -65552,7 +65818,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `indian_chai.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 268%
 - hexerei_mixing_cauldron: none, whole items would distort it by 200%
 
@@ -65593,7 +65859,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `indian_hard_tack_baati.step_3` (knead)
 
-- create_mixing: 1 recipe, rounding 7%, estimated
+- create_mixing: 3 recipes, rounding 7%, estimated
 - shapeless_crafting: 1 recipe, rounding 7%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 7%, estimated
 
@@ -65622,6 +65888,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 1%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 1%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `indian_ice_cream.step_1` (press)
@@ -65638,7 +65905,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `indian_ice_cream.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -65698,7 +65965,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `indian_omelet.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
+- create_heated_mixing: 2 recipes, rounding 4%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -65857,7 +66124,7 @@ No routes: no machine does rancid or any technique above it.
 ### `indonesian_style_fried_rice.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 150%
 
@@ -65928,6 +66195,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `indulgent_chocolate_torte.step_22` (assemble)
@@ -65981,6 +66249,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 8
+- hexerei_dipper: none, takes at most 2 inputs, not 8
 - thermal_bottler: none, takes at most 2 inputs, not 8
 
 ### `inguday_tibs_ethiopian_mushroom_stir_fry.step_4` (stir_fry)
@@ -65996,6 +66265,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `inguday_tibs_ethiopian_mushroom_stir_fry.step_7` (assemble)
@@ -66023,7 +66293,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
-- create_compacting: 1 recipe, rounding 3%, estimated
+- create_compacting: 2 recipes, rounding 3%, estimated
 
 ### `injera_ethiopian_teff_flatbread.step_5` (bake)
 
@@ -66137,6 +66407,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `inyama_y_isugi_rwandan_grilled_pork.step_4` (grill)
@@ -66247,6 +66518,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `irish_pastie.step_4` (fry)
@@ -66446,7 +66718,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `italian_american_spaghetti_alla_puttanesca.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%
 
@@ -66493,7 +66765,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `italian_braised_shortribs.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 1%
 
@@ -66564,6 +66836,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 900%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 285%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `italian_crispy_chicken.step_3` (coat)
@@ -66572,6 +66845,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `italian_crispy_chicken_step_2`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `italian_crispy_chicken_step_2`
 - create_spout: 2 recipes, disabled: the game can't make `italian_crispy_chicken_step_2`
+- hexerei_dipper: 1 recipe, disabled: the game can't make `italian_crispy_chicken_step_2`
 - thermal_bottler: 1 recipe, disabled: the game can't make `italian_crispy_chicken_step_2`
 
 ### `italian_crispy_chicken.step_4` (bake)
@@ -66643,6 +66917,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 303%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `italian_marinated_chicken.step_3` (chill)
@@ -66771,6 +67046,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 8
+- hexerei_dipper: none, takes at most 2 inputs, not 8
 - thermal_bottler: none, takes at most 2 inputs, not 8
 
 ### `italian_poached_salmon.step_5` (pan_fry)
@@ -66863,6 +67139,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 67% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `italian_rice_with_wild_mushrooms.step_4` (mix)
@@ -67027,7 +67304,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 14%
 - create_deploying: 1 recipe, rounding 14%
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%
-- create_compacting: 1 recipe, rounding 14%
+- create_compacting: 2 recipes, rounding 14%
 
 ### `jahnun_yemenite_layered_pastry.step_4` (age)
 
@@ -67111,6 +67388,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `jalapeno_eggs.step_6` (pan_fry)
@@ -67286,6 +67564,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 323%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `jam_roly_poly.step_4.prep_5` (heat)
@@ -67299,7 +67578,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 11%
 - create_deploying: 1 recipe, rounding 11%
 - hexerei_mixing_cauldron: 1 recipe, rounding 11%
-- create_compacting: 1 recipe, rounding 11%
+- create_compacting: 4 recipes, rounding 11%
 
 ### `jam_roly_poly.step_6` (coat)
 
@@ -67307,6 +67586,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `jam_roly_poly.step_7` (bake)
@@ -67340,6 +67620,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 50% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `jamaican_banana_fritters.step_3` (mix)
@@ -67425,6 +67706,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `jamaican_jerk_chicken.step_2` (season)
@@ -67562,7 +67844,7 @@ No routes: no machine does mold or any technique above it.
 ### `jambalaya_ii.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 757%
 
@@ -67613,6 +67895,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `jambons_step_4`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `jambons.step_6` (bake)
@@ -67678,6 +67961,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 25% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `japanese_pickled_plums_umeboshi.step_7` (press)
@@ -67740,6 +68024,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 914%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `jerk_lobster.step_11` (heat)
@@ -68050,6 +68335,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 953%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `ka_ak_savory_ring_shaped_biscuit.step_11` (bake)
@@ -68335,6 +68621,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 257%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `kanafeh_egyptian_sweet_cheese_pastry_step_11`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `kanafeh_egyptian_sweet_cheese_pastry.step_2` (mix)
@@ -68359,6 +68646,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 1665%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 682%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `kanafeh_egyptian_sweet_cheese_pastry.step_8` (bake)
@@ -68395,7 +68683,7 @@ No routes: no machine does spoil or any technique above it.
 ### `kanda_peanut_stew.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 548%
 
@@ -68568,6 +68856,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, doesn't fit in 2 input items, 2 of each, and 1000 mB tanks at any scale
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `karelian_pasties_karjalanpiirakat.step_2` (simmer)
@@ -68615,7 +68904,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `kari_ayam_indonesian_chicken_curry.step_5` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: 1 recipe, rounding 67% ⚠, estimated
 
@@ -68802,6 +69091,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `kashkaval_pane_bulgarian_fried_cheese.step_6` (fry)
@@ -68937,7 +69227,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `katchi_biryani.step_5` (season)
 
-- create_mixing: 1 recipe, disabled: the game can't make `katchi_biryani_step_4`
+- create_mixing: 4 recipes, disabled: the game can't make `katchi_biryani_step_4`
 - shapeless_crafting: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, whole items would distort it by 150%
 
@@ -68967,7 +69257,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `katogo_ugandan_mixed_breakfast_vegetables.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 43% ⚠
 
@@ -69028,7 +69318,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `kawlata_maltese_vegetable_and_pork_soup.step_5` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -69136,6 +69426,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `kek_batik_malaysian_tiffin.step_3.prep_7` (cut)
@@ -69298,7 +69589,7 @@ No routes: no machine does sour or any technique above it.
 ### `keralan_vegetable_stew.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 525%
 
@@ -69354,7 +69645,7 @@ No routes: no machine does sour or any technique above it.
 ### `kesari_south_indian_semolina_pudding.step_6` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `kesari_south_indian_semolina_pudding_step_5`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `kesari_south_indian_semolina_pudding_step_5`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 144%
 
@@ -69435,6 +69726,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 11
 - create_spout: none, takes at most 2 inputs, not 11
+- hexerei_dipper: none, takes at most 2 inputs, not 11
 - thermal_bottler: none, takes at most 2 inputs, not 11
 
 ### `key_wat_ethiopian_red_stew.step_5` (pan_fry)
@@ -69782,7 +70074,7 @@ No routes: no machine does mold or any technique above it.
 ### `khara_pongal_rice_and_mung_bean_porridge.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
+- create_heated_mixing: 2 recipes, rounding 4%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 27% ⚠, estimated
 
@@ -69927,6 +70219,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `khus_khus_halwa.step_1` (blend)
@@ -69947,7 +70240,7 @@ No routes: no machine does mold or any technique above it.
 ### `kibbeh.step_1` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 178%
 
@@ -70027,6 +70320,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 15% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `kid_friendly_pizza.step_3` (assemble)
@@ -70162,7 +70456,7 @@ No routes: no machine does spoil or any technique above it.
 ### `killer_queso_dip.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - pnc_thermo_plant: 2 recipes, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -70212,6 +70506,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `kipspek_bacon_wrapped_chicken.step_5` (coat)
@@ -70220,6 +70515,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 67% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `kipspek_bacon_wrapped_chicken.step_6` (dry)
@@ -70254,7 +70550,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `kisra_sudanese_bread.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
+- create_heated_mixing: 2 recipes, rounding 7%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 7%, estimated
 
@@ -70367,6 +70663,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `klepon_indonesian_sweet_boiled_rice_cake_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `knob_of_butter.freezer_burn` (freezer_burn)
@@ -70515,6 +70812,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `koesisters_with_coconut_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `kohlrabi.freezer_burn` (freezer_burn)
@@ -70568,7 +70866,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `koko_da_kosai_fermented_corn_porridge_and_bean_fritters.step_5` (season)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 15%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -70670,6 +70968,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 5%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 5%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `kondowole_malawian_toasted_sesame_seeds.step_7` (cool)
@@ -70682,6 +70981,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, whole items would distort it by 1463%
 - create_spout: none, takes at most 2 inputs, not 8
+- hexerei_dipper: none, takes at most 2 inputs, not 8
 - thermal_bottler: none, takes at most 2 inputs, not 8
 
 ### `korean_shortribs.step_3` (grill)
@@ -70705,7 +71005,7 @@ No routes: no machine does spoil or any technique above it.
 ### `koshari_egyptian_rice_with_pasta_and_lentils.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 1900%
 
@@ -71044,6 +71344,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 77% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `kuih_makmur_malaysian_peanut_cookies.step_8` (cool)
@@ -71223,7 +71524,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `kuli_kuli.step_3` (knead)
 
-- create_mixing: 1 recipe, rounding 7%
+- create_mixing: 3 recipes, rounding 7%
 - shapeless_crafting: 1 recipe, rounding 7%
 - hexerei_mixing_cauldron: 1 recipe, rounding 7%
 
@@ -71305,7 +71606,7 @@ No routes: no machine does spoil or any technique above it.
 ### `kung_pao_chicken.step_6` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `kung_pao_chicken_step_3`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `kung_pao_chicken_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 692%
 
@@ -71519,6 +71820,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 61% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `kuwese_u_logo_nigerian_fried_cassava.step_4` (fry)
@@ -71611,6 +71913,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `kwek_kwek_deep_fried_quail_eggs.step_4` (fry)
@@ -71642,7 +71945,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `kyopulo_eggplant_with_peppers_and_tomatoes.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 2 recipes, rounding 0%
 - shapeless_crafting: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -71704,7 +72007,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `la_boule_steamed_millet_bread.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 3 recipes, rounding 1%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 6%, estimated
 
@@ -71787,6 +72090,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `lady_finger_cookies_savoiardi.step_7` (bake)
@@ -71877,7 +72181,7 @@ No routes: no machine does mold or any technique above it.
 ### `lahoh_spongy_flatbread_ii.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
+- create_heated_mixing: 2 recipes, rounding 7%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 7%, estimated
 
@@ -71895,7 +72199,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `lamb_and_okra_stew_khoresht_bamiye.step_1` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%
 
@@ -72000,6 +72304,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 2 recipes, rounding 60% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `lamington.glaze` (mix)
@@ -72024,6 +72329,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `lamington.step_5` (dry)
@@ -72488,7 +72794,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `latte_di_suocera_lemon_cream_liqueur.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 300%
 - hexerei_mixing_cauldron: none, whole items would distort it by 243%
 
@@ -72596,7 +72902,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `leaf_masala_curry.step_1` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -72813,7 +73119,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `lemon_blueberry_pancakes.step_9` (pan_fry)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `lemon_blueberry_pancakes_step_6`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `lemon_blueberry_pancakes_step_6`
 - pnc_thermo_plant: 1 recipe, disabled: the game can't make `lemon_blueberry_pancakes_step_6`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `lemon_blueberry_pancakes_step_6`
 
@@ -72897,6 +73203,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 1591%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 11%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `lemon_chicken_pasta.step_5` (pan_fry)
@@ -72934,7 +73241,7 @@ No routes: no machine does mold or any technique above it.
 ### `lemon_chicken_pasta.step_9` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 3%, estimated
+- create_heated_mixing: 2 recipes, rounding 3%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: 1 recipe, rounding 54% ⚠, estimated
 
@@ -73037,6 +73344,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 1590%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `lemon_drizzle_cake.step_2` (mix)
@@ -73331,6 +73639,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `lemon_mille_feuille_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `lemon_mille_feuille_step_5`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `lemon_mille_feuille.step_7` (bake)
@@ -73462,7 +73771,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lemon_poppy_seed_muffins_glazed.step_4` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `lemon_poppy_seed_muffins_glazed_step_3`
+- create_mixing: 2 recipes, disabled: the game can't make `lemon_poppy_seed_muffins_glazed_step_3`
 - shapeless_crafting: none, whole items would distort it by 111%
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `lemon_poppy_seed_muffins_glazed_step_3`
 
@@ -73514,7 +73823,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lemon_poppy_seed_pancakes.step_9` (pan_fry)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `lemon_poppy_seed_pancakes_step_6`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `lemon_poppy_seed_pancakes_step_6`
 - pnc_thermo_plant: 1 recipe, disabled: the game can't make `lemon_poppy_seed_pancakes_step_6`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `lemon_poppy_seed_pancakes_step_6`
 
@@ -73634,7 +73943,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `lemon_rice.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 275%
 
@@ -73660,6 +73969,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 10
 - create_spout: none, takes at most 2 inputs, not 10
+- hexerei_dipper: none, takes at most 2 inputs, not 10
 - thermal_bottler: none, takes at most 2 inputs, not 10
 
 ### `lemon_rosemary_pork_tenderloin.step_2` (steep)
@@ -73858,7 +74168,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lentil_and_sausage_stew.step_5` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, rounding 15%, estimated
 - fd_cooking_pot: 1 recipe, rounding 25% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 25% ⚠, estimated
 
@@ -73882,7 +74192,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lentil_potato_and_tomato_curry.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: none, whole items would distort it by 150%
 
@@ -74073,7 +74383,7 @@ No routes: no machine does spoil or any technique above it.
 ### `liberian_cassava_leaf_soup.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: 1 recipe, rounding 100% ⚠
 
@@ -74284,6 +74594,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 534%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 12%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `liberian_fried_fish.step_5` (heat)
@@ -74371,7 +74682,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `liberian_fufu.step_2` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 3 recipes, rounding 0%
 - fd_cooking_pot: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -74406,7 +74717,7 @@ No routes: no machine does spoil or any technique above it.
 ### `liberian_jollof_rice.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 500%
 
@@ -74539,7 +74850,7 @@ No routes: no machine does spoil or any technique above it.
 ### `liberian_potato_greens.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 626%
 
@@ -74612,7 +74923,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `light_fluffy_pancakes.step_8` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
+- create_heated_mixing: 2 recipes, rounding 4%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -74817,7 +75128,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `liver_and_onions.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 11%
 
@@ -74829,7 +75140,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `liver_and_onions.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
+- create_mixing: 4 recipes, rounding 11%, estimated
 - shapeless_crafting: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, whole items would distort it by 200%
 
@@ -75047,7 +75358,7 @@ No routes: no machine does rancid or any technique above it.
 ### `locrio_dominican_chicken_and_rice.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
+- create_heated_mixing: 2 recipes, rounding 4%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 3283%
 
@@ -75127,6 +75438,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 220%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `lolly_cake.step_8` (chill)
@@ -75147,7 +75459,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `lomo_saltado_peruvian_steak_stir_fry.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 700%
 
@@ -75222,7 +75534,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `long_island_iced_tea.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 67% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 54% ⚠, estimated
 
@@ -75293,6 +75605,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 2 recipes, rounding 0%
 - create_spout: 3 recipes, rounding 0%
+- hexerei_dipper: 2 recipes, rounding 0%
 - thermal_bottler: 2 recipes, rounding 0%
 
 ### `loukoumas_greek_donuts_with_honey_ii.step_1` (mix)
@@ -75333,6 +75646,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 2 recipes, rounding 0%
 - create_spout: 3 recipes, rounding 0%
+- hexerei_dipper: 2 recipes, rounding 0%
 - thermal_bottler: 2 recipes, rounding 0%
 
 ### `loukoumas_greek_donuts_with_honey_ii.step_8` (season)
@@ -75574,7 +75888,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `lumpiang_shanghai_filipino_pork_spring_rolls.step_7` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 6%, estimated
+- create_heated_mixing: 2 recipes, rounding 6%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 6%, estimated
 
@@ -75600,7 +75914,7 @@ No routes: no machine does spoil or any technique above it.
 ### `luwombo_ugandan_steamed_meat_and_vegetables.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `luwombo_ugandan_steamed_meat_and_vegetables_step_2`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `luwombo_ugandan_steamed_meat_and_vegetables_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `luwombo_ugandan_steamed_meat_and_vegetables_step_2`
 
@@ -75750,6 +76064,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 11%
 - hexerei_mixing_cauldron: 1 recipe, rounding 11%
 - create_spout: 2 recipes, rounding 11%
+- hexerei_dipper: 1 recipe, rounding 11%
 - thermal_bottler: 1 recipe, rounding 11%
 
 ### `m_semen_layered_algerian_flatbread.step_7` (pan_fry)
@@ -75834,6 +76149,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `macaroni_and_cheese_baked.step_13` (bake)
@@ -75902,6 +76218,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 32% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `macaroni_and_cheese_ii.step_1` (boil)
@@ -76045,6 +76362,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `macho_nachos.step_2` (bake)
@@ -76180,6 +76498,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 650%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 137%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `maffe_west_african_peanut_stew_i.step_6` (simmer)
@@ -76207,7 +76526,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `maffe_west_african_peanut_stew_ii.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 6%, estimated
+- create_heated_mixing: 2 recipes, rounding 6%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 323%
 
@@ -76313,6 +76632,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `magic_brownies.step_1` (steep)
@@ -76400,7 +76720,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mahshi_egyptian_stuffed_vegetables.step_6` (steam)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `mahshi_egyptian_stuffed_vegetables_step_4`
+- create_heated_mixing: 3 recipes, disabled: the game can't make `mahshi_egyptian_stuffed_vegetables_step_4`
 - fd_cooking_pot: 1 recipe, disabled: the game can't make `mahshi_egyptian_stuffed_vegetables_step_4`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `mahshi_egyptian_stuffed_vegetables_step_4`
 
@@ -76503,7 +76823,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `maklubi_rice_with_meat_and_vegetables.step_2` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, rounding 15%, estimated
 - fd_cooking_pot: 1 recipe, rounding 67% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -76793,6 +77113,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 2300%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `malvani_chicken_curry.step_3` (grind)
@@ -76925,11 +77246,12 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 252%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 101%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `mandoca_fried_breaded_pepper.step_2` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -77053,7 +77375,7 @@ No routes: no machine does mold or any technique above it.
 ### `mango_chutney_smooth.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 557%
 
@@ -77129,14 +77451,14 @@ No routes: no machine does mold or any technique above it.
 ### `manhattan_clam_chowder_ii.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 4%
+- create_heated_mixing: 2 recipes, rounding 4%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 4%
 
 ### `manhattan_clam_chowder_ii.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 337%
 
@@ -77502,6 +77824,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, whole items would distort it by 127%
 - create_spout: none, takes at most 2 inputs, not 6
+- hexerei_dipper: none, takes at most 2 inputs, not 6
 - thermal_bottler: none, takes at most 2 inputs, not 6
 
 ### `maple_syrup_planked_salmon.step_7` (grill)
@@ -77532,7 +77855,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `mapo_tofu.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 60% ⚠
 
@@ -77551,7 +77874,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `maraschino_cherry.brine` (soak)
 
-- create_mixing: 1 recipe, rounding 14%
+- create_mixing: 3 recipes, rounding 14%
 - create_splashing: none, takes one input, not 2
 
 ### `maraschino_cherry.sugar_soak` (soak)
@@ -77578,6 +77901,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 9
+- hexerei_dipper: none, takes at most 2 inputs, not 9
 - thermal_bottler: none, takes at most 2 inputs, not 9
 
 ### `margarita_grilled_chicken.step_2` (grill)
@@ -77610,7 +77934,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `marinated_cucumbers_and_onions.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 3%, estimated
+- create_mixing: 2 recipes, rounding 3%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 6%, estimated
 
@@ -77697,6 +78021,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `marsala_chicken_scallopini.step_3` (pan_fry)
@@ -78046,6 +78371,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `masala_dosa.step_13` (fold)
@@ -78169,7 +78495,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mashed_plantains_and_pork_rinds_mofongo.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 10%, estimated
+- create_mixing: 2 recipes, rounding 10%, estimated
 - shapeless_crafting: 1 recipe, rounding 10%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 10%, estimated
 
@@ -78439,6 +78765,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 700%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `matoke_and_beef_stew.step_2` (pan_fry)
@@ -78589,6 +78916,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `mazorca_desgranada_colombian_beef_salad.step_8` (coat)
@@ -78597,6 +78925,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `mbahal_gambian_fish_and_okra.step_1` (separate)
@@ -78660,6 +78989,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 3100%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `mbahal_kebb_gambian_chicken_skewers.step_6` (grill)
@@ -78724,14 +79054,14 @@ No routes: no machine does mold or any technique above it.
 ### `mbong_tchobi_cameroonian_spicy_black_stew.step_1` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, whole items would distort it by 700%
 - hexerei_mixing_cauldron: 1 recipe, rounding 25% ⚠
 
 ### `mbong_tchobi_cameroonian_spicy_black_stew.step_1.prep_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -79173,7 +79503,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `meatloaf_ii.step_2` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 
 ### `meatloaf_ii.step_3` (mix)
 
@@ -79237,7 +79567,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, disabled: the game can't make `meatloaf_iv_step_4`
 - create_deploying: 1 recipe, disabled: the game can't make `meatloaf_iv_step_4`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `meatloaf_iv_step_4`
-- create_compacting: 1 recipe, disabled: the game can't make `meatloaf_iv_step_4`
+- create_compacting: 2 recipes, disabled: the game can't make `meatloaf_iv_step_4`
 
 ### `meatloaf_iv.step_7` (coat)
 
@@ -79245,6 +79575,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `meatloaf_iv_step_6`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `meatloaf_iv.step_8` (bake)
@@ -79312,6 +79643,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `mediterranean_green_chicken.step_4` (chill)
@@ -79726,6 +80058,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `meringues_with_roasted_raspberries_and_hazelnut_creme_anglaise.step_11.prep_6` (toast)
@@ -79811,7 +80144,7 @@ No routes: no machine does spoil or any technique above it.
 ### `mesir_wat_spicy_ethiopian_lentil_stew.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 9%
+- create_heated_mixing: 2 recipes, rounding 9%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 137%
 
@@ -79859,6 +80192,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `mesquite_bbq_salmon.step_3` (season)
@@ -79981,11 +80315,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `mexican_chocolate_cake_with_mocha_buttercream.step_3` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -80088,7 +80423,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mexican_rice_ii.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 60% ⚠
 
@@ -80168,7 +80503,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mhadjeb_algerian_stuffed_flatbread.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 6%
+- create_mixing: 3 recipes, rounding 6%
 - shapeless_crafting: 1 recipe, rounding 6%
 - hexerei_mixing_cauldron: 1 recipe, rounding 6%
 
@@ -80189,7 +80524,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 14%
 - create_deploying: 1 recipe, rounding 14%
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%
-- create_compacting: 1 recipe, rounding 14%
+- create_compacting: 2 recipes, rounding 14%
 
 ### `mhadjeb_algerian_stuffed_flatbread.step_4` (chop)
 
@@ -80517,7 +80852,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `microwaved_artichoke.step_5` (season)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 3 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 323%
 - hexerei_mixing_cauldron: none, whole items would distort it by 323%
 
@@ -80592,6 +80927,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 9
+- hexerei_dipper: none, takes at most 2 inputs, not 9
 - thermal_bottler: none, takes at most 2 inputs, not 9
 
 ### `middle_eastern_lamb_kabobs.step_2` (strain)
@@ -80775,6 +81111,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `milk_toast_i.step_3` (soak)
@@ -80870,7 +81207,7 @@ No routes: no machine does sour or any technique above it.
 ### `mince_pie_tartlets_with_pork.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 1567%
 
@@ -80882,7 +81219,7 @@ No routes: no machine does sour or any technique above it.
 ### `mince_pie_with_meat_i.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -80966,7 +81303,7 @@ No routes: no machine does sour or any technique above it.
 
 ### `mincemeat.step_8` (mix)
 
-- create_mixing: 1 recipe, rounding 10%, estimated
+- create_mixing: 2 recipes, rounding 10%, estimated
 - shapeless_crafting: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, whole items would distort it by 200%
 
@@ -81049,6 +81386,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `mincemeat_tart_step_6`
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `mincemeat_tart.step_9` (bake)
@@ -81117,6 +81455,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, whole items would distort it by 300%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `mini_english_muffin_pizzas.step_3` (assemble)
@@ -81181,6 +81520,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `mini_three_cheese_english_muffin_pizzas.step_3` (toast)
@@ -81361,7 +81701,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `mishti_doi_bengali_sweetened_yogurt.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 3 recipes, rounding 1%, estimated
 - shapeless_crafting: 1 recipe, rounding 2%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 2%, estimated
 
@@ -81557,7 +81897,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `miyan_kubewa_okra_soup.step_1` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 3 recipes, rounding 11%
 - fd_cooking_pot: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: 1 recipe, rounding 100% ⚠
 
@@ -81639,7 +81979,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `miyan_lalo_hausa_jute_leaf_soup.step_1` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 3 recipes, rounding 14%, estimated
 - fd_cooking_pot: none, whole items would distort it by 154%
 - hexerei_mixing_cauldron: 1 recipe, rounding 52% ⚠, estimated
 
@@ -81737,7 +82077,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `miyan_taushe_hausa_pumpkin_soup.step_1` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 3 recipes, rounding 12%
 - fd_cooking_pot: 1 recipe, rounding 100% ⚠
 - hexerei_mixing_cauldron: 1 recipe, rounding 12%
 
@@ -81792,14 +82132,14 @@ No routes: no machine does mold or any technique above it.
 ### `moambe_palm_nut_soup.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 463%
 
 ### `moambe_palm_nut_soup.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 386%
 
@@ -81896,7 +82236,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `mocha_icing.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 1484%
 - hexerei_mixing_cauldron: none, whole items would distort it by 1462%
 
@@ -82012,6 +82352,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 407%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 35% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `modern_reuben_sandwich.step_4` (assemble)
@@ -82172,7 +82513,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `molokhia_egyptian_jute_mallow_soup.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 745%
 
@@ -82223,6 +82564,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `monkey_bread_i.step_4` (bake)
@@ -82355,7 +82697,7 @@ No routes: no machine does mold or any technique above it.
 ### `morel_mushroom_sauce.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 2152%
 
@@ -82433,7 +82775,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `moussaka_bulgarian.step_1` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 43% ⚠
 
@@ -82504,6 +82846,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 18% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `mozzarella_tuna_melts.step_2` (mix)
@@ -82696,7 +83039,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `muboora_zimbabwean_pumpkin_leaves_stew.step_6` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -82726,6 +83069,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 6
+- hexerei_dipper: none, takes at most 2 inputs, not 6
 - thermal_bottler: none, takes at most 2 inputs, not 6
 
 ### `muceere_ugandan_pumpkin_stew.step_5` (mix)
@@ -82839,6 +83183,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `mung_bean_and_brown_rice_curry.step_4` (mix)
@@ -82861,7 +83206,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mung_bean_and_brown_rice_curry.step_7` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 3 recipes, rounding 13%, estimated
 - shapeless_crafting: none, whole items would distort it by 280%
 - hexerei_mixing_cauldron: none, whole items would distort it by 280%
 
@@ -83064,6 +83409,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 50% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `mushroom_bao_buns.step_14` (pan_fry)
@@ -83134,7 +83480,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `mushroom_bao_buns.step_8` (fold)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 2 recipes, rounding 0%
 - shapeless_crafting: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -83220,7 +83566,7 @@ No routes: no machine does mold or any technique above it.
 ### `mushroom_fried_rice.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 10%
+- create_heated_mixing: 2 recipes, rounding 10%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 156%
 
@@ -83648,6 +83994,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `mussels_with_potatoes.step_7` (chill)
@@ -83669,7 +84016,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `mustard_and_curry_leaf_lassi.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 11%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -83788,7 +84135,7 @@ No routes: no machine does spoil or any technique above it.
 ### `mutura.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%, estimated
+- create_heated_mixing: 2 recipes, rounding 12%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 250%
 
@@ -84112,7 +84459,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `native_jollof_rice.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 2 recipes, rounding 7%, estimated
+- create_heated_mixing: 4 recipes, rounding 7%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 7%, estimated
 
@@ -84142,7 +84489,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `native_jollof_spaghetti.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 11%
 
@@ -84156,7 +84503,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `native_jollof_spaghetti.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 407%
 
@@ -84436,7 +84783,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `nesquik_a_la_cafe.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 3 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -84689,7 +85036,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `ngoundja_fried_plantains.step_7` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -84761,6 +85108,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1038%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 576%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `nigerian_barbecued_chicken_wings.step_3` (chill)
@@ -84793,7 +85141,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_bean_porridge.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -84975,7 +85323,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `nigerian_coconut_rice.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 9%, estimated
+- create_heated_mixing: 2 recipes, rounding 9%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 140%
 
@@ -85052,14 +85400,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `nigerian_corned_beef_sauce.step_1` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 8
 - hexerei_mixing_cauldron: none, whole items would distort it by 500%
 
 ### `nigerian_corned_beef_sauce.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 8%
+- create_heated_mixing: 2 recipes, rounding 8%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 8%
 
@@ -85220,7 +85568,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `nigerian_ewa_agoyin.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
+- create_heated_mixing: 2 recipes, rounding 7%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 264%
 
@@ -85459,7 +85807,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_oatmeal.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 4 recipes, rounding 6%, estimated
 - create_splashing: none, takes one input, not 2
 
 ### `nigerian_oatmeal.step_1.prep_1` (soak)
@@ -85674,7 +86022,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_palm_oil_boiled_yam_ji_mmanu.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 269%
 - hexerei_mixing_cauldron: none, whole items would distort it by 111%
 
@@ -86031,6 +86379,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `nigerian_wheatbread_toast.step_5` (season)
@@ -86351,7 +86700,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nkwobi_nigerian_spicy_cow_foot.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -86367,6 +86716,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `nni_ede_nigerian_pounded_cocoyam.step_1` (boil)
@@ -86614,7 +86964,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `north_carolina_style_bbq_chicken.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 69% ⚠, estimated
 - hexerei_mixing_cauldron: 2 recipes, rounding 60% ⚠, estimated
 
@@ -86675,7 +87025,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `north_indian_fermented_bread_batooru.step_2` (knead)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
+- create_mixing: 3 recipes, rounding 5%, estimated
 - shapeless_crafting: 1 recipe, rounding 5%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 5%, estimated
 
@@ -86717,14 +87067,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `north_staffordshire_oatcakes.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%, estimated
+- create_heated_mixing: 2 recipes, rounding 12%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 12%, estimated
 
 ### `north_staffordshire_oatcakes.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -87000,6 +87350,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, rounding 67% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `nutty_brownie_bars.step_4` (assemble)
@@ -87069,6 +87420,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 14
 - create_spout: none, takes at most 2 inputs, not 14
+- hexerei_dipper: none, takes at most 2 inputs, not 14
 - thermal_bottler: none, takes at most 2 inputs, not 14
 
 ### `nyama_choma_tanzanian_barbecue.step_4` (heat)
@@ -87097,7 +87449,7 @@ No routes: no machine does rancid or any technique above it.
 ### `nyama_yemombe_zimbabwean_beef_stew.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 4126%
 
@@ -87576,7 +87928,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `obuwunga_ugandan_traditional_bread.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 7%, estimated
+- create_mixing: 3 recipes, rounding 7%, estimated
 - shapeless_crafting: 1 recipe, rounding 7%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 7%, estimated
 
@@ -87899,7 +88251,7 @@ No routes: no machine does rancid or any technique above it.
 ### `okonomiyaki_japanese_savory_pancake.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 43% ⚠
 
@@ -87971,7 +88323,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `okra_plantain_porridge.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -88036,11 +88388,12 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `olive_ascolane_stuffed_fried_olives.step_6` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -88133,7 +88486,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `one_cup_chai.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: none, whole items would distort it by 400%
 
@@ -88335,6 +88688,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 700%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `onion_rings.step_6` (fry)
@@ -88423,6 +88777,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `orange_brulee.step_5` (season)
@@ -88527,6 +88882,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 323%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `orange_french_toast.step_6` (bake)
@@ -88964,6 +89320,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 2 recipes, rounding 85% ⚠, estimated
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `oven_fried_chicken_breasts.step_2` (season)
@@ -88978,6 +89335,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `oven_fried_chicken_breasts.step_4` (coat)
@@ -88986,6 +89344,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `oven_fried_chicken_breasts_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `oven_fried_chicken_breasts_step_3`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `oven_fried_chicken_breasts.step_5` (bake)
@@ -89052,6 +89411,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 745%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `oven_roasted_potatoes.step_4` (season)
@@ -89106,7 +89466,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `owo_soup.step_7` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -89183,7 +89543,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `pad_kra_pao_gai_thai_basil_chicken_stir_fry.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
+- create_heated_mixing: 2 recipes, rounding 7%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 88% ⚠
 
@@ -89299,6 +89659,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 67% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `paella_de_marisco.step_12` (season)
@@ -89391,14 +89752,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `paella_roja.step_12` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `paella_roja_step_11`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `paella_roja_step_11`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `paella_roja_step_11`
 
 ### `paella_roja.step_13` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `paella_roja_step_12`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `paella_roja_step_12`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `paella_roja_step_12`
 
@@ -89487,7 +89848,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `paella_valenciana.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 501%
 
@@ -89537,7 +89898,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pain_au_levain_naturel.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 3 recipes, rounding 0%
 - shapeless_crafting: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -89742,6 +90103,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `palm_fruit_with_syrup.step_1` (cut)
@@ -89861,6 +90223,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 384%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pan_fried_beef_steak.step_5` (season)
@@ -89899,6 +90262,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 900%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 223%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pan_fried_ravioli.step_4` (simmer)
@@ -89941,6 +90305,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pan_fried_white_brined_cheese_saganaki.step_4` (pan_fry)
@@ -90035,6 +90400,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 9
+- hexerei_dipper: none, takes at most 2 inputs, not 9
 - thermal_bottler: none, takes at most 2 inputs, not 9
 
 ### `pan_seared_filet_mignon.step_3` (pan_fry)
@@ -90214,7 +90580,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pancakes_vegan.step_4` (pan_fry)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `pancakes_vegan_step_2`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `pancakes_vegan_step_2`
 - pnc_thermo_plant: 1 recipe, disabled: the game can't make `pancakes_vegan_step_2`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `pancakes_vegan_step_2`
 
@@ -90308,7 +90674,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `pandan_essence.grind` (blend)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 
 ### `paneer.coagulate` (coagulate)
 
@@ -90457,7 +90823,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `papadam_black_gram_flatbread.step_7` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -90481,7 +90847,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `papri_chaat_crispy_indian_snack_with_potato.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
+- create_mixing: 2 recipes, rounding 11%, estimated
 - shapeless_crafting: none, whole items would distort it by 380%
 - hexerei_mixing_cauldron: none, whole items would distort it by 380%
 
@@ -90586,6 +90952,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 8014%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `parmesan_cheese_souffle.step_4` (assemble)
@@ -90626,6 +90993,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `parmesan_encrusted_tilapia.step_3` (bake)
@@ -90722,6 +91090,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `passover_apple_cake.step_7` (bake)
@@ -91025,7 +91394,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `pasta_casserole_pastitsio.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 4%
+- create_heated_mixing: 2 recipes, rounding 4%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 19% ⚠
 
@@ -91035,6 +91404,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 745%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pasta_casserole_pastitsio.step_22` (bake)
@@ -91083,7 +91453,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pasta_casserole_pastitsio.step_9` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 18% ⚠, estimated
 - hexerei_mixing_cauldron: none, whole items would distort it by 107%
 
@@ -91132,7 +91502,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `pasta_meat_and_cheese_casserole_mostaccioli.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: 1 recipe, rounding 50% ⚠, estimated
 
@@ -91184,6 +91554,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 182%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pasta_romanov.step_5` (assemble)
@@ -91267,7 +91638,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pasta_with_hot_dogs.step_3` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 
 ### `pasta_with_hot_dogs.step_4` (bake)
 
@@ -91412,6 +91783,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `pasties.step_3` (shape)
@@ -91443,6 +91815,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1590%
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `pasties_step_4`
 - create_spout: 4 recipes, disabled: the game can't make `pasties_step_4`
+- hexerei_dipper: 1 recipe, disabled: the game can't make `pasties_step_4`
 - thermal_bottler: 1 recipe, disabled: the game can't make `pasties_step_4`
 
 ### `pasties.step_8` (cut)
@@ -91474,6 +91847,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 688%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 13%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pastries_filled_with_jam_marmeladetascherl.step_6` (bake)
@@ -91511,7 +91885,7 @@ No routes: no machine does freezer_burn or any technique above it.
 
 ### `pastry_for_cornish_pasties.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 1%
+- create_mixing: 3 recipes, rounding 1%
 - shapeless_crafting: 1 recipe, rounding 1%
 - hexerei_mixing_cauldron: 1 recipe, rounding 1%
 
@@ -91931,6 +92305,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, rounding 50% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `peanut_butter_and_jelly_sandwich.step_2` (coat)
@@ -91939,6 +92314,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 3 recipes, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `peanut_butter_banana_oatmeal.step_1` (simmer)
@@ -92050,7 +92426,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `peanut_butter_sandwich.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 3 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 2 recipes, rounding 0%, estimated
 
@@ -92060,6 +92436,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `peanut_butter_sandwich.step_5` (cut)
@@ -92077,7 +92454,7 @@ No routes: no machine does rancid or any technique above it.
 ### `peanut_chicken_stir_fry.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 6%, estimated
+- create_heated_mixing: 2 recipes, rounding 6%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 6%, estimated
 
@@ -92164,7 +92541,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `peanut_sauce_saus_kacang.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 3 recipes, rounding 0%
 - shapeless_crafting: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -92210,7 +92587,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `pear_chutney.step_3` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `pear_chutney_step_2`
+- create_mixing: 3 recipes, disabled: the game can't make `pear_chutney_step_2`
 - shapeless_crafting: none, whole items would distort it by 610%
 - hexerei_mixing_cauldron: none, whole items would distort it by 580%
 
@@ -92269,6 +92646,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `pear_cut_cut`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pear_pie.step_3` (boil)
@@ -92333,6 +92711,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, whole items would distort it by 841%
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `peas_supreme.step_8` (bake)
@@ -92591,7 +92970,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `pecan_pie.step_6` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `pecan_pie_step_5`
+- create_mixing: 3 recipes, disabled: the game can't make `pecan_pie_step_5`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `pecan_pie_step_5`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `pecan_pie_step_5`
 
@@ -92654,7 +93033,7 @@ No routes: no machine does mold or any technique above it.
 ### `pedernales_river_chili.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 236%
 
@@ -92763,6 +93142,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 18% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `penne_with_hearty_meat_sauce.step_5` (boil)
@@ -92845,6 +93225,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 111%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pepper_crusted_chicken.step_4` (pan_fry)
@@ -93014,6 +93395,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `peppermint.spoil` (spoil)
@@ -93122,6 +93504,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 1400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 456%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `peri_peri_chicken.step_4` (bake)
@@ -93346,6 +93729,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `philosopher_s_stew.step_4.prep_9` (grind)
@@ -93607,6 +93991,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 2435%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 10%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pickled_green_mango_aavakaaya.step_7` (coat)
@@ -93615,6 +94000,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pickled_green_mango_aavakaaya.step_8` (season)
@@ -93824,7 +94210,7 @@ No routes: no machine does freezer_burn or any technique above it.
 
 ### `pierogi_ii.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 3 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -93924,7 +94310,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `pigeon_pea_and_fenugreek_curry_methi_tadka_dal.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 8
 - hexerei_mixing_cauldron: none, whole items would distort it by 650%
 
@@ -94100,7 +94486,7 @@ No routes: no machine does mold or any technique above it.
 ### `pineapple_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 150%
 
@@ -94173,6 +94559,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 185%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pineapple_side_dish.step_9` (bake)
@@ -94245,7 +94632,7 @@ No routes: no machine does mold or any technique above it.
 ### `pineapple_teriyaki.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 9
 - hexerei_mixing_cauldron: none, whole items would distort it by 184%
 
@@ -94282,7 +94669,7 @@ No routes: no machine does mold or any technique above it.
 ### `pinon_spanish_stovetop_pot_pie.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 12
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 12
 
@@ -94299,7 +94686,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `pinon_spanish_stovetop_pot_pie.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -94399,7 +94786,7 @@ No routes: no machine does mold or any technique above it.
 - shapeless_crafting: 1 recipe, rounding 0%
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
-- create_compacting: 1 recipe, rounding 0%
+- create_compacting: 2 recipes, rounding 0%
 
 ### `pizza_dough.step_5` (bake)
 
@@ -94561,11 +94948,12 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 7
+- hexerei_dipper: none, takes at most 2 inputs, not 7
 - thermal_bottler: none, takes at most 2 inputs, not 7
 
 ### `placenta_stew.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 8
 - hexerei_mixing_cauldron: none, whole items would distort it by 275%
 
@@ -94597,7 +94985,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `placenta_with_broccoli.step_6` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -94881,6 +95269,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pollo_del_fungo_chicken_with_mushrooms.step_2` (rinse)
@@ -95011,6 +95400,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `poppyseed_chicken.step_2` (mix)
@@ -95031,6 +95421,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `poppyseed_chicken_step_3`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `poppyseed_chicken.step_5` (bake)
@@ -95122,7 +95513,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `pork_and_carrots_in_sauce.step_4` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -95183,7 +95574,7 @@ No routes: no machine does spoil or any technique above it.
 ### `pork_braised_with_garlic_and_onions_of_indonesia_babi_kecap.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 700%
 
@@ -95221,6 +95612,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `pork_burritos_with_green_pepper_sauce_step_13`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pork_burritos_with_green_pepper_sauce.step_2` (pan_fry)
@@ -95242,6 +95634,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 7900%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 2400%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pork_burritos_with_green_pepper_sauce.step_5` (simmer)
@@ -95293,7 +95686,7 @@ No routes: no machine does spoil or any technique above it.
 ### `pork_chops_cacciatore.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `pork_chops_cacciatore_step_4`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `pork_chops_cacciatore_step_4`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 130%
 
@@ -95471,6 +95864,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 2 recipes, rounding 54% ⚠, estimated
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `pork_roast_with_cayenne_apple_glaze.step_6` (bake)
@@ -95667,6 +96061,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, whole items would distort it by 300%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 300%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `portobello_eggs.step_3` (whisk)
@@ -95837,6 +96232,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 1590%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `potato_and_cabbage_soup.step_4` (mix)
@@ -95962,6 +96358,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 6
+- hexerei_dipper: none, takes at most 2 inputs, not 6
 - thermal_bottler: none, takes at most 2 inputs, not 6
 
 ### `potato_and_leek_soup_ii.step_3` (heat)
@@ -96026,6 +96423,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `potato_balls.step_4` (fry)
@@ -96098,6 +96496,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `potato_casserole_rakott_krumpli.step_6` (bake)
@@ -96267,7 +96666,7 @@ No routes: no machine does spoil or any technique above it.
 ### `potato_curry_aloo_masala.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: none, whole items would distort it by 125%
 
@@ -96699,7 +97098,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `potato_samosas_aloo_pies.step_8` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 15%
+- create_heated_mixing: 2 recipes, rounding 15%
 - pnc_thermo_plant: 2 recipes, rounding 15%
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%
 
@@ -96714,6 +97113,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%
 - create_spout: none, whole items would distort it by 500%
+- hexerei_dipper: none, whole items would distort it by 500%
 - thermal_bottler: none, whole items would distort it by 500%
 
 ### `potato_skins.step_2` (bake)
@@ -96871,6 +97271,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 263%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `potatoes_excaloped.step_6` (bake)
@@ -96885,6 +97286,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `potatoes_fried_whole.step_3` (pan_fry)
@@ -97018,6 +97420,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `pouch_roasted_snapper.step_5` (bake)
@@ -97053,7 +97456,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pounded_yam.step_2` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 3 recipes, rounding 0%
 - fd_cooking_pot: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -97246,7 +97649,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `prawn_curry.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 190%
 
@@ -97466,6 +97869,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pretzels_soft.step_7` (season)
@@ -97743,7 +98147,7 @@ No routes: no machine does freezer_burn or any technique above it.
 
 ### `puff_pastry_i.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 10%, estimated
+- create_mixing: 3 recipes, rounding 10%, estimated
 - shapeless_crafting: 1 recipe, rounding 10%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 10%, estimated
 
@@ -97983,6 +98387,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 69% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pumpkin_bread_ii.step_9` (bake)
@@ -98014,7 +98419,7 @@ No routes: no machine does spoil or any technique above it.
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
-- create_compacting: 1 recipe, rounding 4%, estimated
+- create_compacting: 2 recipes, rounding 4%, estimated
 
 ### `pumpkin_bread_iii.step_6` (bake)
 
@@ -98076,7 +98481,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `pumpkin_muffins.step_2` (mix)
 
-- create_mixing: 2 recipes, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 100% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -98140,6 +98545,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pumpkin_roll.step_10` (blend)
@@ -98181,6 +98587,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 153%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pumpkin_roll.step_8` (bake)
@@ -98227,7 +98634,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `pumpkin_soup.step_1` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -98406,7 +98813,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `puri_indian_fried_flatbread.step_3` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_2`
+- create_mixing: 3 recipes, disabled: the game can't make `puri_indian_fried_flatbread_step_2`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_2`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_2`
 
@@ -98458,7 +98865,7 @@ No routes: no machine does spoil or any technique above it.
 ### `puttanesca_sauce_vegan.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 142%
 
@@ -98492,7 +98899,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `puttu_steamed_rice_flour_and_coconut.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
+- create_mixing: 3 recipes, rounding 4%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -98526,7 +98933,7 @@ No routes: no machine does spoil or any technique above it.
 ### `qabuli_central_asian_rice_pilaf.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: none, whole items would distort it by 401%
 
@@ -98650,6 +99057,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, whole items would distort it by 323%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `queen_of_puddings.step_7` (whisk)
@@ -98865,7 +99273,7 @@ No routes: no machine does sour or any technique above it.
 - shapeless_crafting: 1 recipe, rounding 0%
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
-- create_compacting: 1 recipe, rounding 0%
+- create_compacting: 2 recipes, rounding 0%
 
 ### `quick_baked_beef_pasta_dish.step_6` (coat)
 
@@ -98873,6 +99281,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `quick_baked_beef_pasta_dish.step_7` (bake)
@@ -99234,7 +99643,7 @@ No routes: no machine does spoil or any technique above it.
 ### `racuszki_polish_pancakes.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 614%
 
@@ -99326,6 +99735,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `radish_stew.step_4` (evaporate)
@@ -99412,7 +99822,7 @@ No routes: no machine does spoil or any technique above it.
 ### `ragi_dosa_south_indian_millet_and_rice_pancake.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -99446,6 +99856,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `rainbow_cake.step_2` (mix)
@@ -99640,7 +100051,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rajma_sindhi_kidney_bean_curry.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: 1 recipe, rounding 44% ⚠
 
@@ -99786,6 +100197,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%, estimated
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `raspberry_ripple_cake.step_10` (coat)
@@ -99794,6 +100206,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `raspberry_ripple_cake.step_2` (whisk)
@@ -99913,7 +100326,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `rassolnik_russian_barley_and_kidney_soup.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 1590%
 
@@ -100013,7 +100426,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rava_dosa_indian_semolina_pancake.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, whole items would distort it by 275%
 
@@ -100110,7 +100523,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `red_bean_paste.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 3 recipes, rounding 13%, estimated
 - create_splashing: 1 recipe, rounding 13%, estimated
 
 ### `red_bean_paste.step_1.prep_1` (rinse)
@@ -100353,7 +100766,7 @@ No routes: no machine does mold or any technique above it.
 ### `red_lentil_soup.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 2 recipes, rounding 11%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 922%
 
@@ -100429,6 +100842,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `reindling_austrian_yeasted_easter_cake.step_6` (assemble)
@@ -100505,6 +100919,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `reuben_sandwich.step_3` (assemble)
@@ -100519,6 +100934,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, whole items would distort it by 238%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `reuben_sandwich.step_6` (grill)
@@ -100539,7 +100955,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `rhubarb_cake.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 97% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 90% ⚠, estimated
 
@@ -100997,6 +101413,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 25% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `rice_cooked_in_tomato_meat_sauce_ross_il_forn.step_13` (bake)
@@ -101053,7 +101470,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rice_in_fish_broth_sayyadieh.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, rounding 15%, estimated
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -101189,7 +101606,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `rice_pilaf.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 9%, estimated
+- create_heated_mixing: 2 recipes, rounding 9%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 182%
 
@@ -101213,6 +101630,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 18% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `rice_pilaf.step_5` (season)
@@ -101543,7 +101961,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `ricotta.coagulate` (coagulate)
 
-- create_mixing: 1 recipe, rounding 15%
+- create_mixing: 4 recipes, rounding 15%
 
 ### `ricotta.sour` (sour)
 
@@ -101558,7 +101976,7 @@ No routes: no machine does sour or any technique above it.
 ### `ricotta_lasagne.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: 1 recipe, rounding 81% ⚠
 
@@ -101708,6 +102126,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 67% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `risotto_ai_funghi.step_5` (evaporate)
@@ -101846,6 +102265,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 67% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `risotto_ii.step_4` (evaporate)
@@ -101888,6 +102308,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `rissoles.step_4` (heat)
@@ -101922,6 +102343,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 88% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `riz_gras_west_african_fried_rice.step_13` (season)
@@ -102039,6 +102461,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1590%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `roast_beef_step_19`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `roast_beef.step_21` (separate)
@@ -102079,6 +102502,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `roast_beef.step_4` (pan_fry)
@@ -102183,6 +102607,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `roast_butternut_biltong_and_brown_rice_salad.step_5` (roast)
@@ -102277,6 +102702,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `roast_leg_of_lamb_with_gravy.step_10` (cool)
@@ -102425,6 +102851,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `roast_pork_loin_with_gravy_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `roast_pork_loin_with_gravy_step_1`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `roast_pork_loin_with_gravy.step_3` (bake)
@@ -102602,6 +103029,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 384%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `roasted_brussels_sprouts.step_5` (season)
@@ -102844,6 +103272,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1352%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `roasted_rabbit.step_4` (roast)
@@ -102870,6 +103299,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 7
+- hexerei_dipper: none, takes at most 2 inputs, not 7
 - thermal_bottler: none, takes at most 2 inputs, not 7
 
 ### `roasted_redskin_potatoes.step_3.prep_2` (whisk)
@@ -102898,6 +103328,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 4971%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `roasted_spiced_chicken_drumsticks_step_3`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `roasted_spiced_chicken_drumsticks.step_5` (bake)
@@ -103226,6 +103657,7 @@ No routes: no machine does freezer_burn or any technique above it.
 - create_deploying: 1 recipe, rounding 61% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 - create_spout: 2 recipes, rounding 15%, estimated
+- hexerei_dipper: 1 recipe, rounding 15%, estimated
 - thermal_bottler: 1 recipe, rounding 15%, estimated
 
 ### `romanian_roasted_eggplant_spread_i.step_2` (roast)
@@ -103425,6 +103857,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 2435%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `rosemary_bread_step_2`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `rosemary_bread.step_4` (ferment)
@@ -103459,6 +103892,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 323%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `rosemary_garlic_baked_potatoes.step_5` (season)
@@ -103479,6 +103913,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 27% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `rosemary_garlic_fish.step_2` (pan_fry)
@@ -103515,7 +103950,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `rosemary_garlic_pork_roast.step_1` (season)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 2 recipes, rounding 13%, estimated
 - shapeless_crafting: 1 recipe, rounding 13%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 13%, estimated
 
@@ -103541,6 +103976,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `rosemary_garlic_strip_steak.step_2` (season)
@@ -103562,7 +103998,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `rosemary_grilled_salmon_steaks.step_1` (season)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 2 recipes, rounding 0%
 - shapeless_crafting: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -103574,7 +104010,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `rosewater.distill_petals` (distill)
 
-- create_heated_mixing: 1 recipe, rounding 15%
+- create_heated_mixing: 3 recipes, rounding 15%
 
 ### `rosogulla_bengali_milk_balls_in_syrup.step_1` (dissolve)
 
@@ -103798,7 +104234,7 @@ No routes: no machine does spoil or any technique above it.
 ### `rosto.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 233%
 
@@ -103846,7 +104282,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `roti_jala_malaysian_lacy_pancakes.step_1` (blend)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 
 ### `roti_jala_malaysian_lacy_pancakes.step_2` (age)
 
@@ -104172,6 +104608,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 3900%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 1150%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `rwandan_goat_brochette.step_5` (grill)
@@ -104430,6 +104867,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 745%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `sachertorte_original_version.step_2` (whisk)
@@ -104664,7 +105102,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `sai_bhaji_sindhi_vegetable_curry.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%, estimated
+- create_heated_mixing: 2 recipes, rounding 12%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 10
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 10
 
@@ -104783,7 +105221,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `saka_saka_cassava_leaf_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 4807%
 
@@ -104806,6 +105244,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `saka_saka_cassava_leaf_stew.step_7` (mix)
@@ -105328,6 +105767,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 231%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `salt_cod_and_potato_casserole_bacalhau_a_ze_do_pipo.step_12` (bake)
@@ -105338,7 +105778,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `salt_cod_and_potato_casserole_bacalhau_a_ze_do_pipo.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 4 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -105360,7 +105800,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `salt_cod_and_potato_casserole_bacalhau_a_ze_do_pipo.step_5` (soak)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 4 recipes, rounding 0%
 - create_splashing: none, takes one input, not 2
 
 ### `salt_cod_and_potato_casserole_bacalhau_a_ze_do_pipo.step_6` (boil)
@@ -105565,7 +106005,7 @@ No routes: no machine does mold or any technique above it.
 ### `sambar_i.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%, estimated
+- create_heated_mixing: 2 recipes, rounding 12%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 369%
 
@@ -105725,7 +106165,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `samosa.step_5` (knead)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 3 recipes, rounding 0%
 - shapeless_crafting: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -105736,7 +106176,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `samosa.step_9` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -105815,6 +106255,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 650%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 194%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `san_francisco_sourdough_bread.step_14` (bake)
@@ -105905,6 +106346,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 3900%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 1150%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `sancocho_dominican_meat_and_vegetable_soup.step_3` (chill)
@@ -105972,11 +106414,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `sangah_cameroonian_corn_and_cassava_leaf.step_1` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 3 recipes, rounding 1%, estimated
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -106160,7 +106603,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `sauce_gombo_okra_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 300%
 
@@ -106189,6 +106632,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `sauce_gombo_okra_stew.step_8` (simmer)
@@ -106443,14 +106887,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `sausage_and_tortellini_soup.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 4 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 19% ⚠, estimated
 
 ### `sausage_and_tortellini_soup.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 13%, estimated
 
@@ -106463,7 +106907,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `sausage_and_tortellini_soup.step_5` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `sausage_and_tortellini_soup_step_4`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `sausage_and_tortellini_soup_step_4`
 - pnc_thermo_plant: 2 recipes, disabled: the game can't make `sausage_and_tortellini_soup_step_4`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `sausage_and_tortellini_soup_step_4`
 
@@ -106578,7 +107022,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sausagemeat_pie.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 3 recipes, rounding 13%, estimated
 - shapeless_crafting: 1 recipe, rounding 13%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 13%, estimated
 
@@ -106684,7 +107128,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `savory_pumpkin_scones.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 167%
 - hexerei_mixing_cauldron: 1 recipe, rounding 36% ⚠, estimated
 
@@ -106726,7 +107170,7 @@ No routes: no machine does spoil or any technique above it.
 ### `sayadeya_egyptian_fish_with_rice.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 224%
 
@@ -106942,6 +107386,7 @@ No routes: no machine does freezer_burn or any technique above it.
 - create_deploying: none, whole items would distort it by 3281%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 4%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `scorched_rice.step_8` (steam)
@@ -107187,7 +107632,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `seafood_bruschetta.step_1.prep_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -107229,7 +107674,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `seafood_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 557%
 
@@ -107255,7 +107700,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `seafood_gumbo.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: none, whole items would distort it by 500%
 
@@ -107293,6 +107738,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 11
 - create_spout: none, takes at most 2 inputs, not 11
+- hexerei_dipper: none, takes at most 2 inputs, not 11
 - thermal_bottler: none, takes at most 2 inputs, not 11
 
 ### `seafood_kebabs_with_zhoug_sauce.step_1.prep_3` (cut)
@@ -107414,7 +107860,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `seared_duck_breast_with_pinot_noir_reduction.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: 2 recipes, rounding 13%
 - hexerei_mixing_cauldron: 1 recipe, rounding 13%
 
@@ -107573,6 +108019,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `sega_wat_spicy_ethiopian_beef_stew.step_6` (boil)
@@ -107611,7 +108058,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `seitan_bratwurst.step_4` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: 2 recipes, rounding 13%
 - hexerei_mixing_cauldron: 1 recipe, rounding 13%
 
@@ -107639,6 +108086,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 7
+- hexerei_dipper: none, takes at most 2 inputs, not 7
 - thermal_bottler: none, takes at most 2 inputs, not 7
 
 ### `seitan_burger.step_7` (pan_fry)
@@ -107925,6 +108373,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, whole items would distort it by 154%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `sesame_shrimp_toast.step_9` (fry)
@@ -107963,7 +108412,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `sev.mix_dough` (knead)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 63% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -108193,7 +108642,7 @@ No routes: no machine does rancid or any technique above it.
 ### `shakshuka_i.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 2 recipes, rounding 11%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 190%
 
@@ -108271,6 +108720,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 11
 - create_spout: none, takes at most 2 inputs, not 11
+- hexerei_dipper: none, takes at most 2 inputs, not 11
 - thermal_bottler: none, takes at most 2 inputs, not 11
 
 ### `sharba_libya_libyan_soup.step_5` (simmer)
@@ -108415,6 +108865,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 500%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `sharmoula_bil_lahm_libyan_marinated_meat_sharmoula.step_3` (chill)
@@ -108440,7 +108891,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shashlik_russian_skewered_meat.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
+- create_mixing: 4 recipes, rounding 14%, estimated
 - create_splashing: none, takes one input, not 5
 
 ### `shashlik_russian_skewered_meat.step_2` (assemble)
@@ -108505,6 +108956,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `shepherd_s_pie_i.step_12` (bake)
@@ -108539,7 +108991,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shepherd_s_pie_i.step_7` (evaporate)
 
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 4 recipes, rounding 13%
 
 ### `shepherd_s_pie_ii.step_3` (assemble)
 
@@ -108636,7 +109088,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `shikanjvi_punjabi_spiced_lemonade.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 3 recipes, rounding 0%
 - shapeless_crafting: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -108736,7 +109188,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `shiro_wat_ethiopian_pea_stew.step_3` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `shiro_wat_ethiopian_pea_stew_step_2`
+- create_mixing: 3 recipes, disabled: the game can't make `shiro_wat_ethiopian_pea_stew_step_2`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `shiro_wat_ethiopian_pea_stew_step_2`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `shiro_wat_ethiopian_pea_stew_step_2`
 
@@ -108770,6 +109222,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `shirred_egg.step_5` (bake)
@@ -109081,7 +109534,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shrimp_fritters_accra.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -109162,6 +109615,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `shrimp_seasoning_powder.stale` (stale)
@@ -109508,7 +109962,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `simple_spaghetti.step_1` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - fd_cooking_pot: 1 recipe, rounding 11%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 11%, estimated
 
@@ -109585,7 +110039,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `sinasir_nigerian_rice_pancake.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 3 recipes, rounding 1%, estimated
 - create_splashing: 1 recipe, rounding 6%, estimated
 
 ### `sinasir_nigerian_rice_pancake.step_2` (blend)
@@ -109716,7 +110170,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `sindhi_spiced_fish.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 50% ⚠
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -109764,7 +110218,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `sindhi_spiced_moong_dal.step_5` (season)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -109834,7 +110288,7 @@ No routes: no machine does spoil or any technique above it.
 ### `sinigang_philippine_sour_soup.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
+- create_heated_mixing: 2 recipes, rounding 7%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 200%
 
@@ -109918,6 +110372,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, whole items would distort it by 237%
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `six_layer_casserole.step_3` (season)
@@ -109959,7 +110414,7 @@ No routes: no machine does spoil or any technique above it.
 ### `sizzling_sisig_filipino_pork_saute.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `sizzling_sisig_filipino_pork_saute_step_3`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `sizzling_sisig_filipino_pork_saute_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: none, whole items would distort it by 1900%
 
@@ -110059,14 +110514,14 @@ No routes: no machine does mold or any technique above it.
 ### `slasko_modro_kapusta_red_cabbage_with_onion_and_bacon.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 11%
 
 ### `slasko_modro_kapusta_red_cabbage_with_onion_and_bacon.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 557%
 
@@ -110316,7 +110771,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `smoked_salmon_breakfast_burrito.step_1` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 
 ### `smoked_salmon_breakfast_burrito.step_2` (pan_fry)
 
@@ -110381,6 +110836,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `smoked_salmon_ravioli_filling.step_2` (mix)
@@ -110406,6 +110862,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `smokehouse_turkey_panini.step_4` (grill)
@@ -110448,7 +110905,7 @@ No routes: no machine does spoil or any technique above it.
 ### `smoky_chipotle_glazed_hot_wings.step_1` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 243%
 
@@ -110458,6 +110915,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `smoky_chipotle_hot_sauce.step_1` (mix)
@@ -110548,7 +111006,7 @@ No routes: no machine does spoil or any technique above it.
 ### `smore_eurasian_beef_stew.step_7` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `smore_eurasian_beef_stew_step_6`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `smore_eurasian_beef_stew_step_6`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `smore_eurasian_beef_stew_step_6`
 
@@ -110611,7 +111069,7 @@ No routes: no machine does spoil or any technique above it.
 ### `snails_with_garlic_butter_escargots_a_la_bourguignonne.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 243%
 
@@ -110676,7 +111134,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `snezhanka_bulgarian_cucumber_and_yogurt_salad.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 20% ⚠, estimated
+- create_mixing: 2 recipes, rounding 20% ⚠, estimated
 - shapeless_crafting: none, whole items would distort it by 1400%
 - hexerei_mixing_cauldron: none, whole items would distort it by 1400%
 
@@ -110716,6 +111174,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `snickerdoodles_boston_globe.step_7` (bake)
@@ -110748,6 +111207,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 2 recipes, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `snickerdoodles_idaho_daily_statesman.step_1` (mix)
@@ -110780,6 +111240,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `snickerdoodles_idaho_daily_statesman.step_8` (bake)
@@ -111009,6 +111470,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `soft_spice_cookie.step_7` (bake)
@@ -111137,7 +111599,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `soso_coconut_rice.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 108%
 - hexerei_mixing_cauldron: none, whole items would distort it by 108%
 
@@ -111300,7 +111762,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `soup_du_pecheur_fisherman_soup.step_1` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - fd_cooking_pot: none, takes at most 6 inputs, not 15
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 15
 
@@ -111334,6 +111796,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 10
 - create_spout: none, takes at most 2 inputs, not 10
+- hexerei_dipper: none, takes at most 2 inputs, not 10
 - thermal_bottler: none, takes at most 2 inputs, not 10
 
 ### `soup_joumou_haitian_beef_and_squash_soup.step_2` (dry)
@@ -111359,6 +111822,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `soup_with_suppli.step_3` (fry)
@@ -111526,7 +111990,7 @@ No routes: no machine does spoil or any technique above it.
 ### `south_african_curry_and_rice.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -111657,7 +112121,7 @@ No routes: no machine does spoil or any technique above it.
 ### `southern_clam_chowder.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 10%
+- create_heated_mixing: 2 recipes, rounding 10%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 17% ⚠
 
@@ -111727,19 +112191,20 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `southern_fried_chicken_sliders.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 5%
+- create_heated_mixing: 2 recipes, rounding 5%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 35% ⚠
 
 ### `southern_style_greens.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 1%
 
@@ -112068,7 +112533,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `soy_sauce_chicken.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 23% ⚠, estimated
 
@@ -112194,7 +112659,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `spaghetti_alla_carbonara.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 6%
+- create_heated_mixing: 2 recipes, rounding 6%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 2143%
 
@@ -112208,6 +112673,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 3281%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 6%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `spaghetti_alla_puttanesca.step_1` (heat)
@@ -112240,6 +112706,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 15% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `spaghetti_and_meatballs.step_1` (heat)
@@ -112291,6 +112758,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `spaghetti_bake.step_11` (bake)
@@ -112592,7 +113060,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `spanakopita.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 10
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 10
 
@@ -112680,7 +113148,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `spanish_potato_omelette.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 186%
 
@@ -112924,6 +113392,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `spice_rubbed_grilled_chicken_breast.step_3` (grill)
@@ -112962,6 +113431,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `spiced_chicken_with_sour_cream.step_6` (pan_fry)
@@ -113008,7 +113478,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `spiced_creme_caramel.step_6` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 463%
 - hexerei_mixing_cauldron: none, whole items would distort it by 300%
 
@@ -113171,7 +113641,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `spicy_chicken_cutlets.step_10` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - fd_cooking_pot: 1 recipe, rounding 41% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -113221,6 +113691,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, whole items would distort it by 323%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `spicy_chicken_cutlets.step_4` (separate)
@@ -113253,12 +113724,13 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, rounding 9%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 9%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `spicy_chicken_stew.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 9%
+- create_heated_mixing: 2 recipes, rounding 9%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 996%
 
@@ -113383,6 +113855,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `spicy_crab_and_arugula_salad.step_3` (chill)
@@ -113433,6 +113906,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `spicy_fried_okra.step_2` (coat)
@@ -113441,12 +113915,13 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `spicy_fried_okra_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `spicy_fried_okra_step_1`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `spicy_fried_okra.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `spicy_fried_okra_step_2`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `spicy_fried_okra_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `spicy_fried_okra_step_2`
 
@@ -113459,7 +113934,7 @@ No routes: no machine does rancid or any technique above it.
 ### `spicy_fried_rice.step_1` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: none, whole items would distort it by 1168%
 
@@ -113487,6 +113962,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `spicy_fried_wings_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `spicy_fried_wings_step_2`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `spicy_fried_wings.step_5` (fry)
@@ -113599,7 +114075,7 @@ No routes: no machine does rancid or any technique above it.
 ### `spicy_miso_udon.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 9%, estimated
+- create_heated_mixing: 2 recipes, rounding 9%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 140%
 
@@ -113674,14 +114150,14 @@ No routes: no machine does rancid or any technique above it.
 ### `spicy_plantain_chips.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 8%
+- create_heated_mixing: 2 recipes, rounding 8%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 8%
 
 ### `spicy_roast_brisket.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 13%
 
@@ -113770,6 +114246,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, whole items would distort it by 238%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `spinach_and_ricotta_lasagna.step_1` (heat)
@@ -114117,6 +114594,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1590%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `sponge_cake_i.step_2` (mix)
@@ -114338,6 +114816,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 217%
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `sprout_salad_step_8`
 - create_spout: 2 recipes, disabled: the game can't make `sprout_salad_step_8`
+- hexerei_dipper: 1 recipe, disabled: the game can't make `sprout_salad_step_8`
 - thermal_bottler: 1 recipe, disabled: the game can't make `sprout_salad_step_8`
 
 ### `squash.freezer_burn` (freezer_burn)
@@ -114404,7 +114883,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `sriracha_oatmeal_and_lentils.step_7` (season)
 
-- create_mixing: 1 recipe, rounding 13%
+- create_mixing: 3 recipes, rounding 13%
 - shapeless_crafting: 1 recipe, rounding 13%
 - hexerei_mixing_cauldron: 2 recipes, rounding 13%
 
@@ -114481,7 +114960,7 @@ No routes: no machine does sour or any technique above it.
 ### `steak_and_ale_pie.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 200%
 
@@ -114497,6 +114976,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, whole items would distort it by 1590%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `steak_and_ale_pie.step_5` (season)
@@ -114507,7 +114987,7 @@ No routes: no machine does sour or any technique above it.
 
 ### `steak_and_ale_pie.step_6` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - fd_cooking_pot: 1 recipe, rounding 25% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -114902,6 +115382,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `steamed_artichoke.step_4` (season)
@@ -115051,6 +115532,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 6
+- hexerei_dipper: none, takes at most 2 inputs, not 6
 - thermal_bottler: none, takes at most 2 inputs, not 6
 
 ### `steamed_pork_with_mustard_greens.step_5` (stir_fry)
@@ -115183,7 +115665,7 @@ No routes: no machine does sour or any technique above it.
 
 ### `steamed_tuna_bao_buns.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
@@ -115414,7 +115896,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `stir_fried_potatoes.rinse` (rinse)
 
-- create_mixing: 1 recipe, rounding 15%
+- create_mixing: 3 recipes, rounding 15%
 - create_splashing: 1 recipe, rounding 50% ⚠
 
 ### `stir_fried_potatoes.shred` (julienne)
@@ -115503,7 +115985,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `stir_fried_tomato_and_scrambled_eggs.step_4` (coagulate)
 
-- create_mixing: 1 recipe, rounding 7%, estimated
+- create_mixing: 2 recipes, rounding 7%, estimated
 
 ### `stir_fried_tomato_and_scrambled_eggs.step_5` (stir_fry)
 
@@ -115551,6 +116033,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `stoofvlees_flemish_beef_stew.step_3` (pan_fry)
@@ -115679,6 +116162,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `stovies.step_3` (steam)
@@ -116236,6 +116720,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `strudel.step_8` (bake)
@@ -116262,6 +116747,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 2 recipes, rounding 15%, estimated
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `stuffed_crabs_casquinha_de_siri.step_1` (pan_fry)
@@ -116488,7 +116974,7 @@ No routes: no machine does mold or any technique above it.
 ### `stuffed_kabocha_squash.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 9
 - hexerei_mixing_cauldron: none, whole items would distort it by 5456%
 
@@ -116649,6 +117135,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `stuffed_squash.step_3` (roast)
@@ -116938,7 +117425,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `summer_rolls.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 3 recipes, rounding 0%
 - create_splashing: none, whole items would distort it by 200%
 
 ### `summer_rolls.step_3` (assemble)
@@ -117220,6 +117707,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `suqaar_somali_spiced_meat_stir_fry.step_7` (season)
@@ -117420,7 +117908,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `swedish_cabbage_soup_kalsoppa.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 186%
 
@@ -117484,7 +117972,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `swedish_meatballs_ii.step_7` (heat)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `swedish_meatballs_ii_step_6`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `swedish_meatballs_ii_step_6`
 - fd_cooking_pot: none, whole items would distort it by 2154%
 - hexerei_mixing_cauldron: none, whole items would distort it by 745%
 
@@ -117518,6 +118006,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `sweet_and_sour_chinese_pork.step_5` (stir_fry)
@@ -117611,6 +118100,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `sweet_and_sour_grilled_tuna.step_1.prep_1` (cut)
@@ -117649,6 +118139,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `sweet_and_sour_pork_loin.step_4` (bake)
@@ -117697,6 +118188,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `sweet_and_spicy_asian_chicken.step_2` (fry)
@@ -117712,6 +118204,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, whole items would distort it by 880%
 - create_spout: none, takes at most 2 inputs, not 7
+- hexerei_dipper: none, takes at most 2 inputs, not 7
 - thermal_bottler: none, takes at most 2 inputs, not 7
 
 ### `sweet_and_spicy_asian_chicken.step_3.prep_10` (boil)
@@ -117726,12 +118219,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `sweet_and_spicy_shrimp.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 11%
 
@@ -117741,6 +118235,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 9
+- hexerei_dipper: none, takes at most 2 inputs, not 9
 - thermal_bottler: none, takes at most 2 inputs, not 9
 
 ### `sweet_and_spicy_shrimp.step_3.prep_4` (heat)
@@ -117800,7 +118295,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sweet_charoset.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 3 recipes, rounding 0%
 - shapeless_crafting: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 2 recipes, rounding 0%
 
@@ -117841,7 +118336,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `sweet_italian_sausage_skillet.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 12%
 
@@ -118011,6 +118506,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `sweet_onion_ranch_dressing.step_1` (mix)
@@ -118261,6 +118757,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `sweet_rice_i.step_1` (boil)
@@ -118503,7 +119000,7 @@ No routes: no machine does mold or any technique above it.
 ### `sylheti_biryani.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 11
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 11
 
@@ -118548,6 +119045,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 900%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 285%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `sylheti_doner_kebab.step_5` (grill)
@@ -118923,7 +119421,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `taboon_bread.step_2` (knead)
 
-- create_mixing: 1 recipe, disabled: the game can't make `taboon_bread_step_1`
+- create_mixing: 3 recipes, disabled: the game can't make `taboon_bread_step_1`
 - shapeless_crafting: none, whole items would distort it by 381%
 - hexerei_mixing_cauldron: none, whole items would distort it by 381%
 
@@ -119139,7 +119637,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tadka_dhal_spiced_lentil_curry_i.step_1` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, rounding 15%, estimated
 - fd_cooking_pot: none, takes at most 6 inputs, not 14
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 14
 
@@ -119346,7 +119844,7 @@ No routes: no machine does mold or any technique above it.
 ### `tajine_bil_samak_libyan_fish_tajine.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -119599,6 +120097,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `tangy_fried_shrimp.step_2` (fry)
@@ -119625,6 +120124,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `tangy_lemon_battered_fried_chicken.step_3` (coat)
@@ -119633,6 +120133,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, disabled: the game can't make `tangy_lemon_battered_fried_chicken_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `tangy_lemon_battered_fried_chicken_step_2`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tangy_lemon_battered_fried_chicken.step_4` (heat)
@@ -119831,7 +120332,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tarator_bulgarian_cucumber_soup.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, whole items would distort it by 234%
 
@@ -119932,7 +120433,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `taro_fish.step_7` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -119984,6 +120485,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tarta_de_santiago.step_8` (cut)
@@ -120075,7 +120577,7 @@ No routes: no machine does spoil or any technique above it.
 ### `tartiflette.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `tartiflette_step_3`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `tartiflette_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 4487%
 
@@ -120260,6 +120762,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 18% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tchari_jollof_rice.step_7` (season)
@@ -120360,7 +120863,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tegabino_shiro_ethiopian_spiced_chickpea_dip.step_1` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 
 ### `tegabino_shiro_ethiopian_spiced_chickpea_dip.step_2` (heat)
 
@@ -120371,7 +120874,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `tegabino_shiro_ethiopian_spiced_chickpea_dip.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 2435%
 
@@ -120387,6 +120890,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `tegabino_shiro_ethiopian_spiced_chickpea_dip.step_8` (cool)
@@ -120473,6 +120977,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 67% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tempe_mendoan_i.step_3` (pan_fry)
@@ -120518,6 +121023,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 488%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tempe_mendoan_ii.step_5.prep_9` (cut)
@@ -120605,6 +121111,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 1900%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 525%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tempura_baked_halibut_with_cilantro_aioli.step_4.prep_1` (cut)
@@ -120705,6 +121212,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 125%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tequila_lime_strip_steak.step_4` (grill)
@@ -120742,6 +121250,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 8
+- hexerei_dipper: none, takes at most 2 inputs, not 8
 - thermal_bottler: none, takes at most 2 inputs, not 8
 
 ### `teriyaki_salmon.step_2` (coat)
@@ -120750,6 +121259,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `teriyaki_salmon_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `teriyaki_salmon_step_1`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `teriyaki_salmon.step_4` (grill)
@@ -120848,6 +121358,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `texas_easy_chili.step_5` (mix)
@@ -120902,6 +121413,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `texas_style_chicken_fried_steak.step_3` (coat)
@@ -120910,6 +121422,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `texas_style_chicken_fried_steak_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `texas_style_chicken_fried_steak_step_2`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `texas_style_chicken_fried_steak.step_4` (dry)
@@ -121021,6 +121534,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `thai_green_curry_with_chicken.step_4` (simmer)
@@ -121045,6 +121559,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `thai_grilled_chicken_ii.step_3` (soak)
@@ -121120,7 +121635,7 @@ No routes: no machine does mold or any technique above it.
 ### `thai_peanut_fried_rice.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 2 recipes, rounding 14%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: 1 recipe, rounding 20% ⚠, estimated
 
@@ -121174,7 +121689,7 @@ No routes: no machine does mold or any technique above it.
 ### `thai_shrimp.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `thai_shrimp_step_1`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `thai_shrimp_step_1`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 300%
 
@@ -121241,7 +121756,7 @@ No routes: no machine does mold or any technique above it.
 ### `thalassery_biryani.step_5` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 1485%
 
@@ -121254,7 +121769,7 @@ No routes: no machine does mold or any technique above it.
 ### `thalassery_biryani.step_7` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 - hexerei_mixing_cauldron: none, whole items would distort it by 150%
 
@@ -121408,6 +121923,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 1928%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `thin_fish_fillets.step_7` (grill)
@@ -121653,7 +122169,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `three_sisters_stew.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 626%
 
@@ -121782,6 +122298,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 745%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, disabled: the game can't make `tibs_ethiopian_sauteed_meat_and_vegetables_step_7`
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tibs_ethiopian_sauteed_meat_and_vegetables.step_9` (assemble)
@@ -121868,6 +122385,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tiramisu.step_2` (separate)
@@ -121944,6 +122462,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tiramisu_paninis.step_1` (soak)
@@ -121970,6 +122489,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tiramisu_paninis.step_5` (assemble)
@@ -122166,6 +122686,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `toasted_coconut_flakes.step_4` (bake)
@@ -122265,6 +122786,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 463%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tofu_chocolate_mousse.step_2` (blend)
@@ -122358,7 +122880,7 @@ No routes: no machine does spoil or any technique above it.
 ### `tofu_saltado.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `tofu_saltado_step_1`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `tofu_saltado_step_1`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 1035%
 
@@ -122695,6 +123217,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `tomato_bredie.step_3` (pan_fry)
@@ -122740,7 +123263,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tomato_curry.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 4 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 624%
 - hexerei_mixing_cauldron: none, whole items would distort it by 624%
 
@@ -122879,6 +123402,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 50% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tomato_paste_and_ham_sandwiches_pan_tomaca.step_3` (assemble)
@@ -123070,6 +123594,7 @@ No routes: no machine does freezer_burn or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `tonkatsu.step_8` (fry)
@@ -123195,7 +123720,7 @@ No routes: no machine does mold or any technique above it.
 ### `tortilla_canaria.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -123309,6 +123834,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `tortillas_with_spicy_chocolate_sauce.step_2` (bake)
@@ -123382,7 +123908,7 @@ No routes: no machine does mold or any technique above it.
 ### `traditional_beef_stroganoff.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 1264%
 
@@ -123501,6 +124027,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `traditional_lasagne.step_8` (bake)
@@ -123528,7 +124055,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `traditional_pie_crust.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 7%, estimated
+- create_mixing: 4 recipes, rounding 7%, estimated
 - shapeless_crafting: 1 recipe, rounding 7%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 7%, estimated
 
@@ -123715,6 +124242,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tri_colored_autumn_rice_balls.step_1` (mix)
@@ -123747,6 +124275,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 3281%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 12%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `trifle.step_1.prep_1` (cut)
@@ -123787,6 +124316,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `tripe.freezer_burn` (freezer_burn)
@@ -123849,6 +124379,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tropical_sausage_combo.step_3` (assemble)
@@ -123951,6 +124482,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 111%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tub_tim_krob_thai_water_chestnuts_in_coconut.step_4` (boil)
@@ -123995,6 +124527,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 8
+- hexerei_dipper: none, takes at most 2 inputs, not 8
 - thermal_bottler: none, takes at most 2 inputs, not 8
 
 ### `tuna_curry.step_2` (pan_fry)
@@ -124017,7 +124550,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tuna_curry.step_5` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 4 recipes, rounding 15%, estimated
 - fd_cooking_pot: 1 recipe, rounding 60% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -124051,6 +124584,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 6%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tuna_fish_cakes.step_3` (heat)
@@ -124191,6 +124725,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `tuna_noodle_casserole.step_5` (bake)
@@ -124301,7 +124836,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `turkey_and_lima_beans.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 3 recipes, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 0%, estimated
 
 ### `turkey_and_lima_beans.step_2` (simmer)
@@ -124313,7 +124848,7 @@ No routes: no machine does spoil or any technique above it.
 ### `turkey_and_lima_beans.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 407%
 
@@ -124491,7 +125026,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `turkish_delight.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 281%
 - hexerei_mixing_cauldron: none, whole items would distort it by 200%
 
@@ -124519,6 +125054,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `turkish_delight.step_8` (cure)
@@ -124579,6 +125115,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `turmeric_chicken_and_asparagus_stir_fry.step_3` (pan_fry)
@@ -124591,7 +125128,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `turmeric_chicken_and_asparagus_stir_fry.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `turmeric_chicken_and_asparagus_stir_fry_step_3`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `turmeric_chicken_and_asparagus_stir_fry_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `turmeric_chicken_and_asparagus_stir_fry_step_3`
 
@@ -124689,6 +125226,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 900%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, whole items would distort it by 233%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `tuscan_bean_soup.step_2` (strain)
@@ -124781,6 +125319,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 5
+- hexerei_dipper: none, takes at most 2 inputs, not 5
 - thermal_bottler: none, takes at most 2 inputs, not 5
 
 ### `tuscan_roast_potatoes.step_4` (roast)
@@ -124946,6 +125485,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 - create_spout: none, whole items would distort it by 200%
+- hexerei_dipper: none, whole items would distort it by 200%
 - thermal_bottler: none, whole items would distort it by 200%
 
 ### `twice_baked_potatoes_i.step_3` (bake)
@@ -125479,7 +126019,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `upeseru_indian_lentils_with_greens.step_1` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 2 recipes, rounding 11%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 150%
 
@@ -125717,6 +126257,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 77% ⚠, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `valencian_inspired_paella.step_28` (assemble)
@@ -126131,6 +126672,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 111%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 15%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `vanilla_kifli.step_6` (coat)
@@ -126139,6 +126681,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 782%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 13%, estimated
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `vanilla_wafer_crumbs.freezer_burn` (freezer_burn)
@@ -126226,6 +126769,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `vedhmi_sweet_stuffed_flatbread.step_2` (strain)
@@ -126332,6 +126876,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `vegemite_sandwich.step_3` (coat)
@@ -126340,6 +126885,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `vegemite_sandwich.step_4` (assemble)
@@ -126418,7 +126964,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `vegetable_spring_roll.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
+- create_mixing: 4 recipes, rounding 14%, estimated
 - shapeless_crafting: 1 recipe, rounding 18% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 18% ⚠, estimated
 
@@ -126496,6 +127042,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 7
+- hexerei_dipper: none, takes at most 2 inputs, not 7
 - thermal_bottler: none, takes at most 2 inputs, not 7
 
 ### `vegetable_stew_and_dumplings.step_3` (coat)
@@ -126504,6 +127051,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `vegetable_stew_and_dumplings.step_4` (mix)
@@ -126632,6 +127180,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: none, whole items would distort it by 745%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 14%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `veggie_pizza.step_3` (assemble)
@@ -126851,12 +127400,13 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 4
+- hexerei_dipper: none, takes at most 2 inputs, not 4
 - thermal_bottler: none, takes at most 2 inputs, not 4
 
 ### `venison_italian_style.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `venison_italian_style_step_6`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `venison_italian_style_step_6`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: none, whole items would distort it by 2159%
 
@@ -126882,7 +127432,7 @@ No routes: no machine does spoil or any technique above it.
 ### `venison_pie.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 783%
 
@@ -127178,7 +127728,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `vietnamese_rice_noodle_and_beef_soup_bun_bo_hu.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 13%, estimated
 
@@ -127488,6 +128038,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, whole items would distort it by 914%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `waldorf_salad.step_3` (soak)
@@ -127507,6 +128058,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `waldorf_salad.step_6` (chill)
@@ -127537,7 +128089,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `wali_wa_nazi.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
@@ -127669,7 +128221,7 @@ No routes: no machine does mold or any technique above it.
 ### `waterzooi.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 2 recipes, rounding 11%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 - hexerei_mixing_cauldron: none, whole items would distort it by 400%
 
@@ -127722,7 +128274,7 @@ No routes: no machine does mold or any technique above it.
 
 ### `welsh_cakes.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 7%, estimated
+- create_mixing: 4 recipes, rounding 7%, estimated
 - shapeless_crafting: 1 recipe, rounding 7%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 7%, estimated
 
@@ -127939,6 +128491,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 - create_spout: 2 recipes, rounding 0%
+- hexerei_dipper: 1 recipe, rounding 0%
 - thermal_bottler: 1 recipe, rounding 0%
 
 ### `wheat_modak_coconut_pastries.step_3` (heat)
@@ -128018,7 +128571,7 @@ No routes: no machine does sour or any technique above it.
 
 ### `white_bean_and_pumpkin_leaf_soup.step_5` (season)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: none, takes at most 9 inputs, not 11
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 11
 
@@ -128344,7 +128897,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `whole_wheat_pancakes.step_5` (pan_fry)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `whole_wheat_pancakes_step_3`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `whole_wheat_pancakes_step_3`
 - pnc_thermo_plant: 1 recipe, disabled: the game can't make `whole_wheat_pancakes_step_3`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `whole_wheat_pancakes_step_3`
 
@@ -128392,7 +128945,7 @@ No routes: no machine does rancid or any technique above it.
 
 ### `whole_wheat_waffles.step_3` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_waffles_step_2`
+- create_mixing: 2 recipes, disabled: the game can't make `whole_wheat_waffles_step_2`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_waffles_step_2`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `whole_wheat_waffles_step_2`
 
@@ -128522,6 +129075,7 @@ No routes: no machine does rancid or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `wine.ferment` (ferment)
@@ -128534,7 +129088,7 @@ No routes: no machine does rancid or any technique above it.
 ### `wine_braised_shortribs.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 9%
+- create_heated_mixing: 2 recipes, rounding 9%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 4500%
 
@@ -129000,6 +129554,7 @@ No routes: no machine does spoil or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 7
+- hexerei_dipper: none, takes at most 2 inputs, not 7
 - thermal_bottler: none, takes at most 2 inputs, not 7
 
 ### `yataklete_kilkil_ethiopian_vegetable_stew.step_4` (mix)
@@ -129457,6 +130012,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 7
+- hexerei_dipper: none, takes at most 2 inputs, not 7
 - thermal_bottler: none, takes at most 2 inputs, not 7
 
 ### `yetakelt_wot_ethiopian_spiced_vegetable_stew.step_4` (mix)
@@ -129492,14 +130048,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `yetsom_beyaynetu_ethiopian_vegan_platter.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 9%, estimated
+- create_heated_mixing: 2 recipes, rounding 9%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: none, whole items would distort it by 140%
 
 ### `yetsom_beyaynetu_ethiopian_vegan_platter.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -129529,7 +130085,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `yetsom_beyaynetu_ethiopian_vegan_platter.step_9` (pan_fry)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `yetsom_beyaynetu_ethiopian_vegan_platter_step_7`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `yetsom_beyaynetu_ethiopian_vegan_platter_step_7`
 - pnc_thermo_plant: 1 recipe, disabled: the game can't make `yetsom_beyaynetu_ethiopian_vegan_platter_step_7`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `yetsom_beyaynetu_ethiopian_vegan_platter_step_7`
 
@@ -129699,6 +130255,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, needs a fluid it can take, and has none
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `yogurt_curry_soup_kadhi.step_1` (whisk)
@@ -129833,6 +130390,7 @@ No routes: no machine does sour or any technique above it.
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: 1 recipe, rounding 0%
+- hexerei_dipper: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `yuvarlak_greek_meatballs.step_4` (boil)
@@ -129923,7 +130481,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `zalabiyeh_sweet_fritters_ii.step_7` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: 2 recipes, rounding 0%
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -130059,6 +130617,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%, estimated
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `zambian_tomato_and_onion_salad.step_4` (season)
@@ -130096,7 +130655,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `zambian_vegetable_stir_fry.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 5%, estimated
+- create_heated_mixing: 2 recipes, rounding 5%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: 1 recipe, rounding 25% ⚠, estimated
 
@@ -130117,6 +130676,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_spout: none, takes at most 2 inputs, not 3
+- hexerei_dipper: none, takes at most 2 inputs, not 3
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `zambian_vegetable_stir_fry.step_7` (stir_fry)
@@ -130185,7 +130745,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `zereshk_palau_iranian_rice_with_barberries_i.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 17% ⚠, estimated
 
@@ -130325,6 +130885,7 @@ No routes: no machine does mold or any technique above it.
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 12
 - create_spout: none, takes at most 2 inputs, not 12
+- hexerei_dipper: none, takes at most 2 inputs, not 12
 - thermal_bottler: none, takes at most 2 inputs, not 12
 
 ### `zilzil_tibs_spicy_ethiopian_beef_strips.step_3` (pan_fry)
@@ -130547,7 +131108,7 @@ No routes: no machine does spoil or any technique above it.
 ### `zucchini_pie.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `zucchini_pie_step_3`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `zucchini_pie_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 - hexerei_mixing_cauldron: none, whole items would distort it by 588%
 
@@ -130658,7 +131219,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `zwiebelrostbraten_with_red_wine_onion_gravy.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 - hexerei_mixing_cauldron: 1 recipe, rounding 0%
 
@@ -130684,7 +131245,7 @@ No routes: no machine does spoil or any technique above it.
 
 ### `zwiebelrostbraten_with_red_wine_onion_gravy.step_6` (soak)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 2 recipes, rounding 0%
 - create_splashing: none, takes one input, not 3
 
 ## Pruned
@@ -130701,21 +131262,22 @@ Inputs by how many pruned routes miss them:
 - `tomato_chop_chop`: 12
 - `graham_cracker`: 9
 - `avocado_cut_chop`: 7
+- `classic_salad_step_3`: 6
 - `hickory_bbq_rub`: 6
+- `italian_crispy_chicken_step_2`: 6
 - `kansas_city_barbecue_sauce`: 6
 - `niter_kibbeh`: 6
 - `niter_kibbeh_heat`: 6
-- `classic_salad_step_3`: 5
 - `corn_chop`: 5
 - `homemade_wheat_tortillas`: 5
-- `italian_crispy_chicken_step_2`: 5
 - `shortening_cut`: 5
+- `sprout_salad_step_8`: 5
 - `sushi_rice`: 5
 - `avocado_cut_cut_blend`: 4
 - `graham_cracker_grind`: 4
 - `meatloaf_iv_step_4`: 4
+- `pasties_step_4`: 4
 - `puri_indian_fried_flatbread`: 4
-- `sprout_salad_step_8`: 4
 - `steamed_basmati_rice_rinse`: 4
 - `thai_red_curry_paste`: 4
 - `a_nice_cup_of_tea_step_5`: 3
@@ -130821,7 +131383,6 @@ Inputs by how many pruned routes miss them:
 - `oven_fried_chicken_breasts_step_3`: 3
 - `paksiw_na_bangus_milkfish_stewed_in_vinegar_step_3`: 3
 - `pancakes_vegan_step_2`: 3
-- `pasties_step_4`: 3
 - `pastry_for_cornish_pasties_cut`: 3
 - `peanut_milk_step_5`: 3
 - `pecan_pie_step_5`: 3
@@ -134325,6 +134886,7 @@ Each pruned route, and what it misses:
 - `classic_salad/step_4`, create_deploying: `classic_salad_step_3`
 - `classic_salad/step_4`, hexerei_mixing_cauldron: `classic_salad_step_3`
 - `classic_salad/step_4`, create_spout: `classic_salad_step_3`
+- `classic_salad/step_4`, hexerei_dipper: `classic_salad_step_3`
 - `classic_salad/step_4`, thermal_bottler: `classic_salad_step_3`
 - `cochinita_pibil_mexican_braised_pork/step_3`, create_mixing: `cochinita_pibil_mexican_braised_pork_step_2`
 - `cochinita_pibil_mexican_braised_pork/step_6`, create_heated_mixing: `cochinita_pibil_mexican_braised_pork_step_5`
@@ -135409,6 +135971,7 @@ Each pruned route, and what it misses:
 - `italian_crispy_chicken/step_3`, create_deploying: `italian_crispy_chicken_step_2`
 - `italian_crispy_chicken/step_3`, hexerei_mixing_cauldron: `italian_crispy_chicken_step_2`
 - `italian_crispy_chicken/step_3`, create_spout: `italian_crispy_chicken_step_2`
+- `italian_crispy_chicken/step_3`, hexerei_dipper: `italian_crispy_chicken_step_2`
 - `italian_crispy_chicken/step_3`, thermal_bottler: `italian_crispy_chicken_step_2`
 - `italian_crispy_chicken/step_4`, smelting: `italian_crispy_chicken_step_3`
 - `italian_crispy_chicken/step_4`, smoking: `italian_crispy_chicken_step_3`
@@ -136350,6 +136913,7 @@ Each pruned route, and what it misses:
 - `pasties/step_3/prep_5`, create_cutting: `pastry_for_cornish_pasties`
 - `pasties/step_5`, hexerei_mixing_cauldron: `pasties_step_4`
 - `pasties/step_5`, create_spout: `pasties_step_4`
+- `pasties/step_5`, hexerei_dipper: `pasties_step_4`
 - `pasties/step_5`, thermal_bottler: `pasties_step_4`
 - `pasties/step_8`, fd_cutting_board: `pasties_step_6`
 - `pasties/step_8`, create_cutting: `pasties_step_6`
@@ -137270,6 +137834,7 @@ Each pruned route, and what it misses:
 - `sprout_salad/step_9`, shapeless_crafting: `sprout_salad_step_8`
 - `sprout_salad/step_9`, hexerei_mixing_cauldron: `sprout_salad_step_8`
 - `sprout_salad/step_9`, create_spout: `sprout_salad_step_8`
+- `sprout_salad/step_9`, hexerei_dipper: `sprout_salad_step_8`
 - `sprout_salad/step_9`, thermal_bottler: `sprout_salad_step_8`
 - `stargazy_pie/step_5`, shapeless_crafting: `stargazy_pie_step_4`
 - `stargazy_pie/step_7`, smelting: `stargazy_pie_step_6`

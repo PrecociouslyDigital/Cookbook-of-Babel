@@ -1,0 +1,35 @@
+{
+  "type": "hexerei:dipper",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chilli_oil_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "garnished"
+    }
+  ],
+  "dippingTimeInTicks": 20,
+  "dryingTimeInTicks": 200,
+  "fluidLevelsConsumed": 486,
+  "input": {
+    "type": "forge:partial_nbt",
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:chilli_oil_step_1\"}}}"
+  },
+  "liquid": {
+    "amount": 486,
+    "fluid": "garnished:peanut_oil"
+  },
+  "numberOfDips": 1,
+  "output": {
+    "count": 14,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:chilli_oil_step_2\"}"
+  }
+}

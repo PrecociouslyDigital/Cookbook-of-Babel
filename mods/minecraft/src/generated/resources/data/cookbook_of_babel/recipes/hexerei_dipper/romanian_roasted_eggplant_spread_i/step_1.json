@@ -1,0 +1,40 @@
+{
+  "type": "hexerei:dipper",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/romanian_roasted_eggplant_spread_i_step_1"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "dippingTimeInTicks": 20,
+  "dryingTimeInTicks": 200,
+  "fluidLevelsConsumed": 135,
+  "input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:eggplant\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/eggplant"
+    }
+  ],
+  "liquid": {
+    "amount": 135,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "numberOfDips": 1,
+  "output": {
+    "count": 2,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:romanian_roasted_eggplant_spread_i_step_1\"}"
+  }
+}

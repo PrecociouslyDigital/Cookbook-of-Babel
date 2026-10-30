@@ -1,0 +1,47 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chicken_bacon_broccoli_alfredo_spaghetti_step_5"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:chicken_bacon_broccoli_alfredo_spaghetti_step_4\"}"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:broccoli\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/broccoli"
+      }
+    ],
+    {
+      "amount": 412,
+      "fluidTag": "forge:milk"
+    }
+  ],
+  "processingTime": 60,
+  "results": [
+    {
+      "amount": 87,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:chicken_bacon_broccoli_alfredo_spaghetti_step_5\"}"
+    }
+  ]
+}

@@ -39,21 +39,33 @@ final class TagsGen {
         protected void addTags(HolderLookup.Provider lookup) {
             for (var ingredient : context.dataset.ingredients()) {
                 var id = ingredient.id();
-                var all = tag(BabelTags.ingredientItems(id.value()));
                 var external = tag(BabelTags.externalItems(id.value()));
                 for (var tag : TagsGen.mapped(context, id, Mapping.Entry::itemTags)) {
-                    all.addOptionalTag(new ResourceLocation(tag));
                     external.addOptionalTag(new ResourceLocation(tag));
                 }
                 for (var mapping : context.mappings) {
-                    mapping.entry(id).ifPresent(e -> e.items().forEach(item -> {
-                        all.addOptional(new ResourceLocation(item.id()));
-                        external.addOptional(new ResourceLocation(item.id()));
-                    }));
+                    mapping.entry(id).ifPresent(e -> e.items().forEach(item ->
+                            external.addOptional(new ResourceLocation(item.id()))));
+                }
+                // An ingredients tag with nothing in it reads as an accepted-but-empty ingredient, so
+                // it is written only where something counts as the ingredient besides the mod's own
+                // substance, which every recipe matches by NBT.
+                if (!context.tagged(id)) {
+                    continue;
+                }
+                var all = tag(BabelTags.ingredientItems(id.value()));
+                for (var tag : TagsGen.mapped(context, id, Mapping.Entry::itemTags)) {
+                    all.addOptionalTag(new ResourceLocation(tag));
+                }
+                for (var mapping : context.mappings) {
+                    mapping.entry(id).ifPresent(e -> e.items().forEach(item ->
+                            all.addOptional(new ResourceLocation(item.id()))));
                 }
                 NamedDish.byId(id.value()).ifPresent(dish ->
                         all.add(ResourceKey.create(Registries.ITEM, Registration.DISHES.get(dish).getId())));
-                context.dataset.children(id).forEach(child -> all.addTag(BabelTags.ingredientItems(child.value())));
+                context.dataset.children(id).stream()
+                        .filter(child -> context.tagged(child))
+                        .forEach(child -> all.addTag(BabelTags.ingredientItems(child.value())));
             }
         }
     }

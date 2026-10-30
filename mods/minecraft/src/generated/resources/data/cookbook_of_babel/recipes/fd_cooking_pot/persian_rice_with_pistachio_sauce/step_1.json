@@ -10,6 +10,9 @@
       "tag": "cookbook_of_babel:external/persian_rice_with_pistachio_sauce_step_1"
     }
   ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
   "cookingtime": 100,
   "experience": 0.1,
   "ingredients": [
@@ -23,26 +26,16 @@
         "tag": "cookbook_of_babel:ingredients/pistachio"
       }
     ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:soy_milk_i_heat\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/soy_milk_i_heat"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:soy_milk_i_heat\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/soy_milk_i_heat"
-      }
-    ]
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:soy_milk_i_heat\"}}}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:soy_milk_i_heat\"}}}"
+    }
   ],
   "result": {
     "count": 3,

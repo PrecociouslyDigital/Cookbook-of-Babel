@@ -1,0 +1,35 @@
+{
+  "type": "hexerei:dipper",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/m_semen_layered_algerian_flatbread_step_5"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "dippingTimeInTicks": 20,
+  "dryingTimeInTicks": 200,
+  "fluidLevelsConsumed": 1,
+  "input": {
+    "type": "forge:partial_nbt",
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:m_semen_layered_algerian_flatbread_step_3\"}"
+  },
+  "liquid": {
+    "amount": 1,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "numberOfDips": 1,
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:m_semen_layered_algerian_flatbread_step_5\"}"
+  }
+}

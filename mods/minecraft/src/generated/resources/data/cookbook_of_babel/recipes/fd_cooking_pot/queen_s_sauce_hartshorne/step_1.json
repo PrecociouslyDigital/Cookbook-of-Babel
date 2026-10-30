@@ -10,29 +10,22 @@
       "tag": "cookbook_of_babel:external/queen_s_sauce_hartshorne_step_1"
     }
   ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
   "cookingtime": 100,
   "experience": 0.1,
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:gravy_heat\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/gravy_heat"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:bread_crumbs\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/bread_crumbs"
-      }
-    ]
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:gravy_heat\"}}}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:bread_crumbs\"}}}"
+    }
   ],
   "result": {
     "item": "cookbook_of_babel:portion",

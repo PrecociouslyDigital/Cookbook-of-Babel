@@ -10,6 +10,9 @@
       "tag": "cookbook_of_babel:external/acid_drops_step_1"
     }
   ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
   "cookingtime": 100,
   "experience": 0.1,
   "ingredients": [
@@ -43,16 +46,11 @@
         "tag": "cookbook_of_babel:ingredients/water"
       }
     ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:cream_of_tartar\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/cream_of_tartar"
-      }
-    ]
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:cream_of_tartar\"}}}"
+    }
   ],
   "result": {
     "count": 3,

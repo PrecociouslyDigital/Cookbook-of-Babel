@@ -16,6 +16,7 @@ import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_COOKING_POT_SE
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_CUTTING_BOARD;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FR_KETTLE;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.HEXEREI_DRYING_RACK;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.HEXEREI_DIPPER;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.HEXEREI_MIXING_CAULDRON;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.HEXEREI_PESTLE_AND_MORTAR;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.PNC_THERMO_PLANT;
@@ -81,8 +82,8 @@ public final class Techniques {
             bind("distill", CREATE_HEATED_MIXING),
             bind("coagulate", CREATE_MIXING),
             bind("assemble", ASSEMBLY),
-            // The spout coats anything with any liquid; the cauldron and crafting grid do the rest.
-            bind("coat", ASSEMBLY, CREATE_SPOUT, THERMAL_BOTTLER),
+            // The spout coats anything with any liquid; the dipper, cauldron and crafting grid do the rest.
+            bind("coat", ASSEMBLY, CREATE_SPOUT, HEXEREI_DIPPER, THERMAL_BOTTLER),
             bind("shape", ASSEMBLY, CREATE_COMPACTING),
             // Calcining gives off a gas, which only a basin can collect.
             bind("calcine", CREATE_HEATED_MIXING, BLASTING, THEURGY_CALCINATION),

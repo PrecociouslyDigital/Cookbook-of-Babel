@@ -12,26 +12,11 @@
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:kuwese_u_logo_nigerian_fried_cassava_step_2\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/kuwese_u_logo_nigerian_fried_cassava_step_2"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:peanut_oil_heat\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/peanut_oil_heat"
-      }
-    ],
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:kuwese_u_logo_nigerian_fried_cassava_step_2\"}"
+    },
     [
       {
         "type": "forge:partial_nbt",
@@ -166,7 +151,14 @@
       {
         "tag": "cookbook_of_babel:ingredients/oil_and_fat"
       }
-    ]
+    ],
+    {
+      "amount": 16,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:peanut_oil_heat"
+      }
+    }
   ],
   "processingTime": 20,
   "results": [

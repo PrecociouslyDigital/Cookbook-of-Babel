@@ -14,6 +14,7 @@ import cookbookofbabel.minecraft.datagen.plan.Planned.ItemIn;
 import cookbookofbabel.minecraft.datagen.plan.Planned.ItemOut;
 import cookbookofbabel.minecraft.datagen.plan.Quantize.Exact;
 import cookbookofbabel.minecraft.datagen.plan.Quantize.Kind;
+import cookbookofbabel.minecraft.substance.FluidKind;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
@@ -186,7 +187,7 @@ public final class Planner {
         return new Planned(route, step, ins, outs, ticks(route, step.recipe()), heat(route, step.recipe()), q.maxError(), estimated, dropped);
     }
 
-    private record Fit(Set<IngredientId> fluids, Quantize.Quantized quantized, boolean estimated) {}
+    private record Fit(Set<IngredientId> fluids, long liquids, Quantize.Quantized quantized, boolean estimated) {}
 
     /**
      * Which flowable inputs to take as fluids, where the machine has tanks: every choice is tried,
@@ -213,13 +214,28 @@ public final class Planner {
                     estimated |= converted.estimated();
                     exact.add(new Exact(converted.value(), fluid ? Kind.MILLIBUCKETS : Kind.ITEMS, negligible(leaf.ingredient(), leaf.amount(), inputGrams)));
                 }
-                if (Quantize.quantize(exact, outputs, limits(route)) instanceof Quantize.Quantized q
-                        && (best.isEmpty() || q.maxError() < best.get().quantized().maxError())) {
-                    best = Optional.of(new Fit(fluids, q, estimated));
+                if (Quantize.quantize(exact, outputs, limits(route)) instanceof Quantize.Quantized q) {
+                    var liquids = fluids.stream().filter(this::liquid).count();
+                    // Equal rounding, the liquid kind prefers its fluid: a basin's tanks beat a shelf of
+                    // portions. Granules may go either way, so they keep the plainer fit.
+                    if (best.isEmpty()
+                            || q.maxError() < best.get().quantized().maxError() - ERROR_TIE
+                            || q.maxError() <= best.get().quantized().maxError() + ERROR_TIE
+                                && liquids > best.get().liquids()) {
+                        best = Optional.of(new Fit(fluids, liquids, q, estimated));
+                    }
                 }
             }
         }
         return best;
+    }
+
+    /** Quantization errors closer than this count as a tie, which the liquid kind's fluid wins. */
+    private static final double ERROR_TIE = 1e-9;
+
+    /** Whether the ingredient flows as a liquid, batter or foam, rather than a powder or granule. */
+    private boolean liquid(IngredientId id) {
+        return FluidKind.forForm(dataset.ingredient(id).form()) == FluidKind.LIQUID;
     }
 
     /** The inputs the machine could take as fluids: flowable ones, and only other mods' fluids where it ignores NBT. */

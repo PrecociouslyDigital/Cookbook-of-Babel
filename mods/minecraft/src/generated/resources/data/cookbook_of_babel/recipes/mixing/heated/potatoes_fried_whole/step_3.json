@@ -12,36 +12,16 @@
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:potatoes_fried_whole_step_2\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/potatoes_fried_whole_step_2"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:potatoes_fried_whole_step_2\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/potatoes_fried_whole_step_2"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:dripping_heat\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/dripping_heat"
-      }
-    ],
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:potatoes_fried_whole_step_2\"}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:potatoes_fried_whole_step_2\"}"
+    },
     [
       {
         "type": "forge:partial_nbt",
@@ -716,7 +696,14 @@
       {
         "tag": "cookbook_of_babel:ingredients/oil_and_fat"
       }
-    ]
+    ],
+    {
+      "amount": 78,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:dripping_heat"
+      }
+    }
   ],
   "processingTime": 20,
   "results": [

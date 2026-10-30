@@ -1,0 +1,48 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/gambas_al_ajillo_garlic_shrimp_step_1"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:garlic\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/garlic"
+      }
+    ],
+    {
+      "amount": 11,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:olive_oil_heat"
+      }
+    },
+    {
+      "amount": 3,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:oil_and_fat"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 18,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:gambas_al_ajillo_garlic_shrimp_step_1\"}"
+    }
+  ]
+}

@@ -37,6 +37,7 @@ import cookbookofbabel.minecraft.datagen.plan.RouteKind;
 import cookbookofbabel.minecraft.datagen.recipe.brewinandchewin.Keg;
 import cookbookofbabel.minecraft.datagen.recipe.farmersrespite.Kettle;
 import cookbookofbabel.minecraft.datagen.recipe.pneumaticcraft.ThermoPlant;
+import cookbookofbabel.minecraft.datagen.recipe.hexerei.Dipper;
 import cookbookofbabel.minecraft.datagen.recipe.hexerei.DryingRack;
 import cookbookofbabel.minecraft.datagen.recipe.hexerei.MixingCauldron;
 import cookbookofbabel.minecraft.datagen.recipe.hexerei.PestleAndMortar;
@@ -52,6 +53,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Optional;
+import java.util.Set;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
@@ -169,6 +171,12 @@ public final class RouteEmitter {
             outputs.add(stack(p.outputs().get(i), i == 0 ? Optional.of(mainTarget) : Optional.empty()));
         }
         var route = p.route();
+        // A bowl-carried result must take its bowl in, or the recipe conjures one out of nowhere.
+        var bowls = bowls(p, outputs);
+        if (bowls > 0 && VESSELED.contains(route) && items.size() < route.constraints.maxItemInputs()) {
+            items.add(Ingredient.of(Container.BOWL.empty()));
+            counts.add(bowls);
+        }
         // An expression, so that a route without a case here doesn't compile.
         Runnable emit = switch (route) {
             case CREATE_MIXING, CREATE_HEATED_MIXING -> () -> create(MixingRecipe::new, route == RouteKind.CREATE_HEATED_MIXING ? "heated/" + path : path, p, items, counts, fluids, outputs, conditions, sink);
@@ -198,6 +206,7 @@ public final class RouteEmitter {
             case HEXEREI_DRYING_RACK -> () -> json(DryingRack::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
             case HEXEREI_PESTLE_AND_MORTAR -> () -> json(PestleAndMortar::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
             case HEXEREI_MIXING_CAULDRON -> () -> json(MixingCauldron::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
+            case HEXEREI_DIPPER -> () -> json(Dipper::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
             case SHAPELESS_CRAFTING -> () -> {
                 var result = (ItemStack) first(outputs);
                 var builder = ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, result.getItem(), result.getCount());
@@ -219,6 +228,7 @@ public final class RouteEmitter {
             case FD_COOKING_POT, FD_COOKING_POT_SEVERAL -> () -> {
                 var result = (ItemStack) first(outputs);
                 var builder = serving(result)
+                        .or(() -> vessel(p))
                         .map(container -> CookingPotRecipeBuilder.cookingPotRecipe(result.getItem(), result.getCount(), p.ticks(), EXPERIENCE, container))
                         .orElseGet(() -> CookingPotRecipeBuilder.cookingPotRecipe(result.getItem(), result.getCount(), p.ticks(), EXPERIENCE));
                 for (var i = 0; i < items.size(); i++) {
@@ -245,6 +255,32 @@ public final class RouteEmitter {
             return dish.servedInBowls() ? Optional.of(Items.BOWL) : Optional.empty();
         }
         return FdContainers.of(ForgeRegistries.ITEMS.getKey(result.getItem()));
+    }
+
+    /** The vessel a portion result is carried in, for the pot to serve it into: a bowl, bottle or twist. */
+    private Optional<Item> vessel(Planned p) {
+        return p.outputs().stream()
+                .filter(o -> o instanceof ItemOut)
+                .findFirst()
+                .flatMap(o -> dataset.container(((ItemOut) o).ingredient()))
+                .map(Container::empty);
+    }
+
+    /** The routes whose shape takes a vessel among the inputs, so a bowl-carried result is honest. */
+    private static final Set<RouteKind> VESSELED = Set.of(
+            RouteKind.SHAPELESS_CRAFTING, RouteKind.CREATE_MIXING, RouteKind.CREATE_HEATED_MIXING,
+            RouteKind.CREATE_COMPACTING, RouteKind.HEXEREI_MIXING_CAULDRON);
+
+    /** How many bowls the planned outputs are carried in. */
+    private int bowls(Planned p, List<Object> outputs) {
+        var bowls = 0;
+        for (var i = 0; i < p.outputs().size(); i++) {
+            if (p.outputs().get(i) instanceof ItemOut item
+                    && dataset.container(item.ingredient()).orElse(null) == Container.BOWL) {
+                bowls += ((ItemStack) outputs.get(i)).getCount();
+            }
+        }
+        return bowls;
     }
 
     private <T extends ProcessingRecipe<?>> void create(

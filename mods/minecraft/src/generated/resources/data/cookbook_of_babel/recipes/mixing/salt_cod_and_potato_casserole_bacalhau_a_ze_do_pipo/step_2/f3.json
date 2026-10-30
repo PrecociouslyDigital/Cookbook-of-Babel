@@ -1,0 +1,73 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/salt_cod_and_potato_casserole_bacalhau_a_ze_do_pipo_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:potato_roast_roast\"}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:potato_roast_roast\"}"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:pepper\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pepper"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:lemon\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lemon"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg"
+      }
+    ],
+    {
+      "amount": 1,
+      "fluidTag": "forge:milk"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:salt_cod_and_potato_casserole_bacalhau_a_ze_do_pipo_step_2"
+      }
+    }
+  ]
+}
