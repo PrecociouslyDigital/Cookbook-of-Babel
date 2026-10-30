@@ -12,27 +12,17 @@
     {
       "type": "forge:mod_loaded",
       "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:false"
     }
   ],
   "heatRequirement": "heated",
   "ingredients": [
     {
       "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:buttermilk_curry_soup_kadi_pakora_step_5\"}}}"
-    },
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:buttermilk_curry_soup_kadi_pakora_step_5\"}}}"
-    },
-    {
-      "type": "forge:partial_nbt",
       "item": "cookbook_of_babel:substance",
       "nbt": "{substance:\"cookbook_of_babel:mustard_seed_fry\"}"
-    },
-    {
-      "tag": "cookbook_of_babel:ingredients/garlic_chop"
     },
     {
       "tag": "cookbook_of_babel:ingredients/garlic_chop"
@@ -136,26 +126,6 @@
     {
       "type": "forge:partial_nbt",
       "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:curry_leaf\"}"
-    },
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:curry_leaf\"}"
-    },
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:curry_leaf\"}"
-    },
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:curry_leaf\"}"
-    },
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:substance",
       "nbt": "{substance:\"cookbook_of_babel:onion_fry\"}"
     },
     {
@@ -169,12 +139,14 @@
       "nbt": "{substance:\"cookbook_of_babel:onion_fry\"}"
     },
     {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:onion_fry\"}"
+      "amount": 348,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:buttermilk_curry_soup_kadi_pakora_step_5"
+      }
     },
     {
-      "amount": 67,
+      "amount": 52,
       "fluid": "pneumaticcraft:vegetable_oil",
       "nbt": {}
     }
@@ -182,7 +154,7 @@
   "processingTime": 20,
   "results": [
     {
-      "count": 4,
+      "count": 3,
       "item": "cookbook_of_babel:substance",
       "nbt": {
         "substance": "cookbook_of_babel:buttermilk_curry_soup_kadi_pakora_step_6"

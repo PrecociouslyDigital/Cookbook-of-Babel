@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/koko_da_kosai_fermented_corn_porridge_and_bean_fritters_step_2"
+    }
+  ],
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:koko_da_kosai_fermented_corn_porridge_and_bean_fritters_step_1\"}"
+    },
+    {
+      "amount": 261,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 8,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:koko_da_kosai_fermented_corn_porridge_and_bean_fritters_step_2"
+      }
+    }
+  ]
+}

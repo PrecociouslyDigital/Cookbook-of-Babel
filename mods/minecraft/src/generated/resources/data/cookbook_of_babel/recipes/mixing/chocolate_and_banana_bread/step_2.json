@@ -11,15 +11,20 @@
     }
   ],
   "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:wheat_flour\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wheat_flour"
+      }
+    ],
     {
       "type": "forge:partial_nbt",
       "item": "cookbook_of_babel:portion",
       "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:yeast\"}}}"
-    },
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:tepid_water\"}}}"
     },
     [
       {
@@ -32,14 +37,14 @@
       }
     ],
     {
-      "amount": 632,
-      "fluid": "cookbook_of_babel:bulk",
+      "amount": 75,
+      "fluid": "cookbook_of_babel:liquid",
       "nbt": {
-        "substance": "cookbook_of_babel:wheat_flour"
+        "substance": "cookbook_of_babel:tepid_water"
       }
     },
     {
-      "amount": 14,
+      "amount": 5,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": {
         "substance": "cookbook_of_babel:white_sugar"
@@ -49,7 +54,7 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 575,
+      "amount": 198,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:chocolate_and_banana_bread_step_2\"}"
     }

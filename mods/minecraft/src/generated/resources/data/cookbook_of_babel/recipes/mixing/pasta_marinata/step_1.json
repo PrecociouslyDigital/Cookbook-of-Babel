@@ -11,71 +11,6 @@
     }
   ],
   "ingredients": [
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:semolina\"}}}"
-    },
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/egg"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/egg"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/egg"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/egg"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/egg"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/egg"
-      }
-    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -107,15 +42,23 @@
       }
     ],
     {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:butter_boil\"}}}"
+      "amount": 50,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:semolina"
+      }
+    },
+    {
+      "amount": 50,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:butter_boil"
+      }
     }
   ],
   "processingTime": 20,
   "results": [
     {
-      "count": 4,
       "item": "cookbook_of_babel:substance",
       "nbt": {
         "substance": "cookbook_of_babel:pasta_marinata_step_1"

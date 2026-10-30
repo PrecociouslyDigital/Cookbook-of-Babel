@@ -19,6 +19,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Recipe;
+import cookbookofbabel.minecraft.supplant.ToolRecipes;
+import java.util.ArrayList;
 import net.minecraft.world.item.crafting.RecipeManager;
 import net.minecraftforge.event.AddReloadListenerEvent;
 import net.minecraftforge.event.TagsUpdatedEvent;
@@ -106,7 +108,17 @@ public final class Supplanting {
             loading = null;
             var registries = event.getRegistryAccess();
             var split = split(manager.getRecipes(), registries);
-            manager.replaceRecipes(manager.getRecipes().stream().filter(r -> !split.takes(r, registries)).toList());
+            var kept = new ArrayList<Recipe<?>>(manager.getRecipes());
+            kept.removeIf(r -> split.takes(r, registries));
+            for (var i = 0; i < kept.size(); i++) {
+                // Dependency tools work their meals in the grid; the rewritten recipe takes
+                // their place, keeping the original's id.
+                var replacement = ToolRecipes.replacement(kept.get(i), split, registries);
+                if (replacement != null) {
+                    kept.set(i, replacement);
+                }
+            }
+            manager.replaceRecipes(kept);
         });
     }
 

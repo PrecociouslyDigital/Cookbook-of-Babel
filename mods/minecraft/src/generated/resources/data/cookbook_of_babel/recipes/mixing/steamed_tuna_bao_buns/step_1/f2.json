@@ -11,20 +11,15 @@
     },
     {
       "type": "forge:mod_loaded",
-      "modid": "brewinandchewin"
+      "modid": "create"
     }
   ],
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:milk\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/milk"
-      }
-    ],
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:yeast\"}}}"
+    },
     [
       {
         "type": "forge:partial_nbt",
@@ -36,22 +31,22 @@
       }
     ],
     {
-      "amount": 3,
-      "fluid": "cookbook_of_babel:bulk",
+      "amount": 64,
+      "fluid": "cookbook_of_babel:liquid",
       "nbt": {
-        "substance": "cookbook_of_babel:yeast"
+        "substance": "cookbook_of_babel:honey"
       }
     },
     {
       "amount": 1,
-      "fluid": "brewinandchewin:honey",
+      "fluid": "minecraft:milk",
       "nbt": {}
     }
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 6,
+      "amount": 435,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:steamed_tuna_bao_buns_step_1\"}"
     }

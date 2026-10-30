@@ -11,11 +11,26 @@
     }
   ],
   "ingredients": [
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:vegetable_oil_boil\"}}}"
-    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:cornmeal\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cornmeal"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:cornmeal\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cornmeal"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -47,14 +62,14 @@
       }
     ],
     {
-      "amount": 327,
-      "fluid": "cookbook_of_babel:bulk",
+      "amount": 1,
+      "fluid": "cookbook_of_babel:liquid",
       "nbt": {
-        "substance": "cookbook_of_babel:cornmeal"
+        "substance": "cookbook_of_babel:vegetable_oil_boil"
       }
     },
     {
-      "amount": 8,
+      "amount": 11,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": {
         "substance": "cookbook_of_babel:salt"
@@ -64,7 +79,7 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 459,
+      "amount": 611,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": "{substance:\"cookbook_of_babel:hush_puppies_step_2\"}"
     }

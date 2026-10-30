@@ -8,17 +8,15 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/chipotle_fish_n_chips_step_2"
+    },
+    {
+      "type": "forge:false"
     }
   ],
   "ingredients": [
     {
       "type": "forge:partial_nbt",
       "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:chipotle_fish_n_chips_step_1\"}}}"
-    },
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
       "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:beer_chill\"}}}"
     },
     {
@@ -26,21 +24,6 @@
       "item": "cookbook_of_babel:portion",
       "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:beer_chill\"}}}"
     },
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:beer_chill\"}}}"
-    },
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:cornmeal\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/cornmeal"
-      }
-    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -117,25 +100,17 @@
       "nbt": "{substance:\"cookbook_of_babel:chipotle_pepper_blend\"}"
     },
     {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:chipotle_pepper_blend\"}"
-    },
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:chipotle_pepper_blend\"}"
-    },
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:chipotle_pepper_blend\"}"
-    },
-    {
       "tag": "cookbook_of_babel:ingredients/adobo_sauce"
     },
     {
-      "amount": 64,
+      "amount": 138,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:chipotle_fish_n_chips_step_1"
+      }
+    },
+    {
+      "amount": 41,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": {
         "substance": "cookbook_of_babel:worcestershire_sauce"
@@ -145,7 +120,7 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 218,
+      "amount": 138,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:chipotle_fish_n_chips_step_2\"}"
     }

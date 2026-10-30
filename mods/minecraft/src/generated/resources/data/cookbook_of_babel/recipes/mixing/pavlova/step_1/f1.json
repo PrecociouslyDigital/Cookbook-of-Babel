@@ -11,11 +11,16 @@
     }
   ],
   "ingredients": [
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:egg_white_whisk\"}}}"
-    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:white_sugar\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -47,24 +52,24 @@
       }
     ],
     {
-      "amount": 32,
+      "amount": 222,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": {
-        "substance": "cookbook_of_babel:water"
+        "substance": "cookbook_of_babel:egg_white_whisk"
       }
     },
     {
-      "amount": 214,
-      "fluid": "cookbook_of_babel:bulk",
+      "amount": 33,
+      "fluid": "cookbook_of_babel:liquid",
       "nbt": {
-        "substance": "cookbook_of_babel:white_sugar"
+        "substance": "cookbook_of_babel:water"
       }
     }
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 73,
+      "amount": 74,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:pavlova_step_2\"}"
     }

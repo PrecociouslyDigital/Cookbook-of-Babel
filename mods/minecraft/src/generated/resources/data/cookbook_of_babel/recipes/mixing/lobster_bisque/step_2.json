@@ -66,36 +66,6 @@
         "tag": "cookbook_of_babel:ingredients/chicken"
       }
     ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:cream\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/cream"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:cream\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/cream"
-      }
-    ],
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:dill\"}"
-    },
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:dill\"}"
-    },
     {
       "type": "forge:partial_nbt",
       "item": "cookbook_of_babel:substance",
@@ -177,15 +147,17 @@
       "nbt": "{substance:\"cookbook_of_babel:bay_leaf\"}"
     },
     {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:bay_leaf\"}"
+      "amount": 360,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:cream"
+      }
     }
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 92,
+      "amount": 76,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:lobster_bisque_step_2\"}"
     }

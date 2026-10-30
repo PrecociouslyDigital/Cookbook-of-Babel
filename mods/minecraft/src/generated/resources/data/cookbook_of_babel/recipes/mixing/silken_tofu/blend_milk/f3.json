@@ -1,0 +1,36 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/soy_milk_ii"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:soy_bean\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/soy_bean"
+      }
+    ],
+    {
+      "amount": 653,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 7,
+      "item": "cookbook_of_babel:soy_milk_ii"
+    }
+  ]
+}

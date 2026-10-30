@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/okra_plantain_porridge_step_1"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:plantain\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/plantain"
+      }
+    ],
+    {
+      "amount": 206,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "processingTime": 80,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:okra_plantain_porridge_step_1"
+      }
+    }
+  ]
+}

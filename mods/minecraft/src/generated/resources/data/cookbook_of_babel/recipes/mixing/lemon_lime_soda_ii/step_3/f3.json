@@ -14,35 +14,41 @@
     {
       "type": "forge:partial_nbt",
       "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:lemon_lime_soda_ii_step_2\"}}}"
-    },
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
       "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:citric_acid\"}}}"
     },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:white_sugar\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar"
+      }
+    ],
     {
       "amount": 3,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:lemon_lime_soda_ii_step_2"
+      }
+    },
+    {
+      "amount": 12,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": {
         "substance": "cookbook_of_babel:water"
       }
     },
     {
-      "amount": 32,
+      "amount": 116,
       "fluidTag": "minecraft:water"
-    },
-    {
-      "amount": 60,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:white_sugar"
-      }
     }
   ],
   "processingTime": 20,
   "results": [
     {
+      "count": 3,
       "item": "cookbook_of_babel:lemon_lime_soda_ii"
     }
   ]

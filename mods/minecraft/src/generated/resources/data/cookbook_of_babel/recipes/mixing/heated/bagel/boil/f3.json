@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/boiled_bagel_dough"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dough\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dough"
+      }
+    ],
+    {
+      "amount": 176,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:boiled_bagel_dough"
+      }
+    },
+    {
+      "amount": 176,
+      "fluid": "minecraft:water"
+    }
+  ]
+}

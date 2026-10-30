@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/gin"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:juniper_berry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/juniper_berry"
+      }
+    ],
+    {
+      "amount": 1000,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:vodka"
+      }
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "amount": 950,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:gin\"}"
+    }
+  ]
+}

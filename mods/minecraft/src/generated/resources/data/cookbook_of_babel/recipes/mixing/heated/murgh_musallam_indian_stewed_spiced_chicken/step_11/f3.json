@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/murgh_musallam_indian_stewed_spiced_chicken_step_11"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:murgh_musallam_indian_stewed_spiced_chicken_step_10\"}"
+    },
+    {
+      "amount": 515,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "processingTime": 70,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:murgh_musallam_indian_stewed_spiced_chicken_step_11"
+      }
+    }
+  ]
+}

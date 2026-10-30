@@ -11,11 +11,36 @@
     }
   ],
   "ingredients": [
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:black_forest_torte_step_8\"}}}"
-    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -30,6 +55,16 @@
       {
         "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:white_sugar\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
         "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salt\"}}}"
       },
       {
@@ -37,14 +72,14 @@
       }
     ],
     {
-      "amount": 50,
-      "fluid": "cookbook_of_babel:bulk",
+      "amount": 956,
+      "fluid": "cookbook_of_babel:liquid",
       "nbt": {
-        "substance": "cookbook_of_babel:white_sugar"
+        "substance": "cookbook_of_babel:black_forest_torte_step_8"
       }
     },
     {
-      "amount": 2,
+      "amount": 7,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": {
         "substance": "cookbook_of_babel:vanilla"
@@ -54,7 +89,7 @@
   "processingTime": 80,
   "results": [
     {
-      "amount": 32,
+      "amount": 138,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:black_forest_torte_step_9\"}"
     }

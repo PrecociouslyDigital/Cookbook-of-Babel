@@ -8,9 +8,18 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/stovetop_barley_i_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
     }
   ],
   "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:barley_rinse_rinse\"}}}"
+    },
     [
       {
         "type": "forge:partial_nbt",
@@ -22,27 +31,22 @@
       }
     ],
     {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:vegetable_oil\"}}}"
-    },
-    {
-      "amount": 7,
-      "fluid": "cookbook_of_babel:bulk",
+      "amount": 652,
+      "fluid": "cookbook_of_babel:liquid",
       "nbt": {
-        "substance": "cookbook_of_babel:barley_rinse_rinse"
+        "substance": "cookbook_of_babel:water"
       }
     },
     {
-      "amount": 22,
-      "fluid": "minecraft:water",
+      "amount": 9,
+      "fluid": "pneumaticcraft:vegetable_oil",
       "nbt": {}
     }
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 30,
+      "amount": 881,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:stovetop_barley_i_step_2\"}"
     }

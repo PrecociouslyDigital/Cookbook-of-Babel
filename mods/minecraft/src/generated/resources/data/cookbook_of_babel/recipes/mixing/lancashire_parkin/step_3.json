@@ -11,11 +11,26 @@
     }
   ],
   "ingredients": [
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:golden_syrup_heat_heat\"}}}"
-    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:wheat_flour\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wheat_flour"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:wheat_flour\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wheat_flour"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -42,14 +57,14 @@
       "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:baking_soda\"}}}"
     },
     {
-      "amount": 410,
-      "fluid": "cookbook_of_babel:bulk",
+      "amount": 298,
+      "fluid": "cookbook_of_babel:liquid",
       "nbt": {
-        "substance": "cookbook_of_babel:wheat_flour"
+        "substance": "cookbook_of_babel:golden_syrup_heat_heat"
       }
     },
     {
-      "amount": 166,
+      "amount": 176,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": {
         "substance": "cookbook_of_babel:white_sugar"
@@ -59,7 +74,7 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 870,
+      "amount": 922,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": "{substance:\"cookbook_of_babel:lancashire_parkin_step_3\"}"
     }

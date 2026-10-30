@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "amount": 528,
+      "fluidTag": "c:milk"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "pamhc2foodcore:creamitem"
+    },
+    {
+      "amount": 310,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:skim_milk\"}"
+    }
+  ]
+}

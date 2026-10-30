@@ -79,6 +79,21 @@ class PlannerProperties {
         }
     }
 
+    /** The pastry dough case: a liquid that quantizes as well as a fluid should go in as one. */
+    @Property
+    void liquidsGoInAsFluidsWhenTheyQuantizeAsWell() {
+        var inputs = List.of(
+                new Leaf(INGREDIENTS.get(2).id(), new Amount(500, "g")),
+                new Leaf(INGREDIENTS.get(5).id(), new Amount(100, "ml")),
+                new Leaf(INGREDIENTS.get(1).id(), new Amount(250, "g")),
+                new Leaf(INGREDIENTS.get(0).id(), new Amount(5, "g")));
+        var world = World.of(new Case(inputs, List.of(INGREDIENTS.get(2).id()), new Provided(Set.of(), Set.of())));
+        var plan = world.plan(RouteKind.CREATE_MIXING);
+        assertThat(plan).as("the basin takes the dough").isInstanceOf(Planned.class);
+        assertThat(((Planned) plan).inputs()).as("the water goes in as its fluid")
+                .anyMatch(i -> i instanceof FluidIn f && f.ingredient().value().equals("water"));
+    }
+
     /** What another mod provides only as an item comes out as that item, never as the mod's own fluid. */
     @Property
     void whatOnlyAnItemProvidesComesOutAsTheItem(@ForAll("cases") Case c) {

@@ -16,8 +16,18 @@
   "ingredients": [
     {
       "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:oatmeal_stout_brownies_step_5\"}}}"
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:cream_cheese\"}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:cream_cheese\"}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:cream_cheese\"}"
     },
     {
       "type": "forge:partial_nbt",
@@ -72,6 +82,26 @@
     [
       {
         "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:white_sugar\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:substance",
         "nbt": "{substance:\"cookbook_of_babel:egg\"}"
       },
@@ -90,14 +120,14 @@
       }
     ],
     {
-      "amount": 172,
-      "fluid": "cookbook_of_babel:bulk",
+      "amount": 276,
+      "fluid": "cookbook_of_babel:liquid",
       "nbt": {
-        "substance": "cookbook_of_babel:white_sugar"
+        "substance": "cookbook_of_babel:oatmeal_stout_brownies_step_5"
       }
     },
     {
-      "amount": 5,
+      "amount": 7,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": {
         "substance": "cookbook_of_babel:vanilla"
@@ -107,7 +137,7 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 218,
+      "amount": 276,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:oatmeal_stout_brownies_step_7\"}"
     }

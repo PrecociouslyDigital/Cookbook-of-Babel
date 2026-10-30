@@ -11,41 +11,6 @@
     }
   ],
   "ingredients": [
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:hot_milk_cake_step_2\"}}}"
-    },
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:wheat_flour\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/wheat_flour"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:wheat_flour\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/wheat_flour"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:wheat_flour\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/wheat_flour"
-      }
-    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -67,7 +32,14 @@
       }
     ],
     {
-      "amount": 21,
+      "amount": 46,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:hot_milk_cake_step_2"
+      }
+    },
+    {
+      "amount": 5,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": {
         "substance": "cookbook_of_babel:baking_powder"
@@ -77,7 +49,7 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 218,
+      "amount": 46,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": "{substance:\"cookbook_of_babel:hot_milk_cake_step_3\"}"
     }

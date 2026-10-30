@@ -216,12 +216,12 @@ public final class Planner {
                 }
                 if (Quantize.quantize(exact, outputs, limits(route)) instanceof Quantize.Quantized q) {
                     var liquids = fluids.stream().filter(this::liquid).count();
-                    // Equal rounding, the liquid kind prefers its fluid: a basin's tanks beat a shelf of
-                    // portions. Granules may go either way, so they keep the plainer fit.
+                    // Machines that take liquids should get them: a fit that carries the liquid kind in
+                    // its tanks wins outright, whatever the rounding costs within tolerance, and the
+                    // closest fit wins among equals. Granules may go either way, so they don't tip it.
                     if (best.isEmpty()
-                            || q.maxError() < best.get().quantized().maxError() - ERROR_TIE
-                            || q.maxError() <= best.get().quantized().maxError() + ERROR_TIE
-                                && liquids > best.get().liquids()) {
+                            || liquids > best.get().liquids()
+                            || liquids == best.get().liquids() && q.maxError() < best.get().quantized().maxError()) {
                         best = Optional.of(new Fit(fluids, liquids, q, estimated));
                     }
                 }
@@ -229,9 +229,6 @@ public final class Planner {
         }
         return best;
     }
-
-    /** Quantization errors closer than this count as a tie, which the liquid kind's fluid wins. */
-    private static final double ERROR_TIE = 1e-9;
 
     /** Whether the ingredient flows as a liquid, batter or foam, rather than a powder or granule. */
     private boolean liquid(IngredientId id) {

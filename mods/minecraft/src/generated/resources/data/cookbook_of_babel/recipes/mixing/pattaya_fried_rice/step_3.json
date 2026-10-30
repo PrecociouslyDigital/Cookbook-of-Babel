@@ -181,11 +181,16 @@
         "tag": "cookbook_of_babel:ingredients/rice"
       }
     ],
-    {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:fish_sauce\"}}}"
-    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salt\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salt"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -197,24 +202,24 @@
       }
     ],
     {
-      "amount": 290,
+      "amount": 296,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": {
         "substance": "cookbook_of_babel:tomato_sauce"
       }
     },
     {
-      "amount": 145,
-      "fluid": "cookbook_of_babel:bulk",
+      "amount": 296,
+      "fluid": "cookbook_of_babel:liquid",
       "nbt": {
-        "substance": "cookbook_of_babel:salt"
+        "substance": "cookbook_of_babel:fish_sauce"
       }
     }
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 980,
+      "amount": 1000,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": "{substance:\"cookbook_of_babel:pattaya_fried_rice_step_3\"}"
     }

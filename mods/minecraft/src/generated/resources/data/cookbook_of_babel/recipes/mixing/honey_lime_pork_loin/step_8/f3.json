@@ -12,36 +12,31 @@
     {
       "type": "forge:mod_loaded",
       "modid": "create"
+    },
+    {
+      "type": "forge:false"
     }
   ],
   "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:lime\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lime"
+      }
+    ],
     {
-      "type": "forge:partial_nbt",
-      "item": "cookbook_of_babel:portion",
-      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:honey_lime_pork_loin_step_7\"}}}"
+      "amount": 87,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:honey_lime_pork_loin_step_7"
+      }
     },
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:lime\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/lime"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:lime\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/lime"
-      }
-    ],
     {
-      "amount": 64,
+      "amount": 26,
       "fluid": "create:honey",
       "nbt": {}
     }
@@ -49,7 +44,7 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 218,
+      "amount": 87,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:honey_lime_pork_loin_step_8\"}"
     }
