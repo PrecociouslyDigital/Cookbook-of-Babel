@@ -55,7 +55,9 @@ public final class ToolRecipes {
             return null;
         }
         var json = rewritten(recipe.getId(), tool, foods(recipe, tool), result);
-        return json == null ? null : serializer(tool.serializer()).fromJson(recipe.getId(), json);
+        // Parse by the type the rewrite named: the mill's JSON may be a pestle's, a mill's, a
+        // pot's or a basin's, and only its own serializer knows its shape.
+        return json == null ? null : serializer(json).fromJson(recipe.getId(), json);
     }
 
     private record Tool(Item item, Implement implement, String serializer) {}
@@ -184,5 +186,10 @@ public final class ToolRecipes {
             throw new IllegalStateException("no recipe serializer " + id + " to rewrite tool recipes into");
         }
         return serializer;
+    }
+
+    /** The serializer the rewritten JSON names; every rewrite writes its type. */
+    private static RecipeSerializer<?> serializer(JsonObject json) {
+        return serializer(json.get("type").getAsString());
     }
 }
