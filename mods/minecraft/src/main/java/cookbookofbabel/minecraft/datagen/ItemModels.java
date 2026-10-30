@@ -15,7 +15,7 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 /**
  * One model per form for substances, one per container for portions, each picked by an item
  * property ({@link ClientSetup}). Named dishes take their form's model, and spice seeds the cocoa
- * bean's. Layer 0 is tinted with the colour of what's in the stack.
+ * bean's. The contents' layer is tinted with the colour of what's in the stack.
  */
 final class ItemModels extends ItemModelProvider {
     private static final ResourceLocation UNKNOWN = new ResourceLocation("item/barrier");
@@ -42,7 +42,11 @@ final class ItemModels extends ItemModelProvider {
                         .texture("layer0", mcLoc("item/potion_overlay"))
                         .texture("layer1", mcLoc("item/potion"));
                 case PAPER_TWIST -> flat(name, new ResourceLocation("item/paper"));
-                case BOWL -> flat(name, mcLoc("item/beetroot_soup"));
+                case BOWL -> withExistingParent(name, "item/generated")
+                        // Vanilla's bowl sprite, with the contents masked out of the vanilla
+                        // soups drawn above it; the bowl itself must stay untinted.
+                        .texture("layer0", mcLoc("item/bowl"))
+                        .texture("layer1", modLoc("item/bowl_contents"));
             };
             portion.override()
                     .predicate(CookbookOfBabel.id(ClientSetup.CONTAINER), container.ordinal())
@@ -62,22 +66,26 @@ final class ItemModels extends ItemModelProvider {
         return withExistingParent(name, "item/generated").texture("layer0", texture);
     }
 
-    /** Stand-ins from vanilla: pale textures that take a tint well. */
+    /** Vanilla stand-ins, picked by a Jev scoring pass: silhouettes that read as the form and
+     *  stay one-to-one across forms, pale enough to take a tint. */
     private static ResourceLocation texture(Form form) {
         var item = switch (form) {
-            case WHOLE, FOAM -> "snowball";
-            case PIECE, CURD -> "clay_ball";
+            case WHOLE -> "clay_ball";
+            case PIECE -> "quartz";
             case SLICE -> "paper";
             case SHRED -> "string";
             case DICE -> "iron_nugget";
-            case MASH -> "bone_meal";
-            case POWDER -> "sugar";
-            case GRANULE -> "gunpowder";
-            case PASTE, BATTER -> "white_dye";
-            case LIQUID -> "ghast_tear";
+            case MASH -> "snowball";
+            case POWDER -> "bone_meal";
+            case GRANULE -> "sugar";
+            case PASTE -> "white_dye";
+            case BATTER -> "light_gray_dye";
+            case LIQUID -> "potion";
+            case FOAM -> "firework_star";
             case GEL -> "slime_ball";
+            case CURD -> "glowstone_dust";
+            case SOLID -> "iron_ingot";
             case GAS -> "phantom_membrane";
-            case SOLID -> "quartz";
         };
         return new ResourceLocation("item/" + item);
     }

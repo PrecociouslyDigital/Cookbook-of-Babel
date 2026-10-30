@@ -27,7 +27,7 @@ import Babel.Model.Id (FormId, IngredientId, ServingTagId, TasteAttrId, TextureA
 import Babel.Model.Ingredient (Ingredient)
 import Babel.Model.Measure (Measure, Per100g)
 import Babel.Model.Recipe (Recipe)
-import Babel.Model.Registry (Medium, Term, Unit)
+import Babel.Model.Registry (Medium, Term, Tint, Unit)
 import Babel.Model.Source (Licence, Source)
 import Babel.Model.Technique (Technique)
 import Babel.Nutrition (derivedPer100g, nutritionTable)
@@ -53,6 +53,8 @@ data Export = Export
     , texture :: [Term TextureAttrId]
     , taste :: [Term TasteAttrId]
     , serving :: [Term ServingTagId]
+    , colors :: [Tint]
+    -- ^ One entry per food word with a tint, so consumers can colour ingredients by label.
     , renames :: [Rename]
     , constants :: Constants
     }
@@ -84,6 +86,7 @@ exportWorld licences w = do
             , texture = Map.elems w.texture
             , taste = Map.elems w.taste
             , serving = Map.elems w.serving
+            , colors = Map.elems w.colors
             , renames = w.renames
             , constants = c
             }

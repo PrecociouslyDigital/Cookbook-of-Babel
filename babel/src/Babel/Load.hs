@@ -7,7 +7,7 @@ the layers into one 'World'. Every problem found on the way is collected
 Layout:
 
 > dataset.json, renames.json
-> registries/{units,media,forms,texture,taste,serving}.json
+> registries/{units,media,forms,texture,taste,serving,colors}.json
 > layers/  (see "Babel.Layout")
 -}
 module Babel.Load (
@@ -26,11 +26,11 @@ import Babel.Format (render)
 import Babel.Layout (Kind (..), Layer (..), Placement (..), placementFolders, placements)
 import Babel.Model.Constants (Constants)
 import Babel.Model.Dataset (Dataset, Rename)
-import Babel.Model.Id (FormId, IngredientId, MediumId, RecipeId, ServingTagId, SourceId, TasteAttrId, TechniqueId, TextureAttrId, UnitId)
+import Babel.Model.Id (FormId, IngredientId, MediumId, RecipeId, ServingTagId, SourceId, TasteAttrId, TechniqueId, TextureAttrId, TintId, UnitId)
 import Babel.Model.Ingredient (Ingredient (..))
 import Babel.Model.Measure (Measure (..), MeasureKey, measureKey, measureStem)
 import Babel.Model.Recipe (Recipe (..), SourceRef (..))
-import Babel.Model.Registry (Medium (..), Term (..), Unit (..))
+import Babel.Model.Registry (Medium (..), Term (..), Tint (..), Unit (..))
 import Babel.Model.Source (Origin, Source (..))
 import Babel.Model.Technique (Technique (..))
 import Data.Aeson (Value (..))
@@ -68,6 +68,7 @@ data World = World
     , texture :: Map TextureAttrId (Term TextureAttrId)
     , taste :: Map TasteAttrId (Term TasteAttrId)
     , serving :: Map ServingTagId (Term ServingTagId)
+    , colors :: Map TintId Tint
     , sources :: Map SourceId (Located Source)
     , ingredients :: Map IngredientId (Located Ingredient)
     , techniques :: Map TechniqueId (Located Technique)
@@ -89,6 +90,7 @@ loadWorld fixFiles root = do
     (xDiags, texture') <- registry "texture"
     (tDiags, taste') <- registry "taste"
     (sDiags, serving') <- registry "serving"
+    (kDiags, colors') <- registry "colors"
     (lDiags, raw) <- loadLayers fixFiles (root </> "layers")
     let (srcDiags, sources') = mergeById "source" (.id) raw.rawSources
         (ingDiags, ingredients') = mergeById "ingredient" (.id) raw.rawIngredients
@@ -106,6 +108,7 @@ loadWorld fixFiles root = do
             , xDiags
             , tDiags
             , sDiags
+            , kDiags
             , lDiags
             , srcDiags
             , ingDiags
@@ -123,6 +126,7 @@ loadWorld fixFiles root = do
             , texture = texture'
             , taste = taste'
             , serving = serving'
+            , colors = colors'
             , sources = sources'
             , ingredients = ingredients'
             , techniques = techniques'
@@ -163,6 +167,10 @@ instance HasId Unit where
 instance HasId Medium where
     type IdOf Medium = MediumId
     getId m = m.id
+
+instance HasId Tint where
+    type IdOf Tint = TintId
+    getId t = t.id
 
 instance (IsId i) => HasId (Term i) where
     type IdOf (Term i) = i

@@ -46,13 +46,16 @@ public final class DataGenerators {
 
     /** One substance per ingredient that isn't a named dish, with its dataset carrier. */
     private static RegistrySetBuilder substances(DatagenContext context) {
+        var tints = context.export.colorTable();
         return new RegistrySetBuilder().add(Substance.REGISTRY, bootstrap -> {
             for (var ingredient : context.dataset.ingredients()) {
                 if (!ingredient.named()) {
+                    var color = Colors.tint(tints, ingredient.label(), ingredient.aliases(), ingredient.id().value())
+                            .orElseGet(() -> Colors.forId(ingredient.id().value()));
                     bootstrap.register(Carriers.key(ingredient.id()), new Substance(
                             ingredient.label(),
                             ingredient.form(),
-                            Colors.forId(ingredient.id().value()),
+                            color,
                             context.dataset.carrier(ingredient.id()),
                             context.dataset.nutrition(ingredient.id()),
                             ingredient.waterActivity()));

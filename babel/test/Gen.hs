@@ -33,7 +33,7 @@ module Gen (
 where
 
 import Babel.Layout (Layer (..))
-import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), Dimension (..), DottedSlug (..), End (..), EntityKind (..), Environment (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId, Issue (..), KcalPerGram (..), Leaf (..), Measure (..), MeasureKey (..), MeasureValue (..), Medium (..), MediumId (..), Outcome (..), Output (..), Per100g (..), RatioBounds (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), ServingTagId (..), Source (..), SourceId (..), SourceRef (..), SpoilageKinetics (..), StorageTemps (..), TasteAttrId (..), Technique (..), TechniqueId (..), TempBandId (..), TempBands, TempRange (..), Term (..), TextureAttrId (..), Tolerance (..), Unit (..), UnitId (..), Version (..), mkIntensity, mkTempBands, originLicence, renderVersion)
+import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), Dimension (..), DottedSlug (..), End (..), EntityKind (..), Environment (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId, Issue (..), KcalPerGram (..), Leaf (..), Measure (..), MeasureKey (..), MeasureValue (..), Medium (..), MediumId (..), Outcome (..), Output (..), Per100g (..), RatioBounds (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), ServingTagId (..), Source (..), SourceId (..), SourceRef (..), SpoilageKinetics (..), StorageTemps (..), TasteAttrId (..), Technique (..), TechniqueId (..), TempBandId (..), TempBands, TempRange (..), Term (..), TextureAttrId (..), Tint (..), TintId (..), Tolerance (..), Unit (..), UnitId (..), Version (..), mkIntensity, mkTempBands, originLicence, renderVersion)
 import Babel.Preparation (Preparation, preparationOf)
 import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
@@ -108,6 +108,14 @@ genTerms wrap lo hi = do
     ids <- Set.toList <$> Gen.set (Range.linear lo hi) genSlug
     forM ids $ \i -> Term (wrap i) <$> genText <*> Gen.maybe genText
 
+-- | Tints are free-standing words, so any slug goes; colours are #rrggbb.
+genTints :: Gen [Tint]
+genTints = do
+    ids <- Set.toList <$> Gen.set (Range.linear 0 4) genSlug
+    forM ids $ \i -> do
+        digits <- Gen.text (Range.linear 6 6) (Gen.element ("0123456789abcdef" :: [Char]))
+        pure (Tint (TintId i) ("#" <> T.toUpper digits))
+
 -- * Trees
 
 genTree :: Gen Tree
@@ -121,6 +129,7 @@ genTree = do
     textureReg <- genTerms TextureAttrId 0 4
     tasteReg <- genTerms TasteAttrId 0 4
     servingReg <- genTerms ServingTagId 0 3
+    colorReg <- genTints
 
     sourceIds <- Set.toList <$> Gen.set (Range.linear 1 3) genSlug
     srcs <- forM sourceIds $ \s -> do

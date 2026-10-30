@@ -17,7 +17,7 @@ where
 import Autodocodec (toJSONViaCodec)
 import Babel.Format (render)
 import Babel.Layout (Kind (..), Layer, Placement (..), placementFolders)
-import Babel.Model (Constants, Dataset, FormId, Ingredient (..), IsId (..), Measure (..), Medium, Origin, Recipe (..), Rename, ServingTagId, Source (..), TasteAttrId, Technique (..), Term, TextureAttrId, Unit, measureKey, measureStem)
+import Babel.Model (Constants, Dataset, FormId, Ingredient (..), IsId (..), Measure (..), Medium, Origin, Recipe (..), Rename, ServingTagId, Source (..), TasteAttrId, Technique (..), Term, TextureAttrId, Tint, Unit, measureKey, measureStem)
 import Data.Aeson (Value)
 import Data.ByteString.Lazy qualified as BL
 import Data.Text qualified as T
@@ -42,6 +42,7 @@ data Tree = Tree
     , textureReg :: [Term TextureAttrId]
     , tasteReg :: [Term TasteAttrId]
     , servingReg :: [Term ServingTagId]
+    , colorReg :: [Tint]
     , srcs :: [Placed Source]
     , ings :: [Placed Ingredient]
     , techs :: [Placed Technique]
@@ -66,6 +67,7 @@ writeTree root Tree{..} = do
     write "registries/texture.json" (render textureReg)
     write "registries/taste.json" (render tasteReg)
     write "registries/serving.json" (render servingReg)
+    write "registries/colors.json" (render colorReg)
     mapM_ (\p -> write (entityPath Sources p (idText p.entity.id)) (render p.entity)) srcs
     mapM_ (\p -> write (entityPath Ingredients p (idText p.entity.id)) (render p.entity)) ings
     mapM_ (\p -> write (entityPath Techniques p (idText p.entity.id)) (render p.entity)) techs

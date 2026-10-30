@@ -5,6 +5,7 @@ import cookbookofbabel.minecraft.Registration;
 import cookbookofbabel.minecraft.spice.SpiceCropBlockEntity;
 import cookbookofbabel.minecraft.spice.SpiceSeedsItem;
 import cookbookofbabel.minecraft.substance.Colors;
+import cookbookofbabel.minecraft.substance.Container;
 import cookbookofbabel.minecraft.substance.PortionItem;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraftforge.api.distmarker.Dist;
@@ -31,12 +32,18 @@ public final class ClientSetup {
         });
     }
 
-    /** Layer 0 of every model carries the colour. */
+    /** The contents' layer carries the colour: layer 0 everywhere, but the bowl's liquid is
+     *  layer 1, drawn above the vanilla bowl sprite so the bowl itself stays untinted. */
     @SubscribeEvent
     static void colors(RegisterColorHandlersEvent.Item event) {
         event.register((stack, layer) -> layer == 0 ? ClientSubstances.color(stack) : -1, Registration.SUBSTANCE_ITEM.get());
         event.register(
-                (stack, layer) -> layer == 0 ? PortionItem.contents(stack).map(ClientSubstances::color).orElse(-1) : -1,
+                (stack, layer) -> {
+                    var contents = PortionItem.contents(stack).map(ClientSubstances::color);
+                    if (contents.isEmpty()) return -1;
+                    var liquidLayer = PortionItem.container(stack).map(c -> c == Container.BOWL).orElse(false) ? 1 : 0;
+                    return layer == liquidLayer ? contents.get() : -1;
+                },
                 Registration.PORTION.get());
         Registration.DISHES.forEach((dish, item) ->
                 event.register((stack, layer) -> layer == 0 ? Colors.forId(dish.id()) : -1, item.get()));

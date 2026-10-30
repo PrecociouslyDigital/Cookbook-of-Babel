@@ -6,12 +6,13 @@ module Babel.Model.Registry (
     Dimension (..),
     Medium (..),
     Term (..),
+    Tint (..),
 )
 where
 
 import Autodocodec (HasCodec (..), stringConstCodec)
 import Babel.Codec (genericCodec)
-import Babel.Model.Id (MediumId, UnitId)
+import Babel.Model.Id (MediumId, TintId, UnitId)
 
 data Dimension = Mass | Volume | Count | Time
     deriving stock (Eq, Show, Enum, Bounded)
@@ -38,3 +39,11 @@ data Term i = Term {id :: i, label :: Text, description :: Maybe Text}
     deriving stock (Eq, Generic, Show)
 
 instance (HasCodec i) => HasCodec (Term i) where codec = genericCodec
+
+{- | One food word's tint: an ingredient whose label carries the word inherits
+its colour, so "tomato paste" and "tomato, dissolve" tint alike.
+-}
+data Tint = Tint {id :: TintId, color :: Text}
+    deriving stock (Eq, Generic, Show)
+
+instance HasCodec Tint where codec = genericCodec

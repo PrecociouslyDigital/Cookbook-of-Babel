@@ -15,6 +15,7 @@ module Babel.Model.Id (
     TextureAttrId (..),
     TasteAttrId (..),
     ServingTagId (..),
+    TintId (..),
     AxisId (..),
     TempBandId (..),
 )
@@ -63,6 +64,11 @@ newtype ServingTagId = ServingTagId Text
     deriving newtype (Eq, Ord, Show)
     deriving (IsId) via Slug
 
+-- | A food word in the tint registry, not an ingredient ID: labels carry it as a word.
+newtype TintId = TintId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via Slug
+
 newtype AxisId = AxisId Text
     deriving newtype (Eq, Ord, Show)
     deriving (IsId) via Slug
@@ -81,5 +87,6 @@ instance HasCodec FormId where codec = idCodec
 instance HasCodec TextureAttrId where codec = idCodec
 instance HasCodec TasteAttrId where codec = idCodec
 instance HasCodec ServingTagId where codec = idCodec
+instance HasCodec TintId where codec = idCodec
 instance HasCodec AxisId where codec = idCodec
 instance HasCodec TempBandId where codec = idCodec
