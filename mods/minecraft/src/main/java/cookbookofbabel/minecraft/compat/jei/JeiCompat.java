@@ -4,7 +4,10 @@ import com.google.gson.JsonParser;
 import cookbookofbabel.minecraft.BabelTags;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.Registration;
+import cookbookofbabel.minecraft.clock.Food;
+import cookbookofbabel.minecraft.clock.Transition;
 import cookbookofbabel.minecraft.dataset.NamedDish;
+import cookbookofbabel.minecraft.compat.jei.KeptFoodCategory;
 import cookbookofbabel.minecraft.spice.SpiceSeedsItem;
 import cookbookofbabel.minecraft.substance.Container;
 import cookbookofbabel.minecraft.substance.FluidKind;
@@ -19,6 +22,8 @@ import mezz.jei.api.forge.ForgeTypes;
 import mezz.jei.api.helpers.IPlatformFluidHelper;
 import mezz.jei.api.ingredients.subtypes.IIngredientSubtypeInterpreter;
 import mezz.jei.api.registration.ISubtypeRegistration;
+import mezz.jei.api.registration.IRecipeCategoryRegistration;
+import mezz.jei.api.registration.IRecipeRegistration;
 import mezz.jei.api.runtime.IJeiRuntime;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -38,6 +43,32 @@ public final class JeiCompat implements IModPlugin {
     @Override
     public ResourceLocation getPluginUid() {
         return CookbookOfBabel.id("jei");
+    }
+
+    /** Every kept-food step the datapack loads, whose both ends are things the game can stack. */
+    @Override
+    public void registerRecipes(IRecipeRegistration registration) {
+        var level = Minecraft.getInstance().level;
+        if (level == null) {
+            return;
+        }
+        var registries = level.registryAccess();
+        var substances = registries.lookupOrThrow(Substance.REGISTRY);
+        var kept = new ArrayList<Transition>();
+        registries.registryOrThrow(Transition.REGISTRY).entrySet().stream()
+                .sorted(java.util.Map.Entry.comparingByKey())
+                .forEach(e -> {
+                    if (Food.stackOf(e.getValue().input(), 1, substances).isPresent()
+                            && Food.stackOf(e.getValue().output(), 1, substances).isPresent()) {
+                        kept.add(e.getValue());
+                    }
+                });
+        registration.addRecipes(KeptFoodCategory.TYPE, kept);
+    }
+
+    @Override
+    public void registerCategories(IRecipeCategoryRegistration registration) {
+        registration.addRecipeCategories(new KeptFoodCategory(registration.getJeiHelpers()));
     }
 
     /** Each substance, and each spice's seeds, is its own entry, told apart by the substance it names. */
