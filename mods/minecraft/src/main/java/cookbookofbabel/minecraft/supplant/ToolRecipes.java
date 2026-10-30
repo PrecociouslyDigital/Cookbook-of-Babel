@@ -107,7 +107,14 @@ public final class ToolRecipes {
                 json.add("tool", toolJson);
             }
             case MILL -> {
-                if (foods.size() == 1) {
+                var pestle = ForgeRegistries.RECIPE_SERIALIZERS.getValue(new ResourceLocation("hexerei:pestle_and_mortar"));
+                if (pestle != null && foods.size() <= 5) {
+                    json.addProperty("type", "hexerei:pestle_and_mortar");
+                    json.add("ingredients", of(foods));
+                    json.add("output", of(result));
+                    json.addProperty("grindingTime", 200);
+                } else if (foods.size() == 1) {
+                    // No Hexerei, or a pestle too small: the mill grinds in Create instead.
                     json.addProperty("type", "create:milling");
                     json.add("ingredients", of(foods));
                     json.add("results", resultsOf(result));
