@@ -2,6 +2,7 @@ package cookbookofbabel.minecraft.datagen.plan;
 
 import cookbookofbabel.minecraft.dataset.IngredientId;
 import java.util.Optional;
+import java.util.Set;
 
 /**
  * The machines a step can be done in, and what each one can take. Limits come from the machines
@@ -81,6 +82,15 @@ public enum RouteKind {
     public final Nbt nbt;
     /** What the machine provides itself, like the water a fan blows through, so a step's input of it is left out. */
     public final Optional<IngredientId> supplies;
+
+    private static final Set<RouteKind> VESSELED = Set.of(
+            SHAPELESS_CRAFTING, CREATE_MIXING, CREATE_HEATED_MIXING, CREATE_COMPACTING, HEXEREI_MIXING_CAULDRON);
+
+    /** The routes whose shape takes the result's vessel in among the inputs, so the plan must leave
+     *  a slot for it; see {@code RouteEmitter} for the emission side. */
+    public boolean vesselsResults() {
+        return VESSELED.contains(this);
+    }
 
     RouteKind(Mod mod, Constraints constraints) {
         this(mod, constraints, Nbt.KEPT, Optional.empty());

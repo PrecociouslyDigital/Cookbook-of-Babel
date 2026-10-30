@@ -14,6 +14,7 @@ import cookbookofbabel.minecraft.datagen.plan.Planned.ItemIn;
 import cookbookofbabel.minecraft.datagen.plan.Planned.ItemOut;
 import cookbookofbabel.minecraft.datagen.plan.Quantize.Exact;
 import cookbookofbabel.minecraft.datagen.plan.Quantize.Kind;
+import cookbookofbabel.minecraft.substance.Container;
 import cookbookofbabel.minecraft.substance.FluidKind;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -167,6 +168,26 @@ public final class Planner {
         }
         var fluidInputs = fit.get().fluids();
         var q = fit.get().quantized();
+        // The emitter takes the result's vessel in among the inputs, so it needs a slot beside the
+        // items: without one, the recipe either loses its bowl or overflows the machine.
+        if (route.vesselsResults()) {
+            var itemUnits = 0;
+            for (var i = 0; i < inputs.size(); i++) {
+                if (!fluidInputs.contains(inputs.get(i).ingredient())) {
+                    itemUnits += q.inputs().get(i);
+                }
+            }
+            var bowls = 0;
+            for (var i = 0; i < outputs.size(); i++) {
+                if (!fluidOutputs.contains(outputs.get(i).ingredient())
+                        && dataset.container(outputs.get(i).ingredient()).orElse(null) == Container.BOWL) {
+                    bowls += q.outputs().get(i);
+                }
+            }
+            if (itemUnits + bowls > c.maxItemInputs()) {
+                return new Rejected("the result's " + bowls + " bowls don't leave room beside " + itemUnits + " items");
+            }
+        }
         if (q.maxError() > MAX_ERROR) {
             return new Rejected("whole items would distort it by " + Math.round(q.maxError() * 100) + "%");
         }

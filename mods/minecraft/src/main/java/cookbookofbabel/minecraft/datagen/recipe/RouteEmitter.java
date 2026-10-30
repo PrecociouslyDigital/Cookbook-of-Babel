@@ -172,8 +172,11 @@ public final class RouteEmitter {
         }
         var route = p.route();
         // A bowl-carried result must take its bowl in, or the recipe conjures one out of nowhere.
+        // The planner reserves the bowl a slot; this guard is belt-and-braces against a route whose
+        // serializer reads one slot per unit, where a full plan plus a bowl would overflow it.
         var bowls = bowls(p, outputs);
-        if (bowls > 0 && VESSELED.contains(route) && items.size() < route.constraints.maxItemInputs()) {
+        var units = counts.stream().mapToInt(Integer::intValue).sum();
+        if (bowls > 0 && route.vesselsResults() && units + bowls <= route.constraints.maxItemInputs()) {
             items.add(Ingredient.of(Container.BOWL.empty()));
             counts.add(bowls);
         }
@@ -267,10 +270,6 @@ public final class RouteEmitter {
     }
 
     /** The routes whose shape takes a vessel among the inputs, so a bowl-carried result is honest. */
-    private static final Set<RouteKind> VESSELED = Set.of(
-            RouteKind.SHAPELESS_CRAFTING, RouteKind.CREATE_MIXING, RouteKind.CREATE_HEATED_MIXING,
-            RouteKind.CREATE_COMPACTING, RouteKind.HEXEREI_MIXING_CAULDRON);
-
     /** How many bowls the planned outputs are carried in. */
     private int bowls(Planned p, List<Object> outputs) {
         var bowls = 0;
