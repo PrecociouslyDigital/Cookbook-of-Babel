@@ -20,10 +20,11 @@ import java.util.Set;
 public record PlannedTransition(
         String recipe, IngredientId input, IngredientId output, Amount duration, long ticks, Sensitivity sensitivity, Transition.Kind kind) {
     /**
-     * The sensitivity of a timed step that states none: with nothing to scale its duration by, it holds at any
-     * temperature.
+     * The sensitivity of a timed step that states none: food spoilage chemistry's rule of thumb,
+     * about twice as fast per 10 °C warmer, so a hot room does hurry food that keeps no data of
+     * its own.
      */
-    static final Sensitivity UNSTATED = new Sensitivity(20, 1, Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty());
+    static final Sensitivity UNSTATED = new Sensitivity(20, 2, Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty());
 
     /** Decay by any name: a step into this is going off, not cooking, and makes no transition. */
     private static final IngredientId DECAY = new IngredientId("spoiled_food");
@@ -60,9 +61,12 @@ public record PlannedTransition(
                 kind.get()));
     }
 
-    /** Rounded like a machine's duration, but never down to nothing. */
+    /** Rounded like a machine's duration, but never down to nothing. A real-life day passes as a
+     *  Minecraft day: 20 minutes, 24,000 ticks, so bread kept a week stales in about a week's keep. */
+    static final double TICKS_PER_REAL_SECOND = 24_000.0 / (24d * 60 * 60);
+
     static long ticks(double realSeconds) {
-        return Math.max(1, Math.round(Planner.ticksOf(realSeconds)));
+        return Math.max(1, Math.round(TICKS_PER_REAL_SECOND * realSeconds));
     }
 
     public Transition transition() {
